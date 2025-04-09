@@ -1,0 +1,20 @@
+import json
+
+with open("params.json") as f:
+    PARAMS = json.load(f)
+
+RUN_IDS = [p["id"] for p in PARAMS]
+
+rule all:
+    input:
+        expand("results/{run_id}/output.txt", run_id=RUN_IDS)
+
+rule run_model:
+    input:
+        param_file="params.json"
+    output:
+        "results/{run_id}/output.txt"
+    shell:
+        """
+        julia run_model.jl {input.param_file} {wildcards.run_id} > {output}
+        """
