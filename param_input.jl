@@ -33,20 +33,21 @@ Chosen_Parameter_Place = collect(0:1/N:1)
 function addnames(ps::ParamSet)
     return Dict(
         "id" => ps.id,
-        "param1" => ps.param1,
-        "param2" => ps.param2,
-        "param3" => ps.param3,
-        "param4" => ps.param4,
-        "param5" => ps.param5,
-        "param6" => ps.param6,
-        "param7" => ps.param7,
+        "reactive_surface" => ps.reactive_surface,
+        "mass_density" => ps.mass_density,
+        "infiltration_coefficient" => ps.infiltration_coefficient,
+        "temp" => ps.temp,
+        "precip" => ps.precip,
+        "pco2" => ps.pco2,
+        "reactionrate" => ps.reactionrate,
     )
 end
 
 paramsets = ParamSet[]
-for (i, row) in enumerate(eachrow(Chosen_Parameter_Place))
+
+for (i, val) in enumerate(Chosen_Parameter_Place)
     scaled_vals = [
-        bounds[j][1] + (bounds[j][2] - bounds[j][1]) * row[j]
+        bounds[j][1] + (bounds[j][2] - bounds[j][1]) * val
         for j in 1:dim
     ]
     id = "run_$(lpad(i, 4, '0'))"
@@ -54,10 +55,10 @@ for (i, row) in enumerate(eachrow(Chosen_Parameter_Place))
     push!(paramsets, ps)
 end
 
-dicts = to_dict.(paramsets)
+dicts = addnames.(paramsets)
 
 open("params.json", "w") do io
-    JSON3.write(io, params)
+    JSON3.write(io, dicts)
 end
 
 

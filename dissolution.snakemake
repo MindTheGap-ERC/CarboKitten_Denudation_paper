@@ -16,5 +16,5 @@ rule run_model:
         "results/{run_id}/output.txt"
     shell:
         """
-        julia run_model.jl {input.param_file} {wildcards.run_id} > {output}
+        julia run_dissolution.jl {input.param_file} {wildcards.run_id} > {output}
         """
