@@ -1,5 +1,6 @@
-module Script
+module DissolutionRun
 
+using CarboKitten
 using Unitful
 using CarboKitten.Components
 using CarboKitten.Components.Common
@@ -21,7 +22,7 @@ const FACIES = [
         maximum_growth_rate=500u"m/Myr",
         extinction_coefficient=0.8u"m^-1",
         saturation_intensity=60u"W/m^2",
-        diffusion_coefficient=10000u"m",
+        diffusion_coefficient=10u"m/yr",
         reactive_surface=10u"m^2/m^3",
         mass_density=2730u"kg/m^3",
         infiltration_coefficient=0.5,
@@ -33,7 +34,7 @@ const FACIES = [
         maximum_growth_rate=400u"m/Myr",
         extinction_coefficient=0.1u"m^-1",
         saturation_intensity=60u"W/m^2",
-        diffusion_coefficient=5000u"m",
+        diffusion_coefficient=5u"m/yr",
         reactive_surface=50u"m^2/m^3",
         mass_density=2730u"kg/m^3",
         infiltration_coefficient=0.5,
@@ -45,7 +46,7 @@ const FACIES = [
         maximum_growth_rate=100u"m/Myr",
         extinction_coefficient=0.005u"m^-1",
         saturation_intensity=60u"W/m^2",
-        diffusion_coefficient=7000u"m",
+        diffusion_coefficient=7u"m/yr",
         reactive_surface=100u"m^2/m^3",
         mass_density=2730u"kg/m^3",
         infiltration_coefficient=0.5,
@@ -90,4 +91,4 @@ end
 
 end
 
-Script.main()
+DissolutionRun.main()

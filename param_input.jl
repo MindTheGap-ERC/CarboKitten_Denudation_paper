@@ -7,13 +7,13 @@ param_names = ["reactive_surface", "mass_density", "infiltration_coefficient", "
 
 struct ParamSet
     id::String
-    reactive_surface::u"m^2/m^3"
-    mass_density::u"kg/m^3"
+    reactive_surface::typeof("m^2/m^3")
+    mass_density::typeof("kg/m^3")
     infiltration_coefficient::Float64
-    temp::u"K"
-    precip::u"m/y"
-    pco2::u"atm"
-    reactionrate::u"m/y"
+    temp::typeof("K")
+    precip::typeof("m/yr")
+    pco2::typeof("atm")
+    reactionrate::typeof("m/yr")
 end
 
 bounds = [
