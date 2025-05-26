@@ -1,0 +1,27 @@
+host: UU117046
+Building DAG of jobs...
+MissingInputException in rule all in file C:\Users\Liu00141\Documents\GitHub\CarboKitten_Denudation_paper\Snakefile, line 14:
+Missing input files for rule all:
+    affected files:
+        irods://nluu11p/home/research-mindthegap/denudation/dissolution//plots/plot_run_11.png
+        irods://nluu11p/home/research-mindthegap/denudation/dissolution//results/output_run_7.csv
+        irods://nluu11p/home/research-mindthegap/denudation/dissolution//results/output_run_2.csv
+        irods://nluu11p/home/research-mindthegap/denudation/dissolution//results/output_run_4.csv
+        irods://nluu11p/home/research-mindthegap/denudation/dissolution//plots/plot_run_7.png
+        irods://nluu11p/home/research-mindthegap/denudation/dissolution//results/output_run_5.csv
+        irods://nluu11p/home/research-mindthegap/denudation/dissolution//results/output_run_8.csv
+        irods://nluu11p/home/research-mindthegap/denudation/dissolution//plots/plot_run_10.png
+        irods://nluu11p/home/research-mindthegap/denudation/dissolution//results/output_run_9.csv
+        irods://nluu11p/home/research-mindthegap/denudation/dissolution//plots/plot_run_3.png
+        irods://nluu11p/home/research-mindthegap/denudation/dissolution//results/output_run_11.csv
+        irods://nluu11p/home/research-mindthegap/denudation/dissolution//results/output_run_3.csv
+        irods://nluu11p/home/research-mindthegap/denudation/dissolution//plots/plot_run_9.png
+        irods://nluu11p/home/research-mindthegap/denudation/dissolution//plots/plot_run_6.png
+        irods://nluu11p/home/research-mindthegap/denudation/dissolution//results/output_run_10.csv
+        irods://nluu11p/home/research-mindthegap/denudation/dissolution//plots/plot_run_4.png
+        irods://nluu11p/home/research-mindthegap/denudation/dissolution//results/output_run_6.csv
+        irods://nluu11p/home/research-mindthegap/denudation/dissolution//results/output_run_1.csv
+        irods://nluu11p/home/research-mindthegap/denudation/dissolution//plots/plot_run_8.png
+        irods://nluu11p/home/research-mindthegap/denudation/dissolution//plots/plot_run_2.png
+        irods://nluu11p/home/research-mindthegap/denudation/dissolution//plots/plot_run_5.png
+        irods://nluu11p/home/research-mindthegap/denudation/dissolution//plots/plot_run_1.png

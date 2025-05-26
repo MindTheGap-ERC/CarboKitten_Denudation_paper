@@ -20,21 +20,22 @@ rule create_params:
     output:
         param_result = storage(BASE_COLLECTION+ "params.json")
     shell:
-        """
-        julia param_input.jl {output} 
-        """
+        """julia param_input.jl {output.param_result} """
+        
 
 rule run_model:
     input:
         param_file = storage(BASE_COLLECTION+ "params.json")
     output:
-        storage(BASE_COLLECTION+"/results/output_{run_id}.csv")
+        csv = storage(BASE_COLLECTION + "/results/output_{run_id}.csv"),
+        toml = storage(BASE_COLLECTION + "/results/output_{run_id}.toml"),
+        h5 = storage(BASE_COLLECTION + "/results/output_{run_id}.h5")    
     shell:
         """
         julia run_dissolution.jl {input} {output.csv} {output.toml} {output.h5}
         """
 
-rule generate_plot
+rule generate_plot:
     input:
         result_file = storage(BASE_COLLECTION+"/results/output_{run_id}.csv")
     output:
