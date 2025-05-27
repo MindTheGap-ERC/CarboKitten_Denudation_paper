@@ -16,23 +16,23 @@ rule all:
         storage(expand(BASE_COLLECTION+"/results/output_{run_id}.csv", run_id=ID)),
         storage(expand(BASE_COLLECTION+"/plots/plot_{run_id}.png", run_id=ID))
 
-rule create_params:
-    output:
-        param_result = storage(BASE_COLLECTION+ "params.json")
-    shell:
-        """julia param_input.jl {output.param_result} """
+# rule create_params:
+#     output:
+#         param_result = storage(BASE_COLLECTION+ "params.json")
+#     shell:
+#         """julia param_input.jl {output.param_result} """
         
 
 rule run_model:
-    input:
-        param_file = storage(BASE_COLLECTION+ "params.json")
+    # input:
+        # param_file = storage(BASE_COLLECTION+ "params.json")
     output:
         csv = storage(BASE_COLLECTION + "/results/output_{run_id}.csv"),
         toml = storage(BASE_COLLECTION + "/results/output_{run_id}.toml"),
         h5 = storage(BASE_COLLECTION + "/results/output_{run_id}.h5")    
     shell:
         """
-        julia run_dissolution.jl {input} {output.csv} {output.toml} {output.h5}
+        julia run_dissolution.jl param_dissolution.json {output.csv} {output.toml} {output.h5}
         """
 
 rule generate_plot:
