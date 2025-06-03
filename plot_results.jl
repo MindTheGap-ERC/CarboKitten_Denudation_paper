@@ -2,7 +2,7 @@ module plot_denudation_results
     using GLMakie
     using DataFrames
 
-    function read_data(path:String)
+    function read_data(path::String)
         data = DataFrame(CSV.File(path))
         return data
     end

@@ -13,7 +13,7 @@ using DataFrames
 const m = u"m"
 const Myr = u"Myr"
 
-const json_file_path = "data/input/$(ARGS[1]).json"
+#const json_file_path = "data/input/$(ARGS[1]).json"
 
 const PATH = "data/output"
 const TAG = "dissolution"
@@ -23,7 +23,7 @@ function read_json(json_file::String)
     return PARAMS 
 end
 
-PARAMS1 = read_json("param_dissolution.json")
+PARAMS1 = read_json("$(ARGS[1])")
 
 function determine_denu_input(P::DataFrameRow)
     ID = P.id
@@ -92,17 +92,18 @@ function determine_denu_input(P::DataFrameRow)
         return (INPUT, DENUDATION, ID)
 end
 
-function main(input,ID::String)
-    H5Writer.run_model(Model{WDn}, input, "$(ID).h5")
+function main(input,ID::String, CSV_FILE::String, TOML_FILE::String, H5_FILE::String)
+    H5Writer.run_model(Model{WDn}, input, H5_FILE)
 
     data_export(
         CSV(tuple.(10:20:70, 25),
-          :sediment_accumulation_curve => "$([ARG2]).csv",
-          :metadata => "$([ARG3]).toml"),
-        "$([ARG4]).h5")
+          :sediment_accumulation_curve => CSV_FILE,
+          :metadata => TOML_FILE),
+        H5_FILE)
 end
 
-for P in eachrow(PARAMS1)
-    INPUT, _ , ID = determine_denu_input(P)
-    main(INPUT,ID)
-end
+run_id = "$(ARGS[2])"
+p = filter(row -> row.id == run_id, eachrow(PARAMS1))
+
+INPUT, _ , ID = determine_denu_input(p[1])
+main(INPUT,ID,"$(ARGS[3])", "$(ARGS[4])","$(ARGS[5])")
