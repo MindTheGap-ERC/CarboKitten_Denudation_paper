@@ -14,6 +14,8 @@ ID = list(PARAMS.keys())
 rule all:
     input:
         storage(expand(BASE_COLLECTION+"/results/output_{run_id}.csv", run_id=ID)),
+        storage(expand(BASE_COLLECTION+"/results/output_{run_id}.toml", run_id=ID)),
+        storage(expand(BASE_COLLECTION+"/results/output_{run_id}.h5", run_id=ID))
         # storage(expand(BASE_COLLECTION+"/plots/plot_{run_id}.png", run_id=ID))
 
 # rule create_params:
@@ -32,13 +34,8 @@ rule run_model:
         h5 = storage(BASE_COLLECTION + "/results/output_{run_id}.h5")    
     shell:
         """
-        julia --project=. run_dissolution.jl param_dissolution.json {wildcards.run_id} output_{wildcards.run_id}.csv output_{wildcards.run_id}.toml output_{wildcards.run_id}.h5
-                
-        cp output_{wildcards.run_id}.csv {output.csv}
-        cp output_{wildcards.run_id}.toml {output.toml}
-        cp output_{wildcards.run_id}.h5 {output.h5}
-        
-        rm output_{wildcards.run_id}.csv output_{wildcards.run_id}.toml output_{wildcards.run_id}.h5
+        julia --project=. run_dissolution.jl 
+        param_dissolution.json {wildcards.run_id} output_{wildcards.run_id}.csv output_{wildcards.run_id}.toml output_{wildcards.run_id}.h5
         """
 
 # rule generate_plot:

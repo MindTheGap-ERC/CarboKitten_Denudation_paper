@@ -67,7 +67,7 @@ function determine_denu_input(P::DataFrameRow)
             )
     ]
     
-    DENUDATION = Dissolution(P.temp * 1.0u"K", P.precip*1.0u"m", P.pco2 * 1.0u"atm", P.reactionrate * 1.0u"m/yr")
+    DENUDATION = Dissolution(P.temp * 1.0u"K", P.precip*1.0u"m/yr", P.pco2 * 1.0u"atm", P.reactionrate * 1.0u"m/yr")
     
      PERIOD = 0.2Myr
      AMPLITUDE = 20.0m    

@@ -4,7 +4,7 @@ using JSON3
 const param_names = ["reactive_surface", "mass_density", "infiltration_coefficient", "temp",
          "precip", "pco2", "reactionrate"]
 
-bounds = [
+const bounds = [
         (10, 200),       
         (2530, 2830),     
         (0.1, 0.9),
@@ -14,7 +14,7 @@ bounds = [
         (1e-5, 2e-3),          
         ]
 
-default_value = Dict(
+const default_value = Dict(
         "reactive_surface" => 50,       
         "mass_density" => 2730,     
         "infiltration_coefficient" => 0.5,
@@ -25,15 +25,12 @@ default_value = Dict(
         "id" => "default"    
         )
 
-    
 
-N = 10
-dim = length(param_names)
-Chosen_Parameter_Place = collect(0:1/N:1)
-paramsets = []
+function get_param_sets(N::Int64, param_names::Vector{String}, bounds::Vector{Tuple{Float64, Float64}}, default_value::Dict{String, Float64})
+    Chosen_Parameter_Place = collect(0:1/N:1)
+    paramsets = []
 
-function get_param_sets()
-    for i in 1:dim
+    for i in 1:length(param_names)
         param_name = param_names[i]
         for (j,val) in enumerate(Chosen_Parameter_Place)
             paramset_j = copy(default_value)
@@ -46,7 +43,7 @@ function get_param_sets()
     return paramsets
 end
 
-paramsets = get_param_sets()
+paramsets = get_param_sets(N, param_names, bounds, default_value)
 
 for param_name in param_names
     open("param_dissolution.json", "w") do io
