@@ -97,7 +97,7 @@ function determine_denu_input(P::DataFrameRow)
 end
 
 function main(input,ID::String, CSV_FILE::String, TOML_FILE::String, H5_FILE::String)
-    H5Writer.run_model(Model{WDn}, input, H5_FILE)
+    run_model(Model{WDn}, input, H5_FILE)
 
     data_export(
         CSV(tuple.(10:20:70, 25),
