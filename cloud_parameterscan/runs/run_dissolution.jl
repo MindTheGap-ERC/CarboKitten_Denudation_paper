@@ -4,7 +4,7 @@ using CarboKitten.Components
 using CarboKitten.Components.Common
 using CarboKitten.Components.Denudation
 using CarboKitten.Models: WithDenudation as WDn
-using CarboKitten.Export: data_export, CSV
+using CarboKitten.Export: data_export, CSV, read_slice
 using CarboKitten.Denudation
 using CarboKitten.Production
 using JSON3
