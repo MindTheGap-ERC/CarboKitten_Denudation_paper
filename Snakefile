@@ -34,7 +34,7 @@ rule run_model:
         h5 = storage(BASE_COLLECTION + "/results/output_{run_id}.h5")    
     shell:
         """
-        julia --project=. run_dissolution.jl 
+        julia --project=. cloud_parameterscan/runs/run_dissolution.jl 
         param_dissolution.json {wildcards.run_id} output_{wildcards.run_id}.csv output_{wildcards.run_id}.toml output_{wildcards.run_id}.h5
         """
 
