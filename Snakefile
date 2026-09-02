@@ -26,16 +26,16 @@ rule all:
         
 
 rule run_model:
-    #input:
-    #    param_file = storage(BASE_COLLECTION+ "params.json")
+    input:
+        param_file = "param_dissolution.json",
+        run_script = "cloud_parameterscan/runs/run_dissolution.jl"
     output:
         csv = storage(BASE_COLLECTION + "/results/output_{run_id}.csv"),
         toml = storage(BASE_COLLECTION + "/results/output_{run_id}.toml"),
         h5 = storage(BASE_COLLECTION + "/results/output_{run_id}.h5")    
     shell:
         """
-        julia --project=. cloud_parameterscan/runs/run_dissolution.jl 
-        param_dissolution.json {wildcards.run_id} output_{wildcards.run_id}.csv output_{wildcards.run_id}.toml output_{wildcards.run_id}.h5
+        julia --project=. {input.run_script:q} {input.param_file:q} {wildcards.run_id:q} {output.csv:q} {output.toml:q} {output.h5:q}
         """
 
 # rule generate_plot:

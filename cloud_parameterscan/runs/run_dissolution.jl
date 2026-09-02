@@ -23,7 +23,17 @@ function read_json(json_file::String)
     return PARAMS 
 end
 
-PARAMS1 = read_json("$(ARGS[1])")
+function require_args(args)
+    if length(args) != 5
+        error(
+            "Expected 5 arguments: <param_json> <run_id> <csv_file> <toml_file> <h5_file>. " *
+            "Received $(length(args)): $(args)"
+        )
+    end
+end
+
+require_args(ARGS)
+PARAMS1 = read_json(ARGS[1])
 
 function determine_denu_input(P::DataFrameRow)
     ID = P.id
@@ -38,7 +48,7 @@ function determine_denu_input(P::DataFrameRow)
             diffusion_coefficient=10u"m/yr",
             reactive_surface= P.reactive_surface * 1.0u"m^2/m^3",
             mass_density= P.mass_density * 1.0u"kg/m^3",
-            infiltration_coefficient=0.5,
+            infiltration_coefficient=P.infiltration_coefficient,
             erodibility = 0.23u"m/yr"
             ),
         WDn.Facies(
@@ -50,7 +60,7 @@ function determine_denu_input(P::DataFrameRow)
             diffusion_coefficient=5u"m/yr",
             reactive_surface= P.reactive_surface * 1.0u"m^2/m^3",
             mass_density= P.mass_density * 1.0u"kg/m^3",
-            infiltration_coefficient=0.5,
+            infiltration_coefficient=P.infiltration_coefficient,
             erodibility = 0.23u"m/yr"
             ),
         WDn.Facies(
@@ -61,8 +71,8 @@ function determine_denu_input(P::DataFrameRow)
             saturation_intensity=60u"W/m^2",
             diffusion_coefficient=7u"m/yr",
             reactive_surface= P.reactive_surface * 1.0u"m^2/m^3",
-            mass_density=2730u"kg/m^3",
-            infiltration_coefficient=0.5,
+            mass_density= P.mass_density * 1.0u"kg/m^3",
+            infiltration_coefficient=P.infiltration_coefficient,
             erodibility = 0.23u"m/yr"
             )
     ]
@@ -102,8 +112,12 @@ function main(input,ID::String, CSV_FILE::String, TOML_FILE::String, H5_FILE::St
         H5_FILE)
 end
 
-run_id = "$(ARGS[2])"
+run_id = ARGS[2]
 p = filter(row -> row.id == run_id, eachrow(PARAMS1))
 
+if isempty(p)
+    error("Run id $(run_id) was not found in $(ARGS[1])")
+end
+
 INPUT, _ , ID = determine_denu_input(p[1])
-main(INPUT,ID,"$(ARGS[3])", "$(ARGS[4])","$(ARGS[5])")
+main(INPUT, ID, ARGS[3], ARGS[4], ARGS[5])
