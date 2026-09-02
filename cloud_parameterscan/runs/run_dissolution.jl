@@ -41,7 +41,7 @@ function determine_denu_input(P::DataFrameRow)
     
     FACIES = [
         WDn.Facies(
-            production=Production.EXAMPLE[:euphotic],
+            production=CarboKitten.Production.EXAMPLE[:euphotic],
             name="euphotic",
             transport_coefficient=50.0u"m/yr",
             reactive_surface= P.reactive_surface * 1.0u"m^2/m^3",
@@ -50,7 +50,7 @@ function determine_denu_input(P::DataFrameRow)
             erodibility = 0.23u"m/yr"
             ),
         WDn.Facies(
-            production=Production.EXAMPLE[:oligophotic],
+            production=CarboKitten.Production.EXAMPLE[:oligophotic],
             name="oligophotic",
             transport_coefficient=30.0u"m/yr",
             reactive_surface= P.reactive_surface * 1.0u"m^2/m^3",
@@ -59,7 +59,7 @@ function determine_denu_input(P::DataFrameRow)
             erodibility = 0.23u"m/yr"
             ),
         WDn.Facies(
-            production=Production.EXAMPLE[:aphotic],
+            production=CarboKitten.Production.EXAMPLE[:aphotic],
             name="aphotic",
             transport_coefficient=10.0u"m/yr",
             reactive_surface= P.reactive_surface * 1.0u"m^2/m^3",
