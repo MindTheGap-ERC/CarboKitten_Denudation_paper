@@ -6,6 +6,7 @@ using CarboKitten.Components.Denudation
 using CarboKitten.Models: WithDenudation as WDn
 using CarboKitten.Export: data_export, CSV
 using CarboKitten.Denudation
+using CarboKitten.Production
 using JSON3
 using DataFrames
 
@@ -40,36 +41,27 @@ function determine_denu_input(P::DataFrameRow)
     
     FACIES = [
         WDn.Facies(
-            viability_range=(4, 10),
-            activation_range=(6, 10),
-            maximum_growth_rate=500u"m/Myr",
-            extinction_coefficient=0.8u"m^-1",
-            saturation_intensity=60u"W/m^2",
-            diffusion_coefficient=10u"m/yr",
+            production=Production.EXAMPLE[:euphotic],
+            name="euphotic",
+            transport_coefficient=50.0u"m/yr",
             reactive_surface= P.reactive_surface * 1.0u"m^2/m^3",
             mass_density= P.mass_density * 1.0u"kg/m^3",
             infiltration_coefficient=P.infiltration_coefficient,
             erodibility = 0.23u"m/yr"
             ),
         WDn.Facies(
-            viability_range=(4, 10),
-            activation_range=(6, 10),
-            maximum_growth_rate=400u"m/Myr",
-            extinction_coefficient=0.1u"m^-1",
-            saturation_intensity=60u"W/m^2",
-            diffusion_coefficient=5u"m/yr",
+            production=Production.EXAMPLE[:oligophotic],
+            name="oligophotic",
+            transport_coefficient=30.0u"m/yr",
             reactive_surface= P.reactive_surface * 1.0u"m^2/m^3",
             mass_density= P.mass_density * 1.0u"kg/m^3",
             infiltration_coefficient=P.infiltration_coefficient,
             erodibility = 0.23u"m/yr"
             ),
         WDn.Facies(
-            viability_range=(4, 10),
-            activation_range=(6, 10),
-            maximum_growth_rate=100u"m/Myr",
-            extinction_coefficient=0.005u"m^-1",
-            saturation_intensity=60u"W/m^2",
-            diffusion_coefficient=7u"m/yr",
+            production=Production.EXAMPLE[:aphotic],
+            name="aphotic",
+            transport_coefficient=10.0u"m/yr",
             reactive_surface= P.reactive_surface * 1.0u"m^2/m^3",
             mass_density= P.mass_density * 1.0u"kg/m^3",
             infiltration_coefficient=P.infiltration_coefficient,
