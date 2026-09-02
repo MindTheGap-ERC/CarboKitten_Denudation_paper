@@ -99,10 +99,14 @@ end
 function main(input,ID::String, CSV_FILE::String, TOML_FILE::String, H5_FILE::String)
     run_model(Model{WDn}, input, H5_FILE)
 
+    header, profile = read_slice(H5_FILE, :profile)
+    columns = [profile[i] for i in 10:20:70]
+
     data_export(
         CSV(:sediment_accumulation_curve => CSV_FILE,
             :metadata => TOML_FILE),
-        H5_FILE)
+        header,
+        columns)
 end
 
 run_id = ARGS[2]
