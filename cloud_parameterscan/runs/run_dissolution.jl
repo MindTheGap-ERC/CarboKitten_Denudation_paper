@@ -100,9 +100,8 @@ function main(input,ID::String, CSV_FILE::String, TOML_FILE::String, H5_FILE::St
     run_model(Model{WDn}, input, H5_FILE)
 
     data_export(
-        CSV(tuple.(10:20:70, 25),
-          :sediment_accumulation_curve => CSV_FILE,
-          :metadata => TOML_FILE),
+        CSV(:sediment_accumulation_curve => CSV_FILE,
+            :metadata => TOML_FILE),
         H5_FILE)
 end
 
