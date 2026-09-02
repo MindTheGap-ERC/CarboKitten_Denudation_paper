@@ -26,8 +26,8 @@ rule all:
         
 
 rule run_model:
-    # input:
-        # param_file = storage(BASE_COLLECTION+ "params.json")
+    #input:
+    #    param_file = storage(BASE_COLLECTION+ "params.json")
     output:
         csv = storage(BASE_COLLECTION + "/results/output_{run_id}.csv"),
         toml = storage(BASE_COLLECTION + "/results/output_{run_id}.toml"),
