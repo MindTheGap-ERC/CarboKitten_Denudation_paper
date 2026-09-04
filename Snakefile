@@ -3,16 +3,19 @@ BASE_COLLECTION="irods://nluu11p/home/research-mindthegap/denudation/dissolution
 
 rule all:
     input:
-        storage(expand(BASE_COLLECTION+"/results/output.txt"))
+        meta=storage(expand(BASE_COLLECTION+"/results/output.txt"))
 
-
-rule run_model:
-    input:
-        "test.jl"
     output:
-        storage(BASE_COLLECTION+"/results/output.txt")
-    shell:
-        """
-        julia --project=. {input} {output}
-        """
+        "metadata.json"
 
+    shell:
+        "cp {input} {output}"
+
+rule create:
+    output:
+        file=storage(expand(BASE_COLLECTION+"/results/output.txt")),
+
+
+    shell:
+        "julia --project=. test.jl {output.file}"
+ 
