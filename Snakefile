@@ -8,7 +8,7 @@ rule all:
 
 rule run_model:
     input:
-        test.jl
+        "test.jl"
     output:
         storage(BASE_COLLECTION+"/results/output.txt")
     shell:
