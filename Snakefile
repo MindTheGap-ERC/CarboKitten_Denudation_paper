@@ -13,7 +13,7 @@ rule all:
 
 rule create:
     output:
-        file=storage(expand(BASE_COLLECTION+"/results/output.txt")),
+        file=storage(expand(BASE_COLLECTION+"/results/output.txt"))
 
 
     shell:
