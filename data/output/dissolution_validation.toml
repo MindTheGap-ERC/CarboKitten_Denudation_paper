@@ -1,0 +1,33 @@
+[[locations]]
+label = "1"
+y = [3600.0, "m"]
+initial_topography = [-4.5, "m"]
+x = [1350.0, "m"]
+[[locations]]
+label = "2"
+y = [3600.0, "m"]
+initial_topography = [-14.5, "m"]
+x = [4350.0, "m"]
+[[locations]]
+label = "3"
+y = [3600.0, "m"]
+initial_topography = [-24.5, "m"]
+x = [7350.0, "m"]
+[[locations]]
+label = "4"
+y = [3600.0, "m"]
+initial_topography = [-34.5, "m"]
+x = [10350.0, "m"]
+
+[files]
+age_depth_model = "data/output/dissolution_validation_adm.csv"
+metadata = "data/output/dissolution_validation.toml"
+sediment_accumulation_curve = "data/output/dissolution_validation_sac.csv"
+water_depth = "data/output/dissolution_validation_wd.csv"
+stratigraphic_column = "data/output/dissolution_validation_sc.csv"
+
+[global]
+time_steps = 3000
+subsidence_rate = [20.0, "m Myr^-1"]
+delta_t = [0.0002, "Myr"]
+tag = "dissolution_validation"
