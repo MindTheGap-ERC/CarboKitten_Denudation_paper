@@ -9,3 +9,23 @@ date_utc,source,query,hits
 2026-11-09T21:52:10+00:00,crossref,"""micro-erosion meter"" carbonate lowering rate",100
 2026-11-09T21:52:10+00:00,crossref,limestone surface lowering rate karren measurement,100
 2026-11-09T21:52:10+00:00,crossref,"""MEM"" limestone ""lowering rate""",100
+2026-11-09T22:10:14+00:00,openalex,"""micro-erosion meter"" limestone",154
+2026-11-09T22:10:14+00:00,crossref,"""micro-erosion meter"" limestone",200
+2026-11-09T22:10:14+00:00,openalex,"""micro erosion meter"" limestone",154
+2026-11-09T22:10:14+00:00,crossref,"""micro erosion meter"" limestone",200
+2026-11-09T22:10:14+00:00,openalex,"""microerosion meter"" limestone",34
+2026-11-09T22:10:14+00:00,crossref,"""microerosion meter"" limestone",200
+2026-11-09T22:10:14+00:00,openalex,"""traversing micro-erosion meter""",57
+2026-11-09T22:10:14+00:00,crossref,"""traversing micro-erosion meter""",200
+2026-11-09T22:10:14+00:00,openalex,"""micro-erosion meter"" karst",102
+2026-11-09T22:10:14+00:00,crossref,"""micro-erosion meter"" karst",200
+2026-11-09T22:10:14+00:00,openalex,"""micro-erosion meter"" marble",28
+2026-11-09T22:10:14+00:00,crossref,"""micro-erosion meter"" marble",200
+2026-11-09T22:10:14+00:00,openalex,"""micro-erosion meter"" dolomite",43
+2026-11-09T22:10:14+00:00,crossref,"""micro-erosion meter"" dolomite",200
+2026-11-09T22:10:14+00:00,openalex,"""micro-erosion meter"" carbonate lowering rate",103
+2026-11-09T22:10:14+00:00,crossref,"""micro-erosion meter"" carbonate lowering rate",200
+2026-11-09T22:10:14+00:00,openalex,limestone surface lowering rate karren measurement,314
+2026-11-09T22:10:14+00:00,crossref,limestone surface lowering rate karren measurement,200
+2026-11-09T22:10:14+00:00,openalex,"""MEM"" limestone ""lowering rate""",249
+2026-11-09T22:10:14+00:00,crossref,"""MEM"" limestone ""lowering rate""",200
