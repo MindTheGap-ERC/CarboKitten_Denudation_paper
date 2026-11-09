@@ -1,0 +1,24 @@
+{
+  "comment": "Maps OCTOPUS attribute columns to schema fields. For each schema field, the FIRST candidate column present in the export is used. Column names differ between OCTOPUS versions/layers: run `ingest_octopus.py <file> --inspect` and edit the candidate lists if a field is reported as unmapped. Matching is case-insensitive.",
+  "source_database": "OCTOPUS",
+  "proxy": "cosmogenic_10be_catchment",
+  "rate_unit": "mm/kyr",
+  "columns": {
+    "sample_id":         ["OBSID", "SAMPLE_ID", "SAMPLEID", "SAMPLE", "ID"],
+    "rate_value":        ["EBE_MMKYR", "EBE_MMKY", "EBE", "EROSION_RATE", "DENUD_RATE"],
+    "rate_uncertainty":  ["EBE_ERR", "EBE_MMKYR_ERR", "EBE_UNC", "EROSION_ERR"],
+    "latitude":          ["Y_WGS84", "LAT", "LATITUDE", "Y_COORD", "Y"],
+    "longitude":         ["X_WGS84", "LON", "LONG", "LONGITUDE", "X_COORD", "X"],
+    "elevation_m":       ["ELEV_AVE", "ELEV_MEAN", "ELEVATION", "ELEV"],
+    "slope_deg":         ["SLP_AVE", "SLOPE_AVE", "SLOPE_MEAN", "SLOPE"],
+    "precip_mm_yr":      ["MAP", "PRECIP", "MAP_MM", "PRECIP_AVE"],
+    "temp_mean_c":       ["MAT", "TEMP_AVE", "MAT_C"],
+    "integration_time_yr": ["EBE_INT", "INT_TIME", "AVG_TIME"],
+    "country":           ["COUNTRY", "CNTRY"],
+    "site_name":         ["BASIN", "BASIN_NAME", "RIVER", "SITE", "LOCATION"],
+    "citation":          ["REF", "REFERENCE", "PUB", "PUBLICATION", "SOURCE", "CITATION"],
+    "doi":               ["DOI", "PUB_DOI", "REF_DOI"],
+    "year":              ["PUB_YEAR", "YEAR", "PUBYEAR"],
+    "carbonate_fraction": ["CARB_FRAC", "CARBONATE", "LITH_CARB"]
+  }
+}

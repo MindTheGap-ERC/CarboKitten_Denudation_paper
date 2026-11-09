@@ -1,0 +1,57 @@
+{
+  "description": "One record = one denudation-rate value at one site (or one sample / one catchment) from one source. Fields marked required must be present (null allowed only where 'nullable' is true). Values are recorded as reported, then normalised by scripts/validate.py.",
+  "version": "0.1.0",
+  "fields": {
+    "record_id":              {"type": "string",  "required": true,  "nullable": false, "doc": "<proxy>_<first-author-surname><year>_<n>, e.g. mem_smith1999_3. Unique across the database."},
+
+    "rate_value":             {"type": "number",  "required": true,  "nullable": false, "doc": "Denudation / lowering rate exactly as reported (positive = lowering)."},
+    "rate_uncertainty":       {"type": "number",  "required": true,  "nullable": true,  "doc": "Reported uncertainty, same unit as rate_value. null if not reported."},
+    "rate_uncertainty_type":  {"type": "string",  "required": true,  "nullable": true,  "enum": ["1sd", "2sd", "se", "range_half", "other", null], "doc": "What the uncertainty means."},
+    "rate_unit":              {"type": "string",  "required": true,  "nullable": false, "enum": ["mm/kyr", "m/Myr", "mm/yr", "mm/a", "um/yr", "cm/kyr", "m/kyr", "t/km2/yr", "m3/km2/yr", "mg/cm2/yr"], "doc": "Unit as reported. Mass units need rock_density_g_cm3."},
+    "rate_mm_kyr":            {"type": "number",  "required": false, "nullable": true,  "doc": "Filled by validate.py. Do not enter by hand."},
+    "rate_type":              {"type": "string",  "required": true,  "nullable": false, "enum": ["total", "chemical", "physical"], "doc": "Which model component this value can validate. Defaults come from proxies.json; override only with a reason in notes."},
+    "n_measurements":         {"type": "integer", "required": true,  "nullable": true,  "doc": "Number of measurement points / samples averaged into this value."},
+
+    "proxy":                  {"type": "string",  "required": true,  "nullable": false, "doc": "Controlled vocabulary: an id from schema/proxies.json."},
+    "method_detail":          {"type": "string",  "required": true,  "nullable": true,  "doc": "Free text: instrument, surface orientation, sample type, model used, etc."},
+    "integration_time_yr":    {"type": "number",  "required": true,  "nullable": true,  "doc": "Time span the rate averages over (MEM: monitoring period; cosmogenic: apparent age / integration time)."},
+    "measurement_period":     {"type": "string",  "required": true,  "nullable": true,  "doc": "Calendar period for short-term methods, e.g. '1978-1996'."},
+
+    "site_name":              {"type": "string",  "required": true,  "nullable": true},
+    "country":                {"type": "string",  "required": true,  "nullable": true},
+    "latitude":               {"type": "number",  "required": true,  "nullable": true,  "doc": "Decimal degrees WGS84. Convert DMS. null if not given (do not geocode by guess)."},
+    "longitude":              {"type": "number",  "required": true,  "nullable": true},
+    "coord_precision":        {"type": "string",  "required": true,  "nullable": true,  "enum": ["exact", "approx_from_text", "approx_from_map", null]},
+    "elevation_m":            {"type": "number",  "required": true,  "nullable": true},
+    "geographic_setting":     {"type": "string",  "required": true,  "nullable": false, "enum": ["inland", "coastal", "island", "unknown"], "doc": "inland = no marine influence; coastal = within sea-spray / coastal climate influence on a continent; island = small island / exposed platform."},
+    "marine_zone":            {"type": "string",  "required": true,  "nullable": false, "enum": ["subaerial", "supratidal_spray", "intertidal", "subtidal", "cave", "soil_covered", "unknown"], "doc": "Crucial for coastal MEM data: intertidal shore-platform rates are NOT subaerial denudation."},
+    "distance_to_coast_km":   {"type": "number",  "required": true,  "nullable": true,  "doc": "As reported or measured; may be filled later by GIS."},
+
+    "precip_mm_yr":           {"type": "number",  "required": true,  "nullable": true,  "doc": "Mean annual precipitation."},
+    "precip_source":          {"type": "string",  "required": true,  "nullable": true,  "enum": ["reported", "gridded_dataset", null], "doc": "'reported' = from the paper. 'gridded_dataset' only when filled later from e.g. WorldClim/CHELSA (name it in notes)."},
+    "temp_mean_c":            {"type": "number",  "required": true,  "nullable": true,  "doc": "Mean annual air temperature."},
+    "temp_source":            {"type": "string",  "required": true,  "nullable": true,  "enum": ["reported", "gridded_dataset", null]},
+    "slope_deg":              {"type": "number",  "required": true,  "nullable": true,  "doc": "Local surface slope (MEM: surface dip) or catchment-mean slope (catchment methods). Convert % to degrees: atan(p/100)."},
+    "slope_scale":            {"type": "string",  "required": true,  "nullable": true,  "enum": ["point_surface", "hillslope", "catchment_mean", null]},
+    "slope_source":           {"type": "string",  "required": true,  "nullable": true,  "enum": ["reported", "dem_derived", null]},
+
+    "lithology":              {"type": "string",  "required": true,  "nullable": false, "enum": ["limestone", "dolostone", "marble", "chalk", "mixed_carbonate", "carbonate_dominated_mixed", "non_carbonate", "unknown"]},
+    "lithology_detail":       {"type": "string",  "required": true,  "nullable": true,  "doc": "Formation name, purity (% CaCO3), facies, etc. as reported."},
+    "carbonate_fraction":     {"type": "number",  "required": true,  "nullable": true,  "doc": "0-1. Catchment fraction of carbonate outcrop (catchment methods) or CaCO3 content of the rock."},
+    "rock_density_g_cm3":     {"type": "number",  "required": true,  "nullable": true,  "doc": "As reported; validate.py uses 2.7 for mass-unit conversion if null and records that in qc_flags."},
+
+    "citation":               {"type": "string",  "required": true,  "nullable": false, "doc": "Author(s) Year, short form, e.g. 'Smith & Jones 1999'."},
+    "doi":                    {"type": "string",  "required": true,  "nullable": true,  "doc": "Bare DOI, lower case, no https://doi.org/ prefix."},
+    "year":                   {"type": "integer", "required": true,  "nullable": false},
+    "source_location":        {"type": "string",  "required": true,  "nullable": false, "doc": "Where the number is in the source: 'Table 2, row 4', 'p. 512, para 3', 'Fig. 5 (digitised)'."},
+    "source_quote":           {"type": "string",  "required": true,  "nullable": true,  "doc": "Verbatim snippet (<= 300 chars) containing the number, or the table row. null only for figure-digitised values."},
+    "source_database":        {"type": "string",  "required": true,  "nullable": true,  "doc": "If taken from a compilation (e.g. 'OCTOPUS v2'), name it here and still cite the original study in citation/doi."},
+
+    "value_from_figure":      {"type": "boolean", "required": true,  "nullable": false},
+    "confidence":             {"type": "string",  "required": true,  "nullable": false, "enum": ["high", "medium", "low"], "doc": "high = number and site attributes stated explicitly; medium = some attributes inferred from text; low = digitised or ambiguous."},
+    "extracted_by":           {"type": "string",  "required": true,  "nullable": false, "doc": "'agent:denudation-extractor', 'script:ingest_octopus', or a person's initials."},
+    "verified_by":            {"type": "string",  "required": true,  "nullable": true,  "doc": "Initials of the human who checked the record against the source. Records with null are excluded from the 'verified' export."},
+    "notes":                  {"type": "string",  "required": true,  "nullable": true},
+    "qc_flags":               {"type": "string",  "required": false, "nullable": true,  "doc": "Filled by validate.py (semicolon-separated)."}
+  }
+}

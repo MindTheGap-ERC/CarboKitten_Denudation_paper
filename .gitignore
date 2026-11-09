@@ -1,3 +1,8 @@
 *.h5
 *.log
 
+
+# literature database: full texts and Python caches
+literature_db/data/*/pdfs/
+literature_db/data/*/*.pdf
+__pycache__/
