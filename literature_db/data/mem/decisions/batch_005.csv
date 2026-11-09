@@ -1,0 +1,26 @@
+id,decision,reason,criteria,marine_zone_hint,screener
+W1563875639,include,MEM and laser scanner downwearing rates on chalk and limestone shore platforms,I1;I2;I3;I4,intertidal,agent:lit-screener
+W2281489374,unsure,No abstract; title reports MEM erosion measurements on limestone Gower coast,I1?;I2;I3?;I4?,unknown,agent:lit-screener
+W2403372037,exclude,other_proxy:dated_structure,E1;I4 violated (dated headstones),subaerial,agent:lit-screener
+W2020337548,include,TMEM rates on limestone rock slab placed in intertidal zone Trieste,I1;I2;I3;I4?,intertidal,agent:lit-screener
+W244343208,include,TMEM design plus field erosion rate on limestone shore platform Portugal,I1;I2;I3;I4,intertidal,agent:lit-screener
+W4292685653,unsure,No abstract; erosion rates on uplifted limestone platforms Kaikoura method unclear,I1?;I2;I3;I4,intertidal,agent:lit-screener
+W2499860438,include,MEM-type dial gauge on studs; limestone and marble lowering rates 31 sites,I1;I2;I3;I4,subaerial,agent:lit-screener
+W1562267694,exclude,One-day TMEM expansion/contraction study; no lowering rates,E4,supratidal_spray,agent:lit-screener
+W2035453860,unsure,No abstract; weathering rates on Caribbean reef limestone method unknown,I1?;I2;I3;I4?,unknown,agent:lit-screener
+W2016207833,unsure,No abstract; marine erosion rates reef limestone Grand Cayman method unknown,I1?;I2;I3;I4,intertidal,agent:lit-screener
+W2169945665,include,MEM and TMEM lowering rates incl. limestone shore platforms Kaikoura,I1;I2;I3;I4,intertidal,agent:lit-screener
+W2389914137,unsure,MEM rates on limestone blocks in soil/spring water; possibly emplaced blocks,I1;I2;I3;I4?,unknown,agent:lit-screener
+W2015841127,unsure,No abstract; review of karst denudation methods may re-report MEM rates,I1?;I2;I3?,unknown,agent:lit-screener
+W4282974643,include,TMEM downwearing rates on limestone shore platforms Gotland rauks,I1;I2;I3;I4,intertidal,agent:lit-screener
+W2333164450,include,Review re-reporting MEM platform erosion rates on chalk and limestone UK,I1=review;I2;I3;I4,intertidal,agent:lit-screener
+W3098195843,include,Thesis review of Dinaric karst denudation from MEM and tablets,I1=review;I2;I3;I4,subaerial,agent:lit-screener
+W4403850919,include,Reanalysis of TMEM erosion rates on Maltese limestone shore platforms,I1;I2;I3;I4,intertidal,agent:lit-screener
+W7135190838,include,Fifty years MEM downwearing Kaikoura; limestone rate 1.30 mm/yr,I1;I2;I3;I4,intertidal,agent:lit-screener
+W3019284938,exclude,Tufa growth rate by photogrammetry on plates; not rock erosion,E5;E1,unknown,agent:lit-screener
+W7160212843,include,MEM dissolution rates in Mulu limestone cave passages,I1;I2;I3;I4,cave,agent:lit-screener
+W2766970909,exclude,MEM rates on gypsum only; non-carbonate,E2,subaerial,agent:lit-screener
+W4290998305,include,TMEM erosion rate data on Maltese limestone shore platforms,I1;I2;I3;I4,intertidal,agent:lit-screener
+W2003369714,include,MEM lowering rates on mudstone and limestone platforms Kaikoura,I1;I2;I3;I4,intertidal,agent:lit-screener
+W2766648874,exclude,PhD plan; MEM and tablet rates in SAS caves not yet measured,E4,cave,agent:lit-screener
+W2767422615,unsure,Rock profiler not MEM; limestone platform rates; no matching proxy id,E1?;I2;I3;I4,intertidal,agent:lit-screener
