@@ -111,6 +111,12 @@
       "validates": "total",
       "timescale": "instrumental",
       "note": "On bare rock mostly chemical; on residuum/soil includes physical removal - set rate_type per site."
+    },
+    "profile_gauge": {
+      "label": "Rock profile gauge / profilometer (non-MEM contact or laser profiling)",
+      "validates": "chemical",
+      "timescale": "instrumental",
+      "note": "Repeat surface profiles on bare rock; similar use to MEM but different instrument and precision."
     }
   }
 }

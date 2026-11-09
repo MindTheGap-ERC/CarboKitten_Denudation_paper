@@ -1,7 +1,7 @@
 id,decision,reason,criteria,marine_zone_hint,screener,batch
-crossref:10.15587/1729-4061.2017.92168,unsure,no abstract; title TMEM on limestone Cat Ba; rates unverified,I1;I2,unknown,agent:lit-screener,batch_001
+crossref:10.15587/1729-4061.2017.92168,include,TMEM limestone rates 0.196-0.282 mm/yr; land and submerged-zone stations,I1;I2;I3;I4,intertidal,agent:lit-screener,batch_010
 crossref:10.1002/esp.3683,include,MEM 10 yr rates on Permian limestone notches and platforms,I1;I2;I3;I4,intertidal,agent:lit-screener,batch_001
-crossref:10.7186/bgsm45200238,unsure,no abstract; title MEM limestone dissolution Kinta Lenggong,I1;I2,subaerial,agent:lit-screener,batch_001
+crossref:10.7186/bgsm45200238,unsure,MEM on field-exposed limestone tablets in streams/ponds; not natural outcrop surface,I1;I2;I3;I4?,unknown,agent:lit-screener,batch_010
 crossref:10.1127/zfg/8/1964/385,unsure,no abstract; intertidal limestone erosion rate; method unknown,I2;I3,intertidal,agent:lit-screener,batch_001
 crossref:10.1127/zfg/26/1982/197,unsure,no abstract; limestone solution forms Namib; no method or rates stated,I2,subaerial,agent:lit-screener,batch_001
 crossref:10.1002/esp.3290100504,include,MEM error corrections applied to field limestone lowering rates NSW,I1;I2;I3;I4,subaerial,agent:lit-screener,batch_001
@@ -76,3 +76,109 @@ crossref:10.1016/0016-7037(89)90054-9,exclude,Dissolution kinetics rate models l
 crossref:10.1252/jcej.26.112,exclude,Industrial flue gas desulfurization dissolution,E5,unknown,agent:lit-screener,batch_003
 crossref:10.1007/s00254-005-0086-z,unsure,No abstract; limestone/dolomite dissolution; method unclear possibly lab only,I2;E3?,unknown,agent:lit-screener,batch_004
 crossref:10.1016/j.geomorph.2014.05.030,unsure,No abstract; limestone solutional weathering rate under lichen; method unclear,I2;I3?,unknown,agent:lit-screener,batch_004
+W1563875639,include,MEM and laser scanner downwearing rates on chalk and limestone shore platforms,I1;I2;I3;I4,intertidal,agent:lit-screener,batch_005
+W2281489374,unsure,No abstract; title reports MEM erosion measurements on limestone Gower coast,I1?;I2;I3?;I4?,unknown,agent:lit-screener,batch_005
+W2403372037,exclude,other_proxy:dated_structure,E1;I4 violated (dated headstones),subaerial,agent:lit-screener,batch_005
+W2020337548,include,TMEM rates on limestone rock slab placed in intertidal zone Trieste,I1;I2;I3;I4?,intertidal,agent:lit-screener,batch_005
+W244343208,include,TMEM design plus field erosion rate on limestone shore platform Portugal,I1;I2;I3;I4,intertidal,agent:lit-screener,batch_005
+W4292685653,unsure,No abstract; erosion rates on uplifted limestone platforms Kaikoura method unclear,I1?;I2;I3;I4,intertidal,agent:lit-screener,batch_005
+W2499860438,include,MEM-type dial gauge on studs; limestone and marble lowering rates 31 sites,I1;I2;I3;I4,subaerial,agent:lit-screener,batch_005
+W1562267694,exclude,One-day TMEM expansion/contraction study; no lowering rates,E4,supratidal_spray,agent:lit-screener,batch_005
+W2035453860,unsure,No abstract; weathering rates on Caribbean reef limestone method unknown,I1?;I2;I3;I4?,unknown,agent:lit-screener,batch_005
+W2016207833,unsure,No abstract; marine erosion rates reef limestone Grand Cayman method unknown,I1?;I2;I3;I4,intertidal,agent:lit-screener,batch_005
+W2169945665,include,MEM and TMEM lowering rates incl. limestone shore platforms Kaikoura,I1;I2;I3;I4,intertidal,agent:lit-screener,batch_005
+W2389914137,unsure,MEM rates on limestone blocks in soil/spring water; possibly emplaced blocks,I1;I2;I3;I4?,unknown,agent:lit-screener,batch_005
+W2015841127,unsure,No abstract; review of karst denudation methods may re-report MEM rates,I1?;I2;I3?,unknown,agent:lit-screener,batch_005
+W4282974643,include,TMEM downwearing rates on limestone shore platforms Gotland rauks,I1;I2;I3;I4,intertidal,agent:lit-screener,batch_005
+W2333164450,include,Review re-reporting MEM platform erosion rates on chalk and limestone UK,I1=review;I2;I3;I4,intertidal,agent:lit-screener,batch_005
+W3098195843,include,Thesis review of Dinaric karst denudation from MEM and tablets,I1=review;I2;I3;I4,subaerial,agent:lit-screener,batch_005
+W4403850919,include,Reanalysis of TMEM erosion rates on Maltese limestone shore platforms,I1;I2;I3;I4,intertidal,agent:lit-screener,batch_005
+W7135190838,include,Fifty years MEM downwearing Kaikoura; limestone rate 1.30 mm/yr,I1;I2;I3;I4,intertidal,agent:lit-screener,batch_005
+W3019284938,exclude,Tufa growth rate by photogrammetry on plates; not rock erosion,E5;E1,unknown,agent:lit-screener,batch_005
+W7160212843,include,MEM dissolution rates in Mulu limestone cave passages,I1;I2;I3;I4,cave,agent:lit-screener,batch_005
+W2766970909,exclude,MEM rates on gypsum only; non-carbonate,E2,subaerial,agent:lit-screener,batch_005
+W4290998305,include,TMEM erosion rate data on Maltese limestone shore platforms,I1;I2;I3;I4,intertidal,agent:lit-screener,batch_005
+W2003369714,include,MEM lowering rates on mudstone and limestone platforms Kaikoura,I1;I2;I3;I4,intertidal,agent:lit-screener,batch_005
+W2766648874,exclude,PhD plan; MEM and tablet rates in SAS caves not yet measured,E4,cave,agent:lit-screener,batch_005
+W2767422615,unsure,Rock profiler not MEM; limestone platform rates; no matching proxy id,E1?;I2;I3;I4,intertidal,agent:lit-screener,batch_005
+W7220343820,exclude,MEM rates on gypsum only; non-carbonate lithology,I1;I3;I4;E2,subaerial,agent:lit-screener,batch_006
+W4388704446,include,TMEM erosion rates on calcareous supratidal shore platform Mallorca,I1;I2;I3;I4,supratidal_spray,agent:lit-screener,batch_006
+crossref:10.1016/j.atmosenv.2012.07.042,unsure,No abstract; London limestone erosion modelling; possibly MEM on building stone,I2;I3?;I4?,subaerial,agent:lit-screener,batch_006
+crossref:10.1002/esp.3290080211,unsure,Intertidal limestone lowering from organism pedestals; MEM use not stated,I2;I3;I4;I1?,intertidal,agent:lit-screener,batch_006
+crossref:10.1016/j.csr.2012.08.001,exclude,Beach sand storm erosion and recovery; not rock erosion rates,E5,intertidal,agent:lit-screener,batch_006
+crossref:10.2307/621362,unsure,No abstract; subterranean limestone erosion model; likely hydrological solute method,I2;I1?,cave,agent:lit-screener,batch_006
+crossref:10.1002/esp.3290200506,include,TMEM surface lowering rates on limestone SE Australia subaerial subsoil instream,I1;I2;I3;I4,subaerial,agent:lit-screener,batch_006
+crossref:10.1016/j.geomorph.2012.04.007,unsure,No abstract; limestone cliff dissolution and rockfall; method unclear,I2;I3?;I1?,subaerial,agent:lit-screener,batch_006
+crossref:10.1016/j.jobe.2025.115165,exclude,Lab acid rain tests on limestone relic mechanical properties,E3,unknown,agent:lit-screener,batch_006
+crossref:10.1130/abs/2018am-325110,unsure,No abstract; limestone bedrock erosion quantified; method unknown likely cosmogenic,I2;I3;I1?,subaerial,agent:lit-screener,batch_006
+crossref:10.1007/s11440-021-01365-9,exclude,Laboratory hydro-chemical erosion experiments on limestone fractures,E3,unknown,agent:lit-screener,batch_006
+crossref:10.1353/bae.2018.0012,unsure,No abstract; erosion in Burren limestone solution hollows; method unclear,I2;I4?;I1?,subaerial,agent:lit-screener,batch_006
+crossref:10.3724/j.1000-4734.2024.44.028,unsure,No abstract; fungal weathering of limestone; probably lab but unclear,I2;E3?,unknown,agent:lit-screener,batch_006
+crossref:10.2172/5808219,exclude,Industrial fluidized bed kiln erosion/corrosion test; not rock erosion,E5,unknown,agent:lit-screener,batch_006
+crossref:10.3318/bioe.2018.01,unsure,No abstract; duplicate of Burren solution hollow paper; method unclear,I2;I4?;I1?,subaerial,agent:lit-screener,batch_006
+W2010674159,unsure,Micromorphology companion to MEM study; rates may be re-reported,I1;I2;I4;I3?;E4?,subaerial,agent:lit-screener,batch_006
+crossref:10.5194/se-2016-37-rc1,unsure,No abstract; referee comment on limestone dissolution paper; data unclear,I2?;E4?,unknown,agent:lit-screener,batch_006
+crossref:10.1127/zfg/27/1983/413,unsure,No abstract; cyanobacterial limestone weathering Jerusalem; rock or building unclear,I2;I1?;I3?,subaerial,agent:lit-screener,batch_006
+crossref:10.1127/zfg/29/1985/367,unsure,No abstract; limestone coastal notch abrasion; rates and method unclear,I2;I4;I1?,intertidal,agent:lit-screener,batch_006
+W2045310934,exclude,Gypsum cave dissolution forms; non-carbonate lithology,E2,cave,agent:lit-screener,batch_006
+W4240123802,unsure,Review chapter citing MEM and tablet methods; rate tables uncertain,I1=review?;I3?,unknown,agent:lit-screener,batch_006
+W2063009419,unsure,Basin solute denudation for carbonate karst; cites supporting MEM data,I2;I3;I1?,subaerial,agent:lit-screener,batch_006
+crossref:10.1007/s12665-018-7675-0,unsure,No abstract; soil erosion and chemical weathering in karst; method unclear,I2?;I1?,unknown,agent:lit-screener,batch_006
+crossref:10.1016/j.catena.2026.110221,exclude,Soil rill erosion in karst farmland; not rock surface erosion,E5,unknown,agent:lit-screener,batch_006
+crossref:10.1007/s002540050053,unsure,No abstract; karst basin erosion rate from flow dynamics; likely solute flux,I2;I3;I1?,unknown,agent:lit-screener,batch_006
+crossref:10.1109/rsete.2012.6260679,exclude,remote sensing soil erosion risk not bare-rock lowering,E5,subaerial,agent:lit-screener,batch_007
+crossref:10.2139/ssrn.4583021,exclude,cave sediment chronostratigraphy not rock surface lowering,E5,cave,agent:lit-screener,batch_007
+crossref:10.1016/j.catena.2020.104887,exclude,simulated rainfall soil erosion from farm roads,E3;E5,subaerial,agent:lit-screener,batch_007
+crossref:10.1007/s10661-018-7116-2,exclude,soil erosion study not bare-rock lowering,E5,subaerial,agent:lit-screener,batch_007
+crossref:10.1016/j.agee.2021.107649,exclude,soil erosion and nutrient deposition not rock lowering,E5,subaerial,agent:lit-screener,batch_007
+crossref:10.3997/2214-4609.201900607,exclude,other_proxy:paleokarst,E1,unknown,agent:lit-screener,batch_007
+crossref:10.1007/s10661-020-8081-0,exclude,soil erosion effect on doline lake not rock lowering,E5,subaerial,agent:lit-screener,batch_007
+crossref:10.1109/iswrep.2011.5893654,exclude,laboratory simulation of soil erosion,E3;E5,subaerial,agent:lit-screener,batch_007
+crossref:10.1016/j.enggeo.2007.11.012,exclude,remote sensing GIS soil erosion assessment,E5,subaerial,agent:lit-screener,batch_007
+crossref:10.1016/j.catena.2018.08.035,exclude,soil erosion study not bare-rock lowering,E5,subaerial,agent:lit-screener,batch_007
+crossref:10.1016/j.iswcr.2026.100681,exclude,RUSLE soil erosion modelling not rock lowering,E5,subaerial,agent:lit-screener,batch_007
+crossref:10.1016/j.catena.2022.106526,exclude,other_proxy:sediment_yield,E1,subaerial,agent:lit-screener,batch_007
+crossref:10.5814/j.issn.1674-764x.2015.04.009,exclude,tree-ring soil erosion not rock lowering,E5,subaerial,agent:lit-screener,batch_007
+crossref:10.1016/j.geoderma.2021.114949,exclude,soil magnetic susceptibility soil erosion not rock lowering,E5,subaerial,agent:lit-screener,batch_007
+crossref:10.2139/ssrn.5208349,exclude,grouting material durability not rock erosion,E5,subaerial,agent:lit-screener,batch_007
+crossref:10.1016/j.catena.2023.107739,exclude,rill erosion of excavated slopes not MEM rock lowering,E5,subaerial,agent:lit-screener,batch_007
+crossref:10.1007/s12665-011-1042-8,exclude,other_proxy:fallout_radionuclide,E1,subaerial,agent:lit-screener,batch_007
+crossref:10.1016/j.catena.2023.107443,exclude,runoff plot soil erosion not bare-rock lowering,E5,subaerial,agent:lit-screener,batch_007
+crossref:10.1016/j.catena.2016.05.008,exclude,soil erosion risk index not rock lowering,E5,subaerial,agent:lit-screener,batch_007
+crossref:10.1007/s11600-024-01485-2,exclude,soil erosion study not bare-rock lowering,E5,subaerial,agent:lit-screener,batch_007
+crossref:10.1016/j.geoderma.2026.117910,exclude,soil biocrust erosion resistance not rock lowering,E5,subaerial,agent:lit-screener,batch_007
+crossref:10.1016/j.catena.2024.108108,exclude,rocky desertification and soil erosion mapping,E5,subaerial,agent:lit-screener,batch_007
+crossref:10.1007/s11442-023-2166-y,exclude,soil erosion and water yield modelling,E5,subaerial,agent:lit-screener,batch_007
+crossref:10.1016/j.catena.2025.109006,exclude,post-wildfire soil erosion and metals not rock lowering,E5,subaerial,agent:lit-screener,batch_007
+crossref:10.1016/j.indic.2026.101349,exclude,water erosion risk indicators soil not rock,E5,subaerial,agent:lit-screener,batch_007
+crossref:10.1016/j.catena.2024.107890,exclude,Rill (soil) erosion on karst slopes; not MEM rock lowering,E5,unknown,agent:lit-screener,batch_008
+crossref:10.1016/j.catena.2025.109281,exclude,Soil rill erosion under grass cover; not MEM rock lowering,E5,unknown,agent:lit-screener,batch_008
+crossref:10.1002/ldr.2184,exclude,Soil loss modelling in karst region; not rock lowering,E5,unknown,agent:lit-screener,batch_008
+crossref:10.1134/s1064229317080105,exclude,Pedodiversity and soil erosion in sinkhole; not rock lowering,E5,unknown,agent:lit-screener,batch_008
+crossref:10.1016/j.jobe.2024.108721,exclude,Engineering grouting curtain durability; not natural rock erosion,E5,unknown,agent:lit-screener,batch_008
+crossref:10.1016/j.jhydrol.2024.132319,exclude,Runoff and soil erosion processes on karst slopes; not MEM,E5,unknown,agent:lit-screener,batch_008
+crossref:10.1016/j.jhydrol.2026.135510,exclude,Runoff and soil erosion on karst slopes; not MEM rock lowering,E5,unknown,agent:lit-screener,batch_008
+crossref:10.1007/s11356-019-05311-x,exclude,Mining water inrush particle erosion; engineering topic,E5,unknown,agent:lit-screener,batch_008
+crossref:10.1007/s40430-022-03761-y,exclude,Materials engineering erosion test; not rock erosion,E5,unknown,agent:lit-screener,batch_008
+crossref:10.1016/0148-9062(96)84081-2,exclude,Erosion control along transmission line; Marble is place name,E5,unknown,agent:lit-screener,batch_008
+crossref:10.1007/s40430-022-03699-1,exclude,Materials engineering erosion test; not rock erosion,E5,unknown,agent:lit-screener,batch_008
+crossref:10.1016/j.matpr.2020.11.884,exclude,Materials engineering erosion test; not rock erosion,E5,unknown,agent:lit-screener,batch_008
+crossref:10.1088/2053-1591/ab373f,exclude,Materials engineering erosion test; not rock erosion,E5,unknown,agent:lit-screener,batch_008
+crossref:10.1080/0371750x.2022.2149626,exclude,Materials engineering erosion test; not rock erosion,E5,unknown,agent:lit-screener,batch_008
+crossref:10.1007/s13369-020-05175-1,exclude,Materials engineering erosion test; not rock erosion,E5,unknown,agent:lit-screener,batch_008
+W1967653411,unsure,No abstract; calcareous shore platform downwearing rates likely MEM/TMEM,I2;I3;I4,intertidal,agent:lit-screener,batch_008
+crossref:10.5194/se-2016-151-rc2,exclude,Review comment on soil loss tolerance; not rock lowering,E5;E4,unknown,agent:lit-screener,batch_008
+crossref:10.18411/978-9975-139-95-3-2019-165-180,exclude,Soil erosion and trace elements in chernozem,E5,unknown,agent:lit-screener,batch_008
+crossref:10.1130/abs/2018am-321931,exclude,Carbonate platform sedimentology abstract; not erosion,E5,unknown,agent:lit-screener,batch_008
+crossref:10.22541/essoar.173524452.20910306/v1,exclude,Ocean acidification modelling; not rock erosion,E5,unknown,agent:lit-screener,batch_008
+crossref:10.2139/ssrn.5334782,exclude,Biocemented sand erosion resistance; engineering lab study,E5;E3,unknown,agent:lit-screener,batch_008
+crossref:10.3850/978-981-09-7519-7nbl16-rps-283,exclude,Fuel cell electrolytes; unrelated,E5,unknown,agent:lit-screener,batch_008
+crossref:10.1016/j.catena.2024.108471,exclude,Microbial cementation of black soil slopes; not rock erosion,E5,unknown,agent:lit-screener,batch_008
+crossref:10.7185/gold2021.3866,unsure,No abstract; orogen-scale weathering/erosion likely solute or cosmogenic not MEM,I2,unknown,agent:lit-screener,batch_008
+crossref:10.1016/j.enggeo.2025.108375,exclude,Microfluidic sandstone reservoir study; lab and non-carbonate,E5;E3;E2,unknown,agent:lit-screener,batch_008
+crossref:10.1007/978-981-13-2538-0_1252,unsure,No abstract; geotourism dictionary entry on karren; rates unlikely but unverified,I2;E4?,subaerial,agent:lit-screener,batch_009
+crossref:10.1007/978-3-642-76473-8_17,exclude,other_proxy:dated_structure,E1;I4,subaerial,agent:lit-screener,batch_009
+crossref:10.1109/natpc.2011.6136460,unsure,No abstract; indirect limestone denudation rate; likely solute_flux not MEM,I2;I3;E1?,unknown,agent:lit-screener,batch_009
+crossref:10.1016/j.seppur.2021.119356,exclude,Industrial flue gas desulfurization slurry; not rock erosion,E5,unknown,agent:lit-screener,batch_009
+crossref:10.1016/j.bgtech.2025.100186,exclude,Laboratory microfluidics dissolution experiment,E3,unknown,agent:lit-screener,batch_009
+crossref:10.1007/s13146-015-0281-2,unsure,No abstract; soil limestone dissolution rate SW China; method unclear possibly tablets or lab,I2;E1?;E3?,unknown,agent:lit-screener,batch_009
