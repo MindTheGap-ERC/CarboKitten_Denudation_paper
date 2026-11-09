@@ -17,10 +17,10 @@ import json
 from common import group_dir, load_config, read_csv, write_csv
 
 
-def match(text: str, cfg: dict) -> tuple[bool, str]:
+def match(text: str, cfg: dict, key: str = "require_all_groups") -> tuple[bool, str]:
     text = " " + text.lower() + " "
     hits = []
-    for group in cfg["require_all_groups"]:
+    for group in cfg[key]:
         g = [t for t in group if t.lower() in text]
         if not g:
             return False, "missing group: " + "/".join(group[:3]) + "..."
@@ -44,11 +44,12 @@ def main() -> None:
 
     for r in rows:
         if not (r.get("abstract") or "").strip():
-            # title only: keep it if the title hits, otherwise still send to
-            # the agent - abstracts are missing for many older papers
-            ok, why = match(r["title"], cfg["keyword_prefilter"])
-            r["prefilter"] = "pass"
-            r["prefilter_note"] = "no_abstract" + ("" if ok else "; title_miss")
+            # title only (abstracts are missing for many older / Crossref
+            # records): judged with the looser title_only_groups
+            kp = cfg["keyword_prefilter"]
+            ok, why = match(r["title"], kp, "title_only_groups" if "title_only_groups" in kp else "require_all_groups")
+            r["prefilter"] = "pass" if ok else "fail"
+            r["prefilter_note"] = "no_abstract; " + why
         else:
             ok, why = match(f"{r['title']} {r['abstract']}", cfg["keyword_prefilter"])
             r["prefilter"] = "pass" if ok else "fail"

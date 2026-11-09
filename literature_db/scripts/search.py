@@ -10,14 +10,16 @@ Usage:
     python literature_db/scripts/search.py mem --no-crossref
     python literature_db/scripts/search.py mem --seed-doi 10.xxxx/yyyy
 
-Set OPENALEX_MAILTO / CROSSREF_MAILTO env vars to a contact address to use the
-APIs' polite pools (recommended, not required).
+OpenAlex needs a free API key (https://openalex.org): set OPENALEX_API_KEY.
+Without it, use --no-openalex (Crossref only; fewer abstracts).
+Optionally set CROSSREF_MAILTO to a contact address for Crossref's polite pool.
 """
 from __future__ import annotations
 
 import argparse
 import datetime as dt
 import os
+import re
 import sys
 import time
 
@@ -80,8 +82,8 @@ def openalex_search(query: str, from_year: int, limit: int) -> list[dict]:
     out, cursor = [], "*"
     params = {"search": query, "per-page": 200,
               "filter": f"from_publication_date:{from_year}-01-01"}
-    if os.environ.get("OPENALEX_MAILTO"):
-        params["mailto"] = os.environ["OPENALEX_MAILTO"]
+    if os.environ.get("OPENALEX_API_KEY"):
+        params["api_key"] = os.environ["OPENALEX_API_KEY"]
     while cursor and len(out) < limit:
         data = _get(OPENALEX, {**params, "cursor": cursor})
         out += [_openalex_record(w, f"openalex:{query}") for w in data.get("results", [])]
@@ -132,7 +134,7 @@ def crossref_search(query: str, from_year: int, limit: int) -> list[dict]:
             "authors": "; ".join(f"{a.get('given', '')} {a.get('family', '')}".strip()
                                  for a in it.get("author", [])[:20]),
             "journal": (it.get("container-title") or [""])[0],
-            "abstract": it.get("abstract", ""),
+            "abstract": re.sub(r"<[^>]+>", " ", it.get("abstract", "")).strip(),
             "oa_url": "",
             "type": it.get("type", ""),
             "found_by": f"crossref:{query}",
@@ -166,6 +168,8 @@ def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("group")
     ap.add_argument("--no-crossref", action="store_true")
+    ap.add_argument("--no-openalex", action="store_true")
+    ap.add_argument("--max-per-query", type=int, help="override config max_results_per_query (e.g. small pilot)")
     ap.add_argument("--seed-doi", action="append", default=[])
     args = ap.parse_args()
 
@@ -174,13 +178,15 @@ def main() -> None:
     log_rows, records = [], []
     now = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
 
+    limit = args.max_per_query or cfg["max_results_per_query"]
     for q in cfg["queries"]:
-        hits = openalex_search(q, cfg["from_year"], cfg["max_results_per_query"])
-        print(f"openalex  {len(hits):5d}  {q}")
-        log_rows.append({"date_utc": now, "source": "openalex", "query": q, "hits": len(hits)})
-        records += hits
+        if not args.no_openalex:
+            hits = openalex_search(q, cfg["from_year"], limit)
+            print(f"openalex  {len(hits):5d}  {q}")
+            log_rows.append({"date_utc": now, "source": "openalex", "query": q, "hits": len(hits)})
+            records += hits
         if not args.no_crossref:
-            hits = crossref_search(q, cfg["from_year"], cfg["max_results_per_query"])
+            hits = crossref_search(q, cfg["from_year"], limit)
             print(f"crossref  {len(hits):5d}  {q}")
             log_rows.append({"date_utc": now, "source": "crossref", "query": q, "hits": len(hits)})
             records += hits

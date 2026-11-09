@@ -1,8 +1,10 @@
 {
   "proxy_group": "mem",
-  "proxies": ["mem", "tmem"],
+  "proxies": [
+    "mem",
+    "tmem"
+  ],
   "description": "Micro-erosion meter / traversing micro-erosion meter measurements of carbonate rock surface lowering.",
-
   "search": {
     "queries": [
       "\"micro-erosion meter\" limestone",
@@ -20,16 +22,71 @@
     "seed_dois": [],
     "max_results_per_query": 400
   },
-
   "keyword_prefilter": {
-    "comment": "A record passes if it hits >= 1 term from EVERY group in 'require_all_groups' and no term in 'exclude'. Matching is case-insensitive on title + abstract. Records with NO abstract always pass to the agent screen (flagged no_abstract).",
+    "comment": "A record passes if it hits >= 1 term from EVERY group in 'require_all_groups' and no term in 'exclude' (case-insensitive, title + abstract). Records WITHOUT an abstract are judged on the title against the looser 'title_only_groups'.",
     "require_all_groups": [
-      ["micro-erosion", "micro erosion", "microerosion", "mem ", "tmem", "erosion meter", "lowering rate", "surface lowering", "rock lowering"],
-      ["limestone", "carbonate", "karst", "marble", "dolomite", "dolostone", "chalk", "calcareous", "aeolianite", "calcarenite", "karren"]
+      [
+        "micro-erosion",
+        "micro erosion",
+        "microerosion",
+        "mem ",
+        "tmem",
+        "erosion meter",
+        "lowering rate",
+        "surface lowering",
+        "rock lowering"
+      ],
+      [
+        "limestone",
+        "carbonate",
+        "karst",
+        "marble",
+        "dolomite",
+        "dolostone",
+        "chalk",
+        "calcareous",
+        "aeolianite",
+        "calcarenite",
+        "karren"
+      ]
     ],
-    "exclude": ["dental", "enamel", "tooth", "concrete pavement", "membrane", "memory"]
+    "exclude": [
+      "dental",
+      "enamel",
+      "tooth",
+      "concrete pavement",
+      "membrane",
+      "memory"
+    ],
+    "title_only_groups": [
+      [
+        "limestone",
+        "carbonate",
+        "karst",
+        "marble",
+        "dolomite",
+        "dolostone",
+        "chalk",
+        "calcareous",
+        "aeolianite",
+        "calcarenite",
+        "karren"
+      ],
+      [
+        "erosion",
+        "lowering",
+        "weathering",
+        "dissolution",
+        "denudation",
+        "solution",
+        "solutional",
+        "micro-erosion",
+        "microerosion",
+        "notch",
+        "platform"
+      ]
+    ]
   },
-
   "screening_criteria": "config/screening_mem.md",
   "batch_size": 25
 }
