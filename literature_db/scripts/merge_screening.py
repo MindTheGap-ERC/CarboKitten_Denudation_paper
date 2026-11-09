@@ -50,11 +50,14 @@ def main() -> None:
     excl = [r for r in rows if r["decision"] == "exclude"]
     random.Random(args.seed).shuffle(excl)
     n_audit = max(1, round(len(excl) * args.audit_fraction)) if excl else 0
+    meta = {r["id"]: r for r in read_csv(d / "candidates.csv")}
     audit = [r for r in rows if r["decision"] == "unsure"] + excl[:n_audit]
+    audit = [{"id": r["id"], "decision": r["decision"], "reason": r.get("reason", ""),
+              "year": meta.get(r["id"], {}).get("year", ""), "title": meta.get(r["id"], {}).get("title", ""),
+              "doi": meta.get(r["id"], {}).get("doi", ""), "your_decision": "", "your_note": ""} for r in audit]
     write_csv(d / "screening_audit.csv", audit)
 
     # include list = the reading list for full text
-    meta = {r["id"]: r for r in read_csv(d / "candidates.csv")}
     inc = [{**meta.get(r["id"], {}), **r} for r in rows if r["decision"] == "include"]
     write_csv(d / "included.csv", inc,
               ["id", "doi", "title", "year", "authors", "journal", "oa_url", "reason", "marine_zone_hint", "pdf_file"])

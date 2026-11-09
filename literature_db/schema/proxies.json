@@ -2,29 +2,115 @@
   "description": "Controlled vocabulary for the 'proxy' field. 'validates' = which model component the proxy can test (default for rate_type). 'timescale' = typical integration time class. Add new proxies here before extracting them.",
   "timescale_classes": {
     "instrumental": "10^0 - 10^2 yr",
-    "historical":   "10^2 - 10^3 yr",
-    "geomorphic":   "10^3 - 10^6 yr",
-    "geological":   "> 10^6 yr"
+    "historical": "10^2 - 10^3 yr",
+    "geomorphic": "10^3 - 10^6 yr",
+    "geological": "> 10^6 yr"
   },
   "proxies": {
-    "mem":                     {"label": "Micro-erosion meter (MEM)",                       "validates": "chemical", "timescale": "instrumental", "note": "Bare-rock surface lowering; dominated by dissolution, may include granular disintegration / bioerosion."},
-    "tmem":                    {"label": "Traversing micro-erosion meter (TMEM)",          "validates": "chemical", "timescale": "instrumental", "note": "As MEM, more points per station."},
-    "limestone_tablet":        {"label": "Limestone tablet weight loss",                   "validates": "chemical", "timescale": "instrumental"},
-    "solute_flux":             {"label": "Catchment / spring solute flux",                 "validates": "chemical", "timescale": "instrumental"},
-    "sediment_yield":          {"label": "Suspended + bedload sediment yield",             "validates": "physical", "timescale": "instrumental"},
-    "reservoir_infill":        {"label": "Reservoir / lake sediment infill",               "validates": "physical", "timescale": "historical"},
-    "fallout_radionuclide":    {"label": "137Cs / 210Pb_ex / 7Be soil inventories",        "validates": "physical", "timescale": "historical"},
-    "repeat_survey":           {"label": "Repeat TLS / SfM / LiDAR surveys",               "validates": "physical", "timescale": "instrumental"},
-    "dated_structure":         {"label": "Surfaces of known age (gravestones, buildings, archaeology)", "validates": "chemical", "timescale": "historical"},
-    "erratic_pedestal":        {"label": "Pedestals beneath erratic boulders",             "validates": "total",    "timescale": "geomorphic"},
-    "reef_terrace":            {"label": "Lowering of dated uplifted reef terraces",       "validates": "total",    "timescale": "geomorphic"},
-    "cave_level":              {"label": "Dated cave levels / speleothems",                "validates": "total",    "timescale": "geomorphic"},
-    "volcanic_cap":            {"label": "Relief beneath dated lava caps",                 "validates": "total",    "timescale": "geomorphic"},
-    "terra_rossa_mass_balance":{"label": "Insoluble-residue (terra rossa) mass balance",  "validates": "chemical", "timescale": "geomorphic"},
-    "cosmogenic_36cl":         {"label": "In-situ 36Cl in carbonate",                      "validates": "total",    "timescale": "geomorphic", "note": "CIRCULARITY WARNING: the empirical model is calibrated on 36Cl. Tag records used in the regression in notes ('calibration_set') so they can be held out."},
-    "cosmogenic_10be_catchment":{"label": "Catchment-averaged 10Be in river quartz",      "validates": "total",    "timescale": "geomorphic", "note": "Quartz-based: only meaningful for carbonate if carbonate_fraction is known; quartz sourced from non-carbonate parts biases the rate."},
-    "cosmogenic_10be_chert":   {"label": "In-situ 10Be in chert / quartz in carbonate",    "validates": "total",    "timescale": "geomorphic"},
-    "cosmogenic_26al_catchment":{"label": "Catchment-averaged 26Al in river quartz",      "validates": "total",    "timescale": "geomorphic"},
-    "paleokarst":              {"label": "Missing section at dated exposure surfaces",     "validates": "total",    "timescale": "geological"}
+    "mem": {
+      "label": "Micro-erosion meter (MEM)",
+      "validates": "chemical",
+      "timescale": "instrumental",
+      "note": "Bare-rock surface lowering; dominated by dissolution, may include granular disintegration / bioerosion."
+    },
+    "tmem": {
+      "label": "Traversing micro-erosion meter (TMEM)",
+      "validates": "chemical",
+      "timescale": "instrumental",
+      "note": "As MEM, more points per station."
+    },
+    "limestone_tablet": {
+      "label": "Limestone tablet weight loss",
+      "validates": "chemical",
+      "timescale": "instrumental"
+    },
+    "solute_flux": {
+      "label": "Catchment / spring solute flux",
+      "validates": "chemical",
+      "timescale": "instrumental"
+    },
+    "sediment_yield": {
+      "label": "Suspended + bedload sediment yield",
+      "validates": "physical",
+      "timescale": "instrumental"
+    },
+    "reservoir_infill": {
+      "label": "Reservoir / lake sediment infill",
+      "validates": "physical",
+      "timescale": "historical"
+    },
+    "fallout_radionuclide": {
+      "label": "137Cs / 210Pb_ex / 7Be soil inventories",
+      "validates": "physical",
+      "timescale": "historical"
+    },
+    "repeat_survey": {
+      "label": "Repeat TLS / SfM / LiDAR surveys",
+      "validates": "physical",
+      "timescale": "instrumental"
+    },
+    "dated_structure": {
+      "label": "Surfaces of known age (gravestones, buildings, archaeology)",
+      "validates": "chemical",
+      "timescale": "historical"
+    },
+    "erratic_pedestal": {
+      "label": "Pedestals beneath erratic boulders",
+      "validates": "total",
+      "timescale": "geomorphic"
+    },
+    "reef_terrace": {
+      "label": "Lowering of dated uplifted reef terraces",
+      "validates": "total",
+      "timescale": "geomorphic"
+    },
+    "cave_level": {
+      "label": "Dated cave levels / speleothems",
+      "validates": "total",
+      "timescale": "geomorphic"
+    },
+    "volcanic_cap": {
+      "label": "Relief beneath dated lava caps",
+      "validates": "total",
+      "timescale": "geomorphic"
+    },
+    "terra_rossa_mass_balance": {
+      "label": "Insoluble-residue (terra rossa) mass balance",
+      "validates": "chemical",
+      "timescale": "geomorphic"
+    },
+    "cosmogenic_36cl": {
+      "label": "In-situ 36Cl in carbonate",
+      "validates": "total",
+      "timescale": "geomorphic",
+      "note": "CIRCULARITY WARNING: the empirical model is calibrated on 36Cl. Tag records used in the regression in notes ('calibration_set') so they can be held out."
+    },
+    "cosmogenic_10be_catchment": {
+      "label": "Catchment-averaged 10Be in river quartz",
+      "validates": "total",
+      "timescale": "geomorphic",
+      "note": "Quartz-based: only meaningful for carbonate if carbonate_fraction is known; quartz sourced from non-carbonate parts biases the rate."
+    },
+    "cosmogenic_10be_chert": {
+      "label": "In-situ 10Be in chert / quartz in carbonate",
+      "validates": "total",
+      "timescale": "geomorphic"
+    },
+    "cosmogenic_26al_catchment": {
+      "label": "Catchment-averaged 26Al in river quartz",
+      "validates": "total",
+      "timescale": "geomorphic"
+    },
+    "paleokarst": {
+      "label": "Missing section at dated exposure surfaces",
+      "validates": "total",
+      "timescale": "geological"
+    },
+    "erosion_pin": {
+      "label": "Erosion pins (rock or regolith surface)",
+      "validates": "total",
+      "timescale": "instrumental",
+      "note": "On bare rock mostly chemical; on residuum/soil includes physical removal - set rate_type per site."
+    }
   }
 }
