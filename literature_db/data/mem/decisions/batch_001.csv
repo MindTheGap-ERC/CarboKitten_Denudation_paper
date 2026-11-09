@@ -1,0 +1,26 @@
+id,decision,reason,criteria,marine_zone_hint,screener
+crossref:10.15587/1729-4061.2017.92168,unsure,no abstract; title TMEM on limestone Cat Ba; rates unverified,I1;I2,unknown,agent:lit-screener
+crossref:10.1002/esp.3683,include,MEM 10 yr rates on Permian limestone notches and platforms,I1;I2;I3;I4,intertidal,agent:lit-screener
+crossref:10.7186/bgsm45200238,unsure,no abstract; title MEM limestone dissolution Kinta Lenggong,I1;I2,subaerial,agent:lit-screener
+crossref:10.1127/zfg/8/1964/385,unsure,no abstract; intertidal limestone erosion rate; method unknown,I2;I3,intertidal,agent:lit-screener
+crossref:10.1127/zfg/26/1982/197,unsure,no abstract; limestone solution forms Namib; no method or rates stated,I2,subaerial,agent:lit-screener
+crossref:10.1002/esp.3290100504,include,MEM error corrections applied to field limestone lowering rates NSW,I1;I2;I3;I4,subaerial,agent:lit-screener
+crossref:10.1007/978-3-642-41714-6_132139,exclude,dictionary entry not a study,E4,unknown,agent:lit-screener
+crossref:10.1127/zfg/7/1963/120,unsure,no abstract; limestone micro-shaping periglacial weathering; method unknown,I2,subaerial,agent:lit-screener
+crossref:10.1080/02723646.2017.1342453,unsure,erosion pins on limestone residuum; no pin proxy id in schema,E1,subaerial,agent:lit-screener
+crossref:10.1130/0091-7613(1986)14<762:ssadua>2.0.co;2,exclude,submarine slope escarpment geology not surface lowering,E5,unknown,agent:lit-screener
+crossref:10.1360/csb1979-24-19-889,exclude,other_proxy:cave_level,E1,cave,agent:lit-screener
+crossref:10.2139/ssrn.5907429,exclude,beach storm erosion modelling not rock lowering,E5,unknown,agent:lit-screener
+crossref:10.5755/j01.ms.24.2.17644,exclude,cement paste materials deterioration,E5,unknown,agent:lit-screener
+crossref:10.1016/j.atmosenv.2004.06.014,exclude,other_proxy:dated_structure,E1;I4,subaerial,agent:lit-screener
+crossref:10.1016/s0341-8162(01)00155-2,exclude,other_proxy:sediment_yield,E1,subaerial,agent:lit-screener
+crossref:10.1002/esp.3290020215,include,MEM and tablet limestone erosion rates measured seasonally,I1;I2;I3;I4,unknown,agent:lit-screener
+crossref:10.7186/bgsm03197004,unsure,no abstract; limestone coast bioerosion Malaysia; method unknown,I2,intertidal,agent:lit-screener
+crossref:10.1071/eg992489,exclude,subsurface sonic velocity Pliocene erosion not surface lowering,E5,unknown,agent:lit-screener
+crossref:10.1016/j.atmosenv.2004.06.030,exclude,other_proxy:dated_structure,E1;I4,subaerial,agent:lit-screener
+crossref:10.1130/abs/2023am-388495,exclude,carbon isotope stratigraphy not rock erosion rates,E5,unknown,agent:lit-screener
+crossref:10.1130/0091-7613(1979)7<592:geaisd>2.0.co;2,exclude,glacial erosion from erratic dispersal not surface lowering,E5,unknown,agent:lit-screener
+crossref:10.5194/egusphere-egu21-10394,include,MEM lowering rates limestone 1.31 mm/yr uplifted platforms Kaikoura,I1;I2;I3;I4,intertidal,agent:lit-screener
+crossref:10.1002/(sici)1099-145x(199603)7:1<69::aid-ldr217>3.0.co;2-2,exclude,soil erosion control in quarry rehabilitation,E5,subaerial,agent:lit-screener
+crossref:10.1016/j.geomorph.2015.03.037,unsure,no abstract; rockfall erosion rate limestone; likely not MEM proxy unclear,I2,subaerial,agent:lit-screener
+crossref:10.1201/9781003759539-66,exclude,rock slope tilt-meter mine mechanics,E5,unknown,agent:lit-screener

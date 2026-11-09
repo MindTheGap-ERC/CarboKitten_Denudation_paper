@@ -1,0 +1,26 @@
+id,decision,reason,criteria,marine_zone_hint,screener
+crossref:10.1016/b978-0-7506-0237-2.50096-4,unsure,No abstract; holographic method on marble likely heritage/lab - check,I2,unknown,agent:lit-screener
+crossref:10.5109/4774213,exclude,Composite materials erosion wear not rock erosion,E5,unknown,agent:lit-screener
+crossref:10.2139/ssrn.3322501,exclude,Jute/epoxy composite erosion not rock erosion,E5,unknown,agent:lit-screener
+crossref:10.2139/ssrn.3293018,exclude,Industrial particle impact erosion not rock denudation,E5,unknown,agent:lit-screener
+crossref:10.1016/j.catena.2023.107407,unsure,No abstract; dolomite hillslope erosion likely soil/sediment not MEM,I2,subaerial,agent:lit-screener
+crossref:10.1080/12269328.2026.2623934,exclude,Acid fracturing in deep reservoirs not surface erosion,E5,unknown,agent:lit-screener
+crossref:10.1016/j.eurpolymj.2022.111457,exclude,Polymer degradation not rock erosion,E5,unknown,agent:lit-screener
+crossref:10.2139/ssrn.4866064,exclude,Shotcrete carbonate erosion is materials engineering,E5,unknown,agent:lit-screener
+crossref:10.2139/ssrn.5262577,exclude,Microfluidic sandstone reservoir study not rock denudation,E5;E2,unknown,agent:lit-screener
+crossref:10.1080/02723646.1984.10642249,unsure,No abstract; carbonate erosion rates field study method unknown,I2;I3,subaerial,agent:lit-screener
+crossref:10.5194/egusphere-2022-1376-supplement,unsure,Supplement without abstract; carbonate erosion compilation proxy unknown,I2;I3,unknown,agent:lit-screener
+crossref:10.1016/j.pgeola.2013.10.006,unsure,No abstract; limestone surface lowering measurement possibly MEM,I2;I3,subaerial,agent:lit-screener
+crossref:10.1002/esp.3401,unsure,No abstract; comment on 36Cl paper may cite MEM rates,I2,subaerial,agent:lit-screener
+crossref:10.2747/0272-3646.23.1.1,unsure,No abstract; lake-shore karren dissolution possibly measured rates,I2,unknown,agent:lit-screener
+crossref:10.1002/esp.3260,exclude,other_proxy:cosmogenic_36cl - 36Cl and erratic pedestals not MEM,E1,subaerial,agent:lit-screener
+crossref:10.1002/esp.1510,exclude,other_proxy:reef_terrace - pedestal heights on dated raised reef terraces,E1,subaerial,agent:lit-screener
+crossref:10.1002/esp.3402,unsure,No abstract; reply on 36Cl lowering may discuss MEM rates,I2,subaerial,agent:lit-screener
+crossref:10.14359/51736014,exclude,Cement chemistry not rock erosion,E5,unknown,agent:lit-screener
+crossref:10.1127/0372-8854/2012/s-00098,unsure,No abstract; karren dissolution under vegetation method unknown,I2,subaerial,agent:lit-screener
+crossref:10.1127/0372-8854/2012/s-00090,unsure,No abstract; karren solution relationships rates unclear,I2,subaerial,agent:lit-screener
+crossref:10.1016/j.geomorph.2008.05.015,unsure,No abstract; coastal vs inland limestone lowering rates likely MEM,I2;I3;I4,unknown,agent:lit-screener
+crossref:10.1140/epjp/i2018-12305-6,exclude,Cement nanocomposites not rock erosion,E5,unknown,agent:lit-screener
+crossref:10.1080/02723646.1998.10642644,exclude,other_proxy:dated_structure - weathering of ancient temple building stone,E1;I4,subaerial,agent:lit-screener
+crossref:10.1016/0016-7037(89)90054-9,exclude,Dissolution kinetics rate models laboratory chemistry,E3,unknown,agent:lit-screener
+crossref:10.1252/jcej.26.112,exclude,Industrial flue gas desulfurization dissolution,E5,unknown,agent:lit-screener
