@@ -1,0 +1,3 @@
+id,decision,reason,criteria,marine_zone_hint,screener
+crossref:10.15587/1729-4061.2017.92168,include,TMEM limestone rates 0.196-0.282 mm/yr; land and submerged-zone stations,I1;I2;I3;I4,intertidal,agent:lit-screener
+crossref:10.7186/bgsm45200238,unsure,MEM on field-exposed limestone tablets in streams/ponds; not natural outcrop surface,I1;I2;I3;I4?,unknown,agent:lit-screener

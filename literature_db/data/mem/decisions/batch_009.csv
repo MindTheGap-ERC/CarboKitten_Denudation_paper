@@ -1,0 +1,7 @@
+id,decision,reason,criteria,marine_zone_hint,screener
+crossref:10.1007/978-981-13-2538-0_1252,unsure,No abstract; geotourism dictionary entry on karren; rates unlikely but unverified,I2;E4?,subaerial,agent:lit-screener
+crossref:10.1007/978-3-642-76473-8_17,exclude,other_proxy:dated_structure,E1;I4,subaerial,agent:lit-screener
+crossref:10.1109/natpc.2011.6136460,unsure,No abstract; indirect limestone denudation rate; likely solute_flux not MEM,I2;I3;E1?,unknown,agent:lit-screener
+crossref:10.1016/j.seppur.2021.119356,exclude,Industrial flue gas desulfurization slurry; not rock erosion,E5,unknown,agent:lit-screener
+crossref:10.1016/j.bgtech.2025.100186,exclude,Laboratory microfluidics dissolution experiment,E3,unknown,agent:lit-screener
+crossref:10.1007/s13146-015-0281-2,unsure,No abstract; soil limestone dissolution rate SW China; method unclear possibly tablets or lab,I2;E1?;E3?,unknown,agent:lit-screener
