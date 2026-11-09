@@ -1,0 +1,26 @@
+id,decision,reason,criteria,marine_zone_hint,screener
+crossref:10.1109/rsete.2012.6260679,exclude,remote sensing soil erosion risk not bare-rock lowering,E5,subaerial,agent:lit-screener
+crossref:10.2139/ssrn.4583021,exclude,cave sediment chronostratigraphy not rock surface lowering,E5,cave,agent:lit-screener
+crossref:10.1016/j.catena.2020.104887,exclude,simulated rainfall soil erosion from farm roads,E3;E5,subaerial,agent:lit-screener
+crossref:10.1007/s10661-018-7116-2,exclude,soil erosion study not bare-rock lowering,E5,subaerial,agent:lit-screener
+crossref:10.1016/j.agee.2021.107649,exclude,soil erosion and nutrient deposition not rock lowering,E5,subaerial,agent:lit-screener
+crossref:10.3997/2214-4609.201900607,exclude,other_proxy:paleokarst,E1,unknown,agent:lit-screener
+crossref:10.1007/s10661-020-8081-0,exclude,soil erosion effect on doline lake not rock lowering,E5,subaerial,agent:lit-screener
+crossref:10.1109/iswrep.2011.5893654,exclude,laboratory simulation of soil erosion,E3;E5,subaerial,agent:lit-screener
+crossref:10.1016/j.enggeo.2007.11.012,exclude,remote sensing GIS soil erosion assessment,E5,subaerial,agent:lit-screener
+crossref:10.1016/j.catena.2018.08.035,exclude,soil erosion study not bare-rock lowering,E5,subaerial,agent:lit-screener
+crossref:10.1016/j.iswcr.2026.100681,exclude,RUSLE soil erosion modelling not rock lowering,E5,subaerial,agent:lit-screener
+crossref:10.1016/j.catena.2022.106526,exclude,other_proxy:sediment_yield,E1,subaerial,agent:lit-screener
+crossref:10.5814/j.issn.1674-764x.2015.04.009,exclude,tree-ring soil erosion not rock lowering,E5,subaerial,agent:lit-screener
+crossref:10.1016/j.geoderma.2021.114949,exclude,soil magnetic susceptibility soil erosion not rock lowering,E5,subaerial,agent:lit-screener
+crossref:10.2139/ssrn.5208349,exclude,grouting material durability not rock erosion,E5,subaerial,agent:lit-screener
+crossref:10.1016/j.catena.2023.107739,exclude,rill erosion of excavated slopes not MEM rock lowering,E5,subaerial,agent:lit-screener
+crossref:10.1007/s12665-011-1042-8,exclude,other_proxy:fallout_radionuclide,E1,subaerial,agent:lit-screener
+crossref:10.1016/j.catena.2023.107443,exclude,runoff plot soil erosion not bare-rock lowering,E5,subaerial,agent:lit-screener
+crossref:10.1016/j.catena.2016.05.008,exclude,soil erosion risk index not rock lowering,E5,subaerial,agent:lit-screener
+crossref:10.1007/s11600-024-01485-2,exclude,soil erosion study not bare-rock lowering,E5,subaerial,agent:lit-screener
+crossref:10.1016/j.geoderma.2026.117910,exclude,soil biocrust erosion resistance not rock lowering,E5,subaerial,agent:lit-screener
+crossref:10.1016/j.catena.2024.108108,exclude,rocky desertification and soil erosion mapping,E5,subaerial,agent:lit-screener
+crossref:10.1007/s11442-023-2166-y,exclude,soil erosion and water yield modelling,E5,subaerial,agent:lit-screener
+crossref:10.1016/j.catena.2025.109006,exclude,post-wildfire soil erosion and metals not rock lowering,E5,subaerial,agent:lit-screener
+crossref:10.1016/j.indic.2026.101349,exclude,water erosion risk indicators soil not rock,E5,subaerial,agent:lit-screener

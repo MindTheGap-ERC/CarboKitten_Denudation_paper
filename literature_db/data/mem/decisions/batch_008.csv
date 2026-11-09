@@ -1,0 +1,26 @@
+id,decision,reason,criteria,marine_zone_hint,screener
+crossref:10.1016/j.catena.2024.107890,exclude,Rill (soil) erosion on karst slopes; not MEM rock lowering,E5,unknown,agent:lit-screener
+crossref:10.1016/j.catena.2025.109281,exclude,Soil rill erosion under grass cover; not MEM rock lowering,E5,unknown,agent:lit-screener
+crossref:10.1002/ldr.2184,exclude,Soil loss modelling in karst region; not rock lowering,E5,unknown,agent:lit-screener
+crossref:10.1134/s1064229317080105,exclude,Pedodiversity and soil erosion in sinkhole; not rock lowering,E5,unknown,agent:lit-screener
+crossref:10.1016/j.jobe.2024.108721,exclude,Engineering grouting curtain durability; not natural rock erosion,E5,unknown,agent:lit-screener
+crossref:10.1016/j.jhydrol.2024.132319,exclude,Runoff and soil erosion processes on karst slopes; not MEM,E5,unknown,agent:lit-screener
+crossref:10.1016/j.jhydrol.2026.135510,exclude,Runoff and soil erosion on karst slopes; not MEM rock lowering,E5,unknown,agent:lit-screener
+crossref:10.1007/s11356-019-05311-x,exclude,Mining water inrush particle erosion; engineering topic,E5,unknown,agent:lit-screener
+crossref:10.1007/s40430-022-03761-y,exclude,Materials engineering erosion test; not rock erosion,E5,unknown,agent:lit-screener
+crossref:10.1016/0148-9062(96)84081-2,exclude,Erosion control along transmission line; Marble is place name,E5,unknown,agent:lit-screener
+crossref:10.1007/s40430-022-03699-1,exclude,Materials engineering erosion test; not rock erosion,E5,unknown,agent:lit-screener
+crossref:10.1016/j.matpr.2020.11.884,exclude,Materials engineering erosion test; not rock erosion,E5,unknown,agent:lit-screener
+crossref:10.1088/2053-1591/ab373f,exclude,Materials engineering erosion test; not rock erosion,E5,unknown,agent:lit-screener
+crossref:10.1080/0371750x.2022.2149626,exclude,Materials engineering erosion test; not rock erosion,E5,unknown,agent:lit-screener
+crossref:10.1007/s13369-020-05175-1,exclude,Materials engineering erosion test; not rock erosion,E5,unknown,agent:lit-screener
+W1967653411,unsure,No abstract; calcareous shore platform downwearing rates likely MEM/TMEM,I2;I3;I4,intertidal,agent:lit-screener
+crossref:10.5194/se-2016-151-rc2,exclude,Review comment on soil loss tolerance; not rock lowering,E5;E4,unknown,agent:lit-screener
+crossref:10.18411/978-9975-139-95-3-2019-165-180,exclude,Soil erosion and trace elements in chernozem,E5,unknown,agent:lit-screener
+crossref:10.1130/abs/2018am-321931,exclude,Carbonate platform sedimentology abstract; not erosion,E5,unknown,agent:lit-screener
+crossref:10.22541/essoar.173524452.20910306/v1,exclude,Ocean acidification modelling; not rock erosion,E5,unknown,agent:lit-screener
+crossref:10.2139/ssrn.5334782,exclude,Biocemented sand erosion resistance; engineering lab study,E5;E3,unknown,agent:lit-screener
+crossref:10.3850/978-981-09-7519-7nbl16-rps-283,exclude,Fuel cell electrolytes; unrelated,E5,unknown,agent:lit-screener
+crossref:10.1016/j.catena.2024.108471,exclude,Microbial cementation of black soil slopes; not rock erosion,E5,unknown,agent:lit-screener
+crossref:10.7185/gold2021.3866,unsure,No abstract; orogen-scale weathering/erosion likely solute or cosmogenic not MEM,I2,unknown,agent:lit-screener
+crossref:10.1016/j.enggeo.2025.108375,exclude,Microfluidic sandstone reservoir study; lab and non-carbonate,E5;E3;E2,unknown,agent:lit-screener
