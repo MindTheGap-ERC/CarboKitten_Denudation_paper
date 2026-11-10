@@ -1,0 +1,21 @@
+id,decision,reason,criteria,proxy_hint,marine_zone_hint,screener
+crossref:10.7186/bgsm45200238,include,MEM on limestone tablets in field streams ponds and subaerial; rates reported,I1;I2;I3,mem;limestone_tablet,subaerial,agent:lit-screener
+crossref:10.1127/zfg/8/1964/385,exclude,Intertidal limestone erosion only,E1,mem,intertidal,agent:lit-screener
+crossref:10.1127/zfg/26/1982/197,unsure,No abstract; solution and wind forms in Namib may lack rates,I1;I2,unknown,subaerial,agent:lit-screener
+crossref:10.1127/zfg/7/1963/120,unsure,No abstract; periglacial limestone micro-shaping; rates unclear,I1;I2,unknown,subaerial,agent:lit-screener
+crossref:10.1080/02723646.2017.1342453,exclude,Erosion pins in limestone residuum regolith not bedrock,E13,erosion_pin,soil_covered,agent:lit-screener
+crossref:10.7186/bgsm03197004,exclude,Biological erosion of limestone coasts; marine setting,E1,unknown,intertidal,agent:lit-screener
+crossref:10.1016/j.geomorph.2015.03.037,exclude,Rockfall susceptibility of limestone cliffs; mass wasting,E10,repeat_survey,subaerial,agent:lit-screener
+crossref:10.1016/b978-0-12-374739-6.00115-9,include,review: Gunn treatise chapter on karst denudation rates,I1;I2;I3r,solute_flux;mem;limestone_tablet,subaerial,agent:lit-screener
+crossref:10.15356/0435-4281-2008-1-36-42,exclude,Karst-landslide on reservoir coast; likely Russian-language,E10;E8,unknown,unknown,agent:lit-screener
+crossref:10.1007/978-3-319-97292-3_3,unsure,No abstract; glacial erosion on karst book chapter; rates unclear,I1;I2,unknown,subaerial,agent:lit-screener
+crossref:10.1130/0016-7606(1975)86<255:ooheit>2.0.co;2,unsure,No abstract; hillslope erosion in tower karst may be soil or rock,I1;I2,unknown,subaerial,agent:lit-screener
+crossref:10.1127/zfg/4/1960/116,unsure,No abstract; river erosion vs karst process likely conceptual,I1;I2,unknown,subaerial,agent:lit-screener
+crossref:10.1016/b978-0-7506-0237-2.50096-4,exclude,Marble erosion measurement method for cultural heritage stone,E7;E4,dated_structure,unknown,agent:lit-screener
+crossref:10.1016/j.catena.2023.107407,unsure,No abstract; dolomite hillslope erosion likely soil loss plots,I1;I2,unknown,soil_covered,agent:lit-screener
+crossref:10.1080/02723646.1984.10642249,include,Carbonate erosion rates in Wisconsin karst; likely solute flux,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+crossref:10.5194/egusphere-2022-1376-supplement,include,Supplement with carbonate erosion and weathering rates compilation,I1;I2;I3,cosmogenic_36cl;solute_flux,subaerial,agent:lit-screener
+crossref:10.1016/j.pgeola.2013.10.006,include,Surface lowering of limestone in Wye catchment measured,I1;I2;I3,unknown,subaerial,agent:lit-screener
+crossref:10.1002/esp.3401,include,Comment on 36Cl surface lowering of limestone pavements,I1;I2;I3,cosmogenic_36cl,subaerial,agent:lit-screener
+crossref:10.2747/0272-3646.23.1.1,unsure,Lake-shore karren dissolution mechanism; rates and setting unclear,I1,unknown,unknown,agent:lit-screener
+crossref:10.1002/esp.3402,include,Reply on 36Cl surface lowering of limestone pavements,I1;I2;I3,cosmogenic_36cl,subaerial,agent:lit-screener

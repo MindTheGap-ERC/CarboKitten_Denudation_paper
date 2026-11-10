@@ -1,0 +1,21 @@
+id,decision,reason,criteria,proxy_hint,marine_zone_hint,screener
+crossref:10.1127/0372-8854/2012/s-00098,unsure,no abstract; vegetation effect on karren dissolution may be biological-control study,I1;I2;E11?,mem;limestone_tablet,subaerial,agent:lit-screener
+crossref:10.1127/0372-8854/2012/s-00090,unsure,no abstract; karren solution relationships may include dissolution rates,I1;I2,unknown,subaerial,agent:lit-screener
+crossref:10.1016/j.geomorph.2008.05.015,include,mixed coastal/inland limestone lowering rates NE Adriatic,I1;I2;I3,mem;tmem,subaerial,agent:lit-screener
+W2281489374,unsure,no abstract; MEM limestone at Oxwich Point possibly coastal only,I1;I3;E1?,mem,unknown,agent:lit-screener
+W2389914137,exclude,plant community treatment comparison of limestone block erosion,E11,limestone_tablet,soil_covered,agent:lit-screener
+W2015841127,include,review: concepts and methods for dissolutional denudation rates in karst,I1;I2;I3r,solute_flux,subaerial,agent:lit-screener
+W2767422615,exclude,shore platform denudation on Maltese coast only,E1,profile_gauge,intertidal,agent:lit-screener
+crossref:10.1016/j.geomorph.2012.04.007,unsure,rockfall focus but may quantify carbonate dissolution on Alpine cliffs,I1;I2;E10?,solute_flux;repeat_survey,subaerial,agent:lit-screener
+crossref:10.1130/abs/2018am-325110,unsure,bedrock erosion limestone landscape likely cosmogenic; coarse sediment transport aspect,I1;I2;I3?;E12?,cosmogenic_36cl,subaerial,agent:lit-screener
+crossref:10.1353/bae.2018.0012,unsure,no abstract; limestone solution hollows erosion Burren possibly biological,I1;I2,unknown,unknown,agent:lit-screener
+crossref:10.3724/j.1000-4734.2024.44.028,exclude,fungal (Aspergillus niger) weathering of limestone biological control,E11;E3,unknown,unknown,agent:lit-screener
+crossref:10.3318/bioe.2018.01,unsure,duplicate record of Fertile Rock Burren paper; no abstract,I1;I2,unknown,unknown,agent:lit-screener
+W2010674159,unsure,micromorphology companion to MEM rate study; may restate rates,I1;I2;E4?,mem,subaerial,agent:lit-screener
+crossref:10.5194/se-2016-37-rc1,unsure,referee comment without abstract on limestone dissolution carbon uptake,I1,unknown,unknown,agent:lit-screener
+crossref:10.1127/zfg/27/1983/413,exclude,cyanobacterial weathering of limestone biological focus,E11,unknown,subaerial,agent:lit-screener
+crossref:10.1127/zfg/29/1985/367,exclude,abrasion notching on limestone coast marine only,E1,unknown,intertidal,agent:lit-screener
+W4240123802,exclude,general textbook chapter on denudation and weathering no rate table,E4,unknown,unknown,agent:lit-screener
+W2063009419,include,autogenic and allogenic karst basin solute denudation rate Norway,I1;I2;I3,solute_flux;erratic_pedestal,subaerial,agent:lit-screener
+crossref:10.1007/s12665-018-7675-0,unsure,no abstract; karst chemical weathering may give rates or soil loss only,I1;I2;E5?,solute_flux,unknown,agent:lit-screener
+crossref:10.1007/s002540050053,include,erosion rate of karst basin Upper Aniene from flow dynamics,I1;I2;I3,solute_flux,subaerial,agent:lit-screener

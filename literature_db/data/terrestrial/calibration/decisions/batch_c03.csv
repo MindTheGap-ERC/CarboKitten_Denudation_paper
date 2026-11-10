@@ -1,0 +1,16 @@
+id,decision,reason,criteria,proxy_hint,marine_zone_hint,screener
+crossref:10.7185/gold2021.3866,unsure,No abstract; mixed carbonate-siliciclastic orogen weathering and erosion rates likely,I1;I2,cosmogenic_10be_catchment;solute_flux,subaerial,agent:lit-screener
+crossref:10.1007/978-981-13-2538-0_1252,exclude,Dictionary entry on karren landscape; no rate,E4,unknown,unknown,agent:lit-screener
+crossref:10.1109/natpc.2011.6136460,include,No abstract; title reports denudation rate of Kinta Valley limestone,I1;I2;I3,unknown,subaerial,agent:lit-screener
+crossref:10.1007/s13146-015-0281-2,exclude,Enzyme (carbonic anhydrase) effect on limestone dissolution; biological-control study,E11,limestone_tablet,soil_covered,agent:lit-screener
+crossref:10.1016/j.catena.2020.104887,exclude,Soil erosion from farm road runoff under simulated rainfall,E5,unknown,unknown,agent:lit-screener
+crossref:10.1130/abs/2023am-388495,exclude,Carbon isotope stratigraphy of Permian limestone; not rock denudation,E6,unknown,unknown,agent:lit-screener
+crossref:10.1130/0091-7613(1986)14<762:ssadua>2.0.co;2,exclude,Submarine limestone escarpment slopes; marine setting no subaerial rate,E1;E4,unknown,unknown,agent:lit-screener
+W2766970909,exclude,MEM denudation rates on gypsum only; non-carbonate,E2,mem,subaerial,agent:lit-screener
+crossref:10.3850/978-981-09-7519-7nbl16-rps-283,exclude,Solid oxide fuel cell electrolytes; materials science,E6,unknown,unknown,agent:lit-screener
+crossref:10.5194/se-2017-1-rc2,exclude,Review comment on RUSLE soil erosion in karst,E5,unknown,unknown,agent:lit-screener
+crossref:10.2172/5808219,exclude,Engineering erosion/corrosion test in limestone kiln,E6,unknown,unknown,agent:lit-screener
+crossref:10.1016/j.catena.2018.08.035,exclude,Karst soil erosion attribution in peak-cluster depression basin,E5,unknown,unknown,agent:lit-screener
+crossref:10.1016/j.catena.2023.107443,exclude,Runoff and soil erosion plots on karst hillslopes,E5,unknown,unknown,agent:lit-screener
+crossref:10.2139/ssrn.4616084,exclude,Tunnel seepage erosion numerical modelling; engineering,E6,unknown,unknown,agent:lit-screener
+crossref:10.5194/se-2016-151-rc2,exclude,Review comment on soil loss tolerance in carbonate areas,E5,unknown,unknown,agent:lit-screener
