@@ -1,0 +1,18 @@
+id,human,agent,title,human_note,agent_reason
+crossref:10.1127/zfg/26/1982/197,exclude,unsure,Solutional and wind erosion forms on limestone in the Central Namib Desert,,No abstract; solution and wind forms in Namib may lack rates
+crossref:10.1127/zfg/7/1963/120,exclude,unsure,Recent micro-shaping in limestone regions through internal erosion and the role of periglacial rock weathering,,No abstract; periglacial limestone micro-shaping; rates unclear
+crossref:10.1007/978-3-319-97292-3_3,exclude,unsure,Glacial Erosion on Karst,,No abstract; glacial erosion on karst book chapter; rates unclear
+crossref:10.1130/0016-7606(1975)86<255:ooheit>2.0.co;2,exclude,unsure,Observations on Hillslope Erosion in Tower Karst Topography of Belize,,No abstract; hillslope erosion in tower karst may be soil or rock
+crossref:10.1127/zfg/4/1960/116,exclude,unsure,The relationship between river erosion and the karst process,,No abstract; river erosion vs karst process likely conceptual
+crossref:10.1016/j.catena.2023.107407,exclude,unsure,Spatial pattern of hydrological and erosion behaviour along a dolomite hillslope in Southwest China,"it targets soil erosion, not bedrocks",No abstract; dolomite hillslope erosion likely soil loss plots
+crossref:10.1080/02723646.1984.10642249,exclude,include,CARBONATE EROSION RATES IN SOUTHWESTERN WISCONSIN,,Carbonate erosion rates in Wisconsin karst; likely solute flux
+crossref:10.2747/0272-3646.23.1.1,exclude,unsure,"The Origin of Enigmatic, Tubular, Lake-Shore Karren: A Mechanism for Rapid Dissolution of Limestone in Carbonate-Saturated Waters",,Lake-shore karren dissolution mechanism; rates and setting unclear
+crossref:10.1127/0372-8854/2012/s-00098,exclude,unsure,Effect of dwarf pine vegetation on karren dissolution,"this includes vegetation, which is not ideal",no abstract; vegetation effect on karren dissolution may be biological-control study
+crossref:10.1127/0372-8854/2012/s-00090,exclude,unsure,"Morphology and Solution Relationships of three Karren Slopes in different Environments (Totes Gebirge, Eastern Alps)",no source,no abstract; karren solution relationships may include dissolution rates
+W2281489374,exclude,unsure,"Micro-erosion meter measurements of erosion on limestone, Oxwich Point, Gower : some technical considerations and preliminary results /",cannot find source,no abstract; MEM limestone at Oxwich Point possibly coastal only
+crossref:10.1016/j.geomorph.2012.04.007,exclude,unsure,"Significance of rockfall magnitude and carbonate dissolution for rock slope erosion and geomorphic work on Alpine limestone cliffs (Reintal, German Alps)",,rockfall focus but may quantify carbonate dissolution on Alpine cliffs
+crossref:10.1130/abs/2018am-325110,exclude,unsure,"QUANTIFYING BEDROCK EROSION AND COARSE SEDIMENT TRANSPORT IN THE TECTONICALLY QUIESCENT, LIMESTONE LANDSCAPE OF SOUTHEASTERN SPAIN",,bedrock erosion limestone landscape likely cosmogenic; coarse sediment transport aspect
+crossref:10.1353/bae.2018.0012,exclude,unsure,"The Fertile Rock: Productivity and erosion in limestone solution hollows of the Burren, Co. Clare",,no abstract; limestone solution hollows erosion Burren possibly biological
+crossref:10.3318/bioe.2018.01,exclude,unsure,"The Fertile Rock: Productivity and erosion in limestone solution hollows of the Burren, Co. Clare",,duplicate record of Fertile Rock Burren paper; no abstract
+crossref:10.5194/se-2016-37-rc1,exclude,unsure,Carbon uptake due to limestone dissolution,,referee comment without abstract on limestone dissolution carbon uptake
+crossref:10.1007/s12665-018-7675-0,exclude,unsure,Soil erosion and chemical weathering in a region with typical karst topography,,no abstract; karst chemical weathering may give rates or soil loss only
