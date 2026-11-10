@@ -39,6 +39,19 @@ When in doubt → `unsure`, never `exclude`.
 - **E8 Not English** (full text clearly in another language, e.g. title and journal
   are non-English; an English abstract alone does not exclude).
 - **E9 Model only**: denudation from a model without new or compiled measured rates.
+- **E10 Mass wasting**: rockfall, landslides, cliff collapse (gravitational, not denudation of the surface).
+- **E11 Biological-control studies**: the focus is how vegetation, lichens, fungi, cyanobacteria,
+  enzymes or plant communities change dissolution/erosion (treatment comparisons), rather than
+  representative denudation rates of a site or region.
+- **E12 Fluvial channel incision**: bedrock river incision / channel erosion / coarse sediment transport.
+- **E13 Soil or regolith erosion**: erosion pins or plots in residual soil / regolith, not rock or catchment denudation.
+
+## Notes from the human calibration (MEM round)
+
+- Catchment / basin solute denudation (e.g. "autogenic and allogenic denudation", "erosion rate of a karst basin") → **include** (`proxy_hint=solute_flux`).
+- In-situ 36Cl / cosmogenic denudation of carbonates, and comments/replies discussing them → **include** (`proxy_hint=cosmogenic_36cl`). These may overlap with the empirical-model calibration data; that is handled later, not at screening.
+- Reviews of karst denudation rates (e.g. Gunn 2013, methods reviews) → **include** as `review:`.
+- General textbook chapters on "denudation and weathering" without a rate table → exclude (E4).
 
 ## Do NOT exclude for
 
