@@ -1,0 +1,41 @@
+id,decision,reason,criteria,proxy_hint,marine_zone_hint,screener
+W2278284452,exclude,lab hardness testing method on limestone samples; no field rate,E3,unknown,unknown,agent:lit-screener
+W4318972967,exclude,lab salt crystallization tests on building stones,E3,unknown,unknown,agent:lit-screener
+W3123585027,exclude,qualitative weathering origin of soil horizon; no rate,E4,unknown,unknown,agent:lit-screener
+W2141391485,exclude,global silicate weathering model; not carbonate denudation,E9;E6,unknown,unknown,agent:lit-screener
+W7214733407,exclude,other_proxy:dated_structure microbial communities on cathedral cladding,E7;E11,dated_structure,subaerial,agent:lit-screener
+crossref:10.1130/0-8137-2390-6.27,exclude,other_proxy:dated_structure marble tombstone surface recession,E7,dated_structure,subaerial,agent:lit-screener
+crossref:10.1127/zfg/30/1986/203,unsure,no abstract; urban marble weathering rates may include exposed samples,I1;I3,dated_structure;limestone_tablet,subaerial,agent:lit-screener
+crossref:10.1127/zfg/33/1989/463,unsure,no abstract; subaerially exposed marble weathering rates possibly natural outcrop,I1;I2;I3,unknown,subaerial,agent:lit-screener
+crossref:10.2307/1504368,exclude,other_proxy:dated_structure museum building marble,E7,dated_structure,subaerial,agent:lit-screener
+crossref:10.1127/1860-1804/2007/0158-0631,exclude,other_proxy:dated_structure marble veneer bowing,E7;E6,dated_structure,subaerial,agent:lit-screener
+crossref:10.1127/zdgg/152/2001/665,exclude,other_proxy:dated_structure marble columns ultrasonic,E7,dated_structure,subaerial,agent:lit-screener
+crossref:10.1007/978-94-015-7795-3_26,exclude,other_proxy:dated_structure ancient marble artifacts,E7,dated_structure,unknown,agent:lit-screener
+crossref:10.1021/ac00077a012,exclude,air pollutant dry deposition chemistry on marble,E6,unknown,unknown,agent:lit-screener
+crossref:10.1016/b978-0-7506-0237-2.50056-3,exclude,other_proxy:dated_structure heritage marble weathering,E7,dated_structure,subaerial,agent:lit-screener
+crossref:10.31223/osf.io/9epnb,exclude,other_proxy:dated_structure marble gravestone weathering rates,E7,dated_structure,subaerial,agent:lit-screener
+crossref:10.1179/iccm.1981.7.1.003,exclude,other_proxy:dated_structure marble tombstone weathering rates,E7,dated_structure,subaerial,agent:lit-screener
+crossref:10.5194/egusphere-egu24-1312,exclude,lab thermo-hygric cycling of Carrara marble,E3,unknown,unknown,agent:lit-screener
+crossref:10.1016/0004-6981(87)90279-4,exclude,other_proxy:dated_structure urban marble and air pollution,E7,dated_structure,subaerial,agent:lit-screener
+crossref:10.1557/proc-123-53,exclude,other_proxy:dated_structure marble sculpture weathering crusts,E7,dated_structure,unknown,agent:lit-screener
+crossref:10.21608/shedet.2026.472269.1371,exclude,other_proxy:dated_structure marble pulpit salt weathering,E7,dated_structure,unknown,agent:lit-screener
+crossref:10.1016/0883-2927(86)90013-2,exclude,ore genesis of apatite deposit; not denudation rate,E6,unknown,unknown,agent:lit-screener
+crossref:10.1080/026782900750037130,exclude,liquid crystal weathering indicators; materials study,E6,unknown,unknown,agent:lit-screener
+crossref:10.1016/b978-0-7506-0237-2.50163-5,exclude,other_proxy:dated_structure Royal Palace building stone,E7,dated_structure,subaerial,agent:lit-screener
+crossref:10.1007/bf01701568,unsure,no abstract; industrial-area marble weathering may include exposed samples,I1;I3,dated_structure;limestone_tablet,subaerial,agent:lit-screener
+crossref:10.2166/wst.1993.0595,exclude,other_proxy:dated_structure biogenic weathering of marble monuments,E7;E11,dated_structure,subaerial,agent:lit-screener
+crossref:10.1130/abs/2018am-323127,unsure,no abstract; natural marble corestone weathering; rate unclear,I1;I2,unknown,subaerial,agent:lit-screener
+crossref:10.1007/978-94-017-8020-9_12,unsure,no abstract; natural marble weathering on Namib plains; rate unclear,I1;I2,unknown,subaerial,agent:lit-screener
+crossref:10.1007/s12665-017-6770-y,exclude,lab thermal degradation of marble ultrasonic,E3,unknown,unknown,agent:lit-screener
+crossref:10.1007/bf02449946,exclude,other_proxy:dated_structure surface reduction on marble monuments,E7,dated_structure,subaerial,agent:lit-screener
+crossref:10.1080/02723646.1999.10642675,exclude,other_proxy:dated_structure marble tombstone weathering,E7,dated_structure,subaerial,agent:lit-screener
+crossref:10.1201/b17004-19,exclude,other_proxy:dated_structure church facade marble,E7,dated_structure,subaerial,agent:lit-screener
+crossref:10.1016/b978-044450517-0/50102-1,exclude,thermal expansion and fabric controls on marble; stone conservation,E3;E6,unknown,unknown,agent:lit-screener
+crossref:10.1080/00393630.2025.2540726,exclude,lab fabrication of simulated weathering samples,E3,unknown,unknown,agent:lit-screener
+crossref:10.1007/s12371-025-01166-6,exclude,other_proxy:dated_structure Taj Mahal marble conservation,E7,dated_structure,subaerial,agent:lit-screener
+crossref:10.1086/626759,exclude,quartz diorite weathering; non-carbonate,E2,unknown,subaerial,agent:lit-screener
+crossref:10.1016/b978-044450517-0/50091-x,exclude,thermal stress of marble; stone conservation materials,E3;E6,unknown,unknown,agent:lit-screener
+crossref:10.1111/j.1467-8306.1993.tb01954.x,exclude,other_proxy:dated_structure marble tombstones and air pollution,E7,dated_structure,subaerial,agent:lit-screener
+crossref:10.1127/zfg/34/1991/475,unsure,no abstract; dissolution rate of dolomitic marble in field area likely,I1;I2;I3,limestone_tablet,subaerial,agent:lit-screener
+crossref:10.1016/0148-9062(91)91144-g,unsure,no abstract; duplicate-like record of industrial-area marble weathering,I1;I3,dated_structure;limestone_tablet,subaerial,agent:lit-screener
+crossref:10.1002/jrs.1583,exclude,other_proxy:dated_structure marble artifact Raman analysis,E7,dated_structure,unknown,agent:lit-screener

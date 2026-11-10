@@ -1,0 +1,41 @@
+id,decision,reason,criteria,proxy_hint,marine_zone_hint,screener
+crossref:10.1029/2021gb007096,exclude,global model of carbonate weathering carbon sink; no new field rates,E9,solute_flux,subaerial,agent:lit-screener
+crossref:10.1127/zfg/6/1962/70,unsure,no abstract; fossil karst weathering title may hold lowering data,I1,unknown,unknown,agent:lit-screener
+crossref:10.1016/j.apgeochem.2011.03.085,unsure,no abstract; carbonate weathering CO2 sink may report fluxes,I1,solute_flux,unknown,agent:lit-screener
+crossref:10.1016/j.apgeochem.2024.106059,unsure,no abstract; karst experimental site carbonate weathering sink flux possible,I1;I2,solute_flux,subaerial,agent:lit-screener
+crossref:10.1016/j.chemgeo.2026.123358,exclude,soil selenium geochemistry not rock denudation,E6,unknown,soil_covered,agent:lit-screener
+crossref:10.1016/j.apgeochem.2019.104417,unsure,no abstract; karst basin carbonate weathering may report rates,I1;I2,solute_flux,subaerial,agent:lit-screener
+crossref:10.1016/j.chemgeo.2010.08.013,unsure,no abstract; karstic catchment carbonate weathering may give solute flux,I1;I2,solute_flux,subaerial,agent:lit-screener
+crossref:10.1016/b978-0-444-42530-0.50030-5,unsure,no abstract; book chapter on karst weathering may hold rates,I1,unknown,unknown,agent:lit-screener
+crossref:10.1016/j.scitotenv.2024.177372,unsure,no abstract; karst watershed hydrochemistry may report weathering rates,I1;I2,solute_flux,subaerial,agent:lit-screener
+crossref:10.1016/j.watres.2022.118907,exclude,karst lake metabolism and diel hydrochemistry not denudation,E6,solute_flux,subaerial,agent:lit-screener
+crossref:10.1016/j.scitotenv.2020.142570,exclude,fungal weathering treatment study in soil,E11;E3,unknown,soil_covered,agent:lit-screener
+crossref:10.1016/j.eti.2025.104719,exclude,fungal weathering nitrogen treatment study in soil,E11;E3,unknown,soil_covered,agent:lit-screener
+crossref:10.1016/j.apgeochem.2026.107080,unsure,no abstract; regionally calibrated carbon sink model may compile measured fluxes,I1;E9,solute_flux,subaerial,agent:lit-screener
+crossref:10.1093/oso/9780195173338.003.0005,exclude,long-term carbon cycle textbook chapter without rate data,E4,unknown,unknown,agent:lit-screener
+crossref:10.1155/2021/6631006,exclude,petroleum gas reservoir development,E6,unknown,unknown,agent:lit-screener
+crossref:10.7185/gold2025.26047,exclude,Mg carbonate isotopic origin not denudation,E6,unknown,unknown,agent:lit-screener
+crossref:10.1016/j.apgeochem.2019.104518,unsure,no abstract; karst recharge carbonate weathering may report fluxes,I1;I2,solute_flux,subaerial,agent:lit-screener
+crossref:10.3188/szf.2003.0351,exclude,wood weathering forestry,E6,unknown,unknown,agent:lit-screener
+crossref:10.5194/egusphere-egu21-12398,exclude,lake sediment provenance paleo record no rate,E4,unknown,unknown,agent:lit-screener
+crossref:10.46427/gold2020.2495,exclude,cyanobacterial role in carbonate dissolution mechanism,E11,unknown,unknown,agent:lit-screener
+crossref:10.1016/0306-3747(90)90033-x,exclude,PVC materials weathering,E6,unknown,unknown,agent:lit-screener
+crossref:10.5194/bg-2020-180,exclude,root effects on weathering via reactive transport modelling,E11;E9,solute_flux,soil_covered,agent:lit-screener
+crossref:10.7185/gold2025.31907,exclude,Neoproterozoic weathering and cap carbonate deposition,E6,unknown,unknown,agent:lit-screener
+W3043137905,exclude,U-Pb dating of dolomite,E6,unknown,unknown,agent:lit-screener
+W2008446884,exclude,laboratory freeze-thaw cycles on dolomite samples,E3,unknown,unknown,agent:lit-screener
+W2894692934,exclude,weathering indices of karst alterite no rate,E4,unknown,subaerial,agent:lit-screener
+W2140407354,unsure,chemical denudation rates in mixed lithology watershed; carbonate share unclear,I2;I3,solute_flux,subaerial,agent:lit-screener
+W4413448152,exclude,hydrothermal dolomite diagenesis,E6,unknown,unknown,agent:lit-screener
+W2887642751,exclude,thermochronology exhumation of crystalline window,E2;E6,unknown,unknown,agent:lit-screener
+W2011513735,exclude,glacial meltwater solute flux on coal-bearing sedimentary rocks,E2,solute_flux,subaerial,agent:lit-screener
+W4406697068,exclude,glacial sediment mineralogy no rate,E4,unknown,unknown,agent:lit-screener
+W2027064284,exclude,sandstone aquifer diagenesis,E2,unknown,unknown,agent:lit-screener
+W2564239334,unsure,Wash basin dissolved load denudation; includes chalk but lithology mixed,I2;I3,solute_flux;sediment_yield,subaerial,agent:lit-screener
+W2025877565,exclude,Western Ghats crystalline river solute sources,E2,solute_flux,subaerial,agent:lit-screener
+W2991101670,exclude,shale hillslope weathering rates,E2,unknown,subaerial,agent:lit-screener
+W2298576850,exclude,metamorphic petrology thesis,E6,unknown,unknown,agent:lit-screener
+W2974399400,exclude,cave sediment provenance no rate,E4;E1,unknown,cave,agent:lit-screener
+W4285121908,exclude,rock mushroom terminology and morphology review,E4,unknown,subaerial,agent:lit-screener
+W2314526175,exclude,silicate weathering isotopes in Southern Alps,E2,solute_flux,subaerial,agent:lit-screener
+W2096914289,exclude,seawater Sr isotope curve global weathering,E6;E4,unknown,unknown,agent:lit-screener

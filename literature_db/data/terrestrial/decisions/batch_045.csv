@@ -1,0 +1,41 @@
+id,decision,reason,criteria,proxy_hint,marine_zone_hint,screener
+W1986063479,exclude,stratigraphy only; no denudation rate,E4,unknown,unknown,agent:lit-screener
+W2290362262,exclude,petroleum reservoir sequence stratigraphy,E6,unknown,unknown,agent:lit-screener
+W4383263357,unsure,glacial catchment solute weathering rates; Ca-HCO3 dominated but lithology unclear,I2;I3,solute_flux,subaerial,agent:lit-screener
+W3015141727,unsure,soils on limestone; weathering indices; soil formation rates unclear,I1;I2,terra_rossa_mass_balance,soil_covered,agent:lit-screener
+W2548907496,exclude,Ediacaran seawater chemistry and biomineralization,E6,unknown,unknown,agent:lit-screener
+W2887337155,unsure,Himalayan basin sediment flux erosion rate; carbonate share unclear,I2;I3,sediment_yield,subaerial,agent:lit-screener
+W1969012632,exclude,petroleum gas exploration,E6,unknown,unknown,agent:lit-screener
+W7106333543,exclude,lithofacies paleogeography for gas exploration,E6,unknown,unknown,agent:lit-screener
+W4414973678,exclude,diagenetic moldic pores in reservoir dolomite,E6,unknown,unknown,agent:lit-screener
+W2142948075,exclude,subglacial microbiology,E6,unknown,unknown,agent:lit-screener
+W3112474497,exclude,core geochemistry paleoenvironment,E6,unknown,unknown,agent:lit-screener
+W2125596112,exclude,aerosol sampler with dolomite powder,E6,unknown,unknown,agent:lit-screener
+W3095916698,exclude,sedimentary history and palaeogeography,E4,unknown,unknown,agent:lit-screener
+W4316362278,exclude,molecular fossils in concretions,E6,unknown,unknown,agent:lit-screener
+W37536794,unsure,old weathering study incl dolomite; rates not evident in abstract,I1;I2,unknown,soil_covered,agent:lit-screener
+W3215804078,exclude,Sr isotopes in coal,E6,unknown,unknown,agent:lit-screener
+W1506714946,exclude,hydrology of nuclear waste site,E4,unknown,unknown,agent:lit-screener
+W7223606482,exclude,laboratory leaching of glacial sediments,E3,unknown,unknown,agent:lit-screener
+W2610248610,exclude,carbonate gas reservoir sedimentology,E6,unknown,unknown,agent:lit-screener
+W1969134186,exclude,global weathering model,E9,unknown,unknown,agent:lit-screener
+W2010086557,exclude,tectonic block-in-matrix structures,E6,unknown,unknown,agent:lit-screener
+W1939817528,exclude,permafrost thaw slump; not carbonate,E2;E6,unknown,unknown,agent:lit-screener
+crossref:10.3724/ee.1672-9250.2025.53.097,unsure,no abstract; dolomite fracture dissolution rate likely lab; maybe non-English,I1,unknown,unknown,agent:lit-screener
+crossref:10.1007/bf02880680,exclude,laboratory dolomite dissolution kinetics,E3,unknown,unknown,agent:lit-screener
+crossref:10.2355/isijinternational1966.24.532,exclude,burnt dolomite in steel slags,E6,unknown,unknown,agent:lit-screener
+crossref:10.4028/www.scientific.net/ssp.281.156,exclude,dolomite clinker materials,E6,unknown,unknown,agent:lit-screener
+crossref:10.1029/2000wr900333,exclude,tracer tests in fractured dolomite aquifer,E6,unknown,unknown,agent:lit-screener
+crossref:10.22184/2227-572x.2017.34.3.60.69,exclude,microfluidics company Dolomite,E6,unknown,unknown,agent:lit-screener
+W1977982519,exclude,laboratory thermal microcracking of marble,E3,unknown,unknown,agent:lit-screener
+W2790838830,exclude,other_proxy:dated_structure marble monuments and exposure tests,E7,dated_structure,unknown,agent:lit-screener
+W3206659252,exclude,German thesis on marble ultrasonic tomography,E8;E7,unknown,unknown,agent:lit-screener
+W3152569131,exclude,other_proxy:dated_structure inscribed marble and gravestones,E7,dated_structure,unknown,agent:lit-screener
+W7218932612,exclude,other_proxy:dated_structure marble facade slabs pore structure,E7,dated_structure,unknown,agent:lit-screener
+W3198482147,exclude,laboratory thermal and chemical weathering of marble slabs,E3,unknown,unknown,agent:lit-screener
+W4410175146,exclude,other_proxy:dated_structure heritage marble deterioration,E7,dated_structure,unknown,agent:lit-screener
+W2499641512,exclude,other_proxy:dated_structure Alhambra marble weathering,E7,dated_structure,unknown,agent:lit-screener
+W4417235027,exclude,laboratory freeze-thaw and acid tests on marble,E3,unknown,unknown,agent:lit-screener
+W2521299257,exclude,other_proxy:dated_structure marble tombstone weathering rates,E7,dated_structure,subaerial,agent:lit-screener
+W4417507653,exclude,other_proxy:dated_structure marble minbar salt weathering,E7,dated_structure,unknown,agent:lit-screener
+W2296472902,exclude,mine waste rock field cells,E6,unknown,unknown,agent:lit-screener

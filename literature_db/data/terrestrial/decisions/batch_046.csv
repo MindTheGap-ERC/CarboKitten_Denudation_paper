@@ -1,0 +1,41 @@
+id,decision,reason,criteria,proxy_hint,marine_zone_hint,screener
+W2094139369,exclude,other_proxy:dated_structure - marble statues strength/ultrasonic,E7,dated_structure,subaerial,agent:lit-screener
+W2107876819,exclude,other_proxy:dated_structure - marble facade bowing,E7,dated_structure,subaerial,agent:lit-screener
+W3159615519,exclude,lab test of marble consolidants,E3;E6,unknown,unknown,agent:lit-screener
+W4391943070,exclude,conservation cleaning hydrogel,E6,unknown,unknown,agent:lit-screener
+W3116789778,exclude,conservation cleaning of gypsum layer on marble,E6,unknown,unknown,agent:lit-screener
+W4407150871,exclude,consolidant lab study,E3;E6,unknown,unknown,agent:lit-screener
+W3129080637,exclude,quarry economic feasibility,E6,unknown,unknown,agent:lit-screener
+W2965752196,exclude,laser surface texturing of marble,E6,unknown,unknown,agent:lit-screener
+W2907752309,exclude,nanoparticle coating for marble columns,E6;E7,unknown,unknown,agent:lit-screener
+W4413156211,exclude,lab heating of marble,E3,unknown,unknown,agent:lit-screener
+W3090929856,exclude,numerical model of slab bowing,E6,unknown,unknown,agent:lit-screener
+W3136751172,exclude,marble industry problems,E6,unknown,unknown,agent:lit-screener
+W3126864548,exclude,thermal stress calculation in building stone,E6,unknown,unknown,agent:lit-screener
+W7142289631,exclude,bricks from marble waste,E6,unknown,unknown,agent:lit-screener
+W1003434852,exclude,marble decay modelling for building stone,E6;E7,unknown,unknown,agent:lit-screener
+W4317213994,exclude,conservation treatment surface chemistry,E6,unknown,unknown,agent:lit-screener
+W4313574546,exclude,rock mechanics non-destructive tests,E6,unknown,unknown,agent:lit-screener
+W3028040415,exclude,rock failure neutron diffraction,E6,unknown,unknown,agent:lit-screener
+W1648895595,unsure,ventifacts on marble/dolomite; abrasion vs weathering rates possibly reported,I1;I2,unknown,subaerial,agent:lit-screener
+W1594000981,exclude,brick weathering review,E2;E6,unknown,unknown,agent:lit-screener
+W2287521534,exclude,lab humidity cell on mine waste rock,E3,unknown,unknown,agent:lit-screener
+W4389272239,exclude,drillability of weathered dolomite,E6,unknown,unknown,agent:lit-screener
+W2950410204,exclude,other_proxy:dated_structure - profilometry of monuments; methods,E7,dated_structure,subaerial,agent:lit-screener
+W4408109576,exclude,hydrogeology of marble quarry area,E4,unknown,unknown,agent:lit-screener
+W2100848769,exclude,fish nutrition,E6,unknown,unknown,agent:lit-screener
+W7167689833,exclude,industrial pollution from marble industry,E6,unknown,unknown,agent:lit-screener
+W4295064588,exclude,other_proxy:dated_structure - heritage building stone thermography,E7,dated_structure,subaerial,agent:lit-screener
+W4410250063,exclude,rock mechanics triaxial tests of marble,E6,unknown,unknown,agent:lit-screener
+W7113662803,exclude,biocide treatment of cathedral marble,E6;E7,unknown,unknown,agent:lit-screener
+W4416331979,exclude,CO2 removal materials,E6,unknown,unknown,agent:lit-screener
+W4362469020,exclude,lab freeze-thaw of stone artifacts,E3,unknown,unknown,agent:lit-screener
+W7134231109,exclude,mining and water protection assessment,E6,unknown,unknown,agent:lit-screener
+W2262304042,exclude,lab dissolution of rock powders in soils,E3,unknown,unknown,agent:lit-screener
+W7163064865,exclude,slope stability of marble cut slopes,E10,unknown,unknown,agent:lit-screener
+W4415228670,exclude,lab thermal weathering of heritage marble,E3,unknown,unknown,agent:lit-screener
+W7160375239,exclude,other_proxy:dated_structure - heritage stone acid gas lab simulation,E3;E7,dated_structure,unknown,agent:lit-screener
+W1999661097,exclude,lab frost weathering simulation,E3,unknown,unknown,agent:lit-screener
+W2953494928,unsure,river ion chemistry with carbonate weathering; mixed lithology; flux unclear,I2,solute_flux,subaerial,agent:lit-screener
+W2949200810,include,glacial basin solute yields dominated by carbonate weathering; lithology mixed,I1;I2;I3,solute_flux;sediment_yield,subaerial,agent:lit-screener
+W4411810804,exclude,other_proxy:dated_structure - limestone statue deterioration,E7,dated_structure,unknown,agent:lit-screener
