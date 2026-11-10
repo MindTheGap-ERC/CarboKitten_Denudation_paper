@@ -1,0 +1,41 @@
+id,decision,reason,criteria,proxy_hint,marine_zone_hint,screener
+crossref:10.1016/j.temicr.2026.100112,exclude,Microbial weathering of urban limestone; biological focus,E11;E7,unknown,unknown,agent:lit-screener
+crossref:10.1515/rbm14.20.4-0024,exclude,Laboratory salt weathering regimes on building limestone,E3,unknown,unknown,agent:lit-screener
+crossref:10.1144/gsl.sp.2002.205.01.26,exclude,other_proxy:dated_structure building stone decay Budapest,E7,dated_structure,subaerial,agent:lit-screener
+crossref:10.1179/sic.1990.35.4.205,exclude,other_proxy:dated_structure conservation of building limestone,E7,dated_structure,subaerial,agent:lit-screener
+crossref:10.21203/rs.3.rs-8652617/v1,exclude,other_proxy:dated_structure monument salt weathering model,E7;E9,dated_structure,subaerial,agent:lit-screener
+crossref:10.3989/mc.1999.v49.i254.448,exclude,other_proxy:dated_structure building limestone porosimetry,E7,dated_structure,subaerial,agent:lit-screener
+crossref:10.3390/min11111261,exclude,Accelerated weathering of limestone for CO2 capture,E6,unknown,unknown,agent:lit-screener
+crossref:10.1016/j.buildenv.2005.07.028,exclude,other_proxy:dated_structure colour change of building limestone,E7,dated_structure,subaerial,agent:lit-screener
+crossref:10.1080/09593339209385198,exclude,Biocide and silicone treatment effects on stone,E7;E11,unknown,unknown,agent:lit-screener
+crossref:10.1016/j.quaint.2013.06.019,exclude,other_proxy:dated_structure Maya construction stone deterioration,E7,dated_structure,subaerial,agent:lit-screener
+crossref:10.1006/jare.1997.0297,unsure,Field limestone blocks salt weathering; may give mass loss rates,I1;I2,limestone_tablet,subaerial,agent:lit-screener
+crossref:10.1002/jctb.70210,exclude,Industrial CO2 capture with waste limestone,E6,unknown,unknown,agent:lit-screener
+crossref:10.1007/978-3-319-09408-3_27,exclude,other_proxy:dated_structure Roman wall deterioration,E7,dated_structure,subaerial,agent:lit-screener
+crossref:10.1007/bf01706413,exclude,other_proxy:dated_structure Great Sphinx monument weathering,E7,dated_structure,subaerial,agent:lit-screener
+crossref:10.1002/esp.3290120504,exclude,SEM study of lichen weathering; no rate,E11;E4,unknown,subaerial,agent:lit-screener
+crossref:10.1130/abs/2018nc-312377,unsure,Critical zone weathering geochemistry abstract; fluxes possible; no abstract,I1;I2,solute_flux,soil_covered,agent:lit-screener
+crossref:10.1080/15583058.2012.654893,exclude,other_proxy:dated_structure heritage stone laser scanning,E7,dated_structure,subaerial,agent:lit-screener
+crossref:10.1007/s100640050075,exclude,Engineering aspects of limestone weathering,E6,unknown,unknown,agent:lit-screener
+crossref:10.1144/sp331.8,exclude,other_proxy:dated_structure urban building tuffeau decay,E7,dated_structure,subaerial,agent:lit-screener
+crossref:10.1007/s11003-018-0109-z,exclude,Material strength after weathering,E6,unknown,unknown,agent:lit-screener
+crossref:10.1016/j.matchar.2007.12.003,exclude,Laboratory sulfate weathering of building limestone,E3;E7,unknown,unknown,agent:lit-screener
+crossref:10.1130/abs/2016am-287505,unsure,Weathering geochemistry limestone-shale; fluxes possible; no abstract,I1;I2,solute_flux,soil_covered,agent:lit-screener
+crossref:10.1017/s1431927613001591,exclude,Laboratory salt weathering tests on specimens,E3,unknown,unknown,agent:lit-screener
+crossref:10.1007/s12665-010-0737-6,exclude,other_proxy:dated_structure black crust on building stone,E7,dated_structure,subaerial,agent:lit-screener
+crossref:10.1016/0148-9062(90)91026-4,exclude,other_proxy:dated_structure Great Sphinx monument weathering,E7,dated_structure,subaerial,agent:lit-screener
+crossref:10.1016/j.enggeo.2012.12.013,exclude,Experimental surface finishing of building stone coastal,E3;E7,unknown,unknown,agent:lit-screener
+crossref:10.5194/bg-22-5557-2025,exclude,Review of reactor-based AWL CO2 storage,E6,unknown,unknown,agent:lit-screener
+crossref:10.1007/s11430-018-9324-2,unsure,Carbonate weathering carbon sink China; may derive dissolution rates,I1;I2,solute_flux,subaerial,agent:lit-screener
+crossref:10.1016/j.gca.2008.09.004,unsure,Groundwater CO2 and limestone weathering; solute fluxes possible,I1;I2,solute_flux,soil_covered,agent:lit-screener
+crossref:10.1002/esp.3290120310,exclude,Algal influence on weathering microscopy; no rate,E11;E4,limestone_tablet,unknown,agent:lit-screener
+crossref:10.1097/00010694-198310000-00003,exclude,Endolithic lichen weathering patterns,E11,unknown,subaerial,agent:lit-screener
+crossref:10.1504/ijpe.2024.10066969,exclude,Petroleum CO2 injection mineral carbonation,E6,unknown,unknown,agent:lit-screener
+crossref:10.1144/1470-9236/06-043,exclude,Discussion on building limestone geochemistry,E7;E6,unknown,unknown,agent:lit-screener
+crossref:10.17741/bgsf/40.013,unsure,Limestone weathering in till; possible rate; no abstract,I1;I2,unknown,soil_covered,agent:lit-screener
+crossref:10.1021/bk-1986-0318.ch015,include,Onsite limestone and marble dissolution experiment; field rates likely,I1;I2;I3,limestone_tablet,subaerial,agent:lit-screener
+crossref:10.1016/j.enggeo.2026.108909,exclude,Simulated rhizosphere laboratory deterioration,E3;E11,unknown,unknown,agent:lit-screener
+crossref:10.5194/egusphere-2025-447,exclude,Review of reactor-based AWL CO2 storage,E6,unknown,unknown,agent:lit-screener
+crossref:10.1016/0148-9062(88)91486-6,exclude,Engineering classification of limestone weathering,E6;E4,unknown,unknown,agent:lit-screener
+crossref:10.1016/b978-044450517-0/50117-3,exclude,Laboratory weathering of impregnated building stone,E3,unknown,unknown,agent:lit-screener
+crossref:10.1016/0031-0182(82)90039-6,exclude,Lichen and algal weathering patterns; no rate,E11;E4,unknown,subaerial,agent:lit-screener

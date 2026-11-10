@@ -1,0 +1,41 @@
+id,decision,reason,criteria,proxy_hint,marine_zone_hint,screener
+crossref:10.1002/ceat.200303007,exclude,chemical engineering particle dissolution model,E6;E3,unknown,unknown,agent:lit-screener
+crossref:10.3986/ac.v40i2.16,unsure,vadose zone dissolution from cave drips; pollution focus; rate unclear,I1;E4?,solute_flux,cave,agent:lit-screener
+crossref:10.2139/ssrn.4569743,exclude,laboratory CO2 solution dissolution of limestone,E3,unknown,unknown,agent:lit-screener
+crossref:10.2136/sssaj1989.03615995005300010009x,exclude,soil liming model for agricultural limestone,E6;E9,unknown,unknown,agent:lit-screener
+crossref:10.1201/9780203746578-17,exclude,other_proxy:dated_structure bacterial dissolution of Maya monument limestone,E7;E11,dated_structure,unknown,agent:lit-screener
+crossref:10.1016/j.chemgeo.2024.122229,unsure,no abstract; carbonate critical zone dissolution may give solute rates,I1;I2,solute_flux,subaerial,agent:lit-screener
+crossref:10.1080/09593330801984571,exclude,limestone used for phosphate retention in sediments,E6,unknown,unknown,agent:lit-screener
+crossref:10.1016/j.jhydrol.2013.01.035,exclude,laboratory fracture dissolution geometry,E3,unknown,unknown,agent:lit-screener
+crossref:10.1016/s0883-2927(03)00010-6,exclude,carbonate dissolution in acidic mine-type water,E6,unknown,unknown,agent:lit-screener
+crossref:10.1080/03019233.2017.1326549,exclude,steelmaking slag,E6,unknown,unknown,agent:lit-screener
+crossref:10.1306/ad461f07-16f7-11d7-8645000102c1865d,exclude,burial diagenesis petroleum reservoir,E6,unknown,unknown,agent:lit-screener
+crossref:10.1016/j.chemgeo.2019.05.040,exclude,experimental dissolution Mg/Ca ratios,E3,unknown,unknown,agent:lit-screener
+crossref:10.2172/3362897,exclude,laboratory microscopy and ICP-OES dissolution measurement,E3,unknown,unknown,agent:lit-screener
+crossref:10.1007/s10498-017-9313-y,unsure,no abstract; epikarst dissolution possibly field-based,I1,solute_flux,unknown,agent:lit-screener
+crossref:10.1130/abs/2017se-291637,exclude,swine manure effect on dissolution; agricultural/experimental,E6;E3,unknown,unknown,agent:lit-screener
+crossref:10.1016/j.apgeochem.2007.10.004,exclude,anoxic limestone drain design for acid water,E6,unknown,unknown,agent:lit-screener
+crossref:10.1007/bf03175786,exclude,diagenetic dissolution seams in Proterozoic limestone,E4,unknown,unknown,agent:lit-screener
+crossref:10.1016/j.jconhyd.2005.03.001,exclude,laboratory fracture preferential flow,E3,unknown,unknown,agent:lit-screener
+crossref:10.1002/9780470612187.ch36,exclude,X-ray tomography lab dissolution method,E3,unknown,unknown,agent:lit-screener
+crossref:10.1002/(sici)1096-9837(199706)22:6<531::aid-esp711>3.0.co;2-i,include,doline soil dissolution rates 3-30 g/m2/yr Aggtelek,I1;I2;I3,limestone_tablet,soil_covered,agent:lit-screener
+crossref:10.1021/bk-1982-0188.ch005,exclude,industrial magnesium limestone dissolution,E6;E3,unknown,unknown,agent:lit-screener
+crossref:10.1007/978-3-030-15456-1_15,unsure,no abstract; Maltese rockpool dissolution may include rates,I1,unknown,unknown,agent:lit-screener
+crossref:10.1007/s12665-013-2925-7,exclude,microalgae carbonic anhydrase biological dissolution,E11;E3,unknown,unknown,agent:lit-screener
+crossref:10.46481/asr.2024.3.3.257,exclude,laboratory dissolution kinetics coal and limestone,E3,unknown,unknown,agent:lit-screener
+W4205880101,exclude,other_proxy:dated_structure weathering of limestone cemetery wall,E7,dated_structure,subaerial,agent:lit-screener
+W1549227086,exclude,other_proxy:dated_structure fungal deterioration of Mayan monuments,E7;E11,dated_structure,unknown,agent:lit-screener
+W4409718679,exclude,architectural design concept,E6,unknown,unknown,agent:lit-screener
+W2797812506,exclude,qualitative Arctic weathering features no rates,E4,unknown,subaerial,agent:lit-screener
+W4392860880,exclude,laboratory weathering cycles acoustic emission,E3,unknown,unknown,agent:lit-screener
+W1973568659,exclude,armourstone engineering degradation models,E6;E9,unknown,unknown,agent:lit-screener
+W7112900192,exclude,engineering weathering grade and collapse risk,E6;E4,unknown,unknown,agent:lit-screener
+W4392299898,exclude,engineering weathering grade and collapse risk,E6;E4,unknown,unknown,agent:lit-screener
+W7212006612,exclude,lichen weathering mechanisms biological focus,E11,unknown,subaerial,agent:lit-screener
+W4401235368,exclude,other_proxy:dated_structure building stone exposure biological weathering cemetery,E7;E11,dated_structure,unknown,agent:lit-screener
+W3034692684,exclude,other_proxy:dated_structure red discoloration on temple limestone objects,E7,dated_structure,unknown,agent:lit-screener
+W4386833268,exclude,woody plant encroachment effect on bedrock permeability,E11,unknown,soil_covered,agent:lit-screener
+W148670506,exclude,accelerated limestone weathering CO2 sequestration,E6,unknown,unknown,agent:lit-screener
+W7161572913,exclude,other_proxy:dated_structure lab simulation of stone relic deterioration,E3;E7,unknown,unknown,agent:lit-screener
+W4401797979,exclude,ultrasonic engineering testing,E6,unknown,unknown,agent:lit-screener
+W2150964625,exclude,other_proxy:dated_structure weathering crusts on Budapest monuments,E7,dated_structure,unknown,agent:lit-screener

@@ -1,0 +1,41 @@
+id,decision,reason,criteria,proxy_hint,marine_zone_hint,screener
+W4221072051,exclude,lab salt crystallization tests on building limestone,E3,unknown,unknown,agent:lit-screener
+W2948369818,exclude,Technosol pedogenesis from mine spoils; no rock denudation rate,E6;E4,unknown,unknown,agent:lit-screener
+W4378223294,exclude,engineering analogue material mechanics experiment,E6;E3,unknown,unknown,agent:lit-screener
+W1974460800,include,buried limestone and dolomite discs weight loss over ten years Lapland,I1;I2;I3,limestone_tablet,soil_covered,agent:lit-screener
+W4414270149,exclude,other_proxy:dated_structure limestone cultural relics weathering evaluation,E7,dated_structure,unknown,agent:lit-screener
+W4233701053,unsure,field-exposed limestone/marble briquettes acid rain; mainly chemistry; loss rates possible,I1;I3?,limestone_tablet,subaerial,agent:lit-screener
+W1592167734,unsure,duplicate record of NAPAP briquette exposure; material loss rates possible,I1;I3?,limestone_tablet,subaerial,agent:lit-screener
+W2556041044,exclude,other_proxy:dated_structure decay of magnesian limestone building,E7,dated_structure,unknown,agent:lit-screener
+W2756698553,exclude,other_proxy:dated_structure review of stone-built heritage weathering rates,E7,dated_structure,subaerial,agent:lit-screener
+W1442810322,exclude,laboratory freeze-thaw and wetting-drying experiments,E3,unknown,unknown,agent:lit-screener
+W2594289990,unsure,field-exposed limestone test blocks Svalbard 3D scanned; rate unclear,I1;I2;I3?,repeat_survey,subaerial,agent:lit-screener
+W3207736424,exclude,stratigraphy and sedimentology of limestone formation,E6,unknown,unknown,agent:lit-screener
+W3161158722,exclude,lab NMR rock moisture partitioning; no rate,E3;E4,unknown,unknown,agent:lit-screener
+W2954239406,include,SfM quantified limestone surface loss after 13 years field exposure Svalbard,I1;I2;I3,repeat_survey,subaerial,agent:lit-screener
+W2807254560,exclude,other_proxy:dated_structure thesis on limestone built heritage NDT,E7,dated_structure,unknown,agent:lit-screener
+W2801242937,exclude,salt wicking model and lab NMR in limestone,E3;E6,unknown,unknown,agent:lit-screener
+W7125358829,exclude,field guide on fault scarp seismotectonics; no denudation rate,E4,unknown,subaerial,agent:lit-screener
+W7217077909,exclude,qualitative karst landform description Uttarakhand,E4,unknown,unknown,agent:lit-screener
+W4312918338,unsure,no abstract; carbonate weathering lab vs field scale may give rates,I1,unknown,unknown,agent:lit-screener
+W7154335026,exclude,laboratory freeze-thaw experiments on alpine limestone,E3,unknown,unknown,agent:lit-screener
+W4385419812,exclude,other_proxy:dated_structure carbonatite tombstone weathering indices,E7,dated_structure,subaerial,agent:lit-screener
+W3042433101,include,karst subterranean basin carbonate weathering rate 59.7 t/km2/yr,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W4293537749,exclude,enhanced weathering of applied silicate rock,E2;E6,unknown,unknown,agent:lit-screener
+W3076636131,exclude,soil genesis over limestone; no denudation rate,E4,unknown,soil_covered,agent:lit-screener
+W1987223090,exclude,color change of exposed briquettes; no loss rate,E4,unknown,subaerial,agent:lit-screener
+W1991055227,exclude,glauconite mineralogy,E2;E4,unknown,unknown,agent:lit-screener
+W3035514883,exclude,lab wetting-drying degradation of limestone cores,E3,unknown,unknown,agent:lit-screener
+W3198294246,exclude,microbial carbonate dissolution incubation study,E11;E3,unknown,soil_covered,agent:lit-screener
+W2416148648,exclude,mineralogy of glacial till weathering profiles,E4,unknown,unknown,agent:lit-screener
+W4404296427,exclude,other_proxy:dated_structure limestone paving deterioration cost analysis,E7;E6,dated_structure,unknown,agent:lit-screener
+W1996899626,exclude,laboratory freeze-thaw of sedimentary rocks,E3,unknown,unknown,agent:lit-screener
+W2888623310,unsure,global carbonate weathering fluxes from compiled river data; mostly model,I1;I3r?;E9?,solute_flux,subaerial,agent:lit-screener
+W2312422994,exclude,stratigraphy of Dachstein limestone,E6,unknown,unknown,agent:lit-screener
+W3032896633,exclude,soil inorganic carbon dissolution; not bedrock denudation,E6,unknown,soil_covered,agent:lit-screener
+W2063075877,exclude,other_proxy:dated_structure marble gravestone weathering rates,E7,dated_structure,subaerial,agent:lit-screener
+W4407547237,exclude,subsurface lithofacies analysis,E6,unknown,unknown,agent:lit-screener
+W2343265778,include,Wujiang karst watershed carbonate weathering rate 76 t/km2/yr,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W4200125609,exclude,soil particle size by XRF,E6,unknown,unknown,agent:lit-screener
+W3135006253,include,Xijiang basin hydrochemistry; carbonate-dominated weathering fluxes,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W2289860770,exclude,mine waste rock leaching field cells,E6,unknown,unknown,agent:lit-screener
