@@ -1,0 +1,41 @@
+id,decision,reason,criteria,proxy_hint,marine_zone_hint,screener
+crossref:10.1007/978-3-642-41714-6_41091,exclude,Dictionary entry without data,E4,unknown,unknown,agent:lit-screener
+crossref:10.15388/klimatokaita.2020.30,unsure,No abstract; karst denudation intensity Lithuania; lithology and rate unclear,I1;I2,solute_flux,subaerial,agent:lit-screener
+crossref:10.1111/0033-0124.00234,unsure,No abstract; world model of karst chemical denudation may compile rates,I1;I2;E9,solute_flux,subaerial,agent:lit-screener
+crossref:10.1007/978-3-642-41714-6_180497,exclude,Dictionary entry without data,E4,unknown,unknown,agent:lit-screener
+crossref:10.1007/978-94-009-3385-9_107,exclude,Acid precipitation sensitivity index not carbonate denudation,E6,unknown,unknown,agent:lit-screener
+crossref:10.1002/esp.3290190303,include,Spring and stream solute karst denudation in limestone Georgia USA,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+crossref:10.1111/geoa.12070,unsure,Polar catchment chemical denudation; mixed limestone gypsum anhydrite lithology,I2;I3,solute_flux;sediment_yield,subaerial,agent:lit-screener
+crossref:10.1086/626907,exclude,Hawaii volcanic terrain not carbonate,E2,unknown,unknown,agent:lit-screener
+crossref:10.15356/0435-4281-2005-3-98-101,unsure,No abstract; mountain denudation rates Eurasia; lithology and language unclear,I2;I3,unknown,unknown,agent:lit-screener
+crossref:10.5194/gchron-2022-5,exclude,Box model of cosmogenic weathering bias without field rates,E9,cosmogenic_36cl,unknown,agent:lit-screener
+crossref:10.7185/gold2025.29985,exclude,Marine 10Be/9Be proxy not carbonate rock denudation,E6,unknown,unknown,agent:lit-screener
+crossref:10.1144/sp466.2,include,Karst pedestals on uplifted carbonate terraces Guam give ~50 mm/ka denudation,I1;I2;I3,reef_terrace,subaerial,agent:lit-screener
+crossref:10.5194/egusphere-egu21-2915,include,In-situ 36Cl denudation of limestone and marble Taurus Turkey,I1;I2;I3,cosmogenic_36cl,subaerial,agent:lit-screener
+crossref:10.5593/sgem2019/1.1/s01.001,exclude,Genesis of karst landform without rate,E4,unknown,unknown,agent:lit-screener
+crossref:10.1016/s0341-8162(87)80002-4,unsure,No abstract; catchment solute denudation; lithology of mid-Wales catchment unknown,I2;I3,solute_flux,subaerial,agent:lit-screener
+crossref:10.1130/abs/2016am-285807,unsure,No abstract; denudation rate of Holocene carbonates Bahamas; setting unclear,I1;I3,unknown,unknown,agent:lit-screener
+crossref:10.1016/s0074-6142(08)62689-3,exclude,Global tectonics and continental freeboard not carbonate denudation,E6,unknown,unknown,agent:lit-screener
+crossref:10.5194/esurf-2021-87,exclude,Tibetan catchments in flysch metapelite granitoid not carbonate,E2,cosmogenic_10be_catchment,subaerial,agent:lit-screener
+crossref:10.1130/abs/2018am-315535,unsure,coastal-title: karst denudation and flank margin caves Bahamas; no abstract,I1,unknown,unknown,agent:lit-screener
+crossref:10.1080/02723646.1998.10642655,unsure,No abstract; DEM time-averaged denudation; lithology unknown,I3,unknown,unknown,agent:lit-screener
+crossref:10.1007/bf00630815,exclude,Acid precipitation sensitivity index not carbonate denudation,E6,unknown,unknown,agent:lit-screener
+crossref:10.2475/ajs.279.6.632,exclude,New England crystalline terrain via estuarine sedimentation not carbonate,E2,sediment_yield,unknown,agent:lit-screener
+crossref:10.1017/s0016756800019245,unsure,Buchan karst cave levels and terraces; incision amount; rate unclear,I1;I2;E12,cave_level,subaerial,agent:lit-screener
+crossref:10.1007/978-3-319-29541-1_8,exclude,Anthropogenic mining denudation not natural carbonate denudation,E6,unknown,unknown,agent:lit-screener
+crossref:10.1002/(sici)1096-9837(199708)22:8<721::aid-esp741>3.3.co;2-u,unsure,No abstract; British lowland denudation rates may include chalk,I2;I3,unknown,subaerial,agent:lit-screener
+crossref:10.1002/(sici)1096-9837(199708)22:8<721::aid-esp741>3.0.co;2-2,unsure,No abstract; British lowland denudation rates may include chalk,I2;I3,unknown,subaerial,agent:lit-screener
+crossref:10.1016/0148-9062(90)90543-b,include,Autogenic and allogenic karst denudation by multiple basin method Svartisen,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+crossref:10.1017/cbo9781139225182.021,exclude,Historical general method text on subaerial denudation not carbonate,E4,unknown,unknown,agent:lit-screener
+crossref:10.5194/esurf-2021-87-supplement,exclude,Supplement to Tibetan non-carbonate catchment study,E2,cosmogenic_10be_catchment,subaerial,agent:lit-screener
+crossref:10.16943/ptinsa/2020/154399,unsure,No abstract; review of 10Be catchment rates India; carbonate content unknown,I3r,cosmogenic_10be_catchment,subaerial,agent:lit-screener
+crossref:10.5194/gchron-4-455-2022,exclude,Box model of cosmogenic weathering bias without field rates,E9,cosmogenic_36cl,unknown,agent:lit-screener
+crossref:10.1016/j.geomorph.2021.107823,unsure,No abstract; natural denudation rate near Ranger mine; lithology unknown,I2;I3,unknown,subaerial,agent:lit-screener
+crossref:10.1007/978-3-319-29541-1_7,exclude,Anthropogenic mining denudation in coal basin,E6,unknown,unknown,agent:lit-screener
+crossref:10.2475/ajs.267.10.1143,exclude,Thermochronologic exhumation of Alps not surface carbonate denudation,E6,unknown,unknown,agent:lit-screener
+crossref:10.2478/s13386-013-0158-x,include,Carbonate fault scarp denudation rates constrained by 14C dated deposits,I1;I2;I3,unknown,subaerial,agent:lit-screener
+crossref:10.1016/0198-0254(79)90786-6,exclude,New England crystalline terrain via estuarine sedimentation not carbonate,E2,sediment_yield,unknown,agent:lit-screener
+crossref:10.1093/oed/4687209192,exclude,Dictionary entry without data,E4,unknown,unknown,agent:lit-screener
+crossref:10.1007/978-94-009-7966-6_16,exclude,Acid precipitation river sensitivity index not carbonate denudation,E6,unknown,unknown,agent:lit-screener
+crossref:10.22146/ijg.105896,exclude,Soil infiltration rates in karst valley no denudation rate,E4,unknown,soil_covered,agent:lit-screener
+crossref:10.5194/esurf-2019-37-rc2,unsure,Referee comment on cosmogenic denudation paper; lithology unknown,I3,unknown,unknown,agent:lit-screener

@@ -1,0 +1,41 @@
+id,decision,reason,criteria,proxy_hint,marine_zone_hint,screener
+W4238804551,unsure,No abstract; rock tablet weathering on hillslope - lithology unknown,I2;I3,limestone_tablet,soil_covered,agent:lit-screener
+W3089440420,exclude,Popular essay on Grand Canyon; no carbonate denudation rate,E4,unknown,unknown,agent:lit-screener
+W7130594369,exclude,Scree facies and cementation; no denudation rate,E4;E10,unknown,subaerial,agent:lit-screener
+W3002188044,include,Thesis: 10Be denudation and carbonate weathering fluxes in Northern Apennines,I1;I2;I3,cosmogenic_10be_catchment;solute_flux,subaerial,agent:lit-screener
+W2135531943,include,Alpine karren corrosion rate 0.014 mm/a from protected painted surfaces,I1;I2;I3,unknown,subaerial,agent:lit-screener
+W4245300726,exclude,Global CO2 weathering model; no field denudation rates,E9,unknown,unknown,agent:lit-screener
+W3197117492,include,36Cl catchment denudation rates on uplifted coral reef terraces,I1;I2;I3,cosmogenic_36cl;reef_terrace,subaerial,agent:lit-screener
+W1970065860,exclude,German-language paper; solute denudation 29 mm/ka reported,E8,solute_flux,subaerial,agent:lit-screener
+W3165917285,exclude,Laboratory dissolution experiment only,E3,unknown,unknown,agent:lit-screener
+W4404712433,exclude,Hungarian-language paper on karren denudation,E8,unknown,subaerial,agent:lit-screener
+W2005139830,unsure,No abstract; Seine dissolved loads with carbonate weathering may give rates,I1;I2,solute_flux,subaerial,agent:lit-screener
+W2918629749,exclude,Chi-plot stream profile analysis; no denudation rates,E4;E12,unknown,subaerial,agent:lit-screener
+W3163463428,unsure,Barbados terraces; post-terrace limestone denudation discussed but no rate in abstract,I1;I2,reef_terrace,subaerial,agent:lit-screener
+W4399121521,include,Stream-chemistry chemical erosion rates in mixed carbonate Valley and Ridge,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W1690096060,exclude,Weathering rates from ancient limestone edifice (built stone),E7,dated_structure,subaerial,agent:lit-screener
+W4385833473,unsure,Buried tablets in karst soil but focus on manure treatment effect,I1;I3;E11,limestone_tablet,soil_covered,agent:lit-screener
+W4327805517,exclude,Cave wall weathering monograph; cave only and no rates,E1;E4,unknown,cave,agent:lit-screener
+W2886736115,include,36Cl erosion rate of carbonate rocks in Ellsworth Mountains Antarctica,I1;I2;I3,cosmogenic_36cl,subaerial,agent:lit-screener
+W4408468020,unsure,10Be/26Al catchment rates; limestone upper zone but mostly flysch,I2;I3,cosmogenic_10be_catchment;cosmogenic_26al_catchment,subaerial,agent:lit-screener
+W4380990209,exclude,Kimberlite dating; not about rock denudation,E6,unknown,unknown,agent:lit-screener
+W4220917584,exclude,Petroleum basin stratigraphy,E6,unknown,unknown,agent:lit-screener
+W1940404254,exclude,Polish-language laboratory model corrosion study,E3;E8,unknown,unknown,agent:lit-screener
+W4405073455,exclude,Ordovician paleo-weathering proxies; no denudation rates,E6;E4,unknown,unknown,agent:lit-screener
+W7168631981,exclude,MEM on intertidal shore platforms only,E1,mem,intertidal,agent:lit-screener
+W4409713256,exclude,Bedrock channel erodibility in limestone rivers,E12,unknown,subaerial,agent:lit-screener
+W244343208,exclude,TMEM design and test on intertidal shore platform only,E1,tmem,intertidal,agent:lit-screener
+W3108758899,exclude,Subglacial carbonate U-Th ages; denudation rates only cited,E4,unknown,subaerial,agent:lit-screener
+W3134145449,exclude,Subsurface eroded thickness for petroleum reservoir,E6,unknown,unknown,agent:lit-screener
+W2997687484,exclude,Deep-sea fan sedimentology,E6,unknown,unknown,agent:lit-screener
+W2909839761,exclude,Soil weathering indices; no rock denudation rate,E4,unknown,soil_covered,agent:lit-screener
+W2397732174,exclude,Channel erodibility by Schmidt hammer; no rates,E12;E4,unknown,subaerial,agent:lit-screener
+W2011523390,exclude,10Be erosion rates in crystalline Koralpe; non-carbonate,E2,cosmogenic_10be_catchment,subaerial,agent:lit-screener
+W2477383600,exclude,Deep-sea drilling site report,E6,unknown,unknown,agent:lit-screener
+W4401569732,unsure,Red River denudation rates; mixed lithology carbonate share unclear,I2;I3,solute_flux;sediment_yield,subaerial,agent:lit-screener
+W1978001003,include,Slope degradation rates on dolomite from bristlecone pine root exposure,I1;I2;I3,unknown,soil_covered,agent:lit-screener
+W2730218907,unsure,Limestone cave-level incision rates and pre-burial catchment denudation,I1;I3;E12,cave_level;cosmogenic_10be_catchment,subaerial,agent:lit-screener
+crossref:10.1080/00049188208702812,unsure,No abstract; limestone pedestal denudation estimates title,I1;I3,erratic_pedestal,subaerial,agent:lit-screener
+crossref:10.2307/622580,unsure,No abstract; solutional denudation on magnesian limestone hillslope title,I1;I2;I3,solute_flux;limestone_tablet,soil_covered,agent:lit-screener
+crossref:10.1002/esp.3290100405,include,Bedrock tablet weight loss under soil on magnesian limestone hillslope,I1;I2;I3,limestone_tablet,soil_covered,agent:lit-screener
+crossref:10.1007/978-3-642-16330-2_6,unsure,coastal-title: no abstract; chemical denudation of coastal limestone aquifer,I1;I3,solute_flux,unknown,agent:lit-screener

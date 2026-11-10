@@ -1,0 +1,41 @@
+id,decision,reason,criteria,proxy_hint,marine_zone_hint,screener
+W141849238,exclude,general textbook chapter on weathering and mass wasting; no rate table,E4,unknown,unknown,agent:lit-screener
+W1858929393,unsure,age of karst relief; lowering by corrosion possibly quantified,I1;I2,cave_level;paleokarst,subaerial,agent:lit-screener
+W2892454646,include,catchment chemical denudation from dissolved load in Northern Calcareous Alps,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W7146946924,include,Burren 10Be deglacial ages used to refine karst denudation rates,I1;I2;I3,erratic_pedestal;cosmogenic_10be_chert,subaerial,agent:lit-screener
+W1966586826,exclude,petroleum karst reservoirs,E6,unknown,unknown,agent:lit-screener
+W1550811161,include,thesis with hydrochemical solutional denudation ~45 mm/ka Mackenzie Mts,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W2096260514,include,Nahanni karst thesis discussing solutional denudation rates,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W4327805491,exclude,palaeomagnetic dating of karst sediments; no denudation rate,E4,cave_level,cave,agent:lit-screener
+W91912511,unsure,GIS sinkhole mapping; mentions denudation rate but unclear if quantified,I1;E4,repeat_survey,subaerial,agent:lit-screener
+W7220011514,include,chemical denudation data for carbonates near Pannonian basin,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W2147530525,unsure,tablet dissolution rates under soils by land use; possible E11 focus,I1;I2;I3;E11,limestone_tablet,soil_covered,agent:lit-screener
+W86608226,unsure,textbook chapter on NZ karst; may contain denudation rate table,I1;I2;E4,unknown,subaerial,agent:lit-screener
+W3119494388,include,alpine karst catchment denudation 23-47 mm/ka,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W1599578852,exclude,numerical slope model without field rates,E9,unknown,unknown,agent:lit-screener
+W111325083,include,alpine karst spring hydrochemistry; marble denudation 148.6 mm/ka,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W597449632,exclude,tower and cockpit karst GIS morphology,E4,unknown,subaerial,agent:lit-screener
+W3137090866,include,solute and 10Be denudation partitioned in mixed carbonate-siliciclastic Apennines,I1;I2;I3,solute_flux;cosmogenic_10be_catchment,subaerial,agent:lit-screener
+W2366141380,unsure,Chinese journal likely non-English; soil-enhanced carbonate denudation rate,I1;I2;I3;E8,limestone_tablet;solute_flux,soil_covered,agent:lit-screener
+W2059585431,include,surface degradation 0.028 mm/yr Karst of Trieste,I1;I2;I3,mem,subaerial,agent:lit-screener
+W1969809808,include,factors in absolute denudation of limestone terrains; likely solute rates,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W2767422615,exclude,coastal: shore platform lowering only on Maltese rocky shores,E1,profile_gauge,intertidal,agent:lit-screener
+W2200851220,exclude,petroleum buried hill karst reservoirs,E6,unknown,unknown,agent:lit-screener
+W7207818539,include,supplementary 10Be and 26Al data for tropical karst watershed Brazil,I1;I2;I3,cosmogenic_10be_catchment;cosmogenic_26al_catchment,subaerial,agent:lit-screener
+W4296097682,unsure,overview of Guizhou karst carbon sink; may compile dissolution rates,I1;I2,limestone_tablet;solute_flux,unknown,agent:lit-screener
+W2116220349,exclude,CO2 exchange modelling of carbonate soils; no denudation rate,E9;E6,unknown,soil_covered,agent:lit-screener
+W4409817121,unsure,no abstract; cosmogenic nuclides in karst landscape title,I1;I2,cosmogenic_10be_catchment;cosmogenic_26al_catchment,subaerial,agent:lit-screener
+W2039468669,exclude,global CO2 budget from theoretical maximum dissolution formulas,E9,unknown,unknown,agent:lit-screener
+W4386549464,exclude,Indonesian-language paper; tablet dissolution Biduk-Biduk karst,E8,limestone_tablet,subaerial,agent:lit-screener
+W4283376924,exclude,thermodynamic model of pedogenic carbonate in soil,E9;E4,unknown,soil_covered,agent:lit-screener
+W4220810284,include,cave sediment CRN burial gives surface denudation 12-35 mm/ky,I1;I2;I3,cosmogenic_10be_catchment;cave_level,subaerial,agent:lit-screener
+W2895623604,unsure,no abstract; cave levels and denudation chronology Western Carpathians,I1;I2,cave_level,subaerial,agent:lit-screener
+W2910816025,include,karst basin solute denudation 36.5-56.9 mm/ka Romania,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W2325986779,exclude,Chinese-language text; tablet dissolution under soil by land use,E8,limestone_tablet,soil_covered,agent:lit-screener
+W1808841405,exclude,alluvial fan morphology on contact karst; no rate,E4,unknown,subaerial,agent:lit-screener
+W1966229557,include,karst basin chemical erosion from cave system water fluxes,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W2626408974,exclude,flexural isostasy model of Florida; no measured denudation,E9,unknown,unknown,agent:lit-screener
+W4389346686,exclude,mining impacts on karst,E6,unknown,unknown,agent:lit-screener
+W3009388677,exclude,fluvial valley incision from cave levels,E12,cave_level,cave,agent:lit-screener
+W2296688536,exclude,laboratory and model study of submerged karst weathering,E3;E9,unknown,unknown,agent:lit-screener
+W2597566698,exclude,stream incision rates from cave passages,E12,cave_level,cave,agent:lit-screener

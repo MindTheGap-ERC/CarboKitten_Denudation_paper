@@ -1,0 +1,41 @@
+id,decision,reason,criteria,proxy_hint,marine_zone_hint,screener
+W1974386426,unsure,relict bedrock fans from differential chemical denudation; rates unclear,I1;I2;E4?,unknown,subaerial,agent:lit-screener
+W2016241781,exclude,review of karst landform research trends; no rates evident,E4,unknown,subaerial,agent:lit-screener
+W796437016,include,subsoil limestone dissolution rates from field weathering experiment; no abstract,I1;I2;I3,limestone_tablet;solute_flux,soil_covered,agent:lit-screener
+W2474300160,unsure,no abstract; Arctic slope denudation study; lithology and rates unknown,I2;I3?,unknown,subaerial,agent:lit-screener
+W7156329985,exclude,review of CO2 dynamics in karst groundwater; not denudation rates,E4;E6,unknown,unknown,agent:lit-screener
+W3101886730,exclude,DInSAR land deformation; not rock denudation,E6,unknown,subaerial,agent:lit-screener
+W2641834397,exclude,gypsum-anhydrite evaporite karst only,E2,unknown,subaerial,agent:lit-screener
+W4410856121,exclude,salt karst only,E2,unknown,subaerial,agent:lit-screener
+W7219932660,exclude,cave development and morphotectonic history; no rates evident,E4,unknown,cave,agent:lit-screener
+W3008783354,exclude,flank margin caves as sea-level proxy,E1;E4,unknown,cave,agent:lit-screener
+W3030317675,exclude,rocky desertification and forest succession,E5;E6,unknown,soil_covered,agent:lit-screener
+W2052902655,exclude,36Cl sources in cave dripwater for solar proxy,E6,unknown,cave,agent:lit-screener
+W4362665084,exclude,peridotite pseudo-karst silicification,E2,unknown,unknown,agent:lit-screener
+W2884975835,exclude,coastal karst aquifer flow regimes; no rates,E4,unknown,unknown,agent:lit-screener
+W102552485,exclude,evaporite karst hydrogeology,E2,unknown,subaerial,agent:lit-screener
+W3092688534,exclude,alpine karst aquifer hydraulics thesis; hydrogeology,E4,unknown,unknown,agent:lit-screener
+W1980032597,include,review: Appalachian karst denudation rates around 30 mm/ka,I1;I2;I3r,solute_flux;cave_level,subaerial,agent:lit-screener
+W3164278550,include,karst river chemical weathering fluxes; catchment solute denudation,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W4392811135,exclude,speleothem corrosion inside caves plus lab tests,E1;E3,unknown,cave,agent:lit-screener
+W7215034913,include,karst catchment carbonate weathering rates from river solutes,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W4403946590,exclude,groundwater hydrogeochemistry; no denudation rate,E4,unknown,unknown,agent:lit-screener
+W2788726188,unsure,no abstract; thermochronology denudation comment; lithology unknown,E2?;E4?,unknown,unknown,agent:lit-screener
+W4389128678,exclude,coastal karst geomorphic mapping and chemistry; no rates,E4;E1,unknown,unknown,agent:lit-screener
+W4408633822,exclude,laboratory limestone dissolution experiment,E3,unknown,unknown,agent:lit-screener
+W1981038426,exclude,soil water balance and recharge; not denudation,E6,unknown,soil_covered,agent:lit-screener
+W2089753543,exclude,soil CO2 measurements and model; no denudation rate,E4,unknown,soil_covered,agent:lit-screener
+W7215099118,exclude,gypsum karst speleogenesis,E2,unknown,subaerial,agent:lit-screener
+W3000491253,exclude,karst depression geomorphology and archaeology; no rates,E4,unknown,subaerial,agent:lit-screener
+W4403551146,include,rock tablet carbonate corrosion rates at 20 Croatian sites,I1;I2;I3,limestone_tablet,subaerial,agent:lit-screener
+W4396717617,exclude,canyon downcutting rates from cave burial ages; fluvial incision,E12,cave_level,cave,agent:lit-screener
+W3045889754,exclude,anthropogenic impact on karst landscape; no rates,E4;E6,unknown,subaerial,agent:lit-screener
+W3192961575,exclude,patterned ground inside cave,E1;E4,unknown,cave,agent:lit-screener
+W4386931240,exclude,bauxite mineralogy,E6,unknown,unknown,agent:lit-screener
+W1529781067,exclude,drainage and cave evolution; no denudation rates evident,E4,cave_level,cave,agent:lit-screener
+crossref:10.15356/0435-4281-2011-1-58-67,unsure,no abstract; karst denudation relief; possibly Russian-language,I1?;E8?,unknown,subaerial,agent:lit-screener
+crossref:10.31227/osf.io/fp2hu,include,preliminary karst denudation estimate Gunung Sewu; presentation,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+crossref:10.31227/osf.io/fp2hu_v1,include,duplicate version of Gunung Sewu karst denudation estimate,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+crossref:10.15356/0435-4281-2004-1-44-49,include,review: karst denudation estimation methods; possibly Russian full text,I1;I2;I3r,solute_flux,subaerial,agent:lit-screener
+crossref:10.4135/9781446247501.n1020,unsure,no abstract; encyclopedia entry on denudation rate; may tabulate rates,I3r?;E4?,unknown,unknown,agent:lit-screener
+crossref:10.1046/j.1365-3121.2001.00345.x,exclude,numerical landscape model of karst denudation only,E9,unknown,subaerial,agent:lit-screener

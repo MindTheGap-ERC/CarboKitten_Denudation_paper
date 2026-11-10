@@ -1,0 +1,41 @@
+id,decision,reason,criteria,proxy_hint,marine_zone_hint,screener
+W1638009339,unsure,theory-based reconstruction; regional average 14 mm/kyr source unclear,I1;E9?,solute_flux,subaerial,agent:lit-screener
+W2955303325,unsure,no abstract; karst denudation rate of Una catchment likely solute,I1;I2,solute_flux,subaerial,agent:lit-screener
+W1806061853,exclude,mathematical model of karst denudation without measured rates,E9,unknown,unknown,agent:lit-screener
+W2087647331,exclude,halite karst not carbonate,E2,unknown,unknown,agent:lit-screener
+W178785003,include,review: Gunn 2013 chapter on karst denudation and erosion rates,I1;I2;I3r,solute_flux;mem;limestone_tablet;cosmogenic_36cl,subaerial,agent:lit-screener
+W4283463292,include,review: chapter on karst denudation rates and spatial distribution,I1;I2;I3r,solute_flux;mem;limestone_tablet,subaerial,agent:lit-screener
+W1545387418,include,review: global variations and measurement of carbonate solutional denudation,I1;I2;I3r,solute_flux;mem;limestone_tablet,subaerial,agent:lit-screener
+W4238007365,unsure,no abstract; likely review chapter on karst denudation rates,I1;I2,solute_flux,subaerial,agent:lit-screener
+W2015841127,unsure,no abstract; methods paper on dissolutional denudation may tabulate rates,I1;I2,solute_flux,subaerial,agent:lit-screener
+W2028391174,include,in-situ 36Cl denudation of bare carbonates Guizhou 20-50 mm/ka,I1;I2;I3,cosmogenic_36cl,subaerial,agent:lit-screener
+W4231239012,exclude,halite karst not carbonate,E2,unknown,unknown,agent:lit-screener
+W2080413789,unsure,no abstract; 36Cl denudation of carbonate pinnacles Japan,I1;I2;I3,cosmogenic_36cl,subaerial,agent:lit-screener
+W4220994928,include,36Cl denudation rates 14.7-22.7 m/Ma Dinaric karst surface,I1;I2;I3,cosmogenic_36cl,subaerial,agent:lit-screener
+W2339801166,unsure,no abstract; current denudation rates dolostone karst Spain,I1;I2,limestone_tablet;mem,subaerial,agent:lit-screener
+W7168296449,unsure,no abstract; limestone tablet denudation rates Slovak karst,I1;I2,limestone_tablet,subaerial,agent:lit-screener
+W2079809791,include,chemical denudation of polar karst catchment Svalbard from runoff chemistry,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W2094869518,exclude,gypsum karst chemical denudation only,E2,unknown,unknown,agent:lit-screener
+W2800153923,unsure,no abstract; current denudation rates dolostone karst over Eagle Cave,I1;I2,limestone_tablet;mem,subaerial,agent:lit-screener
+W2576165172,unsure,no abstract; limestone denudation rate karst chronology SW Japan,I1;I2,unknown,subaerial,agent:lit-screener
+W2775108674,unsure,no abstract; karst landscape denudation from dissolved vs total load,I1;I2,solute_flux;sediment_yield,subaerial,agent:lit-screener
+W3164631192,include,ionic runoff chemical denudation from six karst springs Slovak Karst,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W4298002778,unsure,CO2 sink estimate using previously published Indonesian karst denudation rate,I1;I2;E9?,solute_flux,subaerial,agent:lit-screener
+W2763349530,unsure,CO2 sink estimate using previously published Indonesian karst denudation rate,I1;I2;E9?,solute_flux,subaerial,agent:lit-screener
+W1963671607,exclude,theoretical global chemical denudation model without measured rates,E9,unknown,unknown,agent:lit-screener
+W2949553111,unsure,CO2 sink using previously published Gunung Sewu denudation rate,I1;I2;E9?,solute_flux,subaerial,agent:lit-screener
+W4409657916,unsure,CO2 sink using previously published Gunung Sewu denudation rate,I1;I2;E9?,solute_flux,subaerial,agent:lit-screener
+W4230330669,unsure,CO2 sink using previously published Gunung Sewu denudation rate,I1;I2;E9?,solute_flux,subaerial,agent:lit-screener
+W4246893044,unsure,CO2 sink using previously published Gunung Sewu denudation rate,I1;I2;E9?,solute_flux,subaerial,agent:lit-screener
+W4283448636,include,review: karst textbook covering rate and distribution of karst denudation,I1;I2;I3r,solute_flux;mem;limestone_tablet,subaerial,agent:lit-screener
+W2063009419,include,autogenic denudation 32.5 mm/ka multiple basin method North Norway,I1;I2;I3,solute_flux;erratic_pedestal;mem,subaerial,agent:lit-screener
+W1966400670,unsure,no abstract; karst denudation in basin with minor carbonate share,I1?;I2,solute_flux,subaerial,agent:lit-screener
+W3014324855,unsure,mainly soil erosion via gamma radiation; karst denudation rates mentioned,I1;I2;E5?,unknown,soil_covered,agent:lit-screener
+W1566599865,include,limestone belt solutional denudation 0.70 mm/yr Puerto Rico,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W3029383698,unsure,mostly theoretical kinetics chapter; may compare measured denudation rates,I1;E4?;E9?,unknown,unknown,agent:lit-screener
+W4391185576,include,hydrochemical chemical denudation of limestone cave spring catchment,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W3160269255,exclude,rock salt karst not carbonate,E2,mem,unknown,agent:lit-screener
+W1967511961,exclude,process physics and chemistry book without field rate focus,E4,unknown,unknown,agent:lit-screener
+W4240123802,exclude,general textbook chapter on denudation and weathering,E4,unknown,unknown,agent:lit-screener
+W2003950645,exclude,GIS morphometry of cockpit karst no rates,E4,unknown,unknown,agent:lit-screener
+W1856920323,include,quantitative surface denudation rates applied to Appalachian karst landscapes,I1;I2;I3,unknown,subaerial,agent:lit-screener

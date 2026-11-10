@@ -117,6 +117,16 @@
       "validates": "chemical",
       "timescale": "instrumental",
       "note": "Repeat surface profiles on bare rock; similar use to MEM but different instrument and precision."
+    },
+    "meteoric_10be_9be": {
+      "label": "Meteoric 10Be/9Be denudation (soils, sediments)",
+      "validates": "total",
+      "timescale": "geomorphic"
+    },
+    "radiocarbon_dated_surface": {
+      "label": "Surface lowering constrained by 14C / other ages of exhumed or dated surfaces (e.g. fault scarps)",
+      "validates": "total",
+      "timescale": "geomorphic"
     }
   }
 }

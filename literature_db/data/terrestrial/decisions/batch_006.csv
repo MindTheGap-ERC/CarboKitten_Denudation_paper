@@ -1,0 +1,41 @@
+id,decision,reason,criteria,proxy_hint,marine_zone_hint,screener
+crossref:10.1016/j.earscirev.2020.103147,unsure,no abstract; global cosmogenic river compilation may include carbonate basins,I3,cosmogenic_10be_catchment,subaerial,agent:lit-screener
+crossref:10.4135/9781446247501.n1018,exclude,encyclopedia entry on denudation without rate data,E4,unknown,unknown,agent:lit-screener
+crossref:10.5593/sgem2021/1.1/s01.001,unsure,no abstract; karst chemical denudation Georgia plateau likely rate,I1;I2,solute_flux,subaerial,agent:lit-screener
+crossref:10.1016/j.geomorph.2014.01.012,unsure,no abstract; Arctic catchment denudation rate lithology unknown,I2;I3,solute_flux;sediment_yield,subaerial,agent:lit-screener
+crossref:10.1130/0091-7613(1985)13<479:salmac>2.0.co;2,unsure,no abstract; long-term regional denudation rates lithology unknown,I2;I3,unknown,subaerial,agent:lit-screener
+crossref:10.1016/j.geomorph.2014.10.040,exclude,basalt weathering and denudation only,E2,solute_flux,subaerial,agent:lit-screener
+crossref:10.3126/gjn.v14i0.35548,exclude,RUSLE soil erosion and landslide volumes not carbonate denudation,E5;E10,unknown,subaerial,agent:lit-screener
+crossref:10.1127/0372-8854/2012/s-00123,unsure,no abstract; fjord chemical denudation rate lithology unknown,I2;I3,solute_flux,subaerial,agent:lit-screener
+crossref:10.1016/j.quascirev.2023.108351,include,long-term denudation rates of carbonate terrains; no abstract,I1;I2;I3,cosmogenic_36cl,subaerial,agent:lit-screener
+crossref:10.4135/9781446247501.n1019,exclude,encyclopedia entry on denudation chronology,E4,unknown,unknown,agent:lit-screener
+crossref:10.1130/g19749.1,exclude,soil denudation event not bedrock denudation,E13,unknown,soil_covered,agent:lit-screener
+crossref:10.1127/zfg/12/1968/241,unsure,no abstract; limestone terrain denudation hydrology may give rates,I1;I2,solute_flux,subaerial,agent:lit-screener
+crossref:10.1130/abs/2017am-298615,unsure,no abstract; unroofing-based uplift denudation rate lithology unknown,I2,unknown,subaerial,agent:lit-screener
+crossref:10.1134/s1028334x0809002x,exclude,seismic gravitational mass wasting,E10,unknown,subaerial,agent:lit-screener
+crossref:10.1016/j.chemgeo.2016.10.033,exclude,cosmogenic 3He in volcanic pyroxenes,E2,unknown,subaerial,agent:lit-screener
+crossref:10.1038/s41598-019-46969-0,include,36Cl denudation rates of limestone headwall Eiger,I1;I2;I3,cosmogenic_36cl,subaerial,agent:lit-screener
+crossref:10.1016/0016-7037(95)00128-m,exclude,Guayana Shield silicate terrain fluvial geochemistry,E2,solute_flux,subaerial,agent:lit-screener
+crossref:10.4135/9781446247501.n621,exclude,encyclopedia entry on chemical denudation,E4,unknown,unknown,agent:lit-screener
+crossref:10.1134/s0742046311060029,exclude,seismogravitational mass wasting denudation,E10,unknown,subaerial,agent:lit-screener
+crossref:10.1016/s0040-1951(97)00096-6,unsure,no abstract; rift long-term denudation lithology unclear,I2;I3,unknown,subaerial,agent:lit-screener
+crossref:10.4135/9781446247501.n2413,exclude,encyclopedia entry on mechanical denudation,E4,unknown,unknown,agent:lit-screener
+crossref:10.1680/tseog.52581.0006,exclude,textbook chapter on denudation,E4,unknown,unknown,agent:lit-screener
+crossref:10.1007/bf02419414,unsure,no abstract; river cation denudation rates lithology unknown,I2;I3,solute_flux,subaerial,agent:lit-screener
+crossref:10.2973/dsdp.proc.64.111.1982,unsure,offshore sediment budget land denudation; carbonate rock unclear,I3,sediment_yield,unknown,agent:lit-screener
+crossref:10.1016/s1040-6182(02)00087-3,unsure,no abstract; Apennine long-term denudation volumes may include carbonates,I2;I3,unknown,subaerial,agent:lit-screener
+crossref:10.1007/978-3-642-41714-6_41084,exclude,dictionary entry,E4,unknown,unknown,agent:lit-screener
+crossref:10.1007/978-3-642-41714-6_41086,exclude,dictionary entry,E4,unknown,unknown,agent:lit-screener
+crossref:10.34191/ss-21,unsure,no abstract; denudation rates from tree roots lithology unknown,I2;I3,unknown,subaerial,agent:lit-screener
+crossref:10.1007/978-3-642-41714-6_31707,exclude,dictionary entry,E4,unknown,unknown,agent:lit-screener
+crossref:10.1007/978-3-642-41714-6_41089,exclude,dictionary entry,E4,unknown,unknown,agent:lit-screener
+crossref:10.1007/978-3-642-41714-6_41088,exclude,dictionary entry,E4,unknown,unknown,agent:lit-screener
+crossref:10.1007/978-3-642-41714-6_41085,exclude,dictionary entry,E4,unknown,unknown,agent:lit-screener
+crossref:10.1007/978-3-642-41714-6_41087,exclude,dictionary entry,E4,unknown,unknown,agent:lit-screener
+crossref:10.5194/esurf-10-513-2022,exclude,silicate flysch metapelite granitoid catchments not carbonate-dominated,E2,cosmogenic_10be_catchment;solute_flux,subaerial,agent:lit-screener
+crossref:10.46427/gold2026.35278,unsure,no abstract; 10Be catchment denudation lithology unknown,I2;I3,cosmogenic_10be_catchment,subaerial,agent:lit-screener
+crossref:10.1007/978-3-642-41714-6_41092,exclude,dictionary entry,E4,unknown,unknown,agent:lit-screener
+crossref:10.1007/978-3-642-33335-4_40505,exclude,dictionary entry,E4,unknown,unknown,agent:lit-screener
+crossref:10.1007/978-981-13-2538-0_489,exclude,geotourism dictionary entry,E4,unknown,unknown,agent:lit-screener
+crossref:10.1080/00206818609466294,unsure,no abstract; Arctic weathering profile chemical denudation lithology unknown,I2;I3,unknown,subaerial,agent:lit-screener
+crossref:10.1017/cbo9781107478657.008,exclude,textbook chapter on denudation,E4,unknown,unknown,agent:lit-screener

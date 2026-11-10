@@ -1,0 +1,41 @@
+id,decision,reason,criteria,proxy_hint,marine_zone_hint,screener
+W87478668,exclude,conceptual essay on karst evolution and time; no rate,E4,unknown,unknown,agent:lit-screener
+W2766970909,exclude,MEM denudation of gypsum only,E2,mem,subaerial,agent:lit-screener
+W7123890826,include,rock tablet denudation rates at surface and in soil Dinaric karst,I1;I2;I3,limestone_tablet,subaerial,agent:lit-screener
+W4408442173,include,carbonate denudation rates from meteoric 10Be/9Be Jura (conference abstract),I1;I2;I3,unknown,subaerial,agent:lit-screener
+W4379795403,include,catchment chemical denudation from spring hydrochemistry Slovak Karst,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W1526468247,unsure,conceptual review of karst process rates; may cite dissolution rates,I1;E4?,unknown,unknown,agent:lit-screener
+W4400774309,include,rock tablet denudation rates surface and soil Velebit,I1;I2;I3,limestone_tablet,subaerial,agent:lit-screener
+W4387151692,include,limestone tablet weight loss on surface and in soil Slovak Karst,I1;I2;I3,limestone_tablet,soil_covered,agent:lit-screener
+W3206233770,include,solute load karst denudation rates Zagros subwatersheds,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W4283450278,include,no abstract; title: 36Cl long-term denudation rate karst plain,I1;I2;I3,cosmogenic_36cl,subaerial,agent:lit-screener
+W2151420078,include,re-evaluated erratic-pedestal solutional lowering rates Yorkshire limestone,I1;I2;I3,erratic_pedestal,subaerial,agent:lit-screener
+W1989038270,unsure,review of alpine/arctic karst; discusses chemical denudation rates; table unclear,I1;I2;I3r?,solute_flux,unknown,agent:lit-screener
+W2045545861,include,long-term denudation rate 2 mm/ka from removed limestone volume,I1;I2;I3,unknown,subaerial,agent:lit-screener
+W4200416377,exclude,morphotectonic and paleokarst landform study; no rate,E4,unknown,unknown,agent:lit-screener
+W4247487001,unsure,encyclopedia entry Denudation; abstract is reference list only,I1?;E4?,unknown,unknown,agent:lit-screener
+W4285011727,include,pedestal and solute denudation rates on uplifted reef karst Guam,I1;I2;I3,erratic_pedestal;reef_terrace;solute_flux,subaerial,agent:lit-screener
+W2079500123,unsure,popular karst overview citing rough 50-100 mm/kyr lowering rate,I1;I2;I3?,unknown,subaerial,agent:lit-screener
+W4402172537,include,carbonate denudation rates from meteoric 10Be/9Be French Jura,I1;I2;I3,unknown,subaerial,agent:lit-screener
+W2379746229,unsure,Guizhou planation stages using corrosion rate data; likely Chinese-language,I1;E4?;E8?,unknown,subaerial,agent:lit-screener
+W2978085313,exclude,engineering study of buried karst under building foundation,E6,unknown,unknown,agent:lit-screener
+W4220804411,exclude,thermodynamic model of pedogenic carbonate in soil; no denudation rate,E4;E9,unknown,soil_covered,agent:lit-screener
+W2556802463,exclude,mathematical growth model of limestone pedestals; no measured rates,E9,erratic_pedestal,subaerial,agent:lit-screener
+W3109243921,include,review: rock tablet method for weathering and denudation (no abstract),I1;I2;I3r,limestone_tablet,subaerial,agent:lit-screener
+W3018262654,exclude,global karst distribution map statistics; no denudation rates,E4,unknown,unknown,agent:lit-screener
+W2895231624,include,basin denudation 48.5 mm/ka from dissolved and sediment load karst,I1;I2;I3,solute_flux;sediment_yield,subaerial,agent:lit-screener
+W2034660132,unsure,no abstract; weathering and geomorphic work in karst basin,I1;I2;I3?,solute_flux,unknown,agent:lit-screener
+W4283164124,exclude,hypogene karst geomorphology; assumed denudation rate only,E4,unknown,unknown,agent:lit-screener
+W4250902660,include,limestone solution lowering 28 mm/ka from hydrochemistry Lapland,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W1279249101,exclude,gypsum tablet denudation; gypsum only,E2,limestone_tablet,subaerial,agent:lit-screener
+W2986045018,include,36Cl basin denudation and dissolution rates carbonate catchments Crete,I1;I2;I3,cosmogenic_36cl;solute_flux,subaerial,agent:lit-screener
+W150155963,exclude,theoretical weathering-front model of karstification; no rates,E9;E4,unknown,unknown,agent:lit-screener
+W7211935131,include,post-wildfire exfoliation rates limestone by repeat 3D scanning,I1;I2;I3,repeat_survey,subaerial,agent:lit-screener
+W787964596,include,net denudation rates 38-81 mm/ka from karst water Malaysia,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W2981464168,exclude,review of karst landscape ecology and ecosystem services,E5;E6,unknown,unknown,agent:lit-screener
+W2581672444,exclude,general textbook chapter on Mediterranean karst; no rate indicated,E4,unknown,unknown,agent:lit-screener
+W2083170741,exclude,lab gypsum dissolution kinetics,E2;E3,unknown,unknown,agent:lit-screener
+W1481813269,include,spring hardness denudation about 90 m3/km2/yr Belize karst,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W2461276208,exclude,theoretical model of limestone surface denudation duration,E9,unknown,subaerial,agent:lit-screener
+W2535626587,exclude,sea-level highstand study; only extrapolates published denudation rate,E4,unknown,unknown,agent:lit-screener
+W1484477772,exclude,karst aquifer tracer conduit structure; no denudation rate,E4,unknown,unknown,agent:lit-screener

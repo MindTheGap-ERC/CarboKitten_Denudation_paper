@@ -1,0 +1,41 @@
+id,decision,reason,criteria,proxy_hint,marine_zone_hint,screener
+crossref:10.1002/2016tc004166,exclude,U-Pb dating of limestone constrains denudation timing; no carbonate denudation rate,E4,unknown,unknown,agent:lit-screener
+crossref:10.2307/1793698,unsure,No abstract; symposium discussion on limestone denudation may contain rates,I1,unknown,unknown,agent:lit-screener
+crossref:10.1080/02723646.1998.10642644,exclude,Weathering of limestone Roman temple; built stone only,E7,other_proxy:dated_structure,subaerial,agent:lit-screener
+crossref:10.1016/0016-7037(89)90054-9,exclude,Comparison of dissolution kinetics rate models; no field rates,E3;E9,unknown,unknown,agent:lit-screener
+crossref:10.4028/www.scientific.net/kem.617.10,exclude,Laboratory dissolution of limestone in sulfuric acid,E3;E6,unknown,unknown,agent:lit-screener
+crossref:10.1007/s00254-005-0086-z,unsure,No abstract; dissolution mechanisms of limestone and dolomite likely lab but unclear,I1,unknown,unknown,agent:lit-screener
+crossref:10.1016/b978-1-4832-8386-9.50007-3,exclude,Building material durability; limestone degradation of built stone,E7,other_proxy:dated_structure,unknown,agent:lit-screener
+crossref:10.1016/j.geomorph.2014.05.030,exclude,Focus on lichen cover effect on solutional weathering rate,E11,limestone_tablet,subaerial,agent:lit-screener
+crossref:10.2307/3798559,exclude,Limestone grit digestion in pheasants; biology,E6,unknown,unknown,agent:lit-screener
+crossref:10.1016/j.bgtech.2025.100186,exclude,Microfluidic laboratory study of CaCO3 dissolution,E3;E6,unknown,unknown,agent:lit-screener
+crossref:10.1016/j.geomorph.2015.03.037,unsure,No abstract; rockfall focus but also mentions limestone erosion rate,I1;E10,unknown,subaerial,agent:lit-screener
+crossref:10.1127/0372-8854/2012/s-00073,unsure,No abstract; flysch catchment chemical denudation; carbonate content unclear,E2,solute_flux,subaerial,agent:lit-screener
+crossref:10.1525/9780520315235-009,exclude,Regional denudation history San Francisco Bay; non-carbonate; no rate,E2;E4,unknown,unknown,agent:lit-screener
+crossref:10.26226/morressier.5912d9e8d462b80292386c21,exclude,Medical oocyte denudation,E6,unknown,unknown,agent:lit-screener
+crossref:10.21782/b978-5-6041445-2-7,unsure,No abstract; denudation of Siberian steppe plains; lithology unknown,I3,unknown,subaerial,agent:lit-screener
+crossref:10.3389/feart.2025.1701477,exclude,Lab hydrodynamic dissolution tests for oil storage caverns,E3;E6,unknown,unknown,agent:lit-screener
+crossref:10.1007/978-3-642-41714-6_71099,exclude,Dictionary entry; no rate,E4,unknown,unknown,agent:lit-screener
+crossref:10.1007/978-3-642-41714-6_81048,exclude,Dictionary entry; no rate,E4,unknown,unknown,agent:lit-screener
+crossref:10.1007/978-3-642-41714-6_21230,exclude,Dictionary entry; no rate,E4,unknown,unknown,agent:lit-screener
+crossref:10.1007/s13146-015-0281-2,exclude,Effect of soil carbonic anhydrase enzyme on limestone dissolution,E11,limestone_tablet,soil_covered,agent:lit-screener
+crossref:10.1111/j.2153-3490.1954.tb01128.x,unsure,No abstract; national chemical denudation Sweden; carbonate share unclear,I2;I3,solute_flux,subaerial,agent:lit-screener
+crossref:10.1017/9781316135754.008,exclude,Textbook chapter on denudation and sedimentation; no rate table expected,E4,unknown,unknown,agent:lit-screener
+crossref:10.1016/0042-207x(82)94206-3,exclude,Materials science ion-irradiated nickel,E6,unknown,unknown,agent:lit-screener
+crossref:10.1007/978-3-642-18725-4_18,exclude,Medical blood vessel denudation,E6,unknown,unknown,agent:lit-screener
+crossref:10.1007/978-3-031-98555-3_19-1,exclude,Medical oocyte denudation,E6,unknown,unknown,agent:lit-screener
+W2111839647,include,36Cl and solute denudation rates in Mediterranean carbonate terrain,I1;I2;I3,cosmogenic_36cl;solute_flux,subaerial,agent:lit-screener
+W2000013655,include,Long-term denudation rates of carbonate terrains along climatic gradient,I1;I2;I3,cosmogenic_36cl,subaerial,agent:lit-screener
+W4408431392,include,Meteoric and in situ 10Be denudation rates in Albanian carbonate systems,I1;I2;I3,cosmogenic_10be_catchment,subaerial,agent:lit-screener
+W7165027953,include,Data supplement meteoric 10Be/9Be denudation of carbonate-siliciclastic Slovenian catchments,I1;I2;I3,cosmogenic_10be_catchment,subaerial,agent:lit-screener
+W4392578349,include,Meteoric 10Be/9Be denudation rates incl. carbonate Jura and marble catchments,I1;I2;I3,cosmogenic_10be_catchment,subaerial,agent:lit-screener
+W4296976174,include,Paleo denudation rate of carbonate drainage basin from alluvial fan volumes,I1;I2;I3,sediment_yield;paleokarst,subaerial,agent:lit-screener
+W2774031466,include,Basin-averaged 26Al and 36Cl erosion rates in Oman carbonates,I1;I2;I3,cosmogenic_36cl;cosmogenic_26al_catchment,subaerial,agent:lit-screener
+W2803249378,include,Denudation of Mediterranean carbonate landscape vs climate; likely 36Cl rates,I1;I2;I3,cosmogenic_36cl,subaerial,agent:lit-screener
+W2076399974,unsure,Glacierized alpine catchment chemical denudation; lithology not given in record,I2;I3,solute_flux,subaerial,agent:lit-screener
+W3081350742,include,36Cl basin denudation and dissolution rates Crete carbonates plus global compilation,I1;I2;I3;I3r,cosmogenic_36cl;solute_flux,subaerial,agent:lit-screener
+W3013731967,include,In situ 36Cl denudation rates of carbonate landscapes,I1;I2;I3,cosmogenic_36cl,subaerial,agent:lit-screener
+W2411401948,exclude,Stream power law from global quartz 10Be rates; not carbonate-specific,E12;E2,unknown,unknown,agent:lit-screener
+W2602127082,include,Field vs laboratory weathering rates of carbonates in Mediterranean basin,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W2085776063,unsure,No abstract; chemical denudation Stikine terrane; carbonate share unknown,I2;I3,solute_flux,subaerial,agent:lit-screener
+W2024046719,include,review: river loads and denudation of Alps incl. carbonate catchments,I3r,solute_flux;sediment_yield,subaerial,agent:lit-screener

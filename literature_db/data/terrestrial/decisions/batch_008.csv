@@ -1,0 +1,41 @@
+id,decision,reason,criteria,proxy_hint,marine_zone_hint,screener
+W3195147805,include,36Cl glacial erosion rates on limestone glacier forefield,I1;I2;I3,cosmogenic_36cl,subaerial,agent:lit-screener
+W2275749492,unsure,no abstract; likely lab dissolution experiments but may include field rates,E3?,unknown,unknown,agent:lit-screener
+W1573537812,unsure,lab rate laws used to calculate denudation; compared with field data,E3?;E9?,unknown,subaerial,agent:lit-screener
+W2900869968,include,catchment solute fluxes from limestone and gypsum weathering Orgeval,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W2531658148,exclude,thermochronology on intrusive rocks; not carbonate denudation,E2,unknown,unknown,agent:lit-screener
+W2088687989,include,surface lowering of dated raised reef limestone terraces from pedestal heights,I1;I2;I3,reef_terrace;erratic_pedestal,subaerial,agent:lit-screener
+W2099346111,unsure,conceptual limestone vs silicate denudation; may tabulate rates,I1;I2;E4?,unknown,subaerial,agent:lit-screener
+W2332752097,exclude,geochemical mass balance of global alluvial systems; no carbonate rate,E4,unknown,unknown,agent:lit-screener
+W314302370,unsure,no abstract; solute fluxes in limestone uplands rivers,I1;I2,solute_flux,subaerial,agent:lit-screener
+W2478522867,exclude,Black Sea sedimentation; mixed-lithology continental source area,E2,sediment_yield,unknown,agent:lit-screener
+W979613776,exclude,valley incision rates from cave burial dating,E12,cave_level,cave,agent:lit-screener
+W2339301839,exclude,intertidal and supratidal coastal limestone bioerosion only,E1,repeat_survey,intertidal,agent:lit-screener
+W2050685582,unsure,speleothem-dated valley entrenchment rates; compared with solute denudation,I1;E12?,cave_level,cave,agent:lit-screener
+W2186181447,include,spring solute load gives carbonate lowering 1.55 cm/ka Black Hills,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W2904720366,unsure,no abstract; watershed chemical weathering in merokarst,I1?;I2,solute_flux,subaerial,agent:lit-screener
+W1573458384,exclude,other_proxy:dated_structure marble tombstone weathering rates,E7,dated_structure,subaerial,agent:lit-screener
+W4313153906,exclude,weathering grade of limestone relics; no rate,E4;E7,dated_structure,subaerial,agent:lit-screener
+W2017311395,exclude,model-based global denudation fluxes,E9,unknown,unknown,agent:lit-screener
+W3041746745,include,chemical and mechanical denudation rates in limestone Mediterranean catchments,I1;I2;I3,solute_flux;sediment_yield,subaerial,agent:lit-screener
+W7220968820,unsure,limestone surface degradation rate from treethrow pits; indirect estimate,I1;I2;E11?,unknown,soil_covered,agent:lit-screener
+W4387230704,exclude,salt damage to stored limestone blocks,E6,unknown,unknown,agent:lit-screener
+W4401959905,unsure,basin 10Be denudation rates; mixed lithologies incl limestone,I2;I3;I1?,cosmogenic_10be_catchment,subaerial,agent:lit-screener
+W2268767913,unsure,glacierized basin solute flux; carbonate share unclear,I2;I3;I1?,solute_flux,subaerial,agent:lit-screener
+W3083743241,unsure,36Cl on limestone fault facets; denudation modelled with slip,I1;I3?,cosmogenic_36cl,subaerial,agent:lit-screener
+W4313412094,exclude,denudation timing of metamorphic rocks; stratigraphy,E2;E4,unknown,unknown,agent:lit-screener
+W4386723369,exclude,other_proxy:dated_structure limestone building decay Oxford,E7,dated_structure,subaerial,agent:lit-screener
+W3128302146,include,36Cl hilltop denudation rates on carbonate hillslopes,I1;I2;I3,cosmogenic_36cl;terra_rossa_mass_balance,soil_covered,agent:lit-screener
+W4392376230,exclude,laboratory limestone dissolution experiments,E3,unknown,unknown,agent:lit-screener
+W2587208802,unsure,no abstract; forearc denudation may involve uplifted reef limestone,I1?,unknown,unknown,agent:lit-screener
+W900492627,exclude,limestone silicification and mineralization; no rate,E4,unknown,unknown,agent:lit-screener
+W3183652626,include,weathering release ~50 t/km2/yr in limestone-gypsum catchment,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W1491014330,exclude,tablet roughness nanoscale only; no lowering rate,E4,limestone_tablet,unknown,agent:lit-screener
+W2013531072,exclude,global denudation flux reanalysis; not carbonate-specific,E2;E4,cosmogenic_10be_catchment,unknown,agent:lit-screener
+W2345515231,unsure,no abstract; carbonate hillslope weathering likely with rates,I1;I2,cosmogenic_36cl,soil_covered,agent:lit-screener
+W2997231401,include,review: cosmogenic denudation rates incl carbonates; text may be Japanese,I3r;E8?,cosmogenic_36cl,subaerial,agent:lit-screener
+W2069222786,unsure,no abstract; rock tablet weathering on hillslope; lithology unknown,I2;I3;I1?,limestone_tablet,soil_covered,agent:lit-screener
+W4361305696,include,review: compiled 36Cl bedrock and catchment rates plus solute weathering,I1;I2;I3r,cosmogenic_36cl;solute_flux,subaerial,agent:lit-screener
+W195529091,exclude,earthquake-triggered landslides,E10,unknown,unknown,agent:lit-screener
+W2122209535,exclude,interview with karstologist; no data,E4,unknown,unknown,agent:lit-screener
+W7217291565,exclude,denudation benches and uplift rate; no lowering rate,E4,unknown,subaerial,agent:lit-screener

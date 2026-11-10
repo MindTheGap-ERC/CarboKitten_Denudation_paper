@@ -1,0 +1,41 @@
+id,decision,reason,criteria,proxy_hint,marine_zone_hint,screener
+crossref:10.4324/9780203995198-22,exclude,general textbook chapter on denudation without rate table,E4,unknown,unknown,agent:lit-screener
+crossref:10.1127/zfg/25/1981/437,unsure,no abstract; chemical denudation of limestone Central Basin Tennessee,I1;I2,solute_flux,subaerial,agent:lit-screener
+crossref:10.1007/978-3-642-33335-4_62265,exclude,dictionary entry; German,E4;E8,unknown,unknown,agent:lit-screener
+crossref:10.1007/978-3-642-41714-6_41090,exclude,dictionary entry,E4,unknown,unknown,agent:lit-screener
+crossref:10.1007/978-3-642-33335-4_30131,exclude,dictionary entry; German,E4;E8,unknown,unknown,agent:lit-screener
+crossref:10.15356/0435-4281-2014-1-15-23,unsure,no abstract; mountain suspended sediment denudation; carbonate share unclear,I2;I3,sediment_yield,subaerial,agent:lit-screener
+crossref:10.1127/0372-8854/2010/0054-0035,unsure,no abstract; escarpment denudation; lithology unclear likely non-carbonate,I2,unknown,subaerial,agent:lit-screener
+crossref:10.33799/jokull2009.59.019,exclude,basaltic and crystalline shield catchments not carbonate,E2,solute_flux;sediment_yield,subaerial,agent:lit-screener
+crossref:10.1029/2011gc003652,unsure,no abstract; orogen denudation; carbonate share unclear,I2;I3,unknown,subaerial,agent:lit-screener
+crossref:10.1007/bf00770434,include,erosion rate of karst basin from flow dynamics; no abstract,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+crossref:10.4324/9780429274923-12,exclude,general textbook chapter on tectonics and denudation,E4,unknown,unknown,agent:lit-screener
+crossref:10.1007/s002540050053,include,erosion rate of karst basin from flow dynamics; duplicate DOI version,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+crossref:10.1007/978-3-540-76435-9_3203,exclude,dictionary entry,E4,unknown,unknown,agent:lit-screener
+crossref:10.1007/978-3-642-41714-6_62087,exclude,dictionary entry,E4,unknown,unknown,agent:lit-screener
+crossref:10.1016/j.chemgeo.2018.03.009,unsure,no abstract; karst watershed dissolution rates; may be spring/cave-scale,I1,solute_flux,unknown,agent:lit-screener
+crossref:10.1201/9780203749708-52,exclude,geophysical mapping of karst features; no rate,E4,unknown,unknown,agent:lit-screener
+crossref:10.1016/b978-0-12-374739-6.00149-4,unsure,no abstract; treatise review of denudation rates; carbonate content unclear,I3r,unknown,subaerial,agent:lit-screener
+W1997020810,include,review: compilation of solution and denudation rates incl. limestones,I1;I2;I3r,unknown,subaerial,agent:lit-screener
+W2137758271,include,rock tablet weight loss at soil-bedrock interface Magnesian Limestone hillslope,I1;I2;I3,limestone_tablet,soil_covered,agent:lit-screener
+W3121869766,include,36Cl hilltop denudation rates of carbonate hillslopes,I1;I2;I3,cosmogenic_36cl,soil_covered,agent:lit-screener
+W2807137443,unsure,limestone denudation rate in solution hollows; biological focus,I1;I2;I3;E11,unknown,subaerial,agent:lit-screener
+W1995241422,include,surface lowering rates of limestone Wye catchment; no abstract,I1;I2;I3,unknown,subaerial,agent:lit-screener
+W4392586051,include,chemical and mechanical denudation rates of limestone catchments,I1;I2;I3,solute_flux;sediment_yield,subaerial,agent:lit-screener
+W2904832450,include,36Cl denudation rates in carbonate terrains Mount Hermon,I1;I2;I3,cosmogenic_36cl,subaerial,agent:lit-screener
+W1965870423,exclude,denudation by large landslides,E10,unknown,unknown,agent:lit-screener
+W2168687360,exclude,36Cl fault scarp paleoseismology modelling; not denudation rates,E6;E9,cosmogenic_36cl,subaerial,agent:lit-screener
+W2142408179,unsure,cave-level uplift rates; may give limestone lowering rates,I1;I2,cave_level,subaerial,agent:lit-screener
+W4283168575,include,denudation and solute fluxes limestone-dominated catchments,I1;I2;I3,solute_flux;sediment_yield,subaerial,agent:lit-screener
+W4389562079,include,meteoric 10Be/9Be denudation of carbonate lithologies; no abstract,I1;I2;I3,unknown,subaerial,agent:lit-screener
+W2432922483,unsure,glacierised mixed-lithology catchment chemical denudation; carbonate share unclear,I2;I3,solute_flux,subaerial,agent:lit-screener
+W4213071062,include,supplement with 36Cl carbonate hilltop denudation rates,I1;I2;I3,cosmogenic_36cl,soil_covered,agent:lit-screener
+W3128206480,unsure,no abstract; chemical denudation after windfall; lithology unknown,I2,solute_flux,soil_covered,agent:lit-screener
+W7162642125,include,36Cl denudation of uplifted reef terraces; mixed coastal/inland,I1;I2;I3,cosmogenic_36cl;reef_terrace,subaerial,agent:lit-screener
+W1988567179,unsure,no abstract; denudation tempo eastern Australia; lithology unknown,I2,unknown,subaerial,agent:lit-screener
+W2891507494,exclude,channel profile analysis of fluviokarst streams; no measured rates,E12;E9,unknown,subaerial,agent:lit-screener
+W4324364580,exclude,basaltic terrain,E2,cosmogenic_36cl,subaerial,agent:lit-screener
+W2238635230,unsure,review: soil formation and chemical denudation rates incl. limestone,I1;I3r,terra_rossa_mass_balance;solute_flux,soil_covered,agent:lit-screener
+W2333386248,include,limestone tablet solution rates at seven Japanese sites,I1;I2;I3,limestone_tablet,soil_covered,agent:lit-screener
+W7161097943,exclude,bedrock river dissolution vs abrasion; channel incision and lab,E12;E3,limestone_tablet,unknown,agent:lit-screener
+W1756215183,exclude,river bedload and pebble abrasion,E12,unknown,unknown,agent:lit-screener
