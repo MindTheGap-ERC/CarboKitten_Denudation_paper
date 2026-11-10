@@ -53,6 +53,7 @@ def main() -> None:
     meta = {r["id"]: r for r in read_csv(d / "candidates.csv")}
     audit = [r for r in rows if r["decision"] == "unsure"] + excl[:n_audit]
     audit = [{"id": r["id"], "decision": r["decision"], "reason": r.get("reason", ""),
+              "proxy_hint": r.get("proxy_hint", ""),
               "year": meta.get(r["id"], {}).get("year", ""), "title": meta.get(r["id"], {}).get("title", ""),
               "doi": meta.get(r["id"], {}).get("doi", ""), "your_decision": "", "your_note": ""} for r in audit]
     write_csv(d / "screening_audit.csv", audit)
@@ -60,7 +61,7 @@ def main() -> None:
     # include list = the reading list for full text
     inc = [{**meta.get(r["id"], {}), **r} for r in rows if r["decision"] == "include"]
     write_csv(d / "included.csv", inc,
-              ["id", "doi", "title", "year", "authors", "journal", "oa_url", "reason", "marine_zone_hint", "pdf_file"])
+              ["id", "doi", "title", "year", "authors", "journal", "oa_url", "reason", "proxy_hint", "marine_zone_hint", "pdf_file"])
 
     pre = read_csv(d / "prefilter.csv")
     c = Counter(r["decision"] for r in rows)

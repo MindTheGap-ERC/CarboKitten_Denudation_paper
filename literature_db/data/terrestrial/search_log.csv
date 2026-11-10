@@ -1,0 +1,61 @@
+date_utc,source,query,hits
+2026-11-10T16:00:38+00:00,openalex,karst denudation rate,300
+2026-11-10T16:00:38+00:00,crossref,karst denudation rate,200
+2026-11-10T16:00:38+00:00,openalex,limestone denudation rate,300
+2026-11-10T16:00:38+00:00,crossref,limestone denudation rate,200
+2026-11-10T16:00:38+00:00,openalex,carbonate denudation rate,300
+2026-11-10T16:00:38+00:00,crossref,carbonate denudation rate,200
+2026-11-10T16:00:38+00:00,openalex,carbonate rock denudation,300
+2026-11-10T16:00:38+00:00,crossref,carbonate rock denudation,200
+2026-11-10T16:00:38+00:00,openalex,karst chemical denudation,300
+2026-11-10T16:00:38+00:00,crossref,karst chemical denudation,200
+2026-11-10T16:00:38+00:00,openalex,karst corrosion rate,300
+2026-11-10T16:00:38+00:00,crossref,karst corrosion rate,200
+2026-11-10T16:00:38+00:00,openalex,karst erosion rate,300
+2026-11-10T16:00:38+00:00,crossref,karst erosion rate,200
+2026-11-10T16:00:38+00:00,openalex,limestone erosion rate,300
+2026-11-10T16:00:38+00:00,crossref,limestone erosion rate,200
+2026-11-10T16:00:38+00:00,openalex,limestone surface lowering rate,300
+2026-11-10T16:00:38+00:00,crossref,limestone surface lowering rate,200
+2026-11-10T16:00:38+00:00,openalex,karst surface lowering,300
+2026-11-10T16:00:38+00:00,crossref,karst surface lowering,200
+2026-11-10T16:00:38+00:00,openalex,limestone pavement lowering,300
+2026-11-10T16:00:38+00:00,crossref,limestone pavement lowering,200
+2026-11-10T16:00:38+00:00,openalex,limestone dissolution rate field measurement,300
+2026-11-10T16:00:38+00:00,crossref,limestone dissolution rate field measurement,200
+2026-11-10T16:00:38+00:00,openalex,limestone weathering rate field,300
+2026-11-10T16:00:38+00:00,crossref,limestone weathering rate field,200
+2026-11-10T16:00:38+00:00,openalex,limestone tablet dissolution rate,300
+2026-11-10T16:00:38+00:00,crossref,limestone tablet dissolution rate,200
+2026-11-10T16:00:38+00:00,openalex,rock tablet method denudation,300
+2026-11-10T16:00:38+00:00,crossref,rock tablet method denudation,200
+2026-11-10T16:00:38+00:00,openalex,standard limestone tablets karst,300
+2026-11-10T16:00:38+00:00,crossref,standard limestone tablets karst,200
+2026-11-10T16:00:38+00:00,openalex,micro-erosion meter limestone karst,300
+2026-11-10T16:00:38+00:00,crossref,micro-erosion meter limestone karst,200
+2026-11-10T16:00:38+00:00,openalex,limestone solution rate karst,300
+2026-11-10T16:00:38+00:00,crossref,limestone solution rate karst,200
+2026-11-10T16:00:38+00:00,openalex,solutional denudation limestone,300
+2026-11-10T16:00:38+00:00,crossref,solutional denudation limestone,200
+2026-11-10T16:00:38+00:00,openalex,erratic boulder pedestal limestone denudation,18
+2026-11-10T16:00:38+00:00,crossref,erratic boulder pedestal limestone denudation,200
+2026-11-10T16:00:38+00:00,openalex,cosmogenic chlorine-36 limestone denudation,109
+2026-11-10T16:00:38+00:00,crossref,cosmogenic chlorine-36 limestone denudation,200
+2026-11-10T16:00:38+00:00,openalex,cosmogenic 36Cl carbonate erosion rate,278
+2026-11-10T16:00:38+00:00,crossref,cosmogenic 36Cl carbonate erosion rate,200
+2026-11-10T16:00:38+00:00,openalex,karst catchment solute flux denudation,204
+2026-11-10T16:00:38+00:00,crossref,karst catchment solute flux denudation,200
+2026-11-10T16:00:38+00:00,openalex,carbonate weathering flux karst catchment,300
+2026-11-10T16:00:38+00:00,crossref,carbonate weathering flux karst catchment,200
+2026-11-10T16:00:38+00:00,openalex,dolomite denudation rate,300
+2026-11-10T16:00:38+00:00,crossref,dolomite denudation rate,200
+2026-11-10T16:00:38+00:00,openalex,marble weathering rate field,300
+2026-11-10T16:00:38+00:00,crossref,marble weathering rate field,200
+2026-11-10T16:00:38+00:00,openalex_chaining,10.1016/j.quaint.2026.110129,66
+2026-11-10T16:00:38+00:00,openalex_chaining,10.1016/j.catena.2026.110401,30
+2026-11-10T16:00:38+00:00,openalex_chaining,10.21861/hgg.2024.86.01.03,41
+2026-11-10T16:00:38+00:00,openalex_chaining,10.1016/j.geomorph.2004.11.014,142
+2026-11-10T16:00:38+00:00,openalex_chaining,10.1016/b978-0-12-374739-6.00115-9,39
+2026-11-10T16:00:38+00:00,openalex_chaining,10.1002/esp.3290200506,39
+2026-11-10T16:00:38+00:00,openalex_chaining,10.5038/1827-806x.16.3.6,13
+2026-11-10T16:00:38+00:00,openalex_chaining,10.1016/j.geomorph.2008.05.015,141

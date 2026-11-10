@@ -31,6 +31,15 @@ def match(text: str, cfg: dict, key: str = "require_all_groups") -> tuple[bool, 
     return True, ";".join(dict.fromkeys(hits))
 
 
+def title_excluded(title: str, cfg: dict) -> str | None:
+    """Terms that disqualify a record when they appear in the TITLE (e.g.
+    'soil erosion', 'cement'); checked on the title only so that a relevant
+    abstract mentioning them in passing is not lost."""
+    t = " " + title.lower() + " "
+    bad = [x for x in cfg.get("title_exclude", []) if x.lower() in t]
+    return "title excluded: " + ";".join(bad) if bad else None
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("group")
@@ -43,6 +52,10 @@ def main() -> None:
         raise SystemExit(f"No candidates in {d / 'candidates.csv'} - run search.py first.")
 
     for r in rows:
+        why_t = title_excluded(r["title"], cfg["keyword_prefilter"])
+        if why_t:
+            r["prefilter"], r["prefilter_note"] = "fail", why_t
+            continue
         if not (r.get("abstract") or "").strip():
             # title only (abstracts are missing for many older / Crossref
             # records): judged with the looser title_only_groups

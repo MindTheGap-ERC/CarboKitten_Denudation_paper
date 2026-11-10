@@ -24,11 +24,13 @@ prefilter_note) and a criteria file `literature_db/config/screening_<group>.md`.
    An erroneous exclusion loses data for good; an erroneous inclusion costs
    only a few minutes of reading. When in doubt, choose `unsure`.
 4. Write `literature_db/data/<group>/decisions/batch_NNN.csv` (same NNN) with
-   header exactly:
+   the columns given under "Output per record" in the criteria file. If the
+   criteria file specifies none, use header exactly:
    `id,decision,reason,criteria,marine_zone_hint,screener`
    - `reason`: ≤ 15 words, no commas (or quote the field).
    - `criteria`: the criterion codes met/violated, e.g. `I1;I2;I3;I4` or `E2`.
-   - `marine_zone_hint`: subaerial | supratidal_spray | intertidal | cave | unknown.
+   - `marine_zone_hint`: subaerial | soil_covered | supratidal_spray | intertidal | cave | unknown.
+   - `proxy_hint` (if required): proxy id(s) from `literature_db/schema/proxies.json`, `;`-separated, or `unknown`.
    - `screener`: `agent:lit-screener`.
    One row per input record, in input order. Write the CSV with Python's
    `csv` module (via Bash) or make sure fields with commas are quoted.
