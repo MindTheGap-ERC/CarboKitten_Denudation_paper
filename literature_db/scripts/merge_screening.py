@@ -61,8 +61,13 @@ def main() -> None:
     audit = [r for r in rows if r["decision"] == "unsure"] + excl[:n_audit]
     audit = [{"id": r["id"], "decision": r["decision"], "reason": r.get("reason", ""),
               "proxy_hint": r.get("proxy_hint", ""),
+              "has_abstract": "yes" if (meta.get(r["id"], {}).get("abstract") or "").strip() else "no",
               "year": meta.get(r["id"], {}).get("year", ""), "title": meta.get(r["id"], {}).get("title", ""),
+              "journal": meta.get(r["id"], {}).get("journal", ""),
               "doi": meta.get(r["id"], {}).get("doi", ""), "your_decision": "", "your_note": ""} for r in audit]
+    # review order: unsure with abstract, unsure without, sampled excludes; known proxy first
+    audit.sort(key=lambda a: (a["decision"] != "unsure", a["has_abstract"] != "yes",
+                              a["proxy_hint"] in ("", "unknown")))
     write_csv(d / "screening_audit.csv", audit)
 
     # include list = the reading list for full text

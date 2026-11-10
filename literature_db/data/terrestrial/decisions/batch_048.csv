@@ -1,0 +1,41 @@
+id,decision,reason,criteria,proxy_hint,marine_zone_hint,screener
+crossref:10.1130/abs/2018am-318915,exclude,granite weathering profile; Marble Mountains is a place name,E2,unknown,unknown,agent:lit-screener
+crossref:10.1007/s00254-001-0466-y,unsure,no abstract; natural outcrop weathering at ancient marble quarry may give rate,I1;I2,dated_structure,subaerial,agent:lit-screener
+crossref:10.1007/s12665-018-7776-9,exclude,other_proxy:dated_structure marble obelisk weathering state,E7,dated_structure,unknown,agent:lit-screener
+crossref:10.1130/abs/2023am-392739,exclude,granite bedrock weathering profile; place name only,E2,unknown,unknown,agent:lit-screener
+crossref:10.1016/s0964-8305(00)00076-7,unsure,no abstract; biological weathering of quarry faces; rate unclear,I1;E11?,dated_structure,subaerial,agent:lit-screener
+crossref:10.1061/(asce)0733-9372(1996)122:9(856),unsure,no abstract; outdoor marble weathering rates possibly exposure samples,I1;I3?;E3?,limestone_tablet,subaerial,agent:lit-screener
+crossref:10.1016/j.apsusc.2006.09.056,exclude,protective treatment of marble; materials science,E6,unknown,unknown,agent:lit-screener
+crossref:10.1007/s11356-013-2032-z,exclude,protective treatments on building stones,E6;E7,unknown,unknown,agent:lit-screener
+crossref:10.1007/s12665-020-08984-7,exclude,other_proxy:dated_structure marble sculptures ultrasound,E7,dated_structure,unknown,agent:lit-screener
+crossref:10.1007/s12205-022-1108-z,exclude,other_proxy:dated_structure marble relics Forbidden City,E7,dated_structure,unknown,agent:lit-screener
+W2056627274,exclude,dissolution kinetics review of carbonate minerals,E3,unknown,unknown,agent:lit-screener
+W1972860932,unsure,no abstract; carbonate weathering CO2 fluxes may include solute denudation,I1;E6?,solute_flux,unknown,agent:lit-screener
+W2062985039,unsure,no abstract; carbonate dissolution CO2 sink review may compile rates,I1;I3r?,solute_flux;limestone_tablet,unknown,agent:lit-screener
+W2606834216,unsure,coastal-title: exposure-age carbonate surfaces Croatia may give lowering rates,I1;E1?,radiocarbon_dated_surface,unknown,agent:lit-screener
+W4413304565,exclude,soil water content monitoring; not rock denudation,E6,unknown,unknown,agent:lit-screener
+W2405819551,exclude,carbonate dissolution kinetics review,E3,unknown,unknown,agent:lit-screener
+W124181313,unsure,karst textbook with critique of erosion rate measurement; possible rate tables,I1;I3r?,unknown,unknown,agent:lit-screener
+W4410773671,include,carbonate rock tablet dissolution experiments across China,I1;I2;I3,limestone_tablet,subaerial,agent:lit-screener
+W2903118398,include,field limestone dissolution rate tests in Austrian karst,I1;I2;I3,limestone_tablet,subaerial,agent:lit-screener
+W2017826444,unsure,no abstract; 36Cl on limestone may yield denudation rates,I1;I2;I3?,cosmogenic_36cl;cosmogenic_10be_chert,subaerial,agent:lit-screener
+W4380300856,exclude,speleothem corrosion in caves only,E1,unknown,cave,agent:lit-screener
+W4405830010,exclude,rock avalanche dynamics,E10,unknown,unknown,agent:lit-screener
+W2188976454,exclude,cave level GIS method using published rates; no new rates,E4;E9,cave_level,cave,agent:lit-screener
+W2811147918,unsure,formula-derived carbonate dissolution rates SW China; possibly compiled measurements,I1;I3?;E9?,limestone_tablet,subaerial,agent:lit-screener
+W7167490838,unsure,36Cl exposure and depth-profile ages in glaciokarst; erosion rates possible,I1;I2;E4?,cosmogenic_36cl,subaerial,agent:lit-screener
+W2147808065,exclude,karst unsaturated zone percolation and transport; hydrogeology,E4,unknown,unknown,agent:lit-screener
+W2317813829,include,limestone solution denudation in South Wales; no abstract,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W2019518469,exclude,lichen bioprotection vs biodeterioration review,E11,unknown,unknown,agent:lit-screener
+W2088768634,include,dissolutional lowering rates of Bahamas bedrock surface from water chemistry,I1;I2;I3,solute_flux,soil_covered,agent:lit-screener
+W2071386667,exclude,petroleum reservoir flow simulation,E6,unknown,unknown,agent:lit-screener
+W2287605855,exclude,submarine limestone shelf solution pans,E1,unknown,unknown,agent:lit-screener
+W1971106884,unsure,no abstract; Cenozoic chalk removal by dissolution may give long-term rate,I1;I2;I3?,paleokarst,subaerial,agent:lit-screener
+W2041193100,unsure,coastal-title: coastal limestone notches overview; no abstract,I1;E1?,unknown,intertidal,agent:lit-screener
+W2051110188,include,MEM surface lowering on calcarenite ridge Grand Cayman,I1;I2;I3,tmem,unknown,agent:lit-screener
+W3169922578,include,surface degradation rates of carbonate rocks in Trieste karst; no abstract,I1;I2;I3,mem,subaerial,agent:lit-screener
+W2116396874,exclude,rock coast review Mediterranean; coastal only,E1,unknown,intertidal,agent:lit-screener
+W2078429666,unsure,coastal-title: shore platform downwearing rates; no abstract,I1;E1?,mem,intertidal,agent:lit-screener
+W1562267694,exclude,supratidal TMEM expansion/contraction and biofilm effects,E1;E11,tmem,supratidal_spray,agent:lit-screener
+W2343944826,exclude,glacial erratic block origin; no denudation rate,E4,unknown,subaerial,agent:lit-screener
+W2028851421,exclude,tidal notch bioerosion rates; marine only,E1,unknown,intertidal,agent:lit-screener
