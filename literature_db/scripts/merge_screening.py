@@ -39,9 +39,16 @@ def main() -> None:
             r["batch"] = p.stem
             decisions[r["id"]] = r
 
+    cand = {r["id"]: r for r in read_csv(d / "candidates.csv")}
+    by_doi = {r["doi"]: r["id"] for r in cand.values() if r.get("doi")}
     for o in read_csv(d / "screening_overrides.csv"):
-        if o["id"] in decisions:
-            decisions[o["id"]].update(decision=o["decision"], reason=f"OVERRIDE ({o.get('reviewer', '')}): {o.get('reason', '')}")
+        rid = o.get("id") if o.get("id") in cand else by_doi.get((o.get("doi") or "").strip().lower())
+        if not rid:
+            print(f"WARNING override not found in candidates: {o.get('id') or o.get('doi')}")
+            continue
+        row = decisions.setdefault(rid, {"id": rid, "batch": "human"})
+        row.update(decision=o["decision"], reason=f"OVERRIDE ({o.get('reviewer', '')}): {o.get('reason', '')}",
+                   proxy_hint=o.get("proxy_hint", row.get("proxy_hint", "")))
 
     rows = list(decisions.values())
     write_csv(d / "screening_decisions.csv", rows)

@@ -25,6 +25,10 @@ When in doubt → `unsure`, never `exclude`.
 
 - **E1 Marine or cave setting only**: intertidal, shore platforms, tidal/marine notches,
   spray (supratidal) zone, subtidal, sea cliffs; rates measured only inside caves.
+  Exclude ONLY when the abstract makes clear that all sites are coastal/marine/cave.
+  Coastal studies often also report inland rates in the main text: a coastal TITLE with
+  no abstract, or an abstract that does not rule out inland sites → `unsure`
+  (reason starts with `coastal-title:`).
 - **E2 Non-carbonate** rock only (granite, sandstone, basalt, gypsum, salt...).
 - **E3 Laboratory-only** dissolution kinetics or experiments without field rates.
 - **E4 No rate**: qualitative geomorphology, karst morphology/mapping, hydrogeology,

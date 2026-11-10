@@ -1,0 +1,5 @@
+id,batch,decision,reason,proxy_hint
+W4361305696,human,include,OVERRIDE (XL): Ott et al. 2023 carbonate 36Cl compilation,cosmogenic_36cl
+W2035453860,human,include,OVERRIDE (XL): coastal study with inland rates in main text: Weathering rates on a Caribbean reef limestone: Results and ,mem
+crossref:10.1002/esp.3290080211,human,include,"OVERRIDE (XL): coastal study with inland rates in main text: Preliminary estimates of intertidal limestone erosion, one t",mem
+W1967653411,human,include,OVERRIDE (XL): coastal study with inland rates in main text: Downwearing rates on shore platforms of different calcareous,mem

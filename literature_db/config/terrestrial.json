@@ -61,7 +61,8 @@
       "10.1016/b978-0-12-374739-6.00115-9",
       "10.1002/esp.3290200506",
       "10.5038/1827-806x.16.3.6",
-      "10.1016/j.geomorph.2008.05.015"
+      "10.1016/j.geomorph.2008.05.015",
+      "10.5194/esurf-11-247-2023"
     ],
     "max_results_per_query": 300
   },
@@ -206,16 +207,10 @@
       "coral calcification",
       "shell dissolution",
       "foraminifer",
-      "intertidal",
-      "shore platform",
-      "tidal notch",
-      "marine notch",
-      "sea cliff",
-      "rocky coast",
       "speleothem growth",
       "cave passage"
     ]
   },
   "screening_criteria": "config/screening_terrestrial.md",
-  "batch_size": 25
+  "batch_size": 40
 }

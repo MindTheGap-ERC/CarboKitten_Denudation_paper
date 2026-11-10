@@ -105,7 +105,8 @@ def openalex_by_ids(ids: list[str], found_by: str) -> list[dict]:
 def expand_seed(doi: str) -> list[dict]:
     """References of and works citing a seed paper (citation chaining)."""
     seed = _get(f"{OPENALEX}/doi:{doi}", {})
-    refs = openalex_by_ids(seed.get("referenced_works", []), f"refs_of:{doi}")
+    refs = [_openalex_record(seed, f"seed:{doi}")]
+    refs += openalex_by_ids(seed.get("referenced_works", []), f"refs_of:{doi}")
     cited, cursor = [], "*"
     while cursor:
         data = _get(OPENALEX, {"filter": f"cites:{seed['id'].rsplit('/', 1)[-1]}",
@@ -169,6 +170,8 @@ def main() -> None:
     ap.add_argument("group")
     ap.add_argument("--no-crossref", action="store_true")
     ap.add_argument("--no-openalex", action="store_true")
+    ap.add_argument("--chain-only", action="store_true", help="skip queries; only citation chaining from seeds")
+    ap.add_argument("--add-doi", action="append", default=[], help="add a known paper by DOI (no chaining); implies --chain-only unless seeds are given")
     ap.add_argument("--max-per-query", type=int, help="override config max_results_per_query (e.g. small pilot)")
     ap.add_argument("--seed-doi", action="append", default=[])
     args = ap.parse_args()
@@ -179,7 +182,7 @@ def main() -> None:
     now = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
 
     limit = args.max_per_query or cfg["max_results_per_query"]
-    for q in cfg["queries"]:
+    for q in ([] if args.chain_only else cfg["queries"]):
         if not args.no_openalex:
             hits = openalex_search(q, cfg["from_year"], limit)
             print(f"openalex  {len(hits):5d}  {q}")
@@ -191,7 +194,14 @@ def main() -> None:
             log_rows.append({"date_utc": now, "source": "crossref", "query": q, "hits": len(hits)})
             records += hits
 
-    for doi in cfg.get("seed_dois", []) + args.seed_doi:
+    for doi in args.add_doi:
+        w = _get(f"{OPENALEX}/doi:{norm_doi(doi)}", {})
+        records.append(_openalex_record(w, "manual"))
+        print(f"added     {norm_doi(doi)}  {w.get('display_name', '')[:70]}")
+        log_rows.append({"date_utc": now, "source": "manual_doi", "query": doi, "hits": 1})
+
+    seeds = [] if (args.add_doi and not args.seed_doi and args.chain_only) else cfg.get("seed_dois", []) + args.seed_doi
+    for doi in seeds:
         hits = expand_seed(norm_doi(doi))
         print(f"chaining  {len(hits):5d}  {doi}")
         log_rows.append({"date_utc": now, "source": "openalex_chaining", "query": doi, "hits": len(hits)})
