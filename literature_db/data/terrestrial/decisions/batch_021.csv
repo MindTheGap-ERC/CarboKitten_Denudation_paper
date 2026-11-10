@@ -1,0 +1,41 @@
+id,decision,reason,criteria,proxy_hint,marine_zone_hint,screener
+W2883975133,unsure,no abstract; limestone thermal degradation possibly lab only,I1,unknown,unknown,agent:lit-screener
+W7135199986,exclude,coastal cliff InSAR deformation; coastal only and mass wasting,E1;E10,unknown,supratidal_spray,agent:lit-screener
+W2604396422,unsure,no abstract; 36Cl rockwall recession of limestone cliff with rockfall,I1;I3,cosmogenic_36cl,subaerial,agent:lit-screener
+W7131900150,exclude,rock mechanics of dissolved structural planes; engineering,E6;E3,unknown,unknown,agent:lit-screener
+W2137648235,exclude,Spanish title and journal; check-dam soil erosion,E8;E5,reservoir_infill,subaerial,agent:lit-screener
+W1994762058,exclude,nanolime consolidation of building stone,E6;E7,unknown,unknown,agent:lit-screener
+W3086046827,exclude,laboratory salt weathering of building limestones,E3;E7,unknown,unknown,agent:lit-screener
+W2285813506,exclude,coastal cliff retreat by mass movement only,E1;E10,unknown,supratidal_spray,agent:lit-screener
+W4395004572,exclude,laboratory acid dissolution experiments,E3,unknown,unknown,agent:lit-screener
+W2611289639,exclude,structural geology for mining,E6,unknown,unknown,agent:lit-screener
+W7221766813,exclude,rock organic carbon oxidation in Taiwan; non-carbonate,E2;E6,unknown,unknown,agent:lit-screener
+W2011288380,exclude,laboratory core dissolution experiment,E3,unknown,unknown,agent:lit-screener
+W4296285774,unsure,no abstract; limestone dissolution at karst surface SW China,I1;I2,unknown,subaerial,agent:lit-screener
+W3033759585,unsure,cave sediment burial ages give valley deepening rates not surface lowering,I1;I2,cave_level,cave,agent:lit-screener
+W4282974643,unsure,coastal-title: rauks TMEM shore platform; subaerial weathering discussed,I1;E1,tmem,intertidal,agent:lit-screener
+W7135190834,exclude,limestone bedrock channel erodibility and incision,E12,unknown,subaerial,agent:lit-screener
+W2791903643,exclude,lake shoreline bank erosion; non-carbonate,E2;E10,unknown,unknown,agent:lit-screener
+W7171132598,exclude,coastal fortification stone decay,E7,other_proxy:dated_structure,unknown,agent:lit-screener
+W4362469367,exclude,tufa deposition conceptual model; no rate,E4,unknown,unknown,agent:lit-screener
+W21090426,exclude,boiler corrosion engineering,E6,unknown,unknown,agent:lit-screener
+W2421149991,unsure,no abstract; urban limestone weathering possibly built stone or exposure samples,I1,dated_structure,subaerial,agent:lit-screener
+W2735514255,exclude,Mayan temple weathering rates; built stone,E7,other_proxy:dated_structure,subaerial,agent:lit-screener
+W3136469816,exclude,riprap degradation engineering,E6,unknown,unknown,agent:lit-screener
+W99142545,exclude,numerical simulation of limestone dissolution only,E9,unknown,unknown,agent:lit-screener
+W2098117449,exclude,decay of medieval building carvings; lab study,E7;E3,other_proxy:dated_structure,unknown,agent:lit-screener
+W2473084292,exclude,petrography and karst features; no rate,E4,unknown,unknown,agent:lit-screener
+W2746475420,exclude,flank margin caves description; no rate,E4,unknown,cave,agent:lit-screener
+W7124440385,exclude,laboratory degradation tests and constitutive model,E3;E6,unknown,unknown,agent:lit-screener
+W196381544,exclude,cave mineralogy; no rate,E4,unknown,cave,agent:lit-screener
+W2999052487,unsure,coastal-title: raised beach limestone clast weathering rates dated by uplift,I1;I3,unknown,unknown,agent:lit-screener
+W2795197449,unsure,French title thesis; tablets and hydrochemical marble denudation rates,I1;I2;I3;E8,limestone_tablet;solute_flux,soil_covered,agent:lit-screener
+W4399194356,include,dam catchment erosion rates in calcareous Jordan catchments,I1;I2;I3,reservoir_infill;sediment_yield,subaerial,agent:lit-screener
+W2087787126,exclude,laboratory dissolution under hydrodynamic pressure,E3,unknown,unknown,agent:lit-screener
+crossref:10.1127/zfg/26/1982/197,unsure,no abstract; Namib limestone solution forms possibly with rates,I1;I2,unknown,subaerial,agent:lit-screener
+crossref:10.1002/esp.3290080211,exclude,intertidal limestone erosion only,E1,unknown,intertidal,agent:lit-screener
+crossref:10.2307/621362,unsure,abstract mismatched; title suggests hydrology-based limestone erosion rates,I1,solute_flux,unknown,agent:lit-screener
+crossref:10.1016/j.geomorph.2012.04.007,unsure,no abstract; Alpine limestone cliff dissolution and rockfall erosion rates,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+crossref:10.3724/j.1000-4734.2024.44.028,exclude,fungal weathering of limestone; biological control lab study,E11;E3,unknown,unknown,agent:lit-screener
+crossref:10.3318/bioe.2018.01,unsure,no abstract; erosion in Burren limestone solution hollows,I1;I2,unknown,soil_covered,agent:lit-screener
+crossref:10.1155/gfl/8816468,exclude,laboratory freeze-thaw and chemical experiments,E3,unknown,unknown,agent:lit-screener

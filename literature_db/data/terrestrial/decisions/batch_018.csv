@@ -1,0 +1,41 @@
+id,decision,reason,criteria,proxy_hint,marine_zone_hint,screener
+W2107293754,exclude,Karst aquifer flow and transport model; no denudation rate,E4;E9,unknown,unknown,agent:lit-screener
+W2095322978,exclude,Lichen effect on carbonate corrosion; treatment comparison,E11,limestone_tablet,subaerial,agent:lit-screener
+W4280650591,exclude,Vadose zone contaminant transport modelling; no denudation rate,E4;E9,unknown,unknown,agent:lit-screener
+W2062899882,exclude,Supratidal karst geomorphic zoning; qualitative morphology without rates,E4,unknown,supratidal_spray,agent:lit-screener
+W2085710050,exclude,MEM erosion rates in gypsum caves; non-carbonate cave setting,E2;E1,mem,cave,agent:lit-screener
+W2374740294,exclude,Highway bridge slope stability survey; engineering,E6,unknown,unknown,agent:lit-screener
+W2621438891,exclude,Organic micropollutants in karst aquifer; hydrogeology,E4;E6,unknown,unknown,agent:lit-screener
+crossref:10.1007/978-3-642-67669-7_2,unsure,No abstract; textbook chapter on karst dissolution processes may hold corrosion rates,I1,solute_flux,unknown,agent:lit-screener
+crossref:10.5006/c1994-94333,exclude,Metal and paint atmospheric corrosion monitors; not rock denudation,E6,unknown,unknown,agent:lit-screener
+crossref:10.1016/0148-9062(92)92759-6,exclude,Engineering geology of karst corrosion and fracturing; no abstract,E6,unknown,unknown,agent:lit-screener
+crossref:10.1007/bf02602708,exclude,Engineering geology of karst corrosion and fracturing; no abstract,E6,unknown,unknown,agent:lit-screener
+crossref:10.2139/ssrn.4425555,unsure,No abstract; carbonate rock chemical corrosion as Cd source may quantify corrosion flux,I1;I2,unknown,unknown,agent:lit-screener
+crossref:10.1127/zfg/26/1982/209,unsure,No abstract; subsoil corrosion in Mediterranean and tropical karsts may report rates,I1;I2,unknown,soil_covered,agent:lit-screener
+crossref:10.5006/1763,exclude,Steel corrosion under iron sulfide deposits; pipeline engineering,E6,unknown,unknown,agent:lit-screener
+crossref:10.2139/ssrn.4227550,exclude,Alkali-activated slag corrosion in karst water; materials,E6,unknown,unknown,agent:lit-screener
+W2004151253,include,No abstract; 137Cs sediment and erosion rates in karst depression catchment,I1;I2;I3,fallout_radionuclide;sediment_yield,subaerial,agent:lit-screener
+W2008707469,include,137Cs depression deposits give karst catchment specific sediment yield,I1;I2;I3,fallout_radionuclide;sediment_yield,subaerial,agent:lit-screener
+W2477078832,include,review: karst textbook with critique of karst erosion rate measurements,I1;I2;I3r,solute_flux;mem;limestone_tablet,subaerial,agent:lit-screener
+W3159089960,unsure,No abstract; surface erosion rates on karst rocky slopes possibly soil only,I1;I2,unknown,subaerial,agent:lit-screener
+W4410119274,include,No abstract; cave sediment chronology and karst erosion rates Brazil,I1;I2;I3,cosmogenic_10be_catchment;cosmogenic_26al_catchment,subaerial,agent:lit-screener
+W2104805587,include,No abstract; coastal vs inland limestone lowering rates; mixed coastal/inland,I1;I2;I3,mem,subaerial,agent:lit-screener
+W3033657641,include,review: variability of limestone solution rates at local basin and global scales,I1;I2;I3r,solute_flux,subaerial,agent:lit-screener
+W2036132942,exclude,Karst groundwater quality evaluation; no denudation rate,E4,unknown,unknown,agent:lit-screener
+W1932531933,include,137Cs and 210Pb depression deposits give karst catchment erosion rates,I1;I2;I3,fallout_radionuclide;sediment_yield,subaerial,agent:lit-screener
+W3047006183,exclude,GIS soil erosion risk assessment; soil loss only; retracted,E5,unknown,unknown,agent:lit-screener
+W2536457099,include,Limestone and dolomite tablet erosion rates in Wisconsin karst,I1;I2;I3,limestone_tablet,soil_covered,agent:lit-screener
+W2374115882,exclude,Tillage soil erosion rates in karst farmland,E5,unknown,unknown,agent:lit-screener
+W3111908906,exclude,Calcite dissolution rates inside karst conduits; cave only,E1,unknown,cave,agent:lit-screener
+W2499860438,include,MEM limestone and marble lowering rates in southeast Alaska,I1;I2;I3,mem,subaerial,agent:lit-screener
+W2103084657,exclude,Civil engineering problems in Chinese karst; no rate data,E6;E4,unknown,unknown,agent:lit-screener
+W4398164489,exclude,Soil aggregate stability and splash erosion experiments,E5;E3,unknown,unknown,agent:lit-screener
+W2350490575,unsure,Lake sediment based karst erosion rates; vague whether numeric rates given,I1;I2,reservoir_infill,subaerial,agent:lit-screener
+W2077934323,exclude,Seismic visibility of karst relief for petroleum reservoirs; no rate,E6;E4,unknown,unknown,agent:lit-screener
+W2742965228,unsure,No abstract; carbonate dissolution in rocky desertification area may give rates,I1;I2,unknown,unknown,agent:lit-screener
+W7134807800,unsure,Cosmogenic erosion rates Pyrenees chapter; carbonate share unclear,I2,cosmogenic_36cl,subaerial,agent:lit-screener
+W4406933392,exclude,Land suitability for pepper plants; agriculture,E6,unknown,unknown,agent:lit-screener
+W2355882343,include,Seasonal limestone tablet erosion rates beneath soil vs DOC Guilin,I1;I2;I3,limestone_tablet,soil_covered,agent:lit-screener
+W2214740113,include,Karst spring system calcite dissolution rate measured Uinta Mountains,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W1981995094,include,MEM error corrections with field limestone lowering rates NSW,I1;I2;I3,mem,subaerial,agent:lit-screener
+W2364089238,exclude,Review of karst soil degradation and soil erosion,E5;E4,unknown,soil_covered,agent:lit-screener

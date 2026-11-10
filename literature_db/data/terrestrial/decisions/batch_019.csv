@@ -1,0 +1,41 @@
+id,decision,reason,criteria,proxy_hint,marine_zone_hint,screener
+W2171533360,exclude,Rocky desertification distribution vs rock assemblages; no denudation rate,E4;E5,unknown,subaerial,agent:lit-screener
+W2013439509,unsure,137Cs sediment yield of karst depression; mainly soil erosion but catchment yield,I1;I2;E5?,fallout_radionuclide;sediment_yield,soil_covered,agent:lit-screener
+W1541868832,exclude,Grassland floristics; not rock denudation,E6,unknown,unknown,agent:lit-screener
+W7165804285,exclude,RUSLE soil conservation evaluation; soil loss only,E5;E9,unknown,soil_covered,agent:lit-screener
+W2376378690,unsure,Limestone tablet soil dissolution rates under land-use types; possible E11 comparison,I1;I2;I3;E11?,limestone_tablet,soil_covered,agent:lit-screener
+W2969302894,unsure,No abstract; 36Cl preparation method for karst samples may include rates,I1;I3?,cosmogenic_36cl,unknown,agent:lit-screener
+W2123425017,include,Geochemical mass balance landscape erosion rate 13-18 mm/ka Cumberland karst,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W2030141901,exclude,Karst land use and human impacts; no rate,E4,unknown,unknown,agent:lit-screener
+W4405836579,exclude,Glacial landform reconstruction in karst; no rate,E4,unknown,subaerial,agent:lit-screener
+W172647722,exclude,Gypsum karst geohazards review,E2;E6,unknown,unknown,agent:lit-screener
+W2075441651,exclude,Uplift and fluvial incision history; basement thermochronology denudation,E12;E4,unknown,subaerial,agent:lit-screener
+W2162629888,exclude,Caribbean karst sustainability; no rate,E4,unknown,unknown,agent:lit-screener
+W7104438666,exclude,Vegetation carbon sink dynamics; not rock denudation,E6,unknown,unknown,agent:lit-screener
+W3086961576,exclude,Review of vegetation ecology in karst critical zone; no denudation rates,E6;E4,unknown,soil_covered,agent:lit-screener
+W2804848942,unsure,No abstract; limestone weathering rates in karst landscape likely quantified,I1;I2;I3?,unknown,soil_covered,agent:lit-screener
+W7160212843,exclude,MEM rates measured only inside caves,E1,mem,cave,agent:lit-screener
+W7129032810,exclude,Rock salt erosion rates; non-carbonate,E2,erosion_pin;repeat_survey,subaerial,agent:lit-screener
+W2387495000,exclude,Soil quality in rocky desertification; no rock denudation rate,E5;E4,unknown,soil_covered,agent:lit-screener
+W7131648149,exclude,Soil retention and scouring experiments; soil erosion only,E5,unknown,soil_covered,agent:lit-screener
+W2191036206,include,Thesis: hydrochemical limestone solution rate 55 m3/km2/yr Derbyshire,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W4409046766,exclude,Particulate carbon fluxes in karst lakes; not rock denudation,E6,unknown,unknown,agent:lit-screener
+W2803354945,exclude,Vegetation restoration technique; not rock denudation,E6,unknown,unknown,agent:lit-screener
+crossref:10.3986/ac.v41i1.45,exclude,Speleogenesis of swallow hole in gypsum,E2;E4,unknown,cave,agent:lit-screener
+crossref:10.1002/esp.3290120507,include,Weight-loss tablets on Belize karst depression slopes 1975-1985,I1;I2;I3,limestone_tablet,subaerial,agent:lit-screener
+crossref:10.1515/hf-2013-0228,exclude,Wood decay by bacteria; unrelated,E6,unknown,unknown,agent:lit-screener
+W2010275828,exclude,Modelled limestone erosion on London buildings,E7;E9,dated_structure,subaerial,agent:lit-screener
+W947343124,include,No abstract; limestone erosion rate by 36Cl AMS,I1;I2;I3,cosmogenic_36cl,subaerial,agent:lit-screener
+W2353996216,include,36Cl limestone erosion rate Shihuadong Beijing 1.33e-5 m/a,I1;I2;I3,cosmogenic_36cl,subaerial,agent:lit-screener
+W1965329141,include,MEM erosion rates on limestones in southeastern Australia,I1;I2;I3,mem;tmem,subaerial,agent:lit-screener
+W2646386440,exclude,Erosion pins in residual limestone soil gullies,E13,erosion_pin,soil_covered,agent:lit-screener
+W2389914137,exclude,MEM rates compared among plant communities; biological-control focus,E11,mem,soil_covered,agent:lit-screener
+W2016207833,unsure,coastal-title: no abstract; marine erosion of reef limestone Grand Cayman,I1;I3;E1?,unknown,intertidal,agent:lit-screener
+W1236058306,unsure,36Cl limestone erosion rate method with some rates; likely Chinese full text,I1;I3;E8?,cosmogenic_36cl,subaerial,agent:lit-screener
+W2183631006,include,MEM tablet dissolution rates subaerial and stream Kinta Lenggong Malaysia,I1;I2;I3,mem;limestone_tablet,subaerial,agent:lit-screener
+W1921098780,exclude,Intertidal notch and platform MEM rates only,E1,mem,intertidal,agent:lit-screener
+W3158844928,exclude,Shore platform erosion on uplifted coastal rocks only,E1,mem;repeat_survey,intertidal,agent:lit-screener
+W1989782446,include,No abstract; limestone erosion by cosmogenic 36Cl Australia,I1;I2;I3,cosmogenic_36cl,subaerial,agent:lit-screener
+W2600762390,include,TMEM limestone erosion rates Cat Ba; mixed coastal/inland stations,I1;I2;I3,tmem,subaerial,agent:lit-screener
+W2049169817,include,MEM and weight-loss tablet short-term limestone erosion rates,I1;I2;I3,mem;limestone_tablet,subaerial,agent:lit-screener
+W2998816020,unsure,36Cl on limestone but glacial erosion rates not subaerial denudation,I1;I3;E?,cosmogenic_36cl,subaerial,agent:lit-screener

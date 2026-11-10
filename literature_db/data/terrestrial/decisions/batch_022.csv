@@ -1,0 +1,41 @@
+id,decision,reason,criteria,proxy_hint,marine_zone_hint,screener
+crossref:10.1127/zfg/7/1963/120,unsure,No abstract; limestone micro-shaping and periglacial weathering may hold rates,I1;I2,unknown,subaerial,agent:lit-screener
+crossref:10.1063/5.0246434,exclude,Lab CO2 erosion tests on limestone mechanics for pile capacity,E3;E6,unknown,unknown,agent:lit-screener
+crossref:10.3103/s0361521924700319,exclude,Boiler engineering; limestone as SO2 sorbent,E6,unknown,unknown,agent:lit-screener
+W7208670220,unsure,No abstract; title on surface lowering rates of uplifted limestone terraces,I1;I3,reef_terrace,unknown,agent:lit-screener
+W1944719684,include,36Cl dated erratics give limestone pavement lowering in NW England,I1;I2;I3,cosmogenic_36cl;erratic_pedestal,subaerial,agent:lit-screener
+W7220243256,include,Mixed coastal/inland; shoreline lowering rates compared with Classical Karst limestone,I1;I2;I3,mem,subaerial,agent:lit-screener
+W2393904290,exclude,Lab dissolution kinetics limestone vs dolomite,E3,unknown,unknown,agent:lit-screener
+W2334834585,exclude,Industrial CaO sintering in calcination cycles,E6,unknown,unknown,agent:lit-screener
+W2131403193,exclude,Biogenic surface treatment for stone conservation,E6,unknown,unknown,agent:lit-screener
+W4384927572,exclude,Paving stone selection for road renovation,E6,unknown,unknown,agent:lit-screener
+W2727826099,include,Mixed coastal/inland; shoreline lowering rates compared with Classical Karst limestone,I1;I2;I3,mem,subaerial,agent:lit-screener
+W1213771118,exclude,Surface roughness and microbial colonisation of stone; materials study,E6;E11,unknown,unknown,agent:lit-screener
+W2112753000,exclude,Lab batch acid dissolution of ground carbonates,E3,unknown,unknown,agent:lit-screener
+W3134916983,exclude,Cave-only condensation corrosion tablets in Glowworm Cave,E1,limestone_tablet,cave,agent:lit-screener
+W2314974970,include,Post-glacial limestone solution rate from residue and calcium in drainage waters,I1;I2;I3,terra_rossa_mass_balance;solute_flux,soil_covered,agent:lit-screener
+W2588446423,exclude,Agricultural limestone particle size,E6,unknown,unknown,agent:lit-screener
+W3184227658,exclude,other_proxy:dated_structure,E7,dated_structure,unknown,agent:lit-screener
+W2128986475,exclude,Lichen role in limestone weathering; conceptual models,E11;E4,unknown,subaerial,agent:lit-screener
+W2492297175,exclude,Soil liming agronomy,E6,unknown,unknown,agent:lit-screener
+W2112937366,exclude,other_proxy:dated_structure,E7,dated_structure,unknown,agent:lit-screener
+W2890651004,unsure,Aquifer Ca dissolution rate from groundwater; unclear if denudation rate,I1;E4,solute_flux,unknown,agent:lit-screener
+W2113809701,exclude,Hydrogeology tracer test with ERT,E4,unknown,unknown,agent:lit-screener
+W4378837773,exclude,Pipeline transport of limestone slurry,E6,unknown,unknown,agent:lit-screener
+W2004014698,exclude,Sedimentology of Liassic red limestones,E4;E6,unknown,unknown,agent:lit-screener
+W2317366445,exclude,Petroleum reservoir stimulation,E6,unknown,unknown,agent:lit-screener
+W7140197693,exclude,No abstract; title indicates lab static dissolution experiments,E3,unknown,unknown,agent:lit-screener
+W4405427059,exclude,Soil liming and clay mineralogy,E6,unknown,unknown,agent:lit-screener
+W777052558,exclude,Quarry dewatering hydrogeology,E4;E6,unknown,unknown,agent:lit-screener
+W2301420258,exclude,Biodeposition treatment for ornamental stone,E6,unknown,unknown,agent:lit-screener
+W2607472670,exclude,other_proxy:dated_structure,E7,dated_structure,unknown,agent:lit-screener
+W2075205703,unsure,No abstract; Sr sources and limestone weathering under prairie may yield rates,I1;I2,solute_flux,soil_covered,agent:lit-screener
+W2900480432,exclude,Synthesis of precipitated calcium carbonate,E6,unknown,unknown,agent:lit-screener
+W2048117781,exclude,Salt weathering lab tests on quarried building stone,E3;E6,unknown,unknown,agent:lit-screener
+W1484858217,exclude,CO2 mitigation via engineered limestone weathering,E6,unknown,unknown,agent:lit-screener
+W2794346244,exclude,Acid jetting well stimulation,E6,unknown,unknown,agent:lit-screener
+W1556132782,exclude,SO2 absorption by limestone in reactor,E6,unknown,unknown,agent:lit-screener
+W1969280639,exclude,Ultrafine grinding of limestone,E6,unknown,unknown,agent:lit-screener
+W2260586993,include,Discussion of limestone dissolution rates from Norber erratic pedestals,I1;I2;I3,erratic_pedestal;cosmogenic_36cl,subaerial,agent:lit-screener
+W3162479985,exclude,Ball mill breakage rates of limestone,E6,unknown,unknown,agent:lit-screener
+W3167023237,exclude,Geothermal reservoir potential of karstified limestone,E6,unknown,unknown,agent:lit-screener
