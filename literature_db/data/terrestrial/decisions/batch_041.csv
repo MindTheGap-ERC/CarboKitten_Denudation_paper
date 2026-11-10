@@ -1,0 +1,41 @@
+id,decision,reason,criteria,proxy_hint,marine_zone_hint,screener
+crossref:10.1016/j.geomorph.2026.110616,unsure,no abstract; catchment 10Be denudation lithology unknown,I2;I3,cosmogenic_10be_catchment,subaerial,agent:lit-screener
+crossref:10.1130/g33406.1,unsure,no abstract; cosmogenic catchment denudation lithology unknown,I2;I3,cosmogenic_10be_catchment,subaerial,agent:lit-screener
+crossref:10.1130/abs/2022nc-375774,unsure,no abstract; 10Be catchment denudation Panamint lithology unknown,I2;I3,cosmogenic_10be_catchment,subaerial,agent:lit-screener
+crossref:10.5772/63766,exclude,groundwater flow numerical simulation no denudation rate,E4;E9,unknown,unknown,agent:lit-screener
+crossref:10.1080/17445647.2013.804797,exclude,geomorphological map of denudation landforms no rate,E4,unknown,subaerial,agent:lit-screener
+crossref:10.1130/g30164a.1,unsure,no abstract; catchment denudation rates lithology unknown,I2;I3,cosmogenic_10be_catchment,subaerial,agent:lit-screener
+crossref:10.1007/s00254-007-1001-6,exclude,tracer flow and solute transport hydrogeology no denudation rate,E4,unknown,unknown,agent:lit-screener
+crossref:10.21203/rs.3.rs-4533869/v1,exclude,solute transport model comparison in conduits no rate,E4;E9,unknown,unknown,agent:lit-screener
+crossref:10.5194/egusphere-egu23-12938,exclude,dye tracer transport experiment in karst conduit no rate,E4,unknown,unknown,agent:lit-screener
+crossref:10.1016/j.geomorph.2008.12.004,unsure,no abstract; catchment and hillslope denudation Central Italy lithology unclear,I2;I3,sediment_yield,subaerial,agent:lit-screener
+W2193841141,include,karst catchment carbon sink fluxes from hydrochemical monitoring,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W3151537969,include,karst catchment carbonate weathering and carbon sink budget,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W2126201443,include,carbonate weathering fluxes from catchments in Michigan and Slovenia,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W4409999200,unsure,no abstract; loess catchments carbonate content not carbonate bedrock,I2;I3,solute_flux,soil_covered,agent:lit-screener
+W2559367125,include,DIC and carbonate weathering fluxes small karst catchment,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W2995758274,exclude,global carbon sink flux equilibrium model scenarios,E9,unknown,unknown,agent:lit-screener
+W2766274522,unsure,no abstract; land-use plots carbon sink fluxes at test site,I1;I3,solute_flux,soil_covered,agent:lit-screener
+W7163985303,include,karst river chemistry for catchment weathering rate estimation,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W1966000322,include,calcite vs dolomite weathering in carbonate watersheds Slovenia,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W2014502888,unsure,no abstract; karst water geochemistry weathering rate unclear,I1;I2,solute_flux,subaerial,agent:lit-screener
+W3187466524,unsure,carbonate weathering carbon sinks overview; rates unclear,I1,solute_flux,unknown,agent:lit-screener
+W4387425720,exclude,silicate-dominated catchment with minor carbonate,E2,solute_flux,subaerial,agent:lit-screener
+W4385795895,include,karst spring carbonate weathering carbon sink budget limestone dolomite catchments,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W2591165161,include,chemical weathering in carbonate-draining Wujiang River,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W3137931881,include,karst carbon sink flux by solute load method,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W7167924615,include,carbonate weathering carbon sink fluxes by hydrochemical runoff method,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W7204487077,unsure,karst catchment stream chemistry; denudation rate not evident,I1;I2,solute_flux,subaerial,agent:lit-screener
+W2989715169,include,carbonate dissolution fluxes French karst hydrosystems monitoring,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W2996818690,include,carbonate weathering rate 61 t/km2/a mixed lithology catchment,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W3110734383,unsure,karst CZO rainstorm hydrochemistry; rate not evident,I1;I2,solute_flux,subaerial,agent:lit-screener
+W2788048230,unsure,spring chemistry database soil pCO2 inverse model; rates unclear,I1;E9,solute_flux,soil_covered,agent:lit-screener
+W3119168489,exclude,root depth effect on weathering reactive transport modelling,E11;E9,unknown,soil_covered,agent:lit-screener
+W2166631779,exclude,mycorrhizal fungi control on carbonate weathering,E11,unknown,soil_covered,agent:lit-screener
+W4385772292,include,CO2 intake by carbonate weathering in karst watershed,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W4311767241,exclude,trace elements in karst groundwater contamination,E6,unknown,unknown,agent:lit-screener
+W3205438430,include,chemical weathering rates long-term Baget karst catchment,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W4413683741,exclude,enhanced rock weathering agricultural carbon removal,E6,unknown,unknown,agent:lit-screener
+W3012015149,unsure,no abstract; fertilization and carbonate weathering in calcareous watersheds,I1;I2,solute_flux,subaerial,agent:lit-screener
+W4283219227,unsure,no abstract; biogeochemical interactions fluviokarst carbonate weathering,I1;I2,solute_flux,subaerial,agent:lit-screener
+W4298002798,exclude,riverine carbonate buffering under acid mine drainage,E6,unknown,unknown,agent:lit-screener

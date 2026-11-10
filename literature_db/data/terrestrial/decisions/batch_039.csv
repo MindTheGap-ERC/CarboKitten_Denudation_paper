@@ -1,0 +1,41 @@
+id,decision,reason,criteria,proxy_hint,marine_zone_hint,screener
+W7128521087,exclude,36Cl fault scarp slip rates; no denudation rate,E4,cosmogenic_36cl,subaerial,agent:lit-screener
+W2944238961,exclude,36Cl paleoseismology of fault scarp; slip rates only,E4,cosmogenic_36cl,subaerial,agent:lit-screener
+W4212763899,exclude,36Cl fault scarp seismic history; no denudation rate,E4,cosmogenic_36cl,subaerial,agent:lit-screener
+W4229020916,exclude,36Cl calculator software; no field rates,E4,cosmogenic_36cl,unknown,agent:lit-screener
+W1988658361,exclude,general TCN methods overview; no carbonate denudation rates,E4,unknown,unknown,agent:lit-screener
+W7135167140,include,basin-average 36Cl erosion rates for 22 carbonate catchments,I1;I2;I3,cosmogenic_36cl,subaerial,agent:lit-screener
+W2591565786,exclude,36Cl moraine exposure ages; no denudation rate,E4,cosmogenic_36cl,subaerial,agent:lit-screener
+W77855214,include,36Cl erosion rates in carbonate Guizhou; no abstract but title explicit,I1;I2;I3,cosmogenic_36cl,subaerial,agent:lit-screener
+W3214358833,exclude,36Cl dating of river terraces; incision not surface denudation,E12;E4,cosmogenic_36cl,subaerial,agent:lit-screener
+W2966204840,exclude,36Cl fault scarp dating; slip rates only,E4,cosmogenic_36cl,subaerial,agent:lit-screener
+W3209889932,exclude,marine terrace fault slip rates thesis; no denudation rate,E4,reef_terrace,unknown,agent:lit-screener
+W3033969997,exclude,rock avalanche dating and runout modelling,E10,cosmogenic_36cl,subaerial,agent:lit-screener
+W4399480775,exclude,burial dating of marine sediment core; no denudation rate,E4;E6,unknown,unknown,agent:lit-screener
+W7163057766,exclude,fault paleoseismology on alluvial fans; slip rates only,E4,cosmogenic_36cl,subaerial,agent:lit-screener
+W3005707542,exclude,historic rock avalanche dating,E10,cosmogenic_36cl,subaerial,agent:lit-screener
+W3203682684,exclude,rock avalanche reconstruction and dating,E10,cosmogenic_36cl,subaerial,agent:lit-screener
+W4288045758,exclude,fault scarp roughness for slip increments; no denudation rate,E4,unknown,subaerial,agent:lit-screener
+W4281645709,exclude,normal fault scarps slip rates; no denudation rate reported,E4,cosmogenic_36cl,subaerial,agent:lit-screener
+W1640367110,include,Holocene weathering-pit rates and hillslope erosion rate on limestone scarp,I1;I2;I3,cosmogenic_36cl,subaerial,agent:lit-screener
+W2800681695,exclude,Schmidt hammer slip history on fault scarp; no rate,E4,unknown,subaerial,agent:lit-screener
+W3114376512,exclude,French-language paper; cave burial ages and incision rate,E8;E12,cave_level,cave,agent:lit-screener
+crossref:10.1130/0091-7613(1994)022<1071:ddosca>2.3.co;2,exclude,pedogenic carbonate accumulation dating; not rock denudation,E4;E6,unknown,soil_covered,agent:lit-screener
+crossref:10.31223/osf.io/9mxfu,exclude,36Cl intercomparison materials; analytical method only,E4,cosmogenic_36cl,unknown,agent:lit-screener
+crossref:10.1016/j.epsl.2004.07.014,exclude,fault slip rate from offset clast fans,E4,cosmogenic_36cl,subaerial,agent:lit-screener
+crossref:10.5194/icg2022-39,exclude,glacial chronology and ice-flow modelling; no denudation rate,E4,cosmogenic_36cl,subaerial,agent:lit-screener
+crossref:10.1016/j.quascirev.2019.02.002,exclude,moraine geochronology; no denudation rate in title,E4,cosmogenic_36cl,subaerial,agent:lit-screener
+crossref:10.1016/s0169-555x(98)00087-7,unsure,cosmogenic nuclides in carbonate rocks; no abstract; may report rates,I1,cosmogenic_36cl,unknown,agent:lit-screener
+crossref:10.5006/c2012-01396,exclude,steel corrosion engineering,E6,unknown,unknown,agent:lit-screener
+crossref:10.1016/j.gca.2012.03.008,exclude,36Cl in cave drip water for evapotranspiration,E4;E6,unknown,cave,agent:lit-screener
+crossref:10.1016/j.nimb.2009.10.128,unsure,multi-nuclide carbonate method; no abstract; may report denudation rates,I1,cosmogenic_36cl,unknown,agent:lit-screener
+crossref:10.5194/egusphere-2022-1376,include,review: compiled bedrock and catchment 36Cl denudation and weathering rates,I1;I2;I3;I3r,cosmogenic_36cl;solute_flux,subaerial,agent:lit-screener
+crossref:10.1016/j.quageo.2008.01.008,exclude,10Be dating in carbonates method failure; no field rates,E4,unknown,unknown,agent:lit-screener
+crossref:10.22541/essoar.176442761.13431359/v2,exclude,landscape evolution model only,E9,unknown,subaerial,agent:lit-screener
+crossref:10.1007/s10040-014-1131-3,exclude,groundwater dating in carbonate aquifer,E6,unknown,unknown,agent:lit-screener
+crossref:10.5194/egusphere-2022-1376-supplement,include,supplement with compiled 36Cl denudation and weathering rate tables,I1;I2;I3;I3r,cosmogenic_36cl;solute_flux,subaerial,agent:lit-screener
+W2544673301,unsure,meltwater solute load; carbonate weathering; lithology unclear,I2;I3,solute_flux,subaerial,agent:lit-screener
+W2791401146,exclude,global DIC flux review; no carbonate denudation rates,E4;E6,solute_flux,unknown,agent:lit-screener
+W4402006359,include,karst basin hydrochemistry with chemical weathering rate estimates,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W7124507925,include,carbonate-dominated basin weathering fluxes from river hydrochemistry,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W2801749408,exclude,Icelandic glacial rivers; basaltic catchments,E2,solute_flux,subaerial,agent:lit-screener

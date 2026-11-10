@@ -1,0 +1,41 @@
+id,decision,reason,criteria,proxy_hint,marine_zone_hint,screener
+W4417000464,include,7-yr karst underground river monitoring with carbonate weathering carbon sink flux,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W3139534282,exclude,Li isotope partition coefficient calibration in carbonates; lab proxy work,E3,unknown,unknown,agent:lit-screener
+W2129586495,unsure,karst basin hydrochemistry and carbon cycling; denudation rate not stated,I1;I2,solute_flux,subaerial,agent:lit-screener
+W2889652082,unsure,riverine solute fluxes from carbonate tills thermokarst; carbonate bedrock unclear,I2;I3,solute_flux,subaerial,agent:lit-screener
+W2079112168,include,karst catchment carbon sequestration 353 tC/yr from discharge and DIC,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W4416295702,exclude,karst agricultural pollution source apportionment; no denudation rate,E4,unknown,subaerial,agent:lit-screener
+W7204488260,exclude,nitric acid share of carbonate weathering; no denudation rate,E4,unknown,subaerial,agent:lit-screener
+W3022086594,unsure,Mekong basin chemical weathering budget; carbonate rates possibly reported,I2;I3,solute_flux,subaerial,agent:lit-screener
+W4322770469,exclude,review of SWAT hydrological modelling in karst; no denudation rates,E4;E9,unknown,unknown,agent:lit-screener
+W4414986621,exclude,Cd mobilization from sphalerite in soils,E6,unknown,unknown,agent:lit-screener
+W2915913744,unsure,mixed silicate-carbonate metasedimentary catchment weathering fluxes; carbonate share unclear,I2;I3,solute_flux,subaerial,agent:lit-screener
+W4412631733,exclude,karst basin hydrochemistry and water quality; no rate,E4,unknown,subaerial,agent:lit-screener
+W4319441221,exclude,reservoir C-N isotopes and nitric acid share; no denudation rate,E4,unknown,subaerial,agent:lit-screener
+W4403201521,exclude,highway runoff pollution and carbon sequestration,E6,unknown,unknown,agent:lit-screener
+W4410411651,exclude,nitrate pollution and HCO3-Ca water genesis; no denudation rate,E4,unknown,subaerial,agent:lit-screener
+W1981820293,include,Wujiang karst sub-watersheds major ions and TDS fluxes,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W7204768645,exclude,lysimeter leaching experiments on karst soil DOC,E3,unknown,soil_covered,agent:lit-screener
+W2886378397,include,Xijiang River CO2 consumption rates by carbonate weathering,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W4400292250,unsure,karst underground river basin carbon sink flux; rate reporting unclear,I1;I2,solute_flux,subaerial,agent:lit-screener
+W4404827639,exclude,natural tracers for allogenic recharge in karst; no rate,E4,unknown,subaerial,agent:lit-screener
+W7215083627,include,catchment solute loads give weathering CO2 removal for carbonate-rich lowlands,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W2518844732,unsure,acid rain effect on karst weathering rates; only relative change stated,I1;I2,solute_flux,subaerial,agent:lit-screener
+W4416394549,exclude,dolomite spring hydrochemistry and water quality; no rate,E4,unknown,subaerial,agent:lit-screener
+W2888957044,exclude,pharmaceutical contaminant transport in carbonate aquifer,E6,unknown,unknown,agent:lit-screener
+W4404360355,exclude,seasonal DIC and isotopes in karst basin; no denudation rate,E4,unknown,subaerial,agent:lit-screener
+W2589081622,exclude,urban stream salinization and alkalinization,E6,unknown,unknown,agent:lit-screener
+W3194346759,exclude,atmospheric pollutants and rainwater chemistry,E6,unknown,unknown,agent:lit-screener
+W7130515366,exclude,karst groundwater flow system modelling and hydrochemistry,E4,unknown,unknown,agent:lit-screener
+W4205146401,exclude,Chinese-language paper on dissolved silicon transport,E8,unknown,unknown,agent:lit-screener
+W4412185139,exclude,review of aquatic photosynthesis carbon sink mechanism; no denudation rates,E4,unknown,unknown,agent:lit-screener
+W7170045042,exclude,soil water nitrate sources and carbon sink response; no denudation rate,E4,unknown,soil_covered,agent:lit-screener
+W4398215270,exclude,CO2 dynamics in karst lakes,E6,unknown,unknown,agent:lit-screener
+W3138858172,unsure,two-day diel carbon sink flux in karst stream; weak rate basis,I1;I2,solute_flux,subaerial,agent:lit-screener
+W7136748986,exclude,geothermal fluids in karst reservoirs,E6,unknown,unknown,agent:lit-screener
+W4410564987,exclude,geochemistry of incipient dolostone weathering; no rate,E4,unknown,subaerial,agent:lit-screener
+W2120516372,exclude,speleothem Mg isotope paleoclimate record,E4,unknown,cave,agent:lit-screener
+W2903769036,exclude,numerical model of karst wetland depression size,E9,unknown,subaerial,agent:lit-screener
+W2774406804,exclude,plagioclase weathering by plants; non-carbonate,E2,unknown,unknown,agent:lit-screener
+W4309004032,exclude,Himalayan river hydrochemistry; no weathering rate reported,E4,unknown,subaerial,agent:lit-screener
+W4220956467,unsure,mixed-lithology Ganga sub-basin with carbonate weathering rate; carbonate share unclear,I2;I3,solute_flux,subaerial,agent:lit-screener

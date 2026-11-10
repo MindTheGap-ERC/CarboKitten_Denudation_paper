@@ -1,0 +1,41 @@
+id,decision,reason,criteria,proxy_hint,marine_zone_hint,screener
+W1975071189,exclude,reservoir ion chemistry and acid sources; no denudation rate,E4,unknown,subaerial,agent:lit-screener
+W4386247026,exclude,Ca isotopes in basalt-dominated Godavari basin; not carbonate denudation,E2;E4,unknown,unknown,agent:lit-screener
+W2510532242,include,karst basin carbon sink from discharge and HCO3 flux; solute denudation,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W4416220093,exclude,riverine pCO2 and DOC dynamics; no rock denudation rate,E6,unknown,unknown,agent:lit-screener
+W4414290631,unsure,reactive transport model of karst DIC export constrained by 30 yr data,I1;I2;E9?,solute_flux,subaerial,agent:lit-screener
+W3022008707,unsure,karst reservoir weathering rate estimates; full text likely Chinese,I1;I3;E8?,solute_flux,subaerial,agent:lit-screener
+W2945991217,exclude,Mo isotope budget in carbonate river; no denudation rate,E4,unknown,unknown,agent:lit-screener
+W3172683767,exclude,SWAT hydrological modelling of karst watershed,E6;E9,unknown,unknown,agent:lit-screener
+W4312043154,exclude,CO2 emissions from karst lakes; not rock denudation,E6,unknown,unknown,agent:lit-screener
+W3155621880,unsure,dolomite basin hydrochemistry; truncated abstract may include solute flux,I1;I2;E4?,solute_flux,subaerial,agent:lit-screener
+W2956026930,exclude,surface water ion sources; no denudation rate,E4,unknown,unknown,agent:lit-screener
+W2878024288,exclude,plant water-carbon physiology on karst,E6,unknown,unknown,agent:lit-screener
+crossref:10.21203/rs.3.rs-975403/v1,exclude,acid contributions to groundwater carbonate weathering; proportions only no rate,E4,unknown,subaerial,agent:lit-screener
+crossref:10.1016/j.watres.2020.116658,unsure,no abstract; karst catchment carbonate weathering carbon fluxes possible,I1;I2,solute_flux,subaerial,agent:lit-screener
+crossref:10.1016/j.jhydrol.2020.125710,unsure,no abstract; spring-creek CO2 outgassing and weathering carbon sink,I1;I2,solute_flux,subaerial,agent:lit-screener
+crossref:10.1007/s12665-022-10605-4,unsure,no abstract; published version of preprint without rates,I1;I2;E4?,solute_flux,subaerial,agent:lit-screener
+crossref:10.22541/au.174848957.74971662/v1,unsure,dissolution rates in restored quarries; possibly field specimens in soil,I1;I3?;E3?,limestone_tablet,soil_covered,agent:lit-screener
+crossref:10.1130/abs/2018am-317532,unsure,no abstract; conference abstract on karst weathering carbon cycle,I1;I2,solute_flux,subaerial,agent:lit-screener
+crossref:10.2139/ssrn.6878915,include,carbonate weathering rates of karst small watersheds,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+crossref:10.1007/s12665-009-0345-5,unsure,no abstract; karst groundwater chemistry possibly no rate,I1;I2;E4?,unknown,subaerial,agent:lit-screener
+crossref:10.1016/j.catena.2026.110152,unsure,no abstract; carbonate weathering in restored karst ecosystems,I1;I2,solute_flux,subaerial,agent:lit-screener
+crossref:10.5194/bg-2022-205,exclude,silicate-dominated catchment with sparse carbonate minerals,E2,unknown,unknown,agent:lit-screener
+crossref:10.1007/s12583-014-0455-1,unsure,no abstract; biological soil crust weathering of karst rock maybe rates,I1;E11?,unknown,subaerial,agent:lit-screener
+crossref:10.1016/j.watres.2026.126949,unsure,no abstract; karst pond cascades and carbonate weathering,I1;E4?,solute_flux,subaerial,agent:lit-screener
+crossref:10.1007/s11631-017-0237-4,unsure,no abstract; karst weathering profile soil formation possible mass balance,I1;I2,terra_rossa_mass_balance,soil_covered,agent:lit-screener
+crossref:10.5194/bg-2019-310,include,carbonate weathering rate 61 t/km2/a in mixed-lithology Beijiang basin,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+crossref:10.5194/bg-2020-180-rc3,exclude,referee comment on preprint; no data,E4,unknown,unknown,agent:lit-screener
+crossref:10.1016/j.catena.2026.110704,unsure,no abstract; karst carbonate weathering carbon sink trends,I1;I2,solute_flux,subaerial,agent:lit-screener
+crossref:10.2139/ssrn.5442361,exclude,fungal weathering treatment study in karst soil,E11;E3,unknown,soil_covered,agent:lit-screener
+crossref:10.1016/j.jhydrol.2024.131860,unsure,no abstract; storm carbonate weathering fluxes in catchment,I1;I2,solute_flux,subaerial,agent:lit-screener
+crossref:10.1016/j.gsd.2026.101587,unsure,no abstract; catchment hydrochemistry with carbonate weathering dominance,I1;I2,solute_flux,subaerial,agent:lit-screener
+crossref:10.5194/bg-2019-12-rc2,exclude,referee comment on microbial stalactite paper; no rate,E4,unknown,cave,agent:lit-screener
+crossref:10.1016/j.ecolind.2023.110192,unsure,no abstract; anthropogenic acids and carbonate weathering CO2 sink,I1;I2,solute_flux,subaerial,agent:lit-screener
+crossref:10.1007/bf02840283,unsure,no abstract; sulfur isotopes and carbonate weathering in Wujiang catchment,I1;I2,solute_flux,subaerial,agent:lit-screener
+crossref:10.1016/j.catena.2026.110110,unsure,no abstract; carbonate weathering carbon sink flux likely quantified,I1;I2;I3?,solute_flux,subaerial,agent:lit-screener
+crossref:10.1016/j.jhydrol.2024.130664,unsure,no abstract; rainfall effects on karst carbonate weathering,I1;I2,solute_flux,subaerial,agent:lit-screener
+crossref:10.1016/j.iswcr.2022.04.002,unsure,no abstract; nitrogen and carbonate weathering in karst watershed,I1;I2,solute_flux,subaerial,agent:lit-screener
+crossref:10.46427/gold2022.9621,exclude,enhanced weathering CO2 removal; not natural denudation,E6,unknown,unknown,agent:lit-screener
+crossref:10.4156/aiss.vol5.issue5.55,exclude,petroleum reservoir paleokarst exploration,E6,unknown,unknown,agent:lit-screener
+crossref:10.1007/s12665-015-4869-6,unsure,no abstract; sulfuric acid role in karst carbonate weathering,I1;I2,solute_flux,subaerial,agent:lit-screener

@@ -1,0 +1,10 @@
+id,decision,reason,criteria,proxy_hint,marine_zone_hint,screener
+W2792411791,exclude,rocky coast shore platform and sea cliff review; all sites coastal,E1,unknown,intertidal,agent:lit-screener
+W2109083538,exclude,other_proxy:dated_structure tombstones and walls weathering rates,E7,dated_structure,subaerial,agent:lit-screener
+W2031071648,exclude,laboratory flow-through calcite dissolution experiments for reservoirs,E3;E6,unknown,unknown,agent:lit-screener
+W2332239621,include,in-situ 36Cl denudation rates of carbonate terrain Dead Sea Rift,I1;I2;I3,cosmogenic_36cl,subaerial,agent:lit-screener
+W2553997073,exclude,river profile and fluvial incision analysis; no carbonate denudation rate,E12;E4,unknown,subaerial,agent:lit-screener
+W3214285802,unsure,no abstract; weathering and erosion in mixed carbonate orogen,I1;I2,solute_flux;cosmogenic_10be_catchment,unknown,agent:lit-screener
+W4385633561,exclude,alpine soil formation and dust accretion; no denudation rate,E4,unknown,soil_covered,agent:lit-screener
+W7152438028,unsure,coastal-title: 36Cl vertical denudation of emerged carbonate terraces; French thesis,I1;I3;E1?;E8?,cosmogenic_36cl,supratidal_spray,agent:lit-screener
+W7171741240,exclude,river sand petrology; no denudation rate,E4,unknown,unknown,agent:lit-screener

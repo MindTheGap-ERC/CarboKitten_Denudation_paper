@@ -1,0 +1,41 @@
+id,decision,reason,criteria,proxy_hint,marine_zone_hint,screener
+W4415263100,unsure,Carbonate-dominated glacial rivers; weathering magnitude possibly as fluxes,I1;I2,solute_flux,subaerial,agent:lit-screener
+W4233656238,exclude,Karst river nitrate and major ion sources; no denudation rate,E4,unknown,unknown,agent:lit-screener
+W4383375999,unsure,Hydrochemistry of Tianshan basins; total solute flux mentioned; lithology mixed,I2,solute_flux,subaerial,agent:lit-screener
+W2010005866,unsure,Glacierized catchment carbonate carbonation and ion yields; mixed lithology,I2,solute_flux,subaerial,agent:lit-screener
+W2094581644,exclude,Silicate-dominated basin; carbonate minor source,E2,solute_flux,subaerial,agent:lit-screener
+W2163803454,exclude,Evaporite-dominated basin solute export; not carbonate denudation,E2,solute_flux,subaerial,agent:lit-screener
+W3157966182,exclude,Carbonate river ion sources and water quality risk; no rate,E4,unknown,subaerial,agent:lit-screener
+W3200845148,exclude,Irish river geochemistry survey; no rate reported,E4,unknown,subaerial,agent:lit-screener
+W2900078799,exclude,Subglacial water chemistry metrics; no denudation rate,E4,unknown,unknown,agent:lit-screener
+W4390096871,exclude,General book chapter on CO2 consumption by weathering,E4,unknown,unknown,agent:lit-screener
+W4367183198,exclude,Machine learning model of weathering rates; no new carbonate rates,E9,unknown,unknown,agent:lit-screener
+W7225183534,unsure,Carbonate-dominated river chemistry; CO2 fluxes; rates possibly reported,I1;I2,solute_flux,subaerial,agent:lit-screener
+W2888618271,unsure,Carbonate weathering rates 1-54 t/km2/a but mixed silicate lithology,I2;I3,solute_flux,subaerial,agent:lit-screener
+W2886583727,exclude,Silicate-dominated Taiwan watershed with disseminated carbonate only,E2,unknown,subaerial,agent:lit-screener
+W4383747392,unsure,Carbonate weathering rates in glacierized Himalayan headwaters; mixed lithology,I2;I3,solute_flux,subaerial,agent:lit-screener
+W4304689416,exclude,Coal mine groundwater hydrogeochemistry,E6,unknown,unknown,agent:lit-screener
+W4200244251,unsure,Carbonate weathering and CO2 consumption rates in Yellow River tributaries; mixed lithology,I2;I3,solute_flux,subaerial,agent:lit-screener
+W4394961246,unsure,Carbonate weathering rate dominant in Yarlung Tsangpo; mixed lithology,I2;I3,solute_flux,subaerial,agent:lit-screener
+W3135894097,exclude,Stable Sr isotopes in rivers; no denudation rate,E4,unknown,unknown,agent:lit-screener
+W3172319790,exclude,Landslide water geochemistry and CO2 source; no carbonate denudation rate,E4;E10,unknown,subaerial,agent:lit-screener
+W4376645252,exclude,Mo isotopes in rivers; pollution sources,E6,unknown,unknown,agent:lit-screener
+W4307569655,exclude,Review of Sr isotope geochemistry; no rates,E4,unknown,unknown,agent:lit-screener
+W22005090,unsure,Carbonate weathering rates from soil chronosequence on glacial deposits,I2;I3,unknown,soil_covered,agent:lit-screener
+W3178922822,exclude,Cave drip water monitoring for speleothem records,E1;E4,unknown,cave,agent:lit-screener
+W4406329161,exclude,Ultramafic mine tailings weathering,E2;E6,unknown,unknown,agent:lit-screener
+crossref:10.1002/(sici)1099-1085(199711)11:14<1813::aid-hyp498>3.0.co;2-c,unsure,No abstract; solute denudation in glacierized catchment; lithology unknown,I2,solute_flux,subaerial,agent:lit-screener
+crossref:10.1016/j.catena.2012.04.004,unsure,No abstract; chemical denudation in mountain catchment; lithology unknown,I2,solute_flux,subaerial,agent:lit-screener
+crossref:10.22541/au.157851585.50807186,exclude,Karst catchment transit time modelling; no denudation rate,E4,unknown,unknown,agent:lit-screener
+crossref:10.1002/hyp.11268,include,Karst catchment dissolution rates from solute transport in SW China,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+crossref:10.1016/j.quaint.2012.08.593,unsure,No abstract; catchment denudation rates; lithology unknown,I2,unknown,subaerial,agent:lit-screener
+crossref:10.2139/ssrn.6154746,exclude,Educational brief on karst conservation,E4;E6,unknown,unknown,agent:lit-screener
+crossref:10.1306/00aa7f22-1730-11d7-8645000102c1865d,unsure,No abstract; Andes sediment flux and denudation; lithology unknown,I2,sediment_yield,subaerial,agent:lit-screener
+crossref:10.1130/abs/2018am-319718,unsure,No abstract; small-catchment denudation mass balance; lithology unknown,I2,solute_flux,subaerial,agent:lit-screener
+crossref:10.2139/ssrn.4786519,exclude,Karst aquifer storm solute transport; hydrogeology,E4,unknown,unknown,agent:lit-screener
+crossref:10.21203/rs.3.rs-2184895/v1,exclude,GPR mapping of epikarst; no rate,E4,unknown,unknown,agent:lit-screener
+crossref:10.1061/40796(177)41,exclude,Tracer tests in karst aquifers; hydrogeology,E4,unknown,unknown,agent:lit-screener
+crossref:10.1038/s41598-021-94950-7,exclude,Laboratory physical model of karst solute transport,E3;E4,unknown,unknown,agent:lit-screener
+crossref:10.2139/ssrn.4758458,exclude,Karst aquifer storm solute transport; hydrogeology,E4,unknown,unknown,agent:lit-screener
+crossref:10.1016/j.quascirev.2025.109657,unsure,No abstract; catchment denudation rates; lithology unknown,I2;I3,cosmogenic_10be_catchment,subaerial,agent:lit-screener
+crossref:10.7185/gold2023.17973,unsure,10Be catchment denudation rates; lithology not stated,I2;I3,cosmogenic_10be_catchment,subaerial,agent:lit-screener
