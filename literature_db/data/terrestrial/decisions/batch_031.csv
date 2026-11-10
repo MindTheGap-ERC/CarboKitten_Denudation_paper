@@ -1,0 +1,41 @@
+id,decision,reason,criteria,proxy_hint,marine_zone_hint,screener
+crossref:10.1144/sp331.7,exclude,lab salt weathering crystallization experiments,E3;E6,unknown,unknown,agent:lit-screener
+crossref:10.3989/mc.2015.00514,exclude,lab salt weathering simulation on building limestone,E3;E7,unknown,unknown,agent:lit-screener
+crossref:10.1002/esp.3290200603,unsure,MEM sites but paper focuses on micromorphology; rates may be in Part 1,I1;I2,mem,subaerial,agent:lit-screener
+crossref:10.1144/gsl.sp.2007.271.01.19,exclude,other_proxy:dated_structure building stone salt weathering properties,E7,dated_structure,unknown,agent:lit-screener
+crossref:10.1007/s00254-006-0476-x,exclude,no abstract; salt solution properties likely lab weathering test,E3,unknown,unknown,agent:lit-screener
+crossref:10.1007/s12665-015-4064-9,exclude,other_proxy:dated_structure weathering of ancient monument walls,E7,dated_structure,unknown,agent:lit-screener
+crossref:10.1002/esp.2050,exclude,lab salt weathering simulation permeametry on building stone,E3;E7,unknown,unknown,agent:lit-screener
+crossref:10.1016/j.apgeochem.2011.04.020,exclude,other_proxy:dated_structure monument stone sulfate isotopes,E7,dated_structure,unknown,agent:lit-screener
+crossref:10.1002/1096-9837(200011)25:12<1343::aid-esp142>3.0.co;2-2,unsure,no abstract; limestone weathering in arid Tunisia may give field rates,I1,unknown,subaerial,agent:lit-screener
+crossref:10.1016/j.scitotenv.2006.07.005,unsure,no abstract; urban Portland limestone weathering loss may be exposure tablets,I1,limestone_tablet;dated_structure,subaerial,agent:lit-screener
+crossref:10.1007/s00254-006-0598-1,exclude,other_proxy:dated_structure construction limestone at archaeological site,E7,dated_structure,unknown,agent:lit-screener
+crossref:10.1130/abs/2016am-285090,unsure,no abstract; merokarst stream chemistry model possibly solute flux,I1,solute_flux,subaerial,agent:lit-screener
+crossref:10.1007/s00603-026-05370-w,exclude,rock mechanics NDT of joints,E6,unknown,unknown,agent:lit-screener
+W1694203358,exclude,laboratory flow-through tablet dissolution,E3,limestone_tablet,unknown,agent:lit-screener
+W3021431192,exclude,tablet rates in stream caves only,E1,limestone_tablet,cave,agent:lit-screener
+W2254740179,include,field limestone tablets over 10 years on Tibetan Plateau,I1;I2;I3,limestone_tablet,soil_covered,agent:lit-screener
+W2030559905,include,no abstract; field test of carbonate dissolution rates Austrian Alps,I1;I2;I3,limestone_tablet,subaerial,agent:lit-screener
+W2012969724,unsure,no abstract; freshwater biodissolution rates possibly aquatic or biological focus,I1,limestone_tablet,unknown,agent:lit-screener
+W2318154049,exclude,laboratory batch dissolution experiments,E3,unknown,unknown,agent:lit-screener
+W3045207705,unsure,no abstract; tablet method suitability in China may compile rates,I1,limestone_tablet,unknown,agent:lit-screener
+W2905274841,exclude,limestone dissolution in steelmaking slag,E6,unknown,unknown,agent:lit-screener
+W206068069,exclude,tablet dissolution in cave conduit sediment only,E1,limestone_tablet,cave,agent:lit-screener
+W2362147404,unsure,soil tablet dissolution under manure treatment; treatment-comparison focus,I1;I2;E11,limestone_tablet,soil_covered,agent:lit-screener
+W52259438,unsure,no abstract; manure effect on carbonate dissolution likely treatment comparison,I1;E11,limestone_tablet,soil_covered,agent:lit-screener
+W2306699371,unsure,spring water dissolution rates estimated numerically not surface lowering,I1;E9,solute_flux,unknown,agent:lit-screener
+W2359566749,include,field limestone tablets in soils under different land uses,I1;I2;I3,limestone_tablet,soil_covered,agent:lit-screener
+W2012424236,include,Lipica tablet weight loss dissolution rates on Vis island,I1;I2;I3,limestone_tablet,unknown,agent:lit-screener
+W2374463047,include,field limestone tablets in soils under different land uses,I1;I2;I3,limestone_tablet,soil_covered,agent:lit-screener
+W3094858058,include,no abstract; subsoil carbonate dissolution rates in karst basin,I1;I2;I3,limestone_tablet,soil_covered,agent:lit-screener
+W2284875912,include,standard limestone tablets 12 years on Qinghai-Tibet Plateau,I1;I2;I3,limestone_tablet,subaerial,agent:lit-screener
+W3005103300,exclude,Indonesian-language paper on tablets and hydrochemistry,E8,limestone_tablet;solute_flux,unknown,agent:lit-screener
+W4417431843,unsure,fertilizer effects on limestone weathering; unclear if field or lab,I1;E3;E11,unknown,soil_covered,agent:lit-screener
+W3157086393,exclude,lab cave-analogue microbial cultivation on tablets,E3;E1,limestone_tablet,cave,agent:lit-screener
+W4397000086,include,field tablet corrosion rates at gas vent on travertine mound,I1;I2;I3,limestone_tablet,subaerial,agent:lit-screener
+W2136063757,exclude,pharmaceutical dissolution,E6,unknown,unknown,agent:lit-screener
+W3120221044,exclude,calcite dissolution rates in cave stream only,E1;E12,unknown,cave,agent:lit-screener
+W4405252120,exclude,guano ablation in cave and lab tests only,E1;E3,unknown,cave,agent:lit-screener
+W3005615208,include,carbonate tablet dissolution rates in forest soils Guilin,I1;I2;I3,limestone_tablet,soil_covered,agent:lit-screener
+W4386832801,unsure,dissolution rates in water bodies of Maocun basin; field vs lab unclear,I1;I2,limestone_tablet;solute_flux,unknown,agent:lit-screener
+W4200288808,exclude,cave SEM tablet method with preliminary results,E1;E4,limestone_tablet,cave,agent:lit-screener

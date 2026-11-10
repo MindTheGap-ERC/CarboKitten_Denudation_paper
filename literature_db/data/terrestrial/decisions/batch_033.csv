@@ -1,0 +1,41 @@
+id,decision,reason,criteria,proxy_hint,marine_zone_hint,screener
+crossref:10.1360/02yd0467,exclude,crystalline rock denudation not carbonate,E2,unknown,unknown,agent:lit-screener
+crossref:10.1080/00206814.2019.1706649,exclude,orogen exhumation from geochronology and geochemistry; not carbonate surface denudation,E2;E4,unknown,unknown,agent:lit-screener
+crossref:10.1127/zfg/8/1964/213,unsure,no abstract; slope denudation method with results; lithology unknown,I3,unknown,unknown,agent:lit-screener
+crossref:10.1016/j.jseaes.2020.104658,exclude,regolith composition study; no carbonate denudation rate evident,E4,unknown,unknown,agent:lit-screener
+W7219983097,include,limestone tablet solution rates in air and soil at seven Japanese sites,I1;I2;I3,limestone_tablet,soil_covered,agent:lit-screener
+W2386290985,include,field limestone tablet dissolution under land-use types at Jinfo Mountain,I1;I2;I3,limestone_tablet,soil_covered,agent:lit-screener
+W7124684205,exclude,cave condensation monitoring only,E1;E4,unknown,cave,agent:lit-screener
+W4411500254,exclude,thermal engineering of limestone sand mixtures,E6,unknown,unknown,agent:lit-screener
+W4413456688,exclude,karst hillslope hydrology and rainwater harvesting,E4,unknown,unknown,agent:lit-screener
+W1945443875,exclude,quarry revegetation ecology,E6,unknown,unknown,agent:lit-screener
+W33206764,exclude,GIS groundwater quality and land use,E4;E6,unknown,unknown,agent:lit-screener
+W3021212751,exclude,mobile GIS review not geomorphology,E6,unknown,unknown,agent:lit-screener
+W3111092080,exclude,soil Mg geochemical mapping,E6,unknown,unknown,agent:lit-screener
+W2966961856,exclude,show cave eye-tracking education,E6,unknown,cave,agent:lit-screener
+W4390536052,unsure,karst catchment DIC and carbonate weathering via reactive transport model; rates possible,I1;I2;E9,solute_flux,subaerial,agent:lit-screener
+W4399493534,exclude,cave art conservation remote sensing,E6,unknown,cave,agent:lit-screener
+W3180067393,exclude,other_proxy:dated_structure,E7,dated_structure,unknown,agent:lit-screener
+W2807030849,exclude,earthquake hydrochemistry of carbonate springs; no denudation rate,E4,unknown,unknown,agent:lit-screener
+W4392964451,exclude,groundwater quality hydrochemistry,E4,unknown,unknown,agent:lit-screener
+W2901123640,exclude,apatite fission-track exhumation of basement,E2;E4,unknown,unknown,agent:lit-screener
+crossref:10.1061/9780784401767.ch03,unsure,no abstract; book chapter on limestone solution may give rates,I1,unknown,unknown,agent:lit-screener
+crossref:10.1016/s0048-9697(01)01124-x,unsure,no abstract; limestone tablet decay in exposure programme likely urban,I1;E7,limestone_tablet,subaerial,agent:lit-screener
+crossref:10.1101/048397,exclude,biodiversity management of karst ecosystems,E6,unknown,unknown,agent:lit-screener
+crossref:10.1007/978-3-031-84338-9_15,unsure,no abstract; gypsum and limestone dissolution rates in Iran,I1;I3,unknown,unknown,agent:lit-screener
+crossref:10.1086/629431,exclude,numerical model of karst aquifer evolution,E9;E4,unknown,unknown,agent:lit-screener
+crossref:10.22541/au.162594346.62556206/v1,exclude,lab soil column DOM leaching,E3;E6,unknown,unknown,agent:lit-screener
+crossref:10.21273/hortsci.21.1.101,exclude,horticulture fertilizer study,E6,unknown,unknown,agent:lit-screener
+crossref:10.2478/v10096-011-0029-4,exclude,fossil sponge palaeontology,E6,unknown,unknown,agent:lit-screener
+crossref:10.3390/f13122187,exclude,plant functional traits in karst forests,E6,unknown,unknown,agent:lit-screener
+crossref:10.2307/520659,unsure,no abstract; limestone solution intensity Lapland karst likely rates,I1;I2,solute_flux,unknown,agent:lit-screener
+crossref:10.1007/s10531-010-9806-0,exclude,bat diversity biology,E6,unknown,unknown,agent:lit-screener
+crossref:10.1017/s0263718900007251,exclude,karst landform description in arid area; no rates,E4,unknown,unknown,agent:lit-screener
+W4417226218,exclude,environmental degradation overview of Montenegro karst,E4,unknown,unknown,agent:lit-screener
+W2800009368,exclude,soil microbiome in rocky desertification,E6,unknown,unknown,agent:lit-screener
+W4390974385,exclude,marine sponge biology,E6,unknown,unknown,agent:lit-screener
+W4292415626,exclude,geosite inventory for tourism,E4,unknown,unknown,agent:lit-screener
+W4391842193,exclude,algae weathering simulation experiment,E3;E11,unknown,unknown,agent:lit-screener
+W4290998305,exclude,TMEM on limestone shore platforms Malta only,E1,tmem,intertidal,agent:lit-screener
+W2766853994,exclude,coastal aquifer salinization,E4;E6,unknown,unknown,agent:lit-screener
+W7225248522,exclude,rockfall hazard assessment,E10,unknown,unknown,agent:lit-screener

@@ -1,0 +1,41 @@
+id,decision,reason,criteria,proxy_hint,marine_zone_hint,screener
+W2049540357,exclude,iron ore sinter pellet pore formation; industrial,E6,unknown,unknown,agent:lit-screener
+W7162023677,include,review: global synthesis of 2444 in-situ rock tablet carbonate weathering rates,I1;I2;I3r,limestone_tablet,soil_covered,agent:lit-screener
+W2766648874,exclude,tablet and MEM dissolution only inside sulphuric acid caves,E1,limestone_tablet;mem,cave,agent:lit-screener
+W2998413408,exclude,karst dissolution rate from thermodynamic geospatial model not field measurements,E9,unknown,subaerial,agent:lit-screener
+W7222983920,include,carbonate weathering model validated with in situ limestone tablet measurements,I1;I2;I3,limestone_tablet,soil_covered,agent:lit-screener
+W594724588,exclude,archaeological stone conservation; artificial lab weathering,E3;E7,unknown,unknown,agent:lit-screener
+W2916250561,exclude,agricultural lime weathering in acid soil with manure; not rock denudation,E6;E11,unknown,soil_covered,agent:lit-screener
+W4315646436,exclude,lab acid reaction rate for petroleum carbonate reservoirs,E3;E6,unknown,unknown,agent:lit-screener
+W4385772431,include,standard tablet dissolution rates in western Thailand karst,I1;I2;I3,limestone_tablet,soil_covered,agent:lit-screener
+W2910418548,include,karstification measured with limestone tablets in Biduk-Biduk karst ecosystems,I1;I2;I3,limestone_tablet,soil_covered,agent:lit-screener
+W1894982069,exclude,carbonate tablets in submerged marine cave only,E1,limestone_tablet,cave,agent:lit-screener
+W2016526917,include,limestone residue accumulation rate in alpine karst soils; mass balance,I1;I2;I3,terra_rossa_mass_balance,soil_covered,agent:lit-screener
+W7220343820,exclude,MEM lowering of gypsum surfaces only,E2,mem,subaerial,agent:lit-screener
+W3211829117,exclude,dripwater corrosion cups inside Postojna Cave,E1,unknown,cave,agent:lit-screener
+W4385631275,exclude,speleothem corrosion by allogenic river inside cave,E1,unknown,cave,agent:lit-screener
+W2092826571,exclude,sulfidic cave speleogenesis and water chemistry; no surface rate,E1;E4,unknown,cave,agent:lit-screener
+W2969408301,exclude,hypogene speleogenesis morphology; no denudation rate,E4,unknown,cave,agent:lit-screener
+W3161862387,exclude,pelleting agricultural lime; materials study,E6,unknown,unknown,agent:lit-screener
+W152966808,exclude,nuclear waste glass corrosion modelling,E6,unknown,unknown,agent:lit-screener
+W2599906251,exclude,soil column experiment on fertilizer effects on carbonate weathering,E3;E6,unknown,soil_covered,agent:lit-screener
+W328821181,exclude,CO2 sequestration in carbonate reservoirs; lab and modelling,E6,unknown,unknown,agent:lit-screener
+W1567721322,exclude,other_proxy:dated_structure gravestone weathering in cemeteries,E7,dated_structure,subaerial,agent:lit-screener
+W4385840233,exclude,geochemistry of karst weathering cover; CIA; no rate,E4,unknown,soil_covered,agent:lit-screener
+W2160875154,exclude,abalone shell microstructure; biology,E6,unknown,unknown,agent:lit-screener
+W7154420972,exclude,salt extrusion karst geomorphology; non-carbonate,E2;E4,unknown,subaerial,agent:lit-screener
+W7143523074,exclude,precipitated calcium carbonate industry strategy,E6,unknown,unknown,agent:lit-screener
+W4394996476,include,hydrochemistry-runoff karst carbon sink flux in two watersheds,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W4301374101,exclude,Triassic-Jurassic marine sedimentology,E6,unknown,unknown,agent:lit-screener
+W3009897744,exclude,other_proxy:dated_structure review of ageing tests on building stone,E7;E3,dated_structure,unknown,agent:lit-screener
+W1973974876,exclude,marine biogenic CaCO3 particles in seawater,E6,unknown,unknown,agent:lit-screener
+W4392934900,exclude,visitor CO2 and water vapour in show caves,E1;E6,unknown,cave,agent:lit-screener
+W2802929187,exclude,vanadium in hyperalkaline steel slag leachate,E6,unknown,unknown,agent:lit-screener
+crossref:10.1111/j.1467-8470.1981.tb00389.x,unsure,no abstract; limestone tablet experiments at Cooleman Plain likely rates,I1;I3,limestone_tablet,unknown,agent:lit-screener
+W2884821802,exclude,gypsum evaporite hypogene karst,E2;E4,unknown,subaerial,agent:lit-screener
+W2064299399,exclude,general natural water chemistry text; no carbonate denudation rate,E4,unknown,unknown,agent:lit-screener
+W7202395742,exclude,36Cl moraine boulder dating; denudation rate assumed not measured,E4,cosmogenic_36cl,subaerial,agent:lit-screener
+W4292682301,exclude,Permian lacustrine methane cycling,E6,unknown,unknown,agent:lit-screener
+W1502540347,exclude,Pyrenean tectonic exhumation,E6,unknown,unknown,agent:lit-screener
+W4285500694,unsure,dated cave levels and surface landform evolution; lowering rates possible,I1;E4,cave_level,unknown,agent:lit-screener
+crossref:10.5194/esurf-2016-18-rc1,exclude,referee comment on CAIRN cosmogenic method; no carbonate field rates,E4,cosmogenic_10be_catchment,unknown,agent:lit-screener

@@ -1,0 +1,41 @@
+id,decision,reason,criteria,proxy_hint,marine_zone_hint,screener
+W4224294224,exclude,Sr isotope weathering profiles without denudation rate,E4,unknown,soil_covered,agent:lit-screener
+W7127990229,exclude,Micropile foundation engineering in karst,E6,unknown,unknown,agent:lit-screener
+W286607169,exclude,Cave and spring water quality description,E4,unknown,unknown,agent:lit-screener
+W4313396087,exclude,Land subsidence geophysics and geotechnics,E6,unknown,unknown,agent:lit-screener
+W3163578702,exclude,Groundwater environmental issues in karst no rate,E4,unknown,unknown,agent:lit-screener
+W2923187914,exclude,Dam foundation engineering on karst,E6,unknown,unknown,agent:lit-screener
+W2549850473,exclude,Model of conduit solute reactivity not surface denudation,E9;E4,unknown,cave,agent:lit-screener
+W2262311440,exclude,Numerical model of solution pipe growth,E9,unknown,unknown,agent:lit-screener
+W2962966346,exclude,Bird species distribution model,E6,unknown,unknown,agent:lit-screener
+W2378796604,include,Field limestone tablet dissolution rates under land uses,I1;I2;I3,limestone_tablet,soil_covered,agent:lit-screener
+W2068053619,exclude,Tracer transport in karst conduits,E4,unknown,cave,agent:lit-screener
+crossref:10.1016/j.geomorph.2008.09.019,exclude,Quartzite solution weathering not carbonate,E2,unknown,subaerial,agent:lit-screener
+crossref:10.1127/zfg/10/1966/90,unsure,No abstract; small-scale limestone solution features may include rates,I1;I2,unknown,subaerial,agent:lit-screener
+crossref:10.1016/j.petrol.2021.109052,exclude,Petroleum coreflooding experiment,E6,unknown,unknown,agent:lit-screener
+crossref:10.1007/978-3-642-41714-6_121453,exclude,Dictionary entry,E4,unknown,unknown,agent:lit-screener
+crossref:10.1061/40698(2003)57,exclude,Foundation construction engineering in karst,E6,unknown,unknown,agent:lit-screener
+crossref:10.1127/zfg/11/1967/117,exclude,Cave morphology and paleoclimate no rate,E4,unknown,cave,agent:lit-screener
+crossref:10.1127/zfg/10/1966/462,unsure,No abstract; limestone vs granodiorite solution features may include rates,I1;I2,unknown,subaerial,agent:lit-screener
+crossref:10.1127/zfg/38/1994/239,exclude,Cave ceiling solution pockets only,E1,unknown,cave,agent:lit-screener
+crossref:10.2172/5226136,exclude,Laboratory neutralization of mill tailings,E3;E6,unknown,unknown,agent:lit-screener
+crossref:10.56577/ffc-23.168,exclude,Karst phenomena description no rate,E4,unknown,unknown,agent:lit-screener
+W2750573168,include,Hillslope solute uptake and solutional denudation on Magnesian Limestone,I1;I2;I3,solute_flux,soil_covered,agent:lit-screener
+W4220780176,exclude,Solution pipe mapping no rate,E4,unknown,unknown,agent:lit-screener
+W2015288189,include,Solutional denudation 56 mm/ka estimated for karst cove,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W2522720699,exclude,Paleoweathering of shales no rate,E4,unknown,unknown,agent:lit-screener
+W1997737880,exclude,Biokarst weathering features described without rate,E4;E11,unknown,unknown,agent:lit-screener
+W2151624603,exclude,Palaeokarst exposure surface description,E4,paleokarst,unknown,agent:lit-screener
+W4389347157,exclude,Corrosion plain classification no rate,E4,unknown,subaerial,agent:lit-screener
+W4316335252,exclude,Pseudokarst caves geodiversity,E2;E4,unknown,cave,agent:lit-screener
+W3091789682,exclude,Gas reservoir basement rock characterization,E6,unknown,unknown,agent:lit-screener
+W3169042948,exclude,Lidar doline mapping no rate,E4,unknown,subaerial,agent:lit-screener
+W2957440791,exclude,Hungarian karst morphology mapping,E8;E4,unknown,subaerial,agent:lit-screener
+W4308214820,exclude,Cave geophysical imaging,E4,unknown,unknown,agent:lit-screener
+W4387614549,exclude,Qualitative glaciokarst landscape evolution,E4,unknown,subaerial,agent:lit-screener
+W3133579266,exclude,Hypogene speleogenesis,E4,unknown,cave,agent:lit-screener
+W7136163246,exclude,Palaeokarst geological mapping no rate,E4,paleokarst,unknown,agent:lit-screener
+W1944341040,exclude,French review on calcareous grassland restoration,E8;E6,unknown,unknown,agent:lit-screener
+W4280623474,exclude,Silicate glass alteration lab study,E3;E6,unknown,unknown,agent:lit-screener
+W2795526986,exclude,Soil solution chemistry method not denudation,E4,unknown,soil_covered,agent:lit-screener
+W2964247365,exclude,Geotourism landform description,E4,unknown,subaerial,agent:lit-screener

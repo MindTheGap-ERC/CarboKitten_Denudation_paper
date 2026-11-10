@@ -1,0 +1,41 @@
+id,decision,reason,criteria,proxy_hint,marine_zone_hint,screener
+W1969086990,exclude,Soil gully erosion properties on carbonate terrain; no rock denudation rate,E5,unknown,soil_covered,agent:lit-screener
+W4406881988,exclude,FTIR characterization of weathered limestone; no rate,E4,unknown,subaerial,agent:lit-screener
+W2898389242,unsure,Karst basin hydrochemistry and carbonate weathering CO2 uptake; rate not explicit,I1;I2,solute_flux,subaerial,agent:lit-screener
+W3209404251,exclude,Engineering study of limestone strength weakening,E6,unknown,unknown,agent:lit-screener
+W3157176597,exclude,Sediment characterization in karst systems; no denudation rate,E4,unknown,cave,agent:lit-screener
+W7205005337,exclude,Pot experiment on soil carbon sequestration,E6,unknown,unknown,agent:lit-screener
+W4390234834,exclude,Soil microbial communities under rocky desertification,E6,unknown,unknown,agent:lit-screener
+W4206447180,exclude,Petroleum well water-control technology,E6,unknown,unknown,agent:lit-screener
+W7149224765,exclude,Bedrock channel erosional forms; fluvial incision; Spanish,E12;E8,unknown,subaerial,agent:lit-screener
+W2765873374,exclude,Paleokarst petroleum reservoir characterization,E6,unknown,unknown,agent:lit-screener
+W2461984359,exclude,Contaminant transport in karst aquifer,E6,unknown,unknown,agent:lit-screener
+W2746012617,exclude,German forestry study of spruce roots on dolomite soils,E6;E8,unknown,unknown,agent:lit-screener
+W2069087461,exclude,German-language karst morphology study of Cuba (1956),E8,solute_flux,subaerial,agent:lit-screener
+W4307264899,exclude,Laboratory dissolution test equipment,E3,unknown,unknown,agent:lit-screener
+W1601913067,exclude,Solutional landforms in quartz sandstone,E2,unknown,subaerial,agent:lit-screener
+W2048407358,exclude,Rockslide engineering geological assessment,E10,unknown,subaerial,agent:lit-screener
+W2084940867,exclude,Petroleum gas field geology,E6,unknown,unknown,agent:lit-screener
+W4248152349,exclude,Qualitative paleokarst evolution; no rate,E4,paleokarst,unknown,agent:lit-screener
+W3120797857,exclude,Paleokarst reservoir formation mechanisms,E6,unknown,unknown,agent:lit-screener
+crossref:10.4135/9781446247501.n2470,unsure,No abstract; encyclopedia entry on MEM; may contain rates,I3,mem,unknown,agent:lit-screener
+crossref:10.1016/j.earscirev.2009.03.006,include,review: MEM erosion measurements review likely tabulating rates,I1;I2;I3r,mem;tmem,subaerial,agent:lit-screener
+crossref:10.1016/0025-3227(76)90041-4,unsure,coastal-title: MEM in littoral environment; no abstract,E1?,mem,intertidal,agent:lit-screener
+crossref:10.2139/ssrn.4594376,unsure,coastal-title: intertidal shore platform MEM rates Mahia; no abstract,E1?,mem,intertidal,agent:lit-screener
+crossref:10.1016/j.geomorph.2011.07.018,unsure,No abstract; TMEM sample size method; may include field rates,I3,tmem,unknown,agent:lit-screener
+crossref:10.1016/j.geomorph.2019.07.012,unsure,coastal-title: Kaikoura shore platform MEM rates; no abstract,E1?,mem,intertidal,agent:lit-screener
+crossref:10.1016/j.geomorph.2018.03.024,unsure,coastal-title: shore platform downwearing eastern Canada; no abstract,E1?,mem,intertidal,agent:lit-screener
+crossref:10.1016/0025-3227(81)90137-7,unsure,coastal-title: underwater MEM modification; no abstract,E1?;E4?,mem,intertidal,agent:lit-screener
+crossref:10.1016/0025-3227(83)90025-7,unsure,coastal-title: Otway coast MEM rock wear; no abstract,E1?,mem,intertidal,agent:lit-screener
+crossref:10.1016/j.margeo.2025.107636,unsure,coastal-title: Mahia intertidal platform downwearing; no abstract,E1?,mem,intertidal,agent:lit-screener
+crossref:10.1002/(sici)1096-9837(199711)22:11<1037::aid-esp800>3.0.co;2-x,unsure,No abstract; MEM travertine deposition not erosion rates,E4?,mem,subaerial,agent:lit-screener
+crossref:10.1016/j.margeo.2026.107877,unsure,coastal-title: Otway shore platform MEM statistical modelling; no abstract,E1?,mem,intertidal,agent:lit-screener
+W7208250280,unsure,Field limestone tablet solution rates in karst; Japanese-language text likely,I1;I2;I3;E8?,limestone_tablet,soil_covered,agent:lit-screener
+W2403315651,exclude,Laboratory dissolution kinetics of limestone and dolomite,E3,unknown,unknown,agent:lit-screener
+W227616227,exclude,General review of karst geomorphology trends; no rates,E4,unknown,unknown,agent:lit-screener
+W2199067333,exclude,Plant hybrid genetics on limestone karst,E6,unknown,unknown,agent:lit-screener
+W2094497109,exclude,Permeability development in limestone aquifers; no denudation rate,E4,unknown,unknown,agent:lit-screener
+W265509668,unsure,No abstract; calcite dissolution kinetics modelling; may give field rates,E3?;E9?,solute_flux,unknown,agent:lit-screener
+W2150983261,include,Karst thesis with water chemistry solution rates; mixed coastal/inland,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W1603640275,exclude,Pathogen transport tracer test in karst aquifer,E6,unknown,unknown,agent:lit-screener
+W2912059516,include,Solutional erosion rate 58.2 m3/km2/yr for limestone basin,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
