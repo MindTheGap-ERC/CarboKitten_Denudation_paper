@@ -1,0 +1,41 @@
+id,decision,reason,criteria,proxy_hint,marine_zone_hint,screener
+W7167245287,exclude,Karst spring hydrogeology and hydrochemistry; no denudation rate,E4,unknown,unknown,agent:lit-screener
+W4414874037,exclude,Karst landform morphometry; no denudation rate,E4,unknown,subaerial,agent:lit-screener
+W1995993232,exclude,Caves encountered in motorway construction; no rate,E4;E6,unknown,cave,agent:lit-screener
+W3028179502,exclude,General textbook chapter on processes and landforms; no rate table,E4,unknown,unknown,agent:lit-screener
+W4409438784,exclude,Gypsum quarry karst denudation; non-carbonate,E2,unknown,unknown,agent:lit-screener
+W4413474335,exclude,Generic chemical weathering synthesis; no rate compilation evident,E4,unknown,unknown,agent:lit-screener
+W2610767492,include,Long-term karst spring monitoring for denudation dynamics in Tatra,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W4320013107,exclude,Petroleum reservoir paleo-denudation in pre-salt deposits,E6,unknown,unknown,agent:lit-screener
+W1912882682,exclude,Secondary minerals from carbonate weathering; no rate,E4,unknown,unknown,agent:lit-screener
+W7220172206,exclude,Doline morphology and ecology; no rate,E4,unknown,soil_covered,agent:lit-screener
+W4415225534,exclude,Regenerative agriculture in karst,E6,unknown,unknown,agent:lit-screener
+W2803821166,unsure,Groundwater corrosion moduli of carbonates via PHREEQC; rate unclear,I1;I3?,solute_flux,unknown,agent:lit-screener
+W4404081282,exclude,Regional water resources management; no denudation rate,E4;E6,unknown,unknown,agent:lit-screener
+W2733797818,exclude,Vegetation bioindicators of waste-filled dolines,E6,unknown,unknown,agent:lit-screener
+W2031253410,exclude,Hypogene speleogenesis conceptual model; no rate,E4,unknown,cave,agent:lit-screener
+W2961633510,exclude,French-language paper; karst denudation ~400 m3/km2/yr Nakanai,E8,solute_flux,subaerial,agent:lit-screener
+W2979129648,exclude,Paleokarst geomorphology for gas accumulation,E6,paleokarst,unknown,agent:lit-screener
+W2898832231,exclude,French cave U/Th chronology and glaciation; no rate,E4;E8,unknown,cave,agent:lit-screener
+W3133213728,unsure,Karst catchment stream solute isotopes; weathering rate possibly reported,I1;I2;I3?,solute_flux,subaerial,agent:lit-screener
+W2593580999,exclude,Tree species richness in karst ecosystem,E6,unknown,unknown,agent:lit-screener
+W4321089362,exclude,Contact karst geomorphological mapping; no rate,E4,unknown,subaerial,agent:lit-screener
+W1527827394,exclude,Subsoil karst slope morphology; no rate,E4,unknown,soil_covered,agent:lit-screener
+W4290547207,exclude,Toxic elements in karst topsoil,E6,unknown,unknown,agent:lit-screener
+W7222542453,exclude,Karst soil nutrient geochemistry; no denudation rate,E6,unknown,soil_covered,agent:lit-screener
+W3118683223,include,Carbonate tablet field dissolution under drought across land covers,I1;I2;I3,limestone_tablet,soil_covered,agent:lit-screener
+W2991530411,exclude,Dissolution in cave conduits during spring flow reversals only,E1,unknown,cave,agent:lit-screener
+crossref:10.1016/0009-2541(90)90165-4,exclude,Iceland chemical denudation; volcanic non-carbonate terrain,E2,unknown,unknown,agent:lit-screener
+crossref:10.1016/0009-2541(93)90206-x,unsure,No abstract; chemical denudation central Massachusetts; lithology unknown,I3?,solute_flux,unknown,agent:lit-screener
+crossref:10.1111/j.2153-3490.1952.tb01017.x,unsure,No abstract; chemical denudation of soil; lithology unknown,I3?,solute_flux,soil_covered,agent:lit-screener
+crossref:10.1180/minmag.1998.62a.3.94,exclude,Basaltic catchment chemical denudation,E2,solute_flux,unknown,agent:lit-screener
+crossref:10.1002/9781118684986.ch3,exclude,Textbook chapter on dissolution chemistry and kinetics; no field rates,E3;E4,unknown,unknown,agent:lit-screener
+crossref:10.1016/j.chemgeo.2015.07.018,exclude,Detrital thermochronology method for glacial catchments; non-carbonate proxy,E2;E4,unknown,unknown,agent:lit-screener
+crossref:10.4324/9780429320781-1,unsure,No abstract; chapter on spatial patterns of chemical denudation,I3?,solute_flux,soil_covered,agent:lit-screener
+crossref:10.1007/978-94-011-7778-8_3,exclude,Textbook chapter on dissolution chemistry and kinetics; no field rates,E3;E4,unknown,unknown,agent:lit-screener
+crossref:10.1038/274244a0,exclude,Silicate rock chemical denudation only,E2,solute_flux,unknown,agent:lit-screener
+crossref:10.2478/v10066-011-0008-x,unsure,No abstract; catchment chemical denudation Spitsbergen; lithology unknown,I2;I3?,solute_flux,subaerial,agent:lit-screener
+crossref:10.1130/g34934.1,unsure,No abstract; rivers as chemical denudation gauges; may include carbonates,I3?,solute_flux,unknown,agent:lit-screener
+crossref:10.1016/j.chemgeo.2017.03.007,unsure,No abstract; denudation and soil weathering intensity; lithology unknown,I3?,unknown,soil_covered,agent:lit-screener
+crossref:10.1130/0016-7606(1971)82[67:aeopui]2.0.co;2,unsure,No abstract; methods for computing chemical denudation; may include rates,I3?,solute_flux,unknown,agent:lit-screener
+crossref:10.1080/00206816609476093,unsure,No abstract; mechanical and chemical denudation of drainage areas,I3?,solute_flux;sediment_yield,unknown,agent:lit-screener

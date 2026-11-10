@@ -1,0 +1,41 @@
+id,decision,reason,criteria,proxy_hint,marine_zone_hint,screener
+crossref:10.26485/agl/2024/116/7,exclude,salt dome riverbed denudation; non-carbonate rock,E2,unknown,subaerial,agent:lit-screener
+crossref:10.1080/00369228008736461,unsure,no abstract; catchment chemical denudation; lithology unknown,I2;I3,solute_flux,subaerial,agent:lit-screener
+crossref:10.1016/0009-2541(90)90269-d,exclude,Himalayan denudation from fan sediment isotopes; not carbonate rate,E2;E4,unknown,unknown,agent:lit-screener
+crossref:10.1016/j.cej.2026.174670,exclude,biomedical oocyte denudation,E6,unknown,unknown,agent:lit-screener
+crossref:10.1016/0022-1694(80)90103-1,unsure,no abstract; arable catchment chemical denudation; lithology unknown,I2;I3,solute_flux,subaerial,agent:lit-screener
+crossref:10.1016/j.geomorph.2012.03.030,unsure,no abstract; basin chemical denudation; lithology not stated,I2;I3,solute_flux,subaerial,agent:lit-screener
+crossref:10.18814/epiiugs/2017/v40i3/017027,unsure,no abstract; Carpathian catchment chemical denudation; carbonate share unknown,I2;I3,solute_flux,subaerial,agent:lit-screener
+crossref:10.1127/zfg/27/1983/55,include,rock tablet vs water hardness karst erosion rates,I1;I2;I3,limestone_tablet;solute_flux,subaerial,agent:lit-screener
+crossref:10.1016/j.geomorph.2023.108747,unsure,no abstract; SWAT model chemical denudation; lithology and field data unclear,I2;E9,solute_flux,subaerial,agent:lit-screener
+crossref:10.1007/s10533-008-9202-y,exclude,pine growth experiments microbial weathering,E3;E11,unknown,unknown,agent:lit-screener
+crossref:10.1016/0009-2541(93)90205-w,exclude,pseudo-karst in Roraima quartz sandstone,E2;E4,unknown,subaerial,agent:lit-screener
+crossref:10.5194/esurf-2016-50,exclude,fertilizer treatment column experiment with buried tablets,E11;E3,limestone_tablet,soil_covered,agent:lit-screener
+crossref:10.1109/icbbe.2011.5781200,unsure,no abstract; catchment chemical weathering; lithology unknown; retracted,I2;I3,solute_flux;sediment_yield,subaerial,agent:lit-screener
+crossref:10.14393/sn-v36-2024-70150,exclude,guano chemistry in quartzitic caves,E2;E6,unknown,cave,agent:lit-screener
+crossref:10.1016/0009-2541(85)90024-5,exclude,calcite dissolution kinetics theory,E3,unknown,unknown,agent:lit-screener
+crossref:10.2478/v10066-012-0006-7,unsure,no abstract; Svalbard catchment denudation rates; lithology unknown,I2;I3,solute_flux;sediment_yield,subaerial,agent:lit-screener
+crossref:10.1016/0009-2541(85)90046-4,exclude,calcite dissolution kinetics theory (duplicate),E3,unknown,unknown,agent:lit-screener
+crossref:10.1016/0306-3623(94)00165-j,exclude,pharmacology endothelium denudation,E6,unknown,unknown,agent:lit-screener
+crossref:10.1016/j.geomorph.2005.07.029,unsure,no abstract; CRN and chemical denudation rates; lithology not stated,I2;I3,unknown,subaerial,agent:lit-screener
+W7133131433,exclude,tablets in submerged coastal cave mixing zone only,E1,limestone_tablet,cave,agent:lit-screener
+W1963575544,exclude,closed-system lab mixing corrosion experiments,E3,unknown,unknown,agent:lit-screener
+W2351092063,unsure,karst corrosion rates reported; full text likely Chinese,I1;I2;I3;E8,solute_flux,subaerial,agent:lit-screener
+W4293237690,exclude,laboratory corrosion tests on rock samples,E3,unknown,unknown,agent:lit-screener
+W1993000657,exclude,numerical model of mixing corrosion speleogenesis,E4;E9,unknown,cave,agent:lit-screener
+W2759299370,exclude,scallop morphology in flooded cave,E4;E1,unknown,cave,agent:lit-screener
+W2007455416,unsure,no abstract; microbial soil karst corrosion; likely lab/temperature treatments,I1;E3;E11,unknown,soil_covered,agent:lit-screener
+W2348672209,exclude,closed-system lab mixing corrosion experiments,E3,unknown,unknown,agent:lit-screener
+W1959190417,exclude,numerical models of karst aquifer mixing corrosion,E4;E9,unknown,cave,agent:lit-screener
+W7160080274,include,karst basin dissolved load used to estimate corrosion rates,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W3201861024,exclude,laboratory corrosion tests on dolomite and limestone,E3,unknown,unknown,agent:lit-screener
+W2365328113,unsure,field tablet rates by land use; Chinese text likely; land-use comparison,I1;I2;I3;E8;E11,limestone_tablet,soil_covered,agent:lit-screener
+W789549784,include,subcutaneous karst corrosion intensity Krka valley likely tablets,I1;I2;I3,limestone_tablet,soil_covered,agent:lit-screener
+W2973371975,unsure,national karst CO2 sink estimate; unclear if corrosion rates tabulated,I1;I2,solute_flux,subaerial,agent:lit-screener
+W3038719111,exclude,conference abstract on dissolution pattern modeling,E4;E9,unknown,cave,agent:lit-screener
+W2336417703,exclude,theoretical condensation corrosion in caves,E1;E4,unknown,cave,agent:lit-screener
+W7140116903,exclude,rock mechanics of karst discontinuities,E6,unknown,unknown,agent:lit-screener
+W2388449654,exclude,rocky desertification soil erosion,E5,unknown,soil_covered,agent:lit-screener
+W4385422612,include,limestone tablet dissolution rates outdoor and underground Mulu and Lessini,I1;I2;I3,limestone_tablet,subaerial,agent:lit-screener
+W2772075989,include,review: compiles 18 Chinese corrosion test sites for rate model,I1;I2;I3r,limestone_tablet,subaerial,agent:lit-screener
+W2067476276,include,marble karst basin solute denudation autogenic allogenic,I1;I2;I3,solute_flux,subaerial,agent:lit-screener

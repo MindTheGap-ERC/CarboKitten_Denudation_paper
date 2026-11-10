@@ -1,0 +1,41 @@
+id,decision,reason,criteria,proxy_hint,marine_zone_hint,screener
+W2944918956,exclude,deep-sea carbonate compensation depth paleoceanography,E6,unknown,unknown,agent:lit-screener
+W2946913389,unsure,no abstract; soil-mantled carbonate hillslopes weathering likely 36Cl rates,I1;I2,cosmogenic_36cl,soil_covered,agent:lit-screener
+W2007411307,exclude,sulfide deposit surface waters; trace carbonate only,E2;E6,unknown,unknown,agent:lit-screener
+W7224711218,unsure,Po basin solute and erosion fluxes; carbonate subordinate mixed lithology,I2;I3,solute_flux;sediment_yield,subaerial,agent:lit-screener
+W71346326,unsure,basin denudation rates; carbonate dissolution noted but lithology mixed,I2;I3,solute_flux;sediment_yield,subaerial,agent:lit-screener
+W2741555932,include,review: field rock-tablet weathering rates of carbonates in soil,I1;I2;I3r,limestone_tablet,soil_covered,agent:lit-screener
+W3129137098,exclude,U-Pb dating method for carbonates,E6,unknown,unknown,agent:lit-screener
+W3204874630,exclude,wildfire rock shattering experiment; no denudation rate,E4,unknown,subaerial,agent:lit-screener
+W2963894107,exclude,general textbook chapter on world erosion; not carbonate specific,E4,unknown,unknown,agent:lit-screener
+W4375864663,unsure,Yangtze river solute chemistry; carbonate weathering fluxes possibly but mixed basin,I2;I3?,solute_flux,subaerial,agent:lit-screener
+W1992820829,include,chemical denudation rate of carbonate-weathering-dominated Himalayan basin,I1?;I2;I3,solute_flux;sediment_yield,subaerial,agent:lit-screener
+W4392596204,include,meteoric 10Be/9Be denudation rates in carbonate catchments Albania,I1;I2;I3,meteoric_10be_9be;cosmogenic_10be_catchment,subaerial,agent:lit-screener
+W3161309438,exclude,Atacama Neogene basin cosmogenic; non-carbonate,E2,unknown,unknown,agent:lit-screener
+W1981613955,exclude,coral endolith bioerosion marine,E1;E6,unknown,unknown,agent:lit-screener
+W2931365190,unsure,glacierised Himalayan catchment solute CO2 consumption; carbonate share unclear,I2;I3?,solute_flux,subaerial,agent:lit-screener
+W1966345878,exclude,anthropogenic soil denudation mapping on moraine plateau,E5,unknown,soil_covered,agent:lit-screener
+W3214584897,unsure,no abstract; lake solute denudation Kashmir lithology unknown,I2;I3?,solute_flux,subaerial,agent:lit-screener
+W2482977070,exclude,loess weathering river chemistry; not carbonate rock,E2,unknown,unknown,agent:lit-screener
+W2949262265,exclude,Titan karst modelled dissolution rates,E9,unknown,unknown,agent:lit-screener
+W2884734817,exclude,coal mine spoil weathering fluxes; not natural carbonate denudation,E6,unknown,unknown,agent:lit-screener
+W2914511402,exclude,36Cl intercomparison material; no field denudation rates,E4,unknown,unknown,agent:lit-screener
+W2484625188,exclude,DSDP marine sediment flux stratigraphy,E6,unknown,unknown,agent:lit-screener
+W4412470480,exclude,shale gas reservoir characterization,E6,unknown,unknown,agent:lit-screener
+W4392529921,exclude,crustal carbonate reservoir evolution database; no denudation rates,E4;E6,unknown,unknown,agent:lit-screener
+W4411152944,exclude,shale gas reservoir petrology,E6,unknown,unknown,agent:lit-screener
+crossref:10.31223/x5cp94,include,review: compilation of carbonate 36Cl bedrock and catchment denudation rates,I1;I2;I3;I3r,cosmogenic_36cl,subaerial,agent:lit-screener
+crossref:10.1130/gsab.s.13189913.v1,include,supplement with 36Cl denudation rates of carbonate hilltops,I1;I2;I3,cosmogenic_36cl,subaerial,agent:lit-screener
+crossref:10.1002/essoar.10505807.2,include,carbonate solute and 10Be denudation partitioning Northern Apennines,I1;I2;I3,solute_flux;cosmogenic_10be_catchment,subaerial,agent:lit-screener
+crossref:10.1002/essoar.10505807.1,include,carbonate solute and 10Be denudation partitioning Northern Apennines; preprint v1,I1;I2;I3,solute_flux;cosmogenic_10be_catchment,subaerial,agent:lit-screener
+crossref:10.1130/abs/2025am-10959,unsure,no abstract; carbonate bedrock denudation conference abstract,I1;I2,unknown,subaerial,agent:lit-screener
+crossref:10.5194/egusphere-egu2020-12043,include,carbonate denudation partitioning Northern Apennines 10Be and solutes,I1;I2;I3,solute_flux;cosmogenic_10be_catchment,subaerial,agent:lit-screener
+crossref:10.31223/osf.io/eaj2h,unsure,no abstract; chemical vs mechanical denudation carbonate catchments Crete,I1;I2,cosmogenic_36cl;solute_flux,subaerial,agent:lit-screener
+crossref:10.5194/egusphere-2026-2679,exclude,ocean water-column CaCO3 dissolution model,E6;E9,unknown,unknown,agent:lit-screener
+crossref:10.1016/0022-0248(87)90060-1,exclude,crystal growth CaCO3 nucleation lab,E3;E6,unknown,unknown,agent:lit-screener
+crossref:10.46427/gold2022.11047,exclude,lab carbonate precipitation Li isotope experiments,E3;E6,unknown,unknown,agent:lit-screener
+crossref:10.5006/c2000-00024,exclude,steel corrosion,E6,unknown,unknown,agent:lit-screener
+crossref:10.2478/v10227-011-0005-8,exclude,steel corrosion in carbonate environment,E6,unknown,unknown,agent:lit-screener
+crossref:10.2110/jsr.2012.43,exclude,carbonate-silica diagenesis in mud mound,E6,unknown,unknown,agent:lit-screener
+crossref:10.3390/pharmaceutics15010300,exclude,pharmaceutical calcium carbonate excipient,E6,unknown,unknown,agent:lit-screener
+crossref:10.1007/978-1-4899-5016-1_15,exclude,ocean carbonate saturation dissolution rate,E6,unknown,unknown,agent:lit-screener

@@ -1,0 +1,41 @@
+id,decision,reason,criteria,proxy_hint,marine_zone_hint,screener
+W2324832614,exclude,other_proxy:dated_structure Western Wall built stone lidar,E7,dated_structure;repeat_survey,subaerial,agent:lit-screener
+W2086381465,include,autogenic solute denudation of two limestone basins Waitomo NZ,I1;I2;I3,solute_flux,soil_covered,agent:lit-screener
+W1989494635,unsure,compares field limestone erosion rates with lab rates; may tabulate field data,I1;I3r?,unknown,unknown,agent:lit-screener
+W3170812078,exclude,lateral bedrock stream erosion pins limestone-shale channel,E12,unknown,subaerial,agent:lit-screener
+W2123118625,exclude,soil erosion plots on quarry rehabilitation,E5,unknown,soil_covered,agent:lit-screener
+W2057857947,unsure,coastal-title: intertidal downwearing no abstract,E1?,mem;tmem,intertidal,agent:lit-screener
+W2016783032,exclude,coastal biokarst bioerosion rates only,E1;E11,unknown,intertidal,agent:lit-screener
+W2098474912,exclude,laboratory abrasion in cement mixer,E3,unknown,unknown,agent:lit-screener
+W4416316705,exclude,engineering shear tests acid erosion lab,E6;E3,unknown,unknown,agent:lit-screener
+W7217653834,exclude,USLE soil erosion on mine reclamation; Indonesian,E5;E8,unknown,soil_covered,agent:lit-screener
+W2559840297,exclude,other_proxy:dated_structure Western Wall conference abstract,E7,dated_structure,subaerial,agent:lit-screener
+W2003369714,exclude,intertidal shore platform MEM rates only,E1,mem,intertidal,agent:lit-screener
+W2978337216,exclude,lab water-rock simulation for reservoirs,E3;E6,unknown,unknown,agent:lit-screener
+W2022283979,unsure,coastal-title: shore platform MEM 20 years no abstract,E1?,mem,intertidal,agent:lit-screener
+W2100731971,include,comment on catchment limestone solution rates NZ runoff relations,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W2169945665,exclude,intertidal shore platform MEM TMEM rates only,E1,mem;tmem,intertidal,agent:lit-screener
+W2776801980,exclude,reef sponge bioerosion marine,E1;E6,unknown,unknown,agent:lit-screener
+W2035453860,unsure,coastal-title: reef limestone weathering rates no abstract,E1?,unknown,unknown,agent:lit-screener
+W1563875639,exclude,shore platform MEM vs laser scanner coastal only,E1,mem;repeat_survey,intertidal,agent:lit-screener
+W4403850919,exclude,shore platform TMEM data reanalysis Malta,E1,tmem,intertidal,agent:lit-screener
+W2728741504,exclude,shoreline retreat from satellite imagery,E1;E6,unknown,intertidal,agent:lit-screener
+W303062113,exclude,coastal gastropod bioerosion lab,E1;E11;E3,unknown,intertidal,agent:lit-screener
+W2115435059,include,catchment erosion rates incl limestone 70-90 mm/kyr from river load,I1;I2;I3,cosmogenic_10be_catchment;solute_flux,subaerial,agent:lit-screener
+W1967556745,exclude,soil erosion rainfall simulation on hillslope,E5,unknown,soil_covered,agent:lit-screener
+W4379646823,unsure,one-year exposed limestone blocks weathering microrates; building stone focus,I1;I3?;E7?,limestone_tablet,subaerial,agent:lit-screener
+W1585688192,include,measured slope erosion sediment yields in Limestone Alps,I1;I2;I3,sediment_yield,subaerial,agent:lit-screener
+W7135190838,exclude,shore platform MEM monitoring Kaikoura coastal only,E1,mem,intertidal,agent:lit-screener
+W2142359593,exclude,lateral river bedrock erosion radiocarbon,E12,unknown,subaerial,agent:lit-screener
+W2093001750,unsure,relevant title solutional loss Pennines no abstract,I1;I2?,solute_flux,unknown,agent:lit-screener
+W4413761810,exclude,thermal stability materials study,E6,unknown,unknown,agent:lit-screener
+W1999386791,exclude,cave sediment paleomagnetism,E4,unknown,cave,agent:lit-screener
+W2403372037,exclude,other_proxy:dated_structure dated headstones,E7,dated_structure,subaerial,agent:lit-screener
+W3198111115,exclude,lab geotechnical acid weathering,E3;E6,unknown,unknown,agent:lit-screener
+W2053762916,exclude,extraterrestrial chromite stratigraphy,E6,unknown,unknown,agent:lit-screener
+W153706495,exclude,dating lacustrine limestone not denudation,E4;E6,unknown,unknown,agent:lit-screener
+W4402833117,exclude,teaching approaches karst depressions no rates,E4,unknown,unknown,agent:lit-screener
+W585807420,exclude,lab simulation shore platform weathering,E1;E3,unknown,intertidal,agent:lit-screener
+W2092948336,exclude,experimental weathering lab pore properties,E3,unknown,unknown,agent:lit-screener
+W21107173,exclude,intertidal and supratidal coastal erosion only,E1,unknown,intertidal,agent:lit-screener
+W2400644557,unsure,Burren glaciokarst review may cite pavement lowering rates,I1;I2;E4?,unknown,subaerial,agent:lit-screener
