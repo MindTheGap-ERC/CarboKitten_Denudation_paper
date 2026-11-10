@@ -1,0 +1,41 @@
+id,decision,reason,criteria,proxy_hint,marine_zone_hint,screener
+crossref:10.1002/esp.3401,include,comment on 36Cl limestone pavement lowering rates,I1;I2;I3,cosmogenic_36cl,subaerial,agent:lit-screener
+crossref:10.1002/esp.3402,include,reply on 36Cl limestone pavement lowering rates,I1;I2;I3,cosmogenic_36cl,subaerial,agent:lit-screener
+crossref:10.1007/978-3-642-76473-8_17,exclude,building limestone surface chemistry,E7,dated_structure,unknown,agent:lit-screener
+crossref:10.1190/nsapc2015-005,exclude,seismic processing near surface,E6,unknown,unknown,agent:lit-screener
+crossref:10.5194/egusphere-egu25-9492,exclude,moisture and salt in historic limestone walls,E7,dated_structure,unknown,agent:lit-screener
+crossref:10.1016/0009-2509(84)80151-7,exclude,chemical engineering dissolution kinetics,E3,unknown,unknown,agent:lit-screener
+crossref:10.3133/ofr86366,exclude,surface characterization of quarried building limestone,E7;E3,dated_structure,unknown,agent:lit-screener
+crossref:10.1002/aic.690310112,exclude,calcination kinetics of limestone particles,E6,unknown,unknown,agent:lit-screener
+crossref:10.3986/ac.v27i2.506,unsure,denuded caves on lowering karst surface; lowering rate possible,I1;I2,cave_level,subaerial,agent:lit-screener
+crossref:10.1029/2022jf006609,exclude,limestone block transport on hillslopes; no denudation rate,E4,unknown,subaerial,agent:lit-screener
+crossref:10.1029/2021jf006072,exclude,pattern formation model of limestone depressions,E9;E4,unknown,subaerial,agent:lit-screener
+crossref:10.21203/rs.3.rs-246293/v1,exclude,patinas on monastery limestone,E7,dated_structure,unknown,agent:lit-screener
+W1984607176,unsure,no abstract; terra rossa and karst surface lowering,I1;I2,terra_rossa_mass_balance,soil_covered,agent:lit-screener
+W4387845366,exclude,morphometry and morphotectonics of dolines and poljes,E4,unknown,subaerial,agent:lit-screener
+W7143712367,exclude,karst hazards book,E4;E6,unknown,unknown,agent:lit-screener
+W3154221860,exclude,gypsum karst sinkholes,E2;E4,unknown,subaerial,agent:lit-screener
+W7217591455,exclude,surface karst morphometry,E4,unknown,subaerial,agent:lit-screener
+W2610179775,exclude,radiometric survey of buried bauxitic karst,E6,unknown,unknown,agent:lit-screener
+W2885263913,exclude,karst geosites description,E4,unknown,subaerial,agent:lit-screener
+W2091521594,exclude,hypogene gypsum karst sinkhole,E2;E4,unknown,cave,agent:lit-screener
+W2582112868,exclude,qualitative geomorphogenesis of Kras plateau,E4,unknown,subaerial,agent:lit-screener
+W2349675963,exclude,karst collapse forecasting model,E6;E10,unknown,unknown,agent:lit-screener
+W2082589424,include,field limestone solution rates on Tibetan Plateau,I1;I2;I3,limestone_tablet;solute_flux,subaerial,agent:lit-screener
+W2040904336,exclude,quartzite karst,E2,unknown,subaerial,agent:lit-screener
+W2326285854,unsure,origin and age of limestone karst plain; lowering rate possible,I1;I2,unknown,subaerial,agent:lit-screener
+W1492900645,exclude,numerical karst aquifer evolution model,E9,unknown,unknown,agent:lit-screener
+W1982988143,exclude,qualitative karst system in chalk quarries,E4,unknown,unknown,agent:lit-screener
+W2574238611,exclude,contact karst geomorphology thesis; no rate reported,E4,unknown,subaerial,agent:lit-screener
+W4387184944,exclude,groundwater vulnerability assessment,E4;E6,unknown,unknown,agent:lit-screener
+W2020513446,exclude,karst aquifer hydrology thresholds,E4,unknown,unknown,agent:lit-screener
+W2411623709,exclude,nutrient flux in karst catchment,E6,unknown,unknown,agent:lit-screener
+W376120658,exclude,caves found during expressway construction,E4,unknown,cave,agent:lit-screener
+W2118320425,exclude,paleokarst manganese ore deposits,E6,unknown,unknown,agent:lit-screener
+W2122739117,exclude,karst in sandstone and quartzite,E2,unknown,unknown,agent:lit-screener
+W4309744481,exclude,landslides and sinkholes,E10;E4,unknown,unknown,agent:lit-screener
+W1537158294,exclude,gypsum karst cave system,E2;E4,unknown,cave,agent:lit-screener
+W317689348,exclude,karst in sandstone and quartzite,E2,unknown,unknown,agent:lit-screener
+W3026261867,exclude,heavy metal accumulation; not rock denudation,E6,unknown,unknown,agent:lit-screener
+W2327212063,exclude,karst recharge hydrology; no denudation rate,E4,unknown,unknown,agent:lit-screener
+W7132417591,exclude,cave and shilin description,E4,unknown,cave,agent:lit-screener

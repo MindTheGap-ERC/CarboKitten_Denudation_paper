@@ -1,0 +1,41 @@
+id,decision,reason,criteria,proxy_hint,marine_zone_hint,screener
+W1532800435,exclude,numerical model of epikarst and aquifer genesis; no field rates,E9;E4,unknown,unknown,agent:lit-screener
+W2183917927,exclude,sinkhole mapping and risk resources; no denudation rate,E4,unknown,subaerial,agent:lit-screener
+W2887024487,exclude,doline land degradation and vegetation biodiversity,E4;E6,unknown,subaerial,agent:lit-screener
+crossref:10.1002/gea.21531,include,differential bedrock lowering under dated field walls Burren limestone,I1;I2;I3,dated_structure;erratic_pedestal,subaerial,agent:lit-screener
+crossref:10.3406/bagf.1971.7658,exclude,French-language paper on surface vs deep karst; qualitative,E8;E4,unknown,subaerial,agent:lit-screener
+crossref:10.5194/egusphere-egu21-957,unsure,karst landscape evolution; intends long-term erosion rate estimate Sinkhole Plain,I1;I2,cave_level;cosmogenic_26al_catchment,subaerial,agent:lit-screener
+crossref:10.1016/s0169-555x(02)00188-5,unsure,no abstract; tower karst dissolution Guilin may give rates,I1;I2,unknown,subaerial,agent:lit-screener
+crossref:10.1360/02yd9038,unsure,no abstract; covered karst weathering crust planation; rates unclear,I1;I2,unknown,soil_covered,agent:lit-screener
+crossref:10.21203/rs.3.rs-2885724/v1,exclude,doline and polje morphometry and morphotectonics; no rate,E4,unknown,subaerial,agent:lit-screener
+crossref:10.5194/egusphere-egu24-13787,exclude,stream hydrochemistry patterns and land use; no denudation rate,E4,unknown,subaerial,agent:lit-screener
+crossref:10.5194/hessd-11-6519-2014,exclude,conduit network evolution model; no field rates,E9;E4,unknown,cave,agent:lit-screener
+crossref:10.30564/jgr.v1i1.622,exclude,surface karst mapping and VES; qualitative,E4,unknown,subaerial,agent:lit-screener
+W2725744254,include,no abstract; Holocene lowering of glaciated limestone pavements,I1;I2;I3,erratic_pedestal,subaerial,agent:lit-screener
+W7217532800,exclude,engineering properties of limestone pavement aggregate,E6,unknown,unknown,agent:lit-screener
+W7110257086,exclude,limestone waste for road pavement layers,E6,unknown,unknown,agent:lit-screener
+W2995490940,exclude,road pavement friction degradation model,E6,unknown,unknown,agent:lit-screener
+W2020351793,exclude,pavement base aggregate hydraulic conductivity,E6,unknown,unknown,agent:lit-screener
+W1826921103,exclude,asphalt pavement sprinkle treatment,E6,unknown,unknown,agent:lit-screener
+W1466879519,exclude,limestone aggregate quality for concrete,E6,unknown,unknown,agent:lit-screener
+W4400856855,exclude,photocatalytic NOx degradation on substrates; engineering,E6,unknown,unknown,agent:lit-screener
+W1499288809,exclude,peat stratigraphy and pollen on limestone; no denudation rate,E4,unknown,soil_covered,agent:lit-screener
+crossref:10.1016/s0016-7878(65)80041-4,unsure,no abstract; biological weathering of limestone pavement; rates unknown,I1;I2,unknown,subaerial,agent:lit-screener
+crossref:10.1016/j.conbuildmat.2009.10.040,exclude,other_proxy:dated_structure; built limestone paving degradation,E7,dated_structure,unknown,agent:lit-screener
+crossref:10.1353/bae.2014.0024,unsure,no abstract; deposits in solution hollows Burren pavement; rates unlikely,I1;I2,unknown,subaerial,agent:lit-screener
+W3112412079,exclude,numerical simulation of limestone dissolution,E9;E3,unknown,unknown,agent:lit-screener
+W2027628938,unsure,no abstract; air pollution limestone degradation GB; possibly tablets or buildings,I1,limestone_tablet;dated_structure,unknown,agent:lit-screener
+W3212978473,exclude,laboratory bacterial calcite dissolution experiments,E3;E11,unknown,unknown,agent:lit-screener
+W2196056025,exclude,soil mesocosm liming experiment,E3;E6,unknown,unknown,agent:lit-screener
+W2010012616,exclude,steel pipe corrosion in limestone backfill,E6,unknown,unknown,agent:lit-screener
+W2509082117,exclude,pore-scale dissolution simulation of rock samples,E6;E9,unknown,unknown,agent:lit-screener
+W2887877997,exclude,steel pipe corrosion in limestone backfill,E6,unknown,unknown,agent:lit-screener
+W4386896195,exclude,microfluidics dissolution experiments,E3,unknown,unknown,agent:lit-screener
+W2127339503,exclude,calcite crystal weight loss in cave stream only,E1,unknown,cave,agent:lit-screener
+W4362733557,exclude,weathering rind properties on proglacial limestone; no lowering rate,E4,unknown,subaerial,agent:lit-screener
+W2341456959,exclude,SO2 reaction kinetics with airborne limestone particles,E6;E3,unknown,unknown,agent:lit-screener
+W7128820834,exclude,acidizing carbonate reservoir rocks lab,E6;E3,unknown,unknown,agent:lit-screener
+W4402006178,exclude,soil-limestone column experiments with Zn,E3,unknown,soil_covered,agent:lit-screener
+W2068748484,exclude,acid reaction rates for petroleum stimulation,E6;E3,unknown,unknown,agent:lit-screener
+W561872542,exclude,limestone contactor for water treatment,E6,unknown,unknown,agent:lit-screener
+W4392577724,exclude,scallop pattern formation mechanism; no field rates,E4;E3,unknown,cave,agent:lit-screener

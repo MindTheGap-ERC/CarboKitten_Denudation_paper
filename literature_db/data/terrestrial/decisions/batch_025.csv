@@ -1,0 +1,41 @@
+id,decision,reason,criteria,proxy_hint,marine_zone_hint,screener
+W2347721209,exclude,pore-scale simulation and reservoir lab experiment,E3;E6,unknown,unknown,agent:lit-screener
+W2559683143,exclude,salt extraction from building limestone wall,E7,dated_structure,unknown,agent:lit-screener
+W1912455560,unsure,stream-bed calcite dissolution from USGS solute data; channel focus (E12?),I1;I2;I3;E12?,solute_flux,subaerial,agent:lit-screener
+W2512646290,exclude,acid mine drainage treatment with limestone drains,E6,unknown,unknown,agent:lit-screener
+W1688373462,exclude,decay of carbonate building stones in monuments,E7,dated_structure,unknown,agent:lit-screener
+W4366829349,exclude,microbial weathering of building limestone lab study,E7;E11;E3,dated_structure,unknown,agent:lit-screener
+W2117381095,exclude,chalk aquifer hydrogeology flowing features,E4,unknown,unknown,agent:lit-screener
+W752980901,exclude,conservation of limestone sculptures,E7,dated_structure,unknown,agent:lit-screener
+W4414682022,exclude,microfluidic lab dissolution for engineering,E3;E6,unknown,unknown,agent:lit-screener
+W4411401748,exclude,ship-based accelerated limestone weathering for CO2,E6,unknown,unknown,agent:lit-screener
+W4402573680,exclude,lab pressure solution in calcite grain pack,E3,unknown,unknown,agent:lit-screener
+W2573940700,exclude,lichen effects on limestone weathering,E11,unknown,unknown,agent:lit-screener
+W2971799154,exclude,fertilizer sintering materials science,E6,unknown,unknown,agent:lit-screener
+W4381252270,exclude,lab micro-tomography dissolution experiments,E3,unknown,unknown,agent:lit-screener
+W1617921153,exclude,numerical model of underground mine failure,E6;E9,unknown,unknown,agent:lit-screener
+W3169021638,exclude,dolomite reservoir acid dissolution lab,E3;E6,unknown,unknown,agent:lit-screener
+W2741902432,exclude,acid wastewater neutralisation by carbonate sand,E6,unknown,unknown,agent:lit-screener
+W2019164597,exclude,coral reef carbonate dissolution in ocean,E1;E6,unknown,unknown,agent:lit-screener
+W2080991714,exclude,engineering properties of soft carbonate rocks,E6,unknown,unknown,agent:lit-screener
+W4231498489,exclude,rotating disk acid reaction rates petroleum,E3;E6,unknown,unknown,agent:lit-screener
+W3196527662,exclude,physics experiments on convective dissolution shapes,E3;E9,unknown,unknown,agent:lit-screener
+W7221100357,exclude,review of accelerated limestone weathering for CO2 storage,E6,unknown,unknown,agent:lit-screener
+W7113486748,exclude,chemical corrosion lab mechanics of limestone,E3;E6,unknown,unknown,agent:lit-screener
+W3033265240,exclude,limestone heritage temples air pollution weathering,E7,dated_structure,unknown,agent:lit-screener
+W7160117049,exclude,lab acid-alkali damage of limestone,E3;E6,unknown,unknown,agent:lit-screener
+W4322098448,exclude,degradation of fortress building limestone,E7,dated_structure,unknown,agent:lit-screener
+W3140147396,exclude,experimental micrite dissolution morphology,E3,unknown,unknown,agent:lit-screener
+W3040379414,exclude,deterioration of limestone in temple monument,E7,dated_structure,unknown,agent:lit-screener
+W2138333354,exclude,horticultural liming substrate pH,E6,unknown,unknown,agent:lit-screener
+W2891265191,exclude,pore-scale HCl dissolution simulation and experiment,E3;E6,unknown,unknown,agent:lit-screener
+W2954292760,exclude,evaporite gypsum dissolution not carbonate,E2,unknown,unknown,agent:lit-screener
+W7213323933,exclude,rock mechanics compression tests,E6,unknown,unknown,agent:lit-screener
+W7211944679,exclude,CO2 mineralization kinetics in carbonate rocks,E3;E6,unknown,unknown,agent:lit-screener
+W4414564353,exclude,black crust formation on limestone chambers,E7;E3,dated_structure,unknown,agent:lit-screener
+W4414576792,exclude,quarry environmental impact and geotechnics,E6,unknown,unknown,agent:lit-screener
+W4410399751,exclude,building coral limestone weathering tests,E7;E3,dated_structure,unknown,agent:lit-screener
+W4409382459,exclude,engineering weathering index for quarries,E6,unknown,unknown,agent:lit-screener
+W2969794222,exclude,ultrasonic damage evaluation of dimension stone,E6,unknown,unknown,agent:lit-screener
+W2988237845,exclude,ultrasonic damage evaluation of dimension stone,E6,unknown,unknown,agent:lit-screener
+W2912315288,exclude,biodeterioration of limestone built heritage,E7;E11,dated_structure,unknown,agent:lit-screener

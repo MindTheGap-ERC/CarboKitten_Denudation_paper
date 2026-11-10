@@ -1,0 +1,41 @@
+id,decision,reason,criteria,proxy_hint,marine_zone_hint,screener
+W4388979700,exclude,Laboratory XMT dissolution experiments on porous carbonate,E3,unknown,unknown,agent:lit-screener
+W7215390098,exclude,Contaminant transport in karst aquifer; no denudation rate,E6,unknown,unknown,agent:lit-screener
+W4321601113,exclude,Laboratory acid flow dissolution with micro-CT,E3,unknown,unknown,agent:lit-screener
+W2054163818,exclude,Laboratory porosity-permeability experiments and modeling,E3,unknown,unknown,agent:lit-screener
+W4391933965,exclude,Laboratory seafloor aragonite dissolution; marine chemistry,E3;E6,unknown,unknown,agent:lit-screener
+W1651552319,exclude,Agricultural liming of acid soils,E6,unknown,soil_covered,agent:lit-screener
+crossref:10.5194/se-2016-37-rc1,unsure,Referee comment on limestone dissolution carbon uptake; may contain field rates,I1,solute_flux,unknown,agent:lit-screener
+crossref:10.3406/bulmi.1980.7344,exclude,Theoretical/experimental kinetic constant for geothermal reservoir rock,E3;E6,unknown,unknown,agent:lit-screener
+crossref:10.1016/j.chemgeo.2026.123356,exclude,Numerical phase-field model of CO2 dissolution,E9;E3,unknown,unknown,agent:lit-screener
+crossref:10.1016/s0341-8162(85)80019-9,include,Field experiment limestone/dolomite dissolution in soils; likely tablets,I1;I2;I3,limestone_tablet,soil_covered,agent:lit-screener
+crossref:10.1016/0341-8162(85)90012-8,include,Field experiment limestone/dolomite dissolution in soils; likely tablets,I1;I2;I3,limestone_tablet,soil_covered,agent:lit-screener
+crossref:10.1021/acs.energyfuels.5b00243,exclude,Industrial dissolution rate constant with fly ash,E6;E3,unknown,unknown,agent:lit-screener
+crossref:10.1201/b18380-7,unsure,Karstology book chapter; no abstract; may tabulate dissolution rates,I1,unknown,unknown,agent:lit-screener
+crossref:10.2139/ssrn.5703896,exclude,Acid mine drainage effect on rock fracture mechanics,E6;E3,unknown,unknown,agent:lit-screener
+crossref:10.1016/j.geomorph.2013.08.027,unsure,Field and lab stream dissolution rates; channel setting unclear,I1;I3,limestone_tablet,subaerial,agent:lit-screener
+crossref:10.5339/qfarf.2010.eep20,exclude,Laboratory column experiments for reservoirs/CO2 storage,E3;E6,unknown,unknown,agent:lit-screener
+crossref:10.46717/igj.53.2b.4rs-2020-08-04,exclude,Laboratory dissolution of gypsum and limestone,E3,unknown,unknown,agent:lit-screener
+crossref:10.1016/j.chemgeo.2015.09.005,exclude,Laboratory percolation through fractured samples,E3,unknown,unknown,agent:lit-screener
+crossref:10.1306/8d2b0efe-171e-11d7-8645000102c1865d,exclude,Diagenetic porosity evolution beneath exposure surfaces; reservoir focus,E4;E6,paleokarst,unknown,agent:lit-screener
+crossref:10.7186/bgsm52200614,include,Six-year field record of limestone dissolution rate at three sites,I1;I2;I3,limestone_tablet;mem,subaerial,agent:lit-screener
+crossref:10.1016/j.desal.2005.09.003,exclude,Desalination water remineralization modeling,E6,unknown,unknown,agent:lit-screener
+crossref:10.46427/gold2022.12630,exclude,Lab dissolution methods for strontium isotope stratigraphy,E6,unknown,unknown,agent:lit-screener
+crossref:10.1097/00010694-196510000-00010,exclude,Agricultural limestone particles dissolving in soil,E6,unknown,soil_covered,agent:lit-screener
+crossref:10.1299/jsmeicope.2009.2._2-355_,exclude,Industrial flue gas desulfurization dissolution experiments,E6;E3,unknown,unknown,agent:lit-screener
+crossref:10.1130/0091-7613(1976)4<698:foscaf>2.0.co;2,exclude,Structural geology pressure solution cleavage,E4,unknown,unknown,agent:lit-screener
+crossref:10.1080/03019233.2022.2119064,exclude,Steelmaking slag dissolution,E6,unknown,unknown,agent:lit-screener
+crossref:10.1130/abs/2017am-299254,unsure,coastal-title: coastal karst dissolution; inland sites not ruled out,I1,unknown,unknown,agent:lit-screener
+crossref:10.1016/0011-9164(87)90218-9,exclude,Desalination remineralization filter,E6,unknown,unknown,agent:lit-screener
+crossref:10.1007/s00254-002-0640-x,unsure,Limestone exposed to atmosphere; may be field exposure rates or built stone,I1,limestone_tablet,subaerial,agent:lit-screener
+crossref:10.2139/ssrn.5391302,exclude,Nutrient adsorption on limestone surfaces,E6,unknown,unknown,agent:lit-screener
+crossref:10.3997/2214-4609.201801603,exclude,Burial dissolution kinetics experiment,E3;E6,unknown,unknown,agent:lit-screener
+crossref:10.1016/0009-2509(89)85233-9,exclude,Chemical engineering mass transfer model rotating cylinder,E3;E6,unknown,unknown,agent:lit-screener
+crossref:10.3997/2214-4609.2025638009,exclude,CO2 sequestration in carbonate reservoirs,E6,unknown,unknown,agent:lit-screener
+crossref:10.1007/978-3-540-76694-0_144,exclude,Laboratory acid dissolution experiment,E3;E6,unknown,unknown,agent:lit-screener
+crossref:10.1021/ie001119j,exclude,Industrial ground limestone particle dissolution,E3;E6,unknown,unknown,agent:lit-screener
+crossref:10.13168/agg.2025.0029,exclude,Rock mechanics model of dissolution degradation,E6;E9,unknown,unknown,agent:lit-screener
+crossref:10.1111/are.13810,exclude,Aquaculture laboratory soil-water liming,E3;E6,unknown,unknown,agent:lit-screener
+crossref:10.1109/icbbe.2010.5516025,exclude,Laboratory organic acid dissolution,E3,unknown,unknown,agent:lit-screener
+crossref:10.1002/cite.330571018,exclude,Chemical engineering slurry kinetics,E3;E6,unknown,unknown,agent:lit-screener
+crossref:10.1130/abs/2023am-395935,exclude,Mine drainage treatment,E6,unknown,unknown,agent:lit-screener

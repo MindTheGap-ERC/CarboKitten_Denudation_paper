@@ -1,0 +1,41 @@
+id,decision,reason,criteria,proxy_hint,marine_zone_hint,screener
+W1985914104,exclude,limestone deposit geophysics and quality assessment,E6,unknown,unknown,agent:lit-screener
+W2900252476,exclude,laboratory frost dilatation test on building limestone,E3,unknown,unknown,agent:lit-screener
+crossref:10.1127/zfg/27/1983/413,unsure,no abstract; cyanobacterial limestone weathering Jerusalem may give rates,I1;I2,unknown,subaerial,agent:lit-screener
+crossref:10.1127/zfg/28/1984/105,exclude,other_proxy:dated_structure tombstone weathering rates Haifa,E7,dated_structure,subaerial,agent:lit-screener
+crossref:10.7185/gold2021.6676,exclude,limestone weathering on cargo ships not rock denudation,E6,unknown,unknown,agent:lit-screener
+crossref:10.2139/ssrn.4792631,unsure,no abstract; cavernous weathering limestone may include rates,I1;I2,unknown,subaerial,agent:lit-screener
+crossref:10.5194/egusphere-egu2020-8349,exclude,bedrock alteration and soil microaggregates no rate,E4,unknown,soil_covered,agent:lit-screener
+crossref:10.1016/0169-555x(88)90007-4,unsure,no abstract; desert limestone debris weathering may report rates,I1;I2,unknown,subaerial,agent:lit-screener
+crossref:10.2139/ssrn.4602725,exclude,mineral carbonation controlled weathering CO2 sequestration,E6;E3,unknown,unknown,agent:lit-screener
+crossref:10.5194/egusphere-egu25-21723,exclude,enhanced weathering mesocosm fertiliser experiment,E6;E3,unknown,unknown,agent:lit-screener
+crossref:10.1023/a:1015827031669,include,limestone field exposure damage functions likely tablet weathering rates,I1;I2;I3,limestone_tablet,subaerial,agent:lit-screener
+crossref:10.1016/0016-7061(79)90002-8,unsure,no abstract; clay soils on limestone weathering maybe mass balance,I1;I2,terra_rossa_mass_balance,soil_covered,agent:lit-screener
+crossref:10.1016/j.geomorph.2024.109334,unsure,no abstract; cavernous weathering limestone Israel may include rates,I1;I2,unknown,subaerial,agent:lit-screener
+crossref:10.1144/1470-923602-007,exclude,building limestone durability classification by geochemistry,E6,unknown,unknown,agent:lit-screener
+crossref:10.1201/noe0415450188.ch10,exclude,other_proxy:dated_structure weathering crusts on building limestone,E7,dated_structure,unknown,agent:lit-screener
+crossref:10.1130/abs/2022pr-376051,unsure,no abstract; hillslope limestone block weathering may give rates,I1;I2,unknown,subaerial,agent:lit-screener
+crossref:10.1007/978-981-13-1211-3_4,exclude,accelerated weathering of limestone for CO2 mitigation,E6,unknown,unknown,agent:lit-screener
+crossref:10.1016/j.apgeog.2013.03.001,exclude,other_proxy:dated_structure churchyard gravestone weathering index,E7,dated_structure,subaerial,agent:lit-screener
+crossref:10.1130/0016-7606(1970)81[3757:swodbf]2.0.co;2,unsure,no abstract; differential dolomite/limestone weathering may quantify lowering,I1;I2,unknown,subaerial,agent:lit-screener
+crossref:10.1127/zfg/2/1958/12,unsure,no abstract; limestone weathering in soils Paris old study,I1;I2,unknown,soil_covered,agent:lit-screener
+crossref:10.19080/etoaj.2020.03.555616,unsure,no abstract; chalky limestone weathering White Desert unclear if rates,I1;I2,unknown,subaerial,agent:lit-screener
+crossref:10.2139/ssrn.7306591,exclude,accelerated weathering CO2 capture performance model,E6,unknown,unknown,agent:lit-screener
+crossref:10.1016/j.gca.2015.10.024,exclude,laboratory weathering experiments grain detachment,E3,unknown,unknown,agent:lit-screener
+crossref:10.1016/s0360-1323(03)00072-6,exclude,other_proxy:dated_structure crusts on limestone buildings Budapest,E7,dated_structure,unknown,agent:lit-screener
+crossref:10.1515/rbm-2013-6625,exclude,artificial salt weathering laboratory tests building stone,E3;E7,unknown,unknown,agent:lit-screener
+crossref:10.1144/gsl.qjeg.1988.021.01.02,exclude,engineering classification of limestone weathering no rates,E6;E4,unknown,unknown,agent:lit-screener
+crossref:10.1520/stp162820200004,exclude,dimension stone freeze-thaw durability modelling,E6,unknown,unknown,agent:lit-screener
+crossref:10.2478/v10002-007-0011-z,exclude,other_proxy:dated_structure celestite in urban weathering crust,E7,dated_structure,unknown,agent:lit-screener
+crossref:10.21000/jasmr94020334,exclude,pyritic shale weathering simulation with lime,E6,unknown,unknown,agent:lit-screener
+crossref:10.1111/j.1365-3091.1977.tb00258.x,exclude,submarine terrace phosphatized limestone diagenesis no rate,E4,unknown,unknown,agent:lit-screener
+crossref:10.1144/gsl.sp.2002.205.01.17,exclude,other_proxy:dated_structure Cairo monument weathering mapping,E7,dated_structure,subaerial,agent:lit-screener
+crossref:10.1016/j.energy.2006.10.011,exclude,accelerated weathering of limestone for CO2 reduction,E6,unknown,unknown,agent:lit-screener
+crossref:10.1127/njgpa/208/1998/637,exclude,other_proxy:dated_structure building stone decay Wellenkalk,E7,dated_structure,unknown,agent:lit-screener
+crossref:10.1016/0269-7491(89)90084-5,exclude,sulphur species in weathering products pollution study,E6,unknown,unknown,agent:lit-screener
+crossref:10.1127/njgpa/208/1998/631,exclude,colour change of limestone no denudation rate,E4,unknown,unknown,agent:lit-screener
+crossref:10.1515/rbm-2012-6553,exclude,artificial salt weathering laboratory dimensional stone,E3,unknown,unknown,agent:lit-screener
+crossref:10.25236/ijndes.2021.050206,exclude,ground penetrating radar tunnel surrounding rock,E6,unknown,unknown,agent:lit-screener
+crossref:10.1520/stp162820190169,exclude,accelerated weathering discoloration laboratory test,E3,unknown,unknown,agent:lit-screener
+crossref:10.7185/gold2025.30017,exclude,other_proxy:dated_structure heritage tuffeau sulfur isotopes,E7,dated_structure,unknown,agent:lit-screener
+crossref:10.2307/j.ctt9qdxzk.13,exclude,other_proxy:dated_structure weathering of historical buildings Sagalassos,E7,dated_structure,unknown,agent:lit-screener
