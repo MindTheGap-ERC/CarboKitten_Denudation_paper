@@ -1,0 +1,41 @@
+id,decision,reason,criteria,proxy_hint,marine_zone_hint,screener
+W1577603622,exclude,historical biography of karst pioneer; no rates,E4,unknown,unknown,agent:lit-screener
+W2357794274,unsure,limestone tablet rates under land uses; possibly E11/Chinese full text,I1;I2;I3;E11?,limestone_tablet,soil_covered,agent:lit-screener
+W2382092488,exclude,karst development from boreholes in coal field; no denudation rate,E4,unknown,unknown,agent:lit-screener
+W2374224020,exclude,soil anti-erodibility under vegetation; soil only,E5,unknown,soil_covered,agent:lit-screener
+W2047311959,unsure,no abstract; mixing corrosion theory likely but karstification title,E4?,unknown,unknown,agent:lit-screener
+W4384201714,exclude,hidden karst characterization for power station; engineering hydrogeology,E4;E6,unknown,unknown,agent:lit-screener
+W1499436396,exclude,human disturbance index of karst; no rates,E4,unknown,unknown,agent:lit-screener
+W4404752035,exclude,salt karst reservoir salinity model,E2;E9,unknown,unknown,agent:lit-screener
+W1887234718,exclude,microbe-mineral calcite dissolution; no field denudation rate,E3;E6,unknown,cave,agent:lit-screener
+W2912036261,exclude,soil CO2 profiles; no denudation rate,E4,unknown,soil_covered,agent:lit-screener
+W2364884638,include,field limestone/dolomite tablets in allogenic water; rates mm/ka,I1;I2;I3,limestone_tablet,subaerial,agent:lit-screener
+W1514213934,exclude,review of Alpine cave genesis and paleoclimate; no rates,E4,unknown,cave,agent:lit-screener
+W2034749653,exclude,numerical model of cave evolution by mixing corrosion,E9;E4,unknown,cave,agent:lit-screener
+W4365151087,exclude,mining seepage in collapse column; engineering,E6,unknown,unknown,agent:lit-screener
+W2783915692,exclude,salt karst morphogenesis,E2,unknown,unknown,agent:lit-screener
+W1658452846,exclude,numerical model of hypogene fracture dissolution,E9;E4,unknown,unknown,agent:lit-screener
+W2391685456,unsure,tablet dissolution rates under vegetation types; possibly E11,I1;I2;I3;E11?,limestone_tablet,soil_covered,agent:lit-screener
+W69901210,exclude,no abstract; title states model of karstification,E9,unknown,unknown,agent:lit-screener
+W4304109024,exclude,cave airflow chimney effect,E4,unknown,cave,agent:lit-screener
+W7131794642,exclude,Holocene cave sediment archive; paleoenvironment,E4,unknown,cave,agent:lit-screener
+W4283757977,exclude,gypsum karst poljes,E2,unknown,unknown,agent:lit-screener
+W2022668357,exclude,microbial diversity in karst aquifer,E6,unknown,unknown,agent:lit-screener
+W4362522348,exclude,cave airflow patterns,E4,unknown,cave,agent:lit-screener
+W2372918265,exclude,tablet corrosion under fertilizer treatments; treatment comparison,E11,limestone_tablet,soil_covered,agent:lit-screener
+W2470402767,unsure,forestry change of karst corrosion intensity Aggtelek; may hold rates,I1;I2;I3?,limestone_tablet,soil_covered,agent:lit-screener
+W4407555493,exclude,metal contamination in weathering profiles,E6,unknown,soil_covered,agent:lit-screener
+W2299767644,exclude,karst watershed delineation method,E4,unknown,unknown,agent:lit-screener
+W2862532348,exclude,rock mechanics of limestone,E6,unknown,unknown,agent:lit-screener
+W4386818188,exclude,sulfur microbial communities in cave,E6,unknown,cave,agent:lit-screener
+W1963690963,exclude,gypsum urban karst hydrogeology,E2,unknown,unknown,agent:lit-screener
+W2106650959,exclude,aluminium battery corrosion,E6,unknown,unknown,agent:lit-screener
+W4296020328,exclude,laboratory dolomite dissolution and strength,E3;E6,unknown,unknown,agent:lit-screener
+W2946145321,exclude,gypsum karst hazards,E2,unknown,unknown,agent:lit-screener
+W2896975421,exclude,coal mining effects on karst water levels,E4,unknown,unknown,agent:lit-screener
+W4408431843,exclude,tracer test karst conduit flow velocity,E4,unknown,cave,agent:lit-screener
+W2070349662,exclude,limestone tablets in sulfidic cave water only,E1,limestone_tablet,cave,agent:lit-screener
+W2045934334,exclude,numerical model of conduit network evolution,E9;E4,unknown,cave,agent:lit-screener
+W3210931548,exclude,eogenetic karst stratigraphy from boreholes,E4,unknown,unknown,agent:lit-screener
+W2092879419,exclude,bacteria in fuel-contaminated karst aquifer,E6,unknown,unknown,agent:lit-screener
+W7130417569,exclude,microplastics in karst aquifers,E6,unknown,unknown,agent:lit-screener

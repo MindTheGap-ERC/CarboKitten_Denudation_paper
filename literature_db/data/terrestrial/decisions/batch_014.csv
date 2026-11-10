@@ -1,0 +1,41 @@
+id,decision,reason,criteria,proxy_hint,marine_zone_hint,screener
+W4313473145,exclude,Loess carbon sink review; no rock denudation rate,E4,unknown,unknown,agent:lit-screener
+W2117239182,exclude,Rock coast weathering chapter; coastal settings only,E1,unknown,intertidal,agent:lit-screener
+W3042536982,exclude,Rock avalanche chronology with 36Cl exposure ages,E10,unknown,subaerial,agent:lit-screener
+W2080005835,exclude,Dolomitization diagenesis study,E6,unknown,unknown,agent:lit-screener
+W2967723433,exclude,Petrogenic organic carbon oxidation budget; not carbonate denudation,E6,unknown,unknown,agent:lit-screener
+W7215117346,exclude,Hydrochemistry of coal mining area; no denudation rate,E4,unknown,unknown,agent:lit-screener
+W7160645260,exclude,Soil phosphorus and tree nutrition,E6,unknown,unknown,agent:lit-screener
+W4391783446,exclude,Structural geology of carbonate deformation,E6,unknown,unknown,agent:lit-screener
+W2740551180,include,Limestone and marble tablet weight loss over 934 days in tropical climate,I1;I2;I3,limestone_tablet,subaerial,agent:lit-screener
+W2001381924,exclude,Groundwater geochemistry inverse modelling; no denudation rate,E4,unknown,unknown,agent:lit-screener
+W2355405345,exclude,Bauxite provenance method,E6,unknown,unknown,agent:lit-screener
+crossref:10.5194/esurf-2019-50-rc3,unsure,Referee comment on hillslope denudation paper; no abstract; lithology unknown,I3,unknown,unknown,agent:lit-screener
+crossref:10.3390/min14100980,exclude,Nanoparticles in groundwater; no denudation rate,E4,unknown,unknown,agent:lit-screener
+crossref:10.1007/978-3-662-08726-8_18,exclude,Microfacies textbook chapter on resources and preservation,E6,unknown,unknown,agent:lit-screener
+crossref:10.1016/0148-9062(89)92767-8,unsure,No abstract; highwall denudation; lithology unknown,I3,unknown,subaerial,agent:lit-screener
+crossref:10.5194/esurf-2019-50-rc1,unsure,Referee comment on hillslope denudation paper; no abstract; lithology unknown,I3,unknown,unknown,agent:lit-screener
+crossref:10.5194/esurf-2019-50-rc2,unsure,Interactive comment on hillslope denudation paper; no abstract; lithology unknown,I3,unknown,unknown,agent:lit-screener
+crossref:10.1127/zfg/44/2000/33,exclude,Charnockite fission-track denudation,E2,unknown,unknown,agent:lit-screener
+crossref:10.1007/978-3-642-03796-2_18,exclude,Microfacies textbook chapter on resources and preservation,E6,unknown,unknown,agent:lit-screener
+crossref:10.7185/gold2023.18428,unsure,No abstract; regional long-term denudation; lithology unknown,I3,unknown,unknown,agent:lit-screener
+crossref:10.1016/0148-9062(90)94339-u,unsure,coastal-title: salt spray bedrock lowering; no abstract; lithology unknown,I3,unknown,supratidal_spray,agent:lit-screener
+crossref:10.1016/0148-9062(88)91498-2,unsure,No abstract; catchment chemical denudation; lithology unknown,I3,solute_flux,soil_covered,agent:lit-screener
+crossref:10.1007/s00603-016-0915-2,exclude,Engineering weathering index for flysch rock masses,E6,unknown,unknown,agent:lit-screener
+crossref:10.3997/2214-4609.20132074,exclude,Reservoir rock physics modelling,E6,unknown,unknown,agent:lit-screener
+crossref:10.1007/s00603-024-04035-w,exclude,Rock mechanical properties from spectroscopy,E6,unknown,unknown,agent:lit-screener
+crossref:10.1201/noe0415451369.ch189,unsure,No abstract; microbial corrosion of carbonate; field or lab unclear,I1,unknown,unknown,agent:lit-screener
+crossref:10.1007/s00603-025-05059-6,exclude,Laboratory gypsum dissolution experiments,E2;E3,unknown,unknown,agent:lit-screener
+crossref:10.1016/j.jrmge.2018.05.007,exclude,Aggregate mechanical degradation tests,E6,unknown,unknown,agent:lit-screener
+crossref:10.1127/zfg/23/1979/361,unsure,No abstract; chemical denudation by rock type in Central Europe,I3,solute_flux,unknown,agent:lit-screener
+crossref:10.1007/s12665-025-12716-0,unsure,No abstract; carbonate dissolution under acid rain in karst soil system,I1;I2,limestone_tablet,soil_covered,agent:lit-screener
+W763063465,include,Karst catchment chemical denudation 90 m3/km2/yr in western Cuba,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W2335930693,include,Karst denudation index from karst water chemistry for dolostone and limestone,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W4408537156,exclude,Gypsum karst denudation only,E2,unknown,unknown,agent:lit-screener
+W2381239201,exclude,Stone forest morphology and tourism evaluation,E4,unknown,unknown,agent:lit-screener
+W2368117688,exclude,Paleokarst in gas field reservoir,E6,unknown,unknown,agent:lit-screener
+W1924241136,exclude,Glaciokarst landforms; no rate,E4,unknown,unknown,agent:lit-screener
+W4394829834,exclude,Bauxite genesis in karst depressions,E6,unknown,unknown,agent:lit-screener
+W2890341943,exclude,Karst hazards and ecological safety; no rate,E4,unknown,unknown,agent:lit-screener
+W2529325058,unsure,Buried tablet field column fertilizer treatments; control rates may be usable,I1;I3;E11,limestone_tablet,soil_covered,agent:lit-screener
+W2624955360,exclude,Tectonics of poljes; no denudation rate,E4,unknown,unknown,agent:lit-screener

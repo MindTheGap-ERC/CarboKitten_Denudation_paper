@@ -1,0 +1,41 @@
+id,decision,reason,criteria,proxy_hint,marine_zone_hint,screener
+crossref:10.1016/j.quageo.2008.06.001,unsure,no abstract; 10Be depth-profile denudation method; lithology unknown,I3,unknown,unknown,agent:lit-screener
+crossref:10.1111/j.0028-8292.1974.tb00519.x,unsure,no abstract; general denudation rates paper may tabulate karst rates,I3r,unknown,unknown,agent:lit-screener
+W2906780878,exclude,oceanic core complex carbonation; not carbonate rock denudation,E6,unknown,unknown,agent:lit-screener
+W2071117651,unsure,no abstract; microbial weathering of carbonates; field rate unclear,I1,unknown,unknown,agent:lit-screener
+W2392499026,exclude,palaeokarst petroleum reservoir model; no denudation rate,E6;E4,unknown,unknown,agent:lit-screener
+W2134839985,exclude,tectonic denudation by fault; not surface denudation,E6,unknown,unknown,agent:lit-screener
+W4200180481,exclude,qualitative karren development model; no rate,E4,unknown,subaerial,agent:lit-screener
+W1533682913,exclude,tectonic denudation by fault; not surface denudation,E6,unknown,unknown,agent:lit-screener
+W3098195843,unsure,review of Dinaric tablet and MEM rates but likely Croatian-language thesis,I1;I2;I3r;E8?,limestone_tablet;mem,subaerial,agent:lit-screener
+W2808306811,exclude,suffosion and karst hazards; no denudation rate,E4,unknown,unknown,agent:lit-screener
+W1994928839,exclude,tectonic exhumation of eclogites; not carbonate denudation,E2;E6,unknown,unknown,agent:lit-screener
+W2383818692,exclude,subsurface water-rock interaction in clastic reservoir,E6,unknown,unknown,agent:lit-screener
+W3091929695,exclude,dolomite diagenesis in coastal sediments; not denudation,E6,unknown,unknown,agent:lit-screener
+W2186897992,exclude,Bengal Fan sediment provenance; not carbonate denudation,E2;E6,unknown,unknown,agent:lit-screener
+W2350498275,include,Pearl River basin carbonate corrosion rate and carbon sink from monitoring data,I1;I2;I3,limestone_tablet;solute_flux,subaerial,agent:lit-screener
+W2530220208,exclude,petroleum reservoir rocks; no denudation rate,E6,unknown,unknown,agent:lit-screener
+W1820733831,exclude,qualitative rock relief morphology on mogote,E4,unknown,subaerial,agent:lit-screener
+W2385645796,include,limestone tablet dissolution rates in soil Jinfo Mountain,I1;I2;I3,limestone_tablet,soil_covered,agent:lit-screener
+W2061995507,exclude,pseudokarst in non-carbonate rocks; classification only,E2;E4,unknown,unknown,agent:lit-screener
+W3003208326,exclude,vegetation classification of coastal outcrops,E6,unknown,unknown,agent:lit-screener
+W2484222816,exclude,sedimentary rocks on Mars,E6,unknown,unknown,agent:lit-screener
+W2068205597,include,solute cation denudation rate for carbonate-rich subcatchments,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W650984938,exclude,U-series geochemistry textbook,E6,unknown,unknown,agent:lit-screener
+W2314860140,exclude,hydrothermal carbonate geochemistry,E6,unknown,unknown,agent:lit-screener
+W4403902126,exclude,general karst landform review; no rate table indicated,E4,unknown,unknown,agent:lit-screener
+W4392586349,exclude,hydrocarbon source rock organic matter,E6,unknown,unknown,agent:lit-screener
+W1573350472,exclude,sedimentology textbook,E6,unknown,unknown,agent:lit-screener
+W2053778887,exclude,glacial meltwater hydrochemistry; mixed lithology; no denudation rate,E4,unknown,unknown,agent:lit-screener
+W2943989604,exclude,salt weathering inside cave only,E1,unknown,cave,agent:lit-screener
+W3184372072,unsure,limestone cryogenic weathering over 10 years; unclear if lowering rate,I1;I2,unknown,subaerial,agent:lit-screener
+W3014350305,include,carbonate dissolution rate from underground river hydrochemistry and discharge,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W2111230711,exclude,trench sediment provenance; not carbonate denudation,E2;E6,unknown,unknown,agent:lit-screener
+W2355415225,exclude,clastic oilfield diagenesis,E6,unknown,unknown,agent:lit-screener
+W7223375792,exclude,Zn-Pb ore deposit metallogeny,E6,unknown,unknown,agent:lit-screener
+W4406339103,exclude,enhanced rock weathering CDR methodology,E6,unknown,unknown,agent:lit-screener
+W2143137498,unsure,Sr isotopes of carbonate watershed; weathering rates may be reported,I1;I2,solute_flux,subaerial,agent:lit-screener
+W2029819678,exclude,burial and thermal history of basin,E6,unknown,unknown,agent:lit-screener
+W2377902846,exclude,hydrocarbon accumulation in Tarim Basin,E6,unknown,unknown,agent:lit-screener
+W4251630645,exclude,geological map of schist area; no rate,E2;E4,unknown,unknown,agent:lit-screener
+W1979392610,exclude,laboratory mineral dissolution test,E3,unknown,unknown,agent:lit-screener

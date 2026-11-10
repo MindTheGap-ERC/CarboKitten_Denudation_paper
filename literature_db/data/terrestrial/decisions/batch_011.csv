@@ -1,0 +1,41 @@
+id,decision,reason,criteria,proxy_hint,marine_zone_hint,screener
+W2096266936,unsure,Sediment-budget denudation of Apennine source area; carbonate share unclear,I2;I3,sediment_yield,subaerial,agent:lit-screener
+W2080835316,unsure,No abstract; Amazon basin chemical denudation may include carbonate fluxes,I2;I3,solute_flux,subaerial,agent:lit-screener
+W2073313092,unsure,No abstract; lake sediment-budget denudation; lithology unknown,I3,reservoir_infill,unknown,agent:lit-screener
+W2595645917,include,36Cl denudation rates of Luberon carbonate landscape,I1;I2;I3,cosmogenic_36cl,subaerial,agent:lit-screener
+W1969970441,unsure,No abstract; Alpine 10Be catchment denudation; carbonate catchments unclear,I2;I3,cosmogenic_10be_catchment,subaerial,agent:lit-screener
+W1970969378,unsure,No abstract; Svalbard catchment chemical denudation; lithology unknown,I2;I3,solute_flux,subaerial,agent:lit-screener
+W7223556610,unsure,ESR thermochronometry of carbonate bedrock; proof of concept; rates uncertain,I1;I2,unknown,subaerial,agent:lit-screener
+W1928983832,exclude,Siliciclastic molasse record of orogenic denudation; not carbonate,E2;E4,unknown,unknown,agent:lit-screener
+W2029568399,unsure,No abstract; glacier basin chemical denudation; carbonate share unknown,I2;I3,solute_flux,subaerial,agent:lit-screener
+W2329419555,unsure,No abstract; glacier basin chemical denudation; carbonate share unknown,I2;I3,solute_flux,subaerial,agent:lit-screener
+W4392144264,unsure,No abstract; cosmogenic denudation rates; lithology unknown,I2;I3,cosmogenic_10be_catchment;meteoric_10be_9be,subaerial,agent:lit-screener
+W3104010126,include,Carbonate denudation yields from river chemistry in Irish catchments,I1;I2;I3,solute_flux;sediment_yield,subaerial,agent:lit-screener
+W1984661477,unsure,No abstract; Yellow River chemical denudation may include carbonate fluxes,I2;I3,solute_flux,subaerial,agent:lit-screener
+W4392657990,exclude,Numerical model of subaerial erosion of carbonate platforms,E9,unknown,unknown,agent:lit-screener
+W4408428187,include,Meteoric 10Be/9Be denudation rates in lithologically diverse Albanides incl carbonates,I1;I2;I3,meteoric_10be_9be,subaerial,agent:lit-screener
+W2074485974,include,No abstract; weathering rates of carbonate Bow River basin,I1;I2;I3,solute_flux,subaerial,agent:lit-screener
+W1606818632,exclude,Chemical denudation of Iceland; basaltic not carbonate,E2,solute_flux,subaerial,agent:lit-screener
+W3136109082,unsure,No abstract; meteoric 10Be/9Be in quartz-poor lithologies possibly carbonates,I2;I3,meteoric_10be_9be,subaerial,agent:lit-screener
+W4414524307,unsure,review: glacierized basin chemical denudation compilation; carbonate share unclear,I2;I3r,solute_flux,subaerial,agent:lit-screener
+W4392651737,exclude,Tundra lake solute origins and mapping; no denudation rate,E4,unknown,unknown,agent:lit-screener
+W4200374930,unsure,No abstract; chemical denudation Quadrilatero Ferrifero; mixed lithology,I2;I3,solute_flux,subaerial,agent:lit-screener
+W2015565974,unsure,No abstract; glacier chemical denudation Disko Island; likely basaltic,I2;I3,solute_flux,subaerial,agent:lit-screener
+W2889242659,include,No abstract; carbonate dissolution zoning in China likely tablet rates,I1;I2;I3,limestone_tablet,soil_covered,agent:lit-screener
+W2078129947,unsure,No abstract; carbonate weathering in crystalline glaciated catchments,I2;I3,solute_flux,subaerial,agent:lit-screener
+W1581594313,exclude,Textbook on sedimentary basins; no carbonate denudation rate data,E4,unknown,unknown,agent:lit-screener
+W1985497960,unsure,No abstract; carbonate weathering along climate transect; rates unclear,I1;I2,solute_flux,soil_covered,agent:lit-screener
+W4206069958,unsure,No abstract; small tropical river chemical denudation; lithology unknown,I2;I3,solute_flux,subaerial,agent:lit-screener
+W2000986374,unsure,No abstract; Appalachian denudation from offshore sediment volumes; mixed lithology,I2;I3,sediment_yield,subaerial,agent:lit-screener
+W7168863529,include,No abstract; in situ 10Be and 36Cl in marble,I1;I2;I3,cosmogenic_36cl,subaerial,agent:lit-screener
+W2146622853,exclude,Himalayan molasse provenance and exhumation; not carbonate,E2;E4,unknown,unknown,agent:lit-screener
+W2804078060,unsure,No abstract; global carbonate weathering intensity; possibly catchment rates,I1;I2,solute_flux,subaerial,agent:lit-screener
+W4404815749,include,36Cl catchment denudation and stream weathering rates in Tabular Jura carbonates,I1;I2;I3,cosmogenic_36cl;solute_flux,subaerial,agent:lit-screener
+W3141646501,exclude,Weathering in shales and sandstones of Taiwan; not carbonate rock,E2,solute_flux,subaerial,agent:lit-screener
+W2146570207,exclude,Offshore carbonate platform seismic evolution; petroleum analogue,E4;E6,unknown,unknown,agent:lit-screener
+W2188219505,exclude,Amazon Fan marine sedimentation; no carbonate denudation rate,E4;E6,unknown,unknown,agent:lit-screener
+W2350051332,exclude,Petroleum reservoir paleogeomorphology restoration from seismic,E6,paleokarst,unknown,agent:lit-screener
+W2922284726,unsure,Thesis on denudation processes in clays and calcarenites; rates unclear,I2,unknown,subaerial,agent:lit-screener
+W4291002234,exclude,Enhanced carbonate weathering for CO2 sequestration,E6,unknown,unknown,agent:lit-screener
+W3109659760,exclude,Cosmogenic 3He denudation on volcanic island; not carbonate,E2,unknown,subaerial,agent:lit-screener
+W1988912694,unsure,No abstract; Narmada basin weathering fluxes incl carbonate component,I2;I3,solute_flux,subaerial,agent:lit-screener
