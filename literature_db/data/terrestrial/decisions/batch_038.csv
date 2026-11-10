@@ -1,0 +1,41 @@
+id,decision,reason,criteria,proxy_hint,marine_zone_hint,screener
+crossref:10.1130/0091-7613(1999)027<0399:qdroii>2.3.co;2,unsure,No abstract; cosmogenic denudation lithology unclear from title,I3;no_abstract,cosmogenic_10be_catchment,subaerial,agent:lit-screener
+crossref:10.1016/j.epsl.2016.03.049,unsure,No abstract; cosmogenic denudation lithology unclear from title,I3;no_abstract,cosmogenic_10be_catchment,subaerial,agent:lit-screener
+crossref:10.18778/1427-9711.s.2022.09,unsure,No abstract; 36Cl on carbonate rocks Tatra may give denudation,I3;no_abstract,cosmogenic_36cl,subaerial,agent:lit-screener
+crossref:10.1016/j.quaint.2016.01.009,unsure,No abstract; cosmogenic denudation lithology unclear from title,I3;no_abstract,cosmogenic_10be_catchment,subaerial,agent:lit-screener
+crossref:10.1016/j.gloplacha.2025.104806,unsure,No abstract; monolithologic catchments may include carbonate,I3;no_abstract,cosmogenic_10be_catchment;meteoric_10be_9be,subaerial,agent:lit-screener
+crossref:10.1130/g34746.1,unsure,No abstract; cosmogenic denudation lithology unclear from title,I3;no_abstract,cosmogenic_10be_catchment,subaerial,agent:lit-screener
+crossref:10.1016/j.geomorph.2016.08.018,unsure,No abstract; cosmogenic denudation lithology unclear from title,I3;no_abstract,cosmogenic_10be_catchment,subaerial,agent:lit-screener
+crossref:10.5194/gchron-2021-31-supplement,unsure,No abstract; Cuba solute flux and cosmogenic data may include karst,I3;no_abstract,cosmogenic_10be_catchment;solute_flux,subaerial,agent:lit-screener
+crossref:10.25249/0375-7536.2011414629641,unsure,No abstract; cosmogenic denudation lithology unclear from title,I3;no_abstract,cosmogenic_10be_catchment,subaerial,agent:lit-screener
+crossref:10.1016/j.geomorph.2009.11.019,unsure,No abstract; cosmogenic denudation lithology unclear from title,I3;no_abstract,cosmogenic_10be_catchment,subaerial,agent:lit-screener
+crossref:10.1016/j.epsl.2014.01.011,unsure,No abstract; cosmogenic denudation lithology unclear from title,I3;no_abstract,cosmogenic_10be_catchment,subaerial,agent:lit-screener
+crossref:10.1016/j.geomorph.2013.01.021,unsure,No abstract; cosmogenic denudation lithology unclear from title,I3;no_abstract,cosmogenic_10be_catchment,subaerial,agent:lit-screener
+crossref:10.1016/j.geomorph.2006.06.029,unsure,No abstract; cosmogenic denudation lithology unclear from title,I3;no_abstract,cosmogenic_10be_catchment,subaerial,agent:lit-screener
+crossref:10.1016/s0012-821x(00)00144-8,unsure,No abstract; cosmogenic denudation lithology unclear from title,I3;no_abstract,cosmogenic_10be_catchment,subaerial,agent:lit-screener
+crossref:10.1016/j.catena.2026.109971,unsure,No abstract; cosmogenic denudation lithology unclear from title,I3;no_abstract,cosmogenic_10be_catchment,subaerial,agent:lit-screener
+crossref:10.1016/j.geomorph.2006.05.009,unsure,No abstract; cosmogenic denudation lithology unclear from title,I3;no_abstract,cosmogenic_10be_catchment,subaerial,agent:lit-screener
+crossref:10.1016/j.quageo.2019.02.004,unsure,No abstract; 36Cl limestone fault scarps may include erosion rates,I3;no_abstract,cosmogenic_36cl,subaerial,agent:lit-screener
+crossref:10.1016/j.epsl.2017.04.001,unsure,No abstract; meteoric 10Be/9Be basin denudation lithology unclear,I3;no_abstract,meteoric_10be_9be,subaerial,agent:lit-screener
+crossref:10.1016/s0169-555x(98)00093-2,unsure,No abstract; cosmogenic denudation lithology unclear from title,I3;no_abstract,cosmogenic_10be_catchment,subaerial,agent:lit-screener
+crossref:10.1016/j.geomorph.2012.07.031,unsure,No abstract; cosmogenic denudation lithology unclear from title,I3;no_abstract,cosmogenic_10be_catchment,subaerial,agent:lit-screener
+crossref:10.1007/s00531-011-0655-1,unsure,No abstract; cosmogenic denudation lithology unclear from title,I3;no_abstract,cosmogenic_10be_catchment,subaerial,agent:lit-screener
+crossref:10.1016/j.eve.2025.100064,unsure,No abstract; cosmogenic denudation lithology unclear from title,I3;no_abstract,cosmogenic_10be_catchment,subaerial,agent:lit-screener
+crossref:10.1016/j.geomorph.2026.110539,exclude,Crystalline massifs only per title,E2,cosmogenic_10be_catchment,subaerial,agent:lit-screener
+crossref:10.1016/j.epsl.2023.118490,unsure,No abstract; cosmogenic denudation lithology unclear from title,I3;no_abstract,cosmogenic_10be_catchment,subaerial,agent:lit-screener
+crossref:10.1016/j.epsl.2022.117869,unsure,No abstract; cosmogenic denudation lithology unclear from title,I3;no_abstract,cosmogenic_10be_catchment,subaerial,agent:lit-screener
+crossref:10.1130/abs/2017am-297563,unsure,No abstract; Cradle of Humankind karst denudation rates possible,I3;no_abstract,unknown,subaerial,agent:lit-screener
+crossref:10.1016/j.epsl.2009.10.008,unsure,No abstract; cosmogenic denudation lithology unclear from title,I3;no_abstract,cosmogenic_10be_catchment,subaerial,agent:lit-screener
+crossref:10.2113/gssajg.110.2-3.235,unsure,No abstract; cosmogenic denudation lithology unclear from title,I3;no_abstract,cosmogenic_10be_catchment,subaerial,agent:lit-screener
+crossref:10.1016/j.jseaes.2014.03.012,unsure,No abstract; cosmogenic denudation lithology unclear from title,I3;no_abstract,cosmogenic_10be_catchment,subaerial,agent:lit-screener
+crossref:10.1007/s11434-014-0601-2,exclude,Granitic regolith only per title,E2,unknown,soil_covered,agent:lit-screener
+crossref:10.1016/j.jseaes.2015.12.006,exclude,Granitic regolith only per title,E2,unknown,soil_covered,agent:lit-screener
+crossref:10.1130/g24883a.1,unsure,No abstract; orogen denudation method and lithology unclear,I3;no_abstract,unknown,subaerial,agent:lit-screener
+crossref:10.4324/9781003026563-2,unsure,No abstract; regional denudation chapter lithology unclear,I3;no_abstract,unknown,subaerial,agent:lit-screener
+crossref:10.1016/j.gexplo.2005.08.064,unsure,No abstract; solute flux and 10Be lithology unclear,I3;no_abstract,solute_flux;cosmogenic_10be_catchment,subaerial,agent:lit-screener
+crossref:10.1016/j.quageo.2009.09.002,unsure,No abstract; 36Cl in limestone archaeological site may give denudation,I3;no_abstract,cosmogenic_36cl;dated_structure,subaerial,agent:lit-screener
+crossref:10.1080/03009480601024663,exclude,Iceland basaltic terrain denudation from marine sediments,E2,sediment_yield,unknown,agent:lit-screener
+crossref:10.5194/esurf-2019-37-supplement,unsure,No abstract; cosmogenic denudation lithology unclear from title,I3;no_abstract,cosmogenic_10be_catchment,subaerial,agent:lit-screener
+crossref:10.1016/j.nimb.2009.10.135,exclude,53Mn production rate method paper not carbonate denudation,E4,unknown,unknown,agent:lit-screener
+crossref:10.1016/j.geomorph.2016.10.006,unsure,No abstract; tree uprooting hillslope denudation lithology unclear,I3;no_abstract,unknown,subaerial,agent:lit-screener
+crossref:10.5194/egusphere-2023-765,exclude,other_proxy:cave_level canyon incision rates from cave burial ages,E12,cave_level,cave,agent:lit-screener

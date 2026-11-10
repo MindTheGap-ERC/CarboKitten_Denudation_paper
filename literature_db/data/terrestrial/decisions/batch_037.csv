@@ -1,0 +1,41 @@
+id,decision,reason,criteria,proxy_hint,marine_zone_hint,screener
+crossref:10.1306/00aa7c98-1730-11d7-8645000102c1865d,exclude,Stratigraphy of limestone-marl rhythmites; no denudation,E4,unknown,unknown,agent:lit-screener
+crossref:10.4324/9780203070123-19,exclude,General textbook chapter on denudation and weathering,E4,unknown,unknown,agent:lit-screener
+crossref:10.1080/10889378809377349,exclude,Thermal denudation of permafrost shore cliffs; not carbonate,E1;E2,unknown,unknown,agent:lit-screener
+crossref:10.1017/cbo9780511616433.012,exclude,Thermochronology modelling of isostatic response; no carbonate rates,E9,unknown,unknown,agent:lit-screener
+crossref:10.1007/978-3-642-77055-5_9,unsure,No abstract; solute flux rates chapter may tabulate carbonate denudation,I3r?,solute_flux,unknown,agent:lit-screener
+crossref:10.1016/b978-0-12-374739-6.00012-9,exclude,Conceptual review of planation and cyclicity,E4,unknown,unknown,agent:lit-screener
+crossref:10.3133/pp454h,unsure,No abstract; 1963 denudation rate compilation may include carbonate basins,I3r?,sediment_yield;solute_flux,unknown,agent:lit-screener
+crossref:10.3109/00313028609090832,exclude,Medical topic,E6,unknown,unknown,agent:lit-screener
+crossref:10.2747/0272-3646.28.1.50,exclude,Conceptual denudation theory; no carbonate rates,E4,unknown,unknown,agent:lit-screener
+crossref:10.1130/0091-7613(1976)4<105:dotist>2.0.co;2,exclude,Taiwan island denudation; not carbonate,E2,unknown,unknown,agent:lit-screener
+crossref:10.1093/bja/37.7.514-a,exclude,Medical topic,E6,unknown,unknown,agent:lit-screener
+crossref:10.1306/5d25c61b-16c1-11d7-8645000102c1865d,exclude,Tectonic denudation discussion,E6,unknown,unknown,agent:lit-screener
+crossref:10.22541/essoar.173457154.42661468/v1,unsure,Global denudation ML mapping; may compile carbonate rates,E9?;I3r?,cosmogenic_10be_catchment,unknown,agent:lit-screener
+crossref:10.1161/comment.20260813.605304,exclude,Medical topic,E6,unknown,unknown,agent:lit-screener
+crossref:10.3112/erdkunde.1954.01.05,exclude,German-language paper,E8,unknown,unknown,agent:lit-screener
+crossref:10.5194/esurf-2019-56-rc2,unsure,Review comment on Alpine headwall denudation; lithology not stated,I2;I3?,cosmogenic_36cl,subaerial,agent:lit-screener
+W2794741925,exclude,Coastal Bahamian storm deposits; no denudation rate,E1;E4,unknown,unknown,agent:lit-screener
+W1596736083,exclude,Palaeoecology pollen study,E4,unknown,unknown,agent:lit-screener
+W2039283144,exclude,River incision rates in limestone gorge,E12,cosmogenic_36cl,subaerial,agent:lit-screener
+W2261278673,include,36Cl erosion rates in dolomite/calcite among mixed lithologies,I1;I2;I3,cosmogenic_36cl,subaerial,agent:lit-screener
+W2802017015,exclude,Limestone fault scarp paleoseismology; slip rates not denudation,E4,cosmogenic_36cl,subaerial,agent:lit-screener
+W4392963465,exclude,Rock avalanche dynamics,E10,unknown,unknown,agent:lit-screener
+W2105297739,exclude,Channel incision on limestone unconformity,E12,unknown,subaerial,agent:lit-screener
+W4388871493,exclude,Uplift rates of terraces; no denudation rates,E4,unknown,unknown,agent:lit-screener
+W2597470125,exclude,Saharan sandstone paleohydrology,E2;E4,unknown,unknown,agent:lit-screener
+crossref:10.5194/egusphere-egu22-250,exclude,Glacial chronology by 36Cl exposure ages,E4,unknown,unknown,agent:lit-screener
+crossref:10.1016/j.quageo.2008.06.004,exclude,Cosmogenic method models without carbonate field rates,E9,unknown,unknown,agent:lit-screener
+crossref:10.1127/zfg/2018/0496,exclude,Bornhardt granitic terrain 10Be rates,E2,unknown,unknown,agent:lit-screener
+crossref:10.3997/2214-4609-pdb.241.decker_abstract,exclude,Dolerite denudation rates,E2,unknown,unknown,agent:lit-screener
+crossref:10.46427/gold2022.9948,exclude,Great Escarpment non-carbonate denudation,E2,unknown,unknown,agent:lit-screener
+crossref:10.1016/s0921-8181(01)00104-7,exclude,Namib cosmogenic quartz denudation; not carbonate,E2,unknown,unknown,agent:lit-screener
+crossref:10.1016/j.geomorph.2018.08.007,exclude,Quartz 10Be catchment rates; not carbonate-focused,E2,unknown,unknown,agent:lit-screener
+crossref:10.5194/egusphere-egu25-16028,exclude,Limestone fault scarp slip rates; not denudation,E4,cosmogenic_36cl,subaerial,agent:lit-screener
+crossref:10.1016/j.epsl.2019.115761,exclude,36Cl in detrital magnetite; non-carbonate,E2,unknown,unknown,agent:lit-screener
+crossref:10.1017/qua.2023.64,exclude,Speleothem chlorine proxy,E4,unknown,cave,agent:lit-screener
+crossref:10.1002/(sici)1096-9837(199602)21:2<125::aid-esp511>3.0.co;2-8,exclude,Cosmogenic method paper; not carbonate,E4,unknown,unknown,agent:lit-screener
+crossref:10.1016/j.quaint.2012.08.154,exclude,Murrumbidgee non-carbonate basin denudation,E2,unknown,unknown,agent:lit-screener
+crossref:10.1016/j.epsl.2006.05.027,exclude,Cosmogenic method limits; no carbonate field rates,E4;E9,unknown,unknown,agent:lit-screener
+crossref:10.1016/s0921-8181(99)00055-7,exclude,Transantarctic non-carbonate cosmogenic denudation,E2,unknown,unknown,agent:lit-screener
+crossref:10.1016/j.geomorph.2016.05.024,exclude,Brazilian crystalline watersheds 10Be,E2,unknown,unknown,agent:lit-screener

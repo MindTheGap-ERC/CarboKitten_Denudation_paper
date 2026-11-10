@@ -1,0 +1,41 @@
+id,decision,reason,criteria,proxy_hint,marine_zone_hint,screener
+W2313624909,unsure,Catchment solute denudation rates; carbonate share of Exe basin unclear,I2;I3,solute_flux,subaerial,agent:lit-screener
+W1622426082,exclude,Devonian sedimentology and diagenesis; no denudation rate,E4,unknown,unknown,agent:lit-screener
+W1746567743,exclude,Speleogenesis and terrace uplift on coastal island; no denudation rate,E4;E1,unknown,cave,agent:lit-screener
+W2586525626,exclude,Cave genesis geomorphology; no rate,E4,unknown,cave,agent:lit-screener
+W4251348833,exclude,Weathering grade of limestone cultural relics; no field denudation rate,E7,dated_structure,unknown,agent:lit-screener
+W2981191191,exclude,Geoheritage of cave monasteries; no rate,E4,unknown,unknown,agent:lit-screener
+W7118133573,exclude,New cave type in metamorphic rocks; descriptive,E4,unknown,cave,agent:lit-screener
+W2278222676,exclude,Vernacular limestone architecture survey; not rock denudation,E6,unknown,unknown,agent:lit-screener
+W1936665150,exclude,Tectonic denudation of core complex; not carbonate dissolution,E6,unknown,unknown,agent:lit-screener
+W2943599901,exclude,Stratigraphic section description; no rate,E4,unknown,unknown,agent:lit-screener
+W4221051917,exclude,Doline processes and morphology; no denudation rate,E4,unknown,unknown,agent:lit-screener
+W7208919074,unsure,Speleology congress proceedings volume; may contain karst denudation papers,I1,unknown,unknown,agent:lit-screener
+W4387404935,exclude,Geoheritage of calcareous sandstone mesa; no rate,E4,unknown,unknown,agent:lit-screener
+W2888998911,exclude,Terrace chronology and valley incision; no carbonate denudation rate,E4;E12,unknown,unknown,agent:lit-screener
+W4200377334,exclude,Literature review of doline development environments; no rates,E4,unknown,unknown,agent:lit-screener
+crossref:10.1002/esp.3290080402,unsure,Erratum to solutional denudation hillslope study; lithology unknown; no abstract,I3,solute_flux,soil_covered,agent:lit-screener
+crossref:10.1002/(sici)1096-9837(199605)21:5<447::aid-esp607>3.0.co;2-x,unsure,No abstract; limestone rillenkarren biokarst; possibly rates or biological focus,I1,unknown,subaerial,agent:lit-screener
+crossref:10.1127/0372-8854/2010/0054-0010,exclude,Distribution and morphology of solutional depressions; title indicates no rate,E4,unknown,subaerial,agent:lit-screener
+crossref:10.1016/b978-0-12-374739-6.00140-8,exclude,Solutional weathering on quartz sandstones and quartzite,E2,unknown,unknown,agent:lit-screener
+crossref:10.1109/sas.2011.5739821,exclude,Remote sensing mapping of karst features in boreholes,E4;E6,unknown,unknown,agent:lit-screener
+crossref:10.1007/978-3-642-41714-6_51627,exclude,Dictionary entry,E4,unknown,unknown,agent:lit-screener
+crossref:10.1126/science.191.4229.871-b,unsure,No abstract; general denudation note; lithology unknown,I3,unknown,unknown,agent:lit-screener
+crossref:10.1038/1831233b0,exclude,Archaeological structures burial; not rock denudation,E6,unknown,unknown,agent:lit-screener
+crossref:10.1126/science.191.4229.871.b,unsure,No abstract; general denudation note (duplicate); lithology unknown,I3,unknown,unknown,agent:lit-screener
+crossref:10.5005/jp/books/12625_10,exclude,Medical reproductive technology,E6,unknown,unknown,agent:lit-screener
+crossref:10.2307/jj.13168012.12,exclude,Regional landscape history chapter non-carbonate region,E4,unknown,unknown,agent:lit-screener
+crossref:10.1017/cbo9780511615078.003,exclude,Ecology primary succession,E6,unknown,unknown,agent:lit-screener
+crossref:10.1007/978-3-642-41714-6_230042,exclude,Dictionary entry,E4,unknown,unknown,agent:lit-screener
+crossref:10.1007/978-3-642-41714-6_182166,exclude,Dictionary entry,E4,unknown,unknown,agent:lit-screener
+crossref:10.1038/228273a0,unsure,No abstract; global continental denudation may include solute data,I3,solute_flux,unknown,agent:lit-screener
+crossref:10.18574/nyu/9781479840250.003.0006,exclude,History of science book chapter,E6,unknown,unknown,agent:lit-screener
+crossref:10.1007/978-3-662-04029-4_9,unsure,Book chapter on solute flux rates; may tabulate carbonate rates,I3r,solute_flux,unknown,agent:lit-screener
+crossref:10.4324/9780429263255-4,exclude,History of denudation chronology concept,E4,unknown,unknown,agent:lit-screener
+crossref:10.1038/356751a0,unsure,No abstract; denudation rates possibly including carbonate terrains,I3,unknown,unknown,agent:lit-screener
+crossref:10.1127/zfg/8/1964/453,unsure,No abstract; river solute removal rates possibly karst,I3,solute_flux,subaerial,agent:lit-screener
+crossref:10.4159/harvard.9780674180666.c107,exclude,Historical source book excerpt,E4,unknown,unknown,agent:lit-screener
+crossref:10.1127/zfg/36/1992/293,exclude,Thermochronology long-term denudation in non-carbonate SE Australia,E4;E2,unknown,unknown,agent:lit-screener
+crossref:10.31031/prm.2018.03.000553,exclude,Medical embryology,E6,unknown,unknown,agent:lit-screener
+crossref:10.30546/2958-8111.2025.3.1158,unsure,No abstract; regional denudation processes; lithology and language unclear,I3,unknown,unknown,agent:lit-screener
+crossref:10.4324/9781003028840-1,unsure,Textbook chapter on denudation rates; may include solution rate table,I3r,unknown,unknown,agent:lit-screener
