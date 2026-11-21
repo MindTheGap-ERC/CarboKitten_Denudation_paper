@@ -1,11 +1,24 @@
 import json
 
+# Runs the dissolution model for every entry of a parameter file and stores the output
+# on iRODS. Defaults to the one-at-a-time scan; the Morris scan uses the same rules:
+#
+#   OAT:    snakemake --cores <n>
+#   Morris: snakemake --cores <n> --config param_file=param_dissolution_morris.json collection=dissolution_morris
+#
+# Add any extra storage options you normally use; a dry run (-n) lists the jobs first.
+#
+# (Generate param_dissolution_morris.json first with
+#  cloud_parameterscan/createjson/param_input_morris.jl.)
+
 param_names = ["reactive_surface", "mass_density", "infiltration_coefficient", "temp",
          "precip", "pco2", "reactionrate"]
 
-BASE_COLLECTION="irods://nluu11p/home/research-mindthegap/denudation/dissolution"
+PARAM_FILE = config.get("param_file", "param_dissolution.json")
+COLLECTION = config.get("collection", "dissolution")
+BASE_COLLECTION = "irods://nluu11p/home/research-mindthegap/denudation/" + COLLECTION
 
-with open("param_dissolution.json") as f:
+with open(PARAM_FILE) as f:
     param_configs = json.load(f)
 
 PARAMS = {entry["id"]: entry for entry in param_configs}
@@ -27,7 +40,7 @@ rule all:
 
 rule run_model:
     input:
-        param_file = "param_dissolution.json",
+        param_file = PARAM_FILE,
         run_script = "cloud_parameterscan/runs/run_dissolution.jl"
     output:
         csv = storage(BASE_COLLECTION + "/results/output_{run_id}.csv"),

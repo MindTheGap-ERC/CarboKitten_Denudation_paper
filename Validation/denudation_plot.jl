@@ -9,7 +9,7 @@ const HDF5_file = "data/output/dissolution_validation.h5"
 
 header, data = read_slice(HDF5_file, :profile)
 
-const location = [5, 25, 45, 65]
+const location = [10, 30, 50, 70]
 
 function plot_sediment_profile(HDF5_file::String)
     header, data = read_slice(HDF5_file, :profile)

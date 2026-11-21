@@ -1,11 +1,11 @@
 module Dissolution_Input
 using JSON3
 
-const param_names = ["reactive_surface", "mass_density", "infiltration_coefficient", "temp",
+const PARAM_NAMES = ["reactive_surface", "mass_density", "infiltration_coefficient", "temp",
          "precip", "pco2", "reactionrate"]
 
-const bounds = [
-        (10, 200),       
+const BOUNDS = [
+        (200, 20000),       
         (2530, 2830),     
         (0.1, 0.9),
         (293, 303), 
@@ -14,8 +14,8 @@ const bounds = [
         (1e-5, 2e-3),          
         ]
 
-const default_value = Dict(
-        "reactive_surface" => 50,       
+const DEFAULT_VALUE = Dict(
+        "reactive_surface" => 2000,       
         "mass_density" => 2730,     
         "infiltration_coefficient" => 0.5,
         "temp" => 298, 
@@ -26,7 +26,7 @@ const default_value = Dict(
         )
 
 
-function get_param_sets(N::Int64, param_names::Vector{String}, bounds::Vector{Tuple{Float64, Float64}}, default_value::Dict{String, Float64})
+function get_param_sets(N::Int64, param_names::Vector{String}, bounds::Vector{<:Tuple{Real, Real}}, default_value::Dict{String, Any})
     Chosen_Parameter_Place = collect(0:1/N:1)
     paramsets = []
 
@@ -43,9 +43,11 @@ function get_param_sets(N::Int64, param_names::Vector{String}, bounds::Vector{Tu
     return paramsets
 end
 
-paramsets = get_param_sets(N, param_names, bounds, default_value)
+const N = 10
 
-for param_name in param_names
+paramsets = get_param_sets(N, PARAM_NAMES, BOUNDS, DEFAULT_VALUE)
+
+for param_name in PARAM_NAMES
     open("param_dissolution.json", "w") do io
         JSON3.write(io, paramsets)
     end

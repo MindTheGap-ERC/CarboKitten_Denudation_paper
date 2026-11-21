@@ -1,0 +1,34 @@
+[[locations]]
+label = "1"
+total_subsidence = [20.000000000000018, "m"]
+y = [3600.0, "m"]
+initial_topography = [-4.5, "m"]
+x = [1350.0, "m"]
+[[locations]]
+label = "2"
+total_subsidence = [20.000000000000018, "m"]
+y = [3600.0, "m"]
+initial_topography = [-14.5, "m"]
+x = [4350.0, "m"]
+[[locations]]
+label = "3"
+total_subsidence = [20.000000000000018, "m"]
+y = [3600.0, "m"]
+initial_topography = [-24.5, "m"]
+x = [7350.0, "m"]
+[[locations]]
+label = "4"
+total_subsidence = [20.000000000000018, "m"]
+y = [3600.0, "m"]
+initial_topography = [-34.5, "m"]
+x = [10350.0, "m"]
+
+[files]
+metadata = ".snakemake/storage/irods/nluu11p/home/research-mindthegap/denudation/dissolution/results/output_pco2_0.0001.toml"
+sediment_accumulation_curve = ".snakemake/storage/irods/nluu11p/home/research-mindthegap/denudation/dissolution/results/output_pco2_0.0001.csv"
+
+[global]
+time_steps = 5000
+subsidence_rate = [20.0, "m Myr^-1"]
+delta_t = [0.0002, "Myr"]
+tag = "pco2_0.0001"
