@@ -66,33 +66,78 @@ end
 function calculate_mean_denudation_rates(
     header::Header,
     data::DataSlice,
-    locations::Int)
+    location::Int)
 
     depths = water_depth(header, data)
-    thickness = sediment_thickness(data)[locations, :]
     times = header.axes.t[1:data.write_interval:end]
 
+    # The profile output is written every timestep, so each disintegration
+    # value (after the initial zero frame) records removal during one interval.
+    data.write_interval == 1 || error(
+        "Integrated denudation requires profile output with write_interval=1; " *
+        "the saved disintegration values are per-step amounts.")
 
-    durations = diff(times)
-    thickness_changes = diff(thickness)
-    exposed = vec(depths[locations, 1:end-1] .< 0u"m")
+    n = min(length(times), size(depths, 2), size(data.disintegration, 3))
+    durations = diff(times[1:n])
+    exposed = vec(depths[location, 1:n-1] .<= 0u"m")
     exposed_duration = sum(durations[exposed]; init=0u"Myr")
-    @show exposed_duration
-    @show -sum(thickness_changes[exposed])
     if iszero(exposed_duration)
-        println("No exposed intervals found at location $(locations).")
+        println("No exposed intervals found at location $(location).")
         return nothing
     end
 
-    sediment_loss = -sum(thickness_changes[exposed])
-    return uconvert(u"mm/kyr", sediment_loss / exposed_duration)
+    # Frame 1 is the initial state; frame i contains removal during t[i-1] → t[i].
+    removed_per_interval = dropdims(
+        sum(data.disintegration[:, location, 2:n]; dims=1), dims=1)
+    denudated_thickness = sum(removed_per_interval[exposed]; init=0u"m")
+    return uconvert(u"mm/kyr", denudated_thickness / exposed_duration)
 end
 
-calculate_mean_denudation_rates(header, data, 25)
+function plot_mean_denudation_rates(header::Header, data::DataSlice, locations::Vector{Int}; ax::Axis)
+    mean_rates = [calculate_mean_denudation_rates(header, data, loc) for loc in locations]
+    valid = findall(rate -> rate !== nothing, mean_rates)
+    isempty(valid) && return ax
+
+    rates = Float64[ustrip(u"mm/kyr", mean_rates[i]) for i in valid]
+    CairoMakie.barplot!(ax, locations[valid], rates, color = :blue)
+    ax.xlabel = "Location"
+    ax.ylabel = "Mean Denudation Rate (mm/kyr)"
+    ax.title = "Mean Denudation Rates at Different Locations"
+    return ax
+end
+
+function plot_water_depth(header::Header, data::DataSlice, location::Int; ax::Axis)
+    depths = water_depth(header, data)
+    time_interval = (header.axes.t[end] - header.axes.t[1]) /
+                     (size(data.bathymetry, 2) - 1)
+    times_range = header.axes.t[1]:time_interval:header.axes.t[end]
+    times = collect(times_range)
+    times = Float64.(vec(times ./ u"Myr"))
+
+    depth_values = Float64.(vec(depths[location, :]) ./ u"m")
+
+    lines!(ax, times, depth_values, color = :blue)
+    ax.xlabel = "Time (Myr)"
+    ax.ylabel = "Water Depth (m)"
+    ax.title = "Water Depth at Location $(location)"
+end
+
 
 for loc in location
     mean_rate = calculate_mean_denudation_rates(header, data, loc)
     println("Mean denudation rate at location $(loc): $(mean_rate)")
 end
+
+mean_rate_fig = Figure()
+plot_mean_denudation_rates(header, data, location; ax = Axis(mean_rate_fig[1, 1]))
+save("data/figure/denudation_mean_rates.png", mean_rate_fig)
+
+water_depth_fig = Figure()
+for (i, loc) in enumerate(location)
+    plot_water_depth(header, data, loc; ax = Axis(water_depth_fig[i, 1]))
+end
+save("data/figure/denudation_water_depth.png", water_depth_fig)
+
+
 
 #save("data/figure/denudation_summary.png", summary_plot(HDF5_file))
