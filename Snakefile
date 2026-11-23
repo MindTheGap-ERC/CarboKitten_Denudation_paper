@@ -28,7 +28,8 @@ rule all:
     input:
         storage(expand(BASE_COLLECTION+"/results/output_{run_id}.csv", run_id=ID)),
         storage(expand(BASE_COLLECTION+"/results/output_{run_id}.toml", run_id=ID)),
-        storage(expand(BASE_COLLECTION+"/results/output_{run_id}.h5", run_id=ID))
+        storage(expand(BASE_COLLECTION+"/results/output_{run_id}.h5", run_id=ID)),
+        storage(expand(BASE_COLLECTION+"/results/waterdepth_{run_id}.csv", run_id=ID))
         # storage(expand(BASE_COLLECTION+"/plots/plot_{run_id}.png", run_id=ID))
 
 # rule create_params:
@@ -45,10 +46,11 @@ rule run_model:
     output:
         csv = storage(BASE_COLLECTION + "/results/output_{run_id}.csv"),
         toml = storage(BASE_COLLECTION + "/results/output_{run_id}.toml"),
-        h5 = storage(BASE_COLLECTION + "/results/output_{run_id}.h5")    
+        h5 = storage(BASE_COLLECTION + "/results/output_{run_id}.h5"),
+        wd = storage(BASE_COLLECTION + "/results/waterdepth_{run_id}.csv")
     shell:
         """
-        julia --project=. {input.run_script:q} {input.param_file:q} {wildcards.run_id:q} {output.csv:q} {output.toml:q} {output.h5:q}
+        julia --project=. {input.run_script:q} {input.param_file:q} {wildcards.run_id:q} {output.csv:q} {output.toml:q} {output.h5:q} {output.wd:q}
         """
 
 # rule generate_plot:

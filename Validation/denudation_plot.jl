@@ -99,7 +99,7 @@ function plot_mean_denudation_rates(header::Header, data::DataSlice, locations::
     isempty(valid) && return ax
 
     rates = Float64[ustrip(u"mm/kyr", mean_rates[i]) for i in valid]
-    CairoMakie.barplot!(ax, locations[valid], rates, color = :blue)
+    CairoMakie.lines!(ax, locations[valid], rates, color = :black)
     ax.xlabel = "Location"
     ax.ylabel = "Mean Denudation Rate (mm/kyr)"
     ax.title = "Mean Denudation Rates at Different Locations"
@@ -134,7 +134,8 @@ save("data/figure/denudation_mean_rates.png", mean_rate_fig)
 
 water_depth_fig = Figure()
 for (i, loc) in enumerate(location)
-    plot_water_depth(header, data, loc; ax = Axis(water_depth_fig[i, 1]))
+    plot_water_depth(header, data, loc; ax = Axis(water_depth_fig[i, 1], width = 600, height = 50 * length(location)))
+    resize_to_layout!(water_depth_fig)
 end
 save("data/figure/denudation_water_depth.png", water_depth_fig)
 

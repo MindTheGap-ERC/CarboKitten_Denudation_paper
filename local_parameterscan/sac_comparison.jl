@@ -11,9 +11,11 @@
 #     julia --project=. local_parameterscan/sac_comparison.jl
 
 const COMPLETENESS_SCAN_LIBRARY_ONLY = true
-include("completeness_scan.jl")
+include(joinpath(@__DIR__, "..", "Visualization", "completeness_scan.jl"))
 
 import CarboKitten.Denudation.DissolutionMod: dissolution
+using CarboKitten.Export: read_slice
+using CarboKitten.Output.Storage: sediment_thickness
 using Printf
 using Unitful
 
@@ -93,7 +95,7 @@ function compare_trials()
 
     trials = mktempdir() do dir
         map(TRIALS) do id
-            file = fetch_from_irods(only(filter(r -> r.id == id, runs)), dir)
+            file = download_from_irods("output_$(id).h5", dir)  # the full HDF5 output
             file === nothing && error("Run $id was not found on iRODS.")
             trial = read_trial(file)
             GC.gc()

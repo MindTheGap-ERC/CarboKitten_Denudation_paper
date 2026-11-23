@@ -2,7 +2,7 @@
 
 julia_version = "1.13.1"
 manifest_format = "2.1"
-project_hash = "958a7179c08137a3360a9a5b42790305e1e5cc73"
+project_hash = "4ed3966e29ea0e1faed68b8e3b4da9101f001917"
 
 [[deps.AbstractFFTs]]
 deps = ["LinearAlgebra"]
@@ -197,8 +197,8 @@ version = "1.18.8+1"
 
 [[deps.CarboKitten]]
 deps = ["CSV", "CategoricalArrays", "DataFrames", "DelimitedFiles", "GeometryBasics", "HDF5", "Interpolations", "LinearAlgebra", "Logging", "LoggingExtras", "ModuleMixins", "Pkg", "ProgressLogging", "QuadGK", "Random", "StaticArrays", "TOML", "TerminalLoggers", "Unitful"]
-git-tree-sha1 = "86ef3a3b5ad7d07d62baceec017c5302405c3eaa"
-repo-rev = "5520e5f6b72e8bc98c12bd5e9c44a89567ccb02e"
+git-tree-sha1 = "bb3b20f85df56d3b4899aa0a794f60b85b3e376f"
+repo-rev = "#66_add_temperature_dependency"
 repo-url = "https://github.com/MindTheGap-ERC/CarboKitten.jl"
 uuid = "690c6d5c-626a-429f-a06b-981a1dae1c19"
 version = "0.7.1"

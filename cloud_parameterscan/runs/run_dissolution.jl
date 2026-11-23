@@ -25,9 +25,9 @@ function read_json(json_file::String)
 end
 
 function require_args(args)
-    if length(args) != 5
+    if length(args) != 6
         error(
-            "Expected 5 arguments: <param_json> <run_id> <csv_file> <toml_file> <h5_file>. " *
+            "Expected 6 arguments: <param_json> <run_id> <csv_file> <toml_file> <h5_file> <water_depth_csv>. " *
             "Received $(length(args)): $(args)"
         )
     end
@@ -73,7 +73,7 @@ function determine_denu_input(P::DataFrameRow)
         temp=P.temp * 1.0u"K",
         precip=P.precip * 1.0u"m/yr",
         pco2=P.pco2 * 1.0u"atm",
-        reactionrate=P.reactionrate * 1.0u"m/yr")
+        reactionrate=P.reactionrate * 1.0u"m/s")
     
      PERIOD = 0.2Myr
      AMPLITUDE = 20.0m    
@@ -100,7 +100,8 @@ function determine_denu_input(P::DataFrameRow)
         return (INPUT, DENUDATION, ID)
 end
 
-function main(input,ID::String, CSV_FILE::String, TOML_FILE::String, H5_FILE::String)
+function main(input,ID::String, CSV_FILE::String, TOML_FILE::String, H5_FILE::String,
+              WD_FILE::String)
     run_model(Model{WDn}, input, H5_FILE)
 
     header, profile = read_slice(H5_FILE, :profile)
@@ -108,6 +109,7 @@ function main(input,ID::String, CSV_FILE::String, TOML_FILE::String, H5_FILE::St
 
     data_export(
         CSV(:sediment_accumulation_curve => CSV_FILE,
+            :water_depth => WD_FILE,
             :metadata => TOML_FILE),
         header,
         columns)
@@ -121,4 +123,4 @@ if isempty(p)
 end
 
 INPUT, _ , ID = determine_denu_input(p[1])
-main(INPUT, ID, ARGS[3], ARGS[4], ARGS[5])
+main(INPUT, ID, ARGS[3], ARGS[4], ARGS[5], ARGS[6])

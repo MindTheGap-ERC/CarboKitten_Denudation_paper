@@ -8,4 +8,4 @@ JSON3 = "0f8b85d8-7281-11e9-16c2-39a750bddbf1"
 Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
 
 [sources]
-CarboKitten = {rev = "5520e5f6b72e8bc98c12bd5e9c44a89567ccb02e", url = "https://github.com/MindTheGap-ERC/CarboKitten.jl"}
+CarboKitten = {rev = "#66_add_temperature_dependency", url = "https://github.com/MindTheGap-ERC/CarboKitten.jl"}

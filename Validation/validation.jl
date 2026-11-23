@@ -7,10 +7,10 @@ using CarboKitten.Export: data_export, read_slice, CSV
 
 const PATH = "data/output"
 const TAG = "dissolution_validation"
-const SURF = [400u"m^2/m^3", 9000u"m^2/m^3", 10000u"m^2/m^3"]
+const SURF = [100u"m^2/m^3", 10u"m^2/m^3", 1000u"m^2/m^3"]
 const DENS = [2230u"kg/m^3", 2730u"kg/m^3", 2530u"kg/m^3"]
-const INF = [0.5, 0.5, 0.5]
-const DENUDATION = CarboKitten.Denudation.Dissolution(temp=293.0u"K", precip=1.0u"m/yr", pco2=0.02 * 10^(-2) * u"atm", reactionrate=2e-3u"m/yr")
+const INF = [0.8, 0.2, 0.6]
+const DENUDATION = CarboKitten.Denudation.Dissolution(temp=298.0u"K", precip=1.3u"m/yr", pco2=0.028 * 10^(-2) * u"atm", reactionrate=8e-8u"m/s")
 
 function run_diss_validation()
     FACIES = DenudationParamConfig.facies(SURF, DENS, INF)

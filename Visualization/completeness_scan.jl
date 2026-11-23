@@ -1,10 +1,11 @@
-# Stratigraphic completeness and age-depth deviation across the dissolution
-# parameter scan.
+# Stratigraphic completeness, age-depth deviation and denudation rate across the
+# dissolution parameter scan.
 #
-# For every run in `param_dissolution.json` this script temporarily downloads
-# its HDF5 output from iRODS (Yoda), computes both proxies at four locations on the
-# `:profile` transect, deletes the download, and plots each proxy against the value
-# of each scanned parameter, with one line per location.
+# For every run in `param_dissolution.json` this script temporarily downloads the
+# small CSV and TOML exports of the run from iRODS (Yoda), never the HDF5 file,
+# computes the proxies at the four exported locations on the `:profile` transect,
+# deletes the download, and plots each proxy against the value of each scanned
+# parameter, with one line per location.
 #
 # Completeness is the fraction of time steps preserved in the stratigraphy. The
 # age-depth model (ADM) at a grid cell is the sediment accumulation curve with
@@ -21,17 +22,25 @@
 # typical error, and Dev_max the largest, as a fraction of the run duration when
 # ages are read from the assumed ADM.
 #
+# The denudation rate is the total thickness removed while the cell is exposed,
+# divided by the exposed time (m/Myr). A time step counts as exposed when the cell
+# is at or above sea level and still holds sediment, the same condition under which
+# CarboKitten applies dissolution. Cells that are never exposed return `NaN`.
+# The removed thickness is the drop in the sediment accumulation curve during an
+# exposed step, which equals what dissolution removed because nothing is deposited
+# on an exposed cell. On the HDF5 output this agrees with the recorded removal to
+# within 0.01%. It needs the water-depth export (`waterdepth_<run_id>.csv`); runs
+# made before that export existed get `NaN` for the rate.
+#
 # Requirements: a valid iRODS login (run `ibridges init` once if it has expired)
 # and a Python environment with `ibridges` installed.
 #
 # Usage, from the repository root:
-#     julia --project=. local_parameterscan/completeness_scan.jl
+#     julia --project=. Visualization/completeness_scan.jl
 #
 # Finished runs are cached in the results CSV, so an interrupted scan resumes
 # where it stopped. Delete that CSV to recompute everything.
 
-using CarboKitten.Export: read_slice
-using CarboKitten.Output.Storage: sediment_thickness
 using CairoMakie
 using DelimitedFiles
 using JSON3
@@ -44,6 +53,7 @@ const PARAM_FILE = joinpath(ROOT, "param_dissolution.json")
 const RESULT_CSV = joinpath(ROOT, "data", "output", "completeness_dissolution_rerun.csv")
 const FIGURE_FILE = joinpath(ROOT, "data", "figure", "completeness_dissolution_scan_rerun.png")
 const DEV_FIGURE_FILE = joinpath(ROOT, "data", "figure", "dev_dissolution_scan_rerun.png")
+const RATE_FIGURE_FILE = joinpath(ROOT, "data", "figure", "denudation_rate_dissolution_scan_rerun.png")
 
 const IRODS_RESULTS = "/nluu11p/home/research-mindthegap/denudation/dissolution/results"
 const PYTHON = get(ENV, "IBRIDGES_PYTHON", "python")
@@ -51,7 +61,8 @@ const PYTHON = get(ENV, "IBRIDGES_PYTHON", "python")
 # ADM rises smaller than this are treated as floating-point noise.
 const ADM_TOLERANCE = 1e-9  # m
 
-# Grid cells along the transect that the scan also exported as CSV columns.
+# Grid cells along the transect that `run_dissolution.jl` exports as CSV columns, in
+# the same order as the columns.
 const LOCATIONS = 10:20:70
 
 # Locations drawn in the figure. The results CSV always keeps all of `LOCATIONS`.
@@ -59,19 +70,20 @@ const PLOT_LOCATIONS = [10, 30]
 
 # Scanned parameters in plotting order: name, axis label, default value.
 const PARAMETERS = [
-    ("reactive_surface", "Reactive surface (m² m⁻³)", 2000.0),
+    ("reactive_surface", "Reactive surface (m² m⁻³)", 100.0),
     ("mass_density", "Mass density (kg m⁻³)", 2730.0),
     ("infiltration_coefficient", "Infiltration coefficient (–)", 0.5),
     ("temp", "Temperature (K)", 298.0),
-    ("precip", "Precipitation (m yr⁻¹)", 1.5),
-    ("pco2", "pCO₂ (atm)", 1e-3),
-    ("reactionrate", "Reaction rate (m yr⁻¹)", 2e-4),
+    ("precip", "Precipitation (m yr⁻¹)", 1.3),
+    ("pco2", "pCO₂ (atm)", 2.8e-4),
+    ("reactionrate", "Reaction rate (m yr⁻¹)", 8e-8),
 ]
 
 const CSV_HEADER = ["run_id", "parameter", "value",
                     ("completeness_$(l)" for l in LOCATIONS)...,
                     ("dev_$(l)" for l in LOCATIONS)...,
-                    ("dev_max_$(l)" for l in LOCATIONS)...]
+                    ("dev_max_$(l)" for l in LOCATIONS)...,
+                    ("denudation_rate_$(l)" for l in LOCATIONS)...]
 
 # ---------------------------------------------------------------------------
 # Proxies
@@ -129,18 +141,72 @@ function adm_deviation(sac::AbstractMatrix)
 end
 
 """
-    location_proxies(h5_file)
+    denudation_rate(thickness, removed, water_depth, dt)
 
-Returns the run tag stored in the file and the completeness, Dev and Dev_max at each of
-`LOCATIONS` on the `:profile` transect. Sediment thickness is derived by CarboKitten from
-the net deposition, the same curve that is exported as the sediment accumulation curve.
+Mean denudation rate at each grid cell: thickness removed during exposed time steps
+divided by the exposed time. All matrices are (x, t) output frames; frame `i + 1` holds
+what was removed during time step `i`, which starts from the state in frame `i`.
+Thickness and removal in metres, water depth in metres (positive below sea level),
+`dt` in Myr. Returns m/Myr, or `NaN` for cells that are never exposed with sediment.
 """
-function location_proxies(h5_file::AbstractString)
-    header, profile = read_slice(h5_file, :profile)
-    thickness = ustrip.(u"m", sediment_thickness(profile))
-    dev, dev_max = adm_deviation(thickness)
-    return header.tag, (completeness=completeness(thickness)[LOCATIONS],
-                        dev=dev[LOCATIONS], dev_max=dev_max[LOCATIONS])
+function denudation_rate(thickness::AbstractMatrix, removed::AbstractMatrix,
+                         water_depth::AbstractMatrix, dt::Real)
+    n_x, n_t = size(thickness)
+    rate = fill(NaN, n_x)
+    for x in 1:n_x
+        exposed = [i for i in 1:n_t-1 if water_depth[x, i] <= 0 && thickness[x, i] > 0]
+        isempty(exposed) && continue
+        rate[x] = sum(removed[x, exposed .+ 1]) / (length(exposed) * dt)
+    end
+    return rate
+end
+
+"""
+    read_export(csv_file, prefix)
+
+Read a CarboKitten CSV export. Returns the time in Myr and the (location, t) matrix of
+the columns whose name starts with `prefix`, e.g. `"sac_"` or `"wd_"`, in metres.
+"""
+function read_export(csv_file::AbstractString, prefix::AbstractString)
+    table, header = readdlm(csv_file, ','; header=true)
+    names = string.(vec(header))
+    time_column = findfirst(n -> startswith(n, "time ["), names)
+    columns = findall(n -> startswith(n, prefix), names)
+    length(columns) == length(LOCATIONS) ||
+        error("$csv_file has $(length(columns)) '$prefix' columns, expected $(length(LOCATIONS)).")
+    return Float64.(table[:, time_column]), permutedims(Float64.(table[:, columns]))
+end
+
+"""Run tag stored in the metadata TOML that CarboKitten writes next to the CSV export."""
+function run_tag(toml_file::AbstractString)
+    m = match(r"^tag\s*=\s*\"(.*)\"\s*$"m, read(toml_file, String))
+    m === nothing && error("No tag found in $toml_file.")
+    return String(m[1])
+end
+
+"""
+    location_proxies(files)
+
+Returns the run tag and the completeness, Dev, Dev_max and denudation rate at each of
+`LOCATIONS`, from the downloaded exports of one run: `files.sac` (sediment accumulation
+curve CSV), `files.toml` (metadata) and `files.water_depth` (water-depth CSV, or
+`nothing` when the run has none, which gives `NaN` rates).
+"""
+function location_proxies(files)
+    time, sac = read_export(files.sac, "sac_")
+    dev, dev_max = adm_deviation(sac)
+
+    rate = fill(NaN, length(LOCATIONS))
+    if files.water_depth !== nothing
+        wd_time, water_depth = read_export(files.water_depth, "wd_")
+        wd_time ≈ time || error("$(files.water_depth) and $(files.sac) have different time steps.")
+        # Frame i + 1 holds the drop in thickness during step i.
+        removed = hcat(zeros(size(sac, 1)), max.(.-diff(sac, dims=2), 0.0))
+        rate = denudation_rate(sac, removed, water_depth, time[2] - time[1])
+    end
+
+    return run_tag(files.toml), (completeness=completeness(sac), dev=dev, dev_max=dev_max,
+                                 denudation_rate=rate)
 end
 
 # ---------------------------------------------------------------------------
@@ -170,21 +236,38 @@ with session:
 """
 
 """
-    remote_file(run_id)
+    remote_files(run_id)
 
-Name of a run's output on iRODS as written by the Snakefile, e.g. `output_temp_299.0.h5`.
+Names of a run's exports on iRODS as written by the Snakefile.
 """
-remote_file(run_id::AbstractString) = "output_$(run_id).h5"
+remote_files(run_id::AbstractString) = (sac="output_$(run_id).csv", toml="output_$(run_id).toml",
+                                        water_depth="waterdepth_$(run_id).csv")
 
-"""Download one run into `dir`. Returns the local path, or `nothing` if it is not on iRODS."""
-function fetch_from_irods(scan_run, dir::AbstractString)
-    file = scan_run.file
+"""Download one file from the results collection into `dir`. Returns the local path, or
+`nothing` if it is not on iRODS."""
+function download_from_irods(file::AbstractString, dir::AbstractString)
     local_file = joinpath(dir, file)
-    process = run(ignorestatus(`$PYTHON -c $DOWNLOAD_SCRIPT $IRODS_RESULTS/$file $local_file`))
-    process.exitcode == 3 && error("Could not log in to iRODS. Run `ibridges init` and try again.")
-    process.exitcode == 2 && return nothing
-    process.exitcode == 0 || error("Download of $file failed (exit code $(process.exitcode)).")
-    return local_file
+    # iRODS transfers occasionally fail for a moment, so retry before giving up.
+    for attempt in 1:3
+        process = run(ignorestatus(`$PYTHON -c $DOWNLOAD_SCRIPT $IRODS_RESULTS/$file $local_file`))
+        process.exitcode == 3 && error("Could not log in to iRODS. Run `ibridges init` and try again.")
+        process.exitcode == 2 && return nothing
+        process.exitcode == 0 && return local_file
+        @warn "Download of $file failed (exit code $(process.exitcode)), attempt $attempt of 3."
+        sleep(10)
+    end
+    error("Download of $file failed three times.")
+end
+
+"""Download the exports of one run into `dir`. Returns their local paths, or `nothing` if
+the run is not on iRODS. `water_depth` is `nothing` for runs made without that export."""
+function fetch_from_irods(scan_run, dir::AbstractString)
+    names = remote_files(scan_run.id)
+    sac = download_from_irods(names.sac, dir)
+    sac === nothing && return nothing
+    toml = download_from_irods(names.toml, dir)
+    toml === nothing && error("$(names.sac) is on iRODS but $(names.toml) is not.")
+    return (sac=sac, toml=toml, water_depth=download_from_irods(names.water_depth, dir))
 end
 
 # ---------------------------------------------------------------------------
@@ -198,7 +281,7 @@ function scan_runs(param_file::AbstractString)
         id = String(entry.id)
         index = findfirst(n -> startswith(id, n * "_"), names)
         index === nothing && error("Run id $id does not match a scanned parameter.")
-        (id=id, file=remote_file(id), parameter=names[index],
+        (id=id, file=remote_files(id).sac, parameter=names[index],
          value=Float64(entry[Symbol(names[index])]))
     end
 end
@@ -230,7 +313,7 @@ end
     plot_scan(results, proxy, y_label, figure_file)
 
 Plot one proxy against each scanned parameter. `proxy` is the CSV column prefix,
-`"completeness"` or `"dev"`.
+`"completeness"`, `"dev"` or `"denudation_rate"`.
 """
 function plot_scan(results::AbstractDict, proxy::AbstractString, y_label::AbstractString,
                    figure_file::AbstractString)
@@ -282,7 +365,7 @@ end
 
 function main(; fetch=fetch_from_irods, param_file=PARAM_FILE,
               csv=RESULT_CSV, figure_file=FIGURE_FILE, dev_figure_file=DEV_FIGURE_FILE,
-              check_tag=true)
+              rate_figure_file=RATE_FIGURE_FILE, check_tag=true)
     runs = scan_runs(param_file)
     results = read_results(csv)
     missing_runs = String[]
@@ -292,23 +375,25 @@ function main(; fetch=fetch_from_irods, param_file=PARAM_FILE,
             haskey(results, run.id) && continue
             @info "[$i/$(length(runs))] $(run.id)"
 
-            h5_file = fetch(run, dir)
-            if h5_file === nothing
+            files = fetch(run, dir)
+            if files === nothing
                 @warn "Not found on iRODS, skipping: $(run.file)"
                 push!(missing_runs, run.id)
                 continue
             end
+            files.water_depth === nothing &&
+                @warn "No water-depth export for $(run.id), so its denudation rate is NaN."
 
-            tag, proxies = location_proxies(h5_file)
-            GC.gc()  # release the HDF5 handle so the file can be removed on Windows
-            rm(h5_file; force=true)
+            tag, proxies = location_proxies(files)
+            foreach(f -> f === nothing || rm(f; force=true), files)
 
             # Guards against plotting a result against the wrong parameter value.
             check_tag && tag != run.id &&
                 error("$(run.file) contains run '$tag', expected '$(run.id)'.")
 
             results[run.id] = Any[run.id, run.parameter, run.value, proxies.completeness...,
-                                  proxies.dev..., proxies.dev_max...]
+                                  proxies.dev..., proxies.dev_max...,
+                                  proxies.denudation_rate...]
             write_results(csv, results)
         end
     end
@@ -316,8 +401,9 @@ function main(; fetch=fetch_from_irods, param_file=PARAM_FILE,
     isempty(results) && error("No runs could be processed.")
     plot_scan(results, "completeness", "Completeness (–)", figure_file)
     plot_scan(results, "dev", "Dev (–)", dev_figure_file)
+    plot_scan(results, "denudation_rate", "Denudation rate (m Myr⁻¹)", rate_figure_file)
 
-    @info "Processed $(length(results)) of $(length(runs)) runs" csv figure_file dev_figure_file
+    @info "Processed $(length(results)) of $(length(runs)) runs" csv figure_file dev_figure_file rate_figure_file
     isempty(missing_runs) || @warn "Missing runs: $(join(missing_runs, ", "))"
     return results
 end
