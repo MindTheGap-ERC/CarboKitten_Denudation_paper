@@ -32,13 +32,13 @@ const PARAM_NAMES = ["reactive_surface", "mass_density", "infiltration_coefficie
          "precip", "pco2", "reactionrate"]
 
 const BOUNDS = [
-        (200, 20000),
-        (2530, 2830),
+        (50, 1500),       
+        (2530, 2830),     
         (0.1, 0.9),
-        (293, 303),
-        (1, 2),
-        (1e-4, 1e-2),
-        (1e-5, 2e-3),
+        (293, 303), 
+        (1, 2),      
+        (1e-4, 1e-3),    
+        (1e-8, 2e-7),          
         ]
 
 # Parameters sampled uniformly in log10 space instead of linearly. Empty to match the
